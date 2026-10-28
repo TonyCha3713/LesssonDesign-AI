@@ -2,6 +2,11 @@
 
 This is the LessonDesign AI lesson planner, moved out of WordPress into a small Node.js app. It keeps the six-step wizard, Alberta Grades 7–9 curriculum data, Learning Connections (dHL experts and virtual tours), AI Assist (Gemini and Azure OpenAI), access keys, and the PDF export. It also adds teacher accounts, a **My Lesson Plans** page, and an admin panel.
 
+
+
+
+
+
 ## Quick start (localhost)
 
 Requires Node.js 18.18 or newer.
