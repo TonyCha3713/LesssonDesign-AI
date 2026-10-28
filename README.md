@@ -5,6 +5,12 @@ This is the LessonDesign AI lesson planner, moved out of WordPress into a small 
 
 
 
+https://github.com/user-attachments/assets/dcebf0f9-51e5-4d1f-8809-3b98f11bbcf0
+
+
+
+
+
 
 
 ## Quick start (localhost)
