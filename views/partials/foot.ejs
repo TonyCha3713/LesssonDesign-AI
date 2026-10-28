@@ -1,0 +1,9 @@
+	<footer class="ldai-footer">
+		<p>LessonDesign AI · Digital Human Library. Alberta Grades 7–9 Programs of Study demo scope.</p>
+	</footer>
+</div>
+<% if (typeof scripts !== 'undefined') { scripts.forEach(function (src) { %>
+<script src="<%= src %>?v=<%= typeof version !== 'undefined' ? version : '1' %>"></script>
+<% }); } %>
+</body>
+</html>

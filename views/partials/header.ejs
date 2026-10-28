@@ -1,0 +1,23 @@
+<header class="ldai-header">
+	<a class="ldai-header__left ldai-brand" href="/">
+		<span class="ldai-logo-mark" aria-hidden="true">dHL</span>
+		<span class="ldai-logo-text">LessonDesign AI</span>
+	</a>
+	<nav class="ldai-header__nav" aria-label="Main">
+		<a class="ldai-nav-link<%= currentPath === '/' ? ' is-current' : '' %>" href="/">Planner</a>
+		<% if (user) { %>
+			<a class="ldai-nav-link<%= currentPath === '/plans' ? ' is-current' : '' %>" href="/plans">My Lesson Plans</a>
+			<% if (user.isAdmin) { %>
+				<a class="ldai-nav-link<%= currentPath.indexOf('/admin') === 0 || typeof adminSection !== 'undefined' ? ' is-current' : '' %>" href="/admin">Admin</a>
+			<% } %>
+			<a class="ldai-nav-link<%= currentPath === '/account' ? ' is-current' : '' %>" href="/account" title="<%= user.email %>">Account</a>
+			<form class="ldai-nav-form" method="post" action="/logout">
+				<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+				<button class="ldai-nav-link" type="submit">Log Out</button>
+			</form>
+		<% } else { %>
+			<a class="ldai-nav-link<%= currentPath === '/login' ? ' is-current' : '' %>" href="/login">Log In</a>
+			<a class="ldai-nav-link ldai-nav-link--cta" href="/register">Create Account</a>
+		<% } %>
+	</nav>
+</header>

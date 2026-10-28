@@ -1,0 +1,123 @@
+<%- include('../partials/head') %>
+<main class="lessondesign-ai__shell ldai-page">
+	<section class="lessondesign-ai__panel is-active">
+		<%- include('_nav', { heading: 'AI & Site Settings', intro: 'Configure AI Assist providers, daily limits, and sign-up. Values set in the server environment (.env) override this page and are shown as locked.' }) %>
+
+		<% if (testResult) { %>
+			<p class="ldai-alert <%= testResult.ok ? 'ldai-alert--success' : 'ldai-alert--error' %>" role="status"><%= testResult.message %></p>
+		<% } %>
+
+		<div class="ldai-status-grid">
+			<div class="ldai-status-card">
+				<span>AI Assist</span>
+				<strong><%= userAi.enabled ? (userAi.available ? 'On and configured' : 'On, provider missing') : 'Off' %></strong>
+				<small>Teachers: <%= userAi.providerOrderLabel %> · <%= userAi.userDailyLimit %>/day</small>
+				<small>Guests: must log in to use AI Assist</small>
+			</div>
+			<div class="ldai-status-card">
+				<span>Curriculum data</span>
+				<strong><%= data.shardCount %> shards · <%= data.standardCount.toLocaleString() %> pieces</strong>
+				<small><%= data.missingShards ? data.missingShards + ' shard file(s) missing' : 'All shard files present' %></small>
+			</div>
+			<div class="ldai-status-card">
+				<span>AI prompt files</span>
+				<strong><%= instructions.filter(function (i) { return i.ok; }).length %>/<%= instructions.length %> loaded</strong>
+				<small>Edit them in <code>instructions/ai/</code></small>
+			</div>
+		</div>
+
+		<% function lock(key) { return fromEnv[key] ? 'disabled title="Set in the server environment"' : ''; } %>
+		<form method="post" action="/admin/settings" class="ldai-form-stack">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+
+			<section class="lessondesign-ai__subsection">
+				<div class="lessondesign-ai__subsection-header"><h4>General</h4></div>
+				<label class="lessondesign-ai__check-option ldai-check-inline">
+					<input type="checkbox" name="ai_enabled" value="1" <%= values.ai_enabled === '1' ? 'checked' : '' %> <%- lock('ai_enabled') %>>
+					<span>Enable AI Assist (Draft This Section / Improve What I Wrote)</span>
+				</label>
+				<label class="lessondesign-ai__check-option ldai-check-inline">
+					<input type="checkbox" name="registration_enabled" value="1" <%= values.registration_enabled === '1' ? 'checked' : '' %> <%- lock('registration_enabled') %>>
+					<span>Allow teachers to create their own accounts</span>
+				</label>
+			</section>
+
+			<section class="lessondesign-ai__subsection">
+				<div class="lessondesign-ai__subsection-header">
+					<h4>Provider order &amp; limits</h4>
+					<p>If the first provider fails, AI Assist falls back to the next configured one. Teachers who save their own Gemini key bypass both the order and the daily limit.</p>
+				</div>
+				<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+					<label class="lessondesign-ai__field">
+						<span>Signed-in teachers</span>
+						<select name="ai_provider_order_user" <%- lock('ai_provider_order_user') %>>
+							<% Object.keys(providerOrderOptions).forEach(function (value) { %>
+								<option value="<%= value %>" <%= values.ai_provider_order_user === value ? 'selected' : '' %>><%= providerOrderOptions[value] %></option>
+							<% }); %>
+						</select>
+					</label>
+					<label class="lessondesign-ai__field">
+						<span>Daily requests per teacher</span>
+						<input type="number" min="0" name="ai_daily_limit_user" value="<%= values.ai_daily_limit_user %>" <%- lock('ai_daily_limit_user') %>>
+					</label>
+				</div>
+			</section>
+
+			<section class="lessondesign-ai__subsection">
+				<div class="lessondesign-ai__subsection-header">
+					<h4>Google Gemini</h4>
+					<p>Create a key at <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer">Google AI Studio</a> using a dHL-owned Google account.</p>
+				</div>
+				<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+					<label class="lessondesign-ai__field">
+						<span>Model</span>
+						<input type="text" name="gemini_model" value="<%= values.gemini_model %>" <%- lock('gemini_model') %>>
+					</label>
+					<label class="lessondesign-ai__field">
+						<span>API key <%= hasGeminiKey ? '(saved)' : '(not set)' %></span>
+						<input type="password" name="gemini_api_key" autocomplete="off" placeholder="<%= fromEnv.gemini_api_key ? 'Set in server environment' : (hasGeminiKey ? 'Leave blank to keep the saved key' : 'Paste API key') %>" <%- lock('gemini_api_key') %>>
+					</label>
+				</div>
+				<% if (hasGeminiKey && !fromEnv.gemini_api_key) { %>
+					<label class="lessondesign-ai__check-option ldai-check-inline"><input type="checkbox" name="gemini_api_key_clear" value="1"><span>Remove the saved Gemini key</span></label>
+				<% } %>
+			</section>
+
+			<section class="lessondesign-ai__subsection">
+				<div class="lessondesign-ai__subsection-header"><h4>Microsoft Azure OpenAI</h4></div>
+				<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+					<label class="lessondesign-ai__field">
+						<span>Endpoint (https://…openai.azure.com)</span>
+						<input type="url" name="azure_openai_endpoint" value="<%= values.azure_openai_endpoint %>" <%- lock('azure_openai_endpoint') %>>
+					</label>
+					<label class="lessondesign-ai__field">
+						<span>Deployment name</span>
+						<input type="text" name="azure_openai_deployment" value="<%= values.azure_openai_deployment %>" <%- lock('azure_openai_deployment') %>>
+					</label>
+					<label class="lessondesign-ai__field">
+						<span>API version</span>
+						<input type="text" name="azure_openai_api_version" value="<%= values.azure_openai_api_version %>" <%- lock('azure_openai_api_version') %>>
+					</label>
+					<label class="lessondesign-ai__field">
+						<span>API key <%= hasAzureKey ? '(saved)' : '(not set)' %></span>
+						<input type="password" name="azure_openai_api_key" autocomplete="off" placeholder="<%= fromEnv.azure_openai_api_key ? 'Set in server environment' : (hasAzureKey ? 'Leave blank to keep the saved key' : 'Paste API key') %>" <%- lock('azure_openai_api_key') %>>
+					</label>
+				</div>
+				<% if (hasAzureKey && !fromEnv.azure_openai_api_key) { %>
+					<label class="lessondesign-ai__check-option ldai-check-inline"><input type="checkbox" name="azure_openai_api_key_clear" value="1"><span>Remove the saved Azure key</span></label>
+				<% } %>
+			</section>
+
+			<div class="lessondesign-ai__actions">
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Save Settings</button>
+			</div>
+		</form>
+
+		<form method="post" action="/admin/test-ai" class="lessondesign-ai__actions ldai-inline-form">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<button class="lessondesign-ai__button" type="submit">Test AI Connection</button>
+			<span class="lessondesign-ai__field-help">Sends one small request using the teacher provider order.</span>
+		</form>
+	</section>
+</main>
+<%- include('../partials/foot') %>

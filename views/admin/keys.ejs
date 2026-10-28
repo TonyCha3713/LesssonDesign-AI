@@ -1,0 +1,52 @@
+<%- include('../partials/head') %>
+<main class="lessondesign-ai__shell ldai-page">
+	<section class="lessondesign-ai__panel is-active">
+		<%- include('_nav', { heading: 'Access Keys', intro: 'Give a key to a teacher or school. Redeeming it unlocks saving, previewing, exporting, and AI Assist on that account. Revoking a key removes access from the account that used it.' }) %>
+
+		<% if (newKey) { %>
+			<div class="ldai-alert ldai-alert--success ldai-key-reveal" role="status">
+				<strong>New access key — copy it now. It will not be shown again.</strong>
+				<code data-copy-text><%= newKey %></code>
+			</div>
+		<% } %>
+
+		<form method="post" action="/admin/keys" class="lessondesign-ai__subsection ldai-form-stack">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<label class="lessondesign-ai__field">
+					<span>Label (who is this key for?)</span>
+					<input type="text" name="label" maxlength="100" placeholder="e.g. Jane Smith – Westwood Junior High">
+				</label>
+				<div class="lessondesign-ai__actions ldai-align-end">
+					<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Generate Key</button>
+				</div>
+			</div>
+		</form>
+
+		<div class="ldai-table-wrap">
+			<table class="ldai-table">
+				<thead><tr><th>Label</th><th>Created</th><th>Status</th><th>Redeemed by</th><th></th></tr></thead>
+				<tbody>
+				<% if (!keys.length) { %><tr><td colspan="5" class="lessondesign-ai__empty">No access keys yet.</td></tr><% } %>
+				<% keys.forEach(function (key) { %>
+					<tr>
+						<td><%= key.label || '—' %></td>
+						<td><time datetime="<%= key.created_at %>" data-local-time><%= key.created_at %></time></td>
+						<td><span class="ldai-badge <%= key.revoked ? 'ldai-badge--danger' : (key.redeemed_by ? 'ldai-badge--ok' : '') %>"><%= key.revoked ? 'Revoked' : (key.redeemed_by ? 'Redeemed' : 'Unused') %></span></td>
+						<td><%= key.redeemed_email || '—' %></td>
+						<td class="ldai-table__actions">
+							<% if (!key.revoked) { %>
+							<form method="post" action="/admin/keys/<%= key.id %>/revoke" data-confirm="Revoke this key? The account that used it will lose access.">
+								<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+								<button class="lessondesign-ai__button ldai-button--small" type="submit">Revoke</button>
+							</form>
+							<% } %>
+						</td>
+					</tr>
+				<% }); %>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</main>
+<%- include('../partials/foot', { scripts: ['/assets/js/site.js'] }) %>

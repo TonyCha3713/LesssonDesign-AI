@@ -1,0 +1,108 @@
+<%- include('partials/head') %>
+<main class="lessondesign-ai__shell ldai-page ldai-page--narrow" data-ldai-account>
+	<script type="application/json" id="ldai-data"><%- JSON.stringify({ csrfToken: csrfToken }) %></script>
+	<section class="lessondesign-ai__panel is-active">
+		<div class="lessondesign-ai__panel-header">
+			<h3>Account</h3>
+			<p><%= user.email %> · <%= user.isAdmin ? 'Administrator' : 'Teacher' %></p>
+		</div>
+		<% if (notice) { %><p class="ldai-alert ldai-alert--success" role="status"><%= notice %></p><% } %>
+		<% if (error) { %><p class="ldai-alert ldai-alert--error" role="alert"><%= error %></p><% } %>
+
+		<section class="lessondesign-ai__subsection">
+			<div class="lessondesign-ai__subsection-header">
+				<h4>LessonDesign Access</h4>
+				<p><%= user.hasAccess ? 'Active — saving, previewing, and exporting lesson plans are unlocked.' : 'Not active yet. Redeem an access key from dHL or your school to unlock saving and exporting.' %></p>
+			</div>
+			<% if (!user.hasAccess) { %>
+			<div class="lessondesign-ai__access-key-form" data-access-key-form>
+				<label class="lessondesign-ai__field">
+					<span>Access key</span>
+					<input type="text" data-access-key-input placeholder="LDAI-XXXX-XXXX-XXXX-XXXX-XXXX" autocomplete="off">
+				</label>
+				<div class="lessondesign-ai__actions">
+					<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-access-key-redeem>Redeem Key</button>
+				</div>
+				<p class="lessondesign-ai__helper" data-access-key-status aria-live="polite"></p>
+			</div>
+			<% } %>
+		</section>
+
+		<form method="post" action="/account/profile" class="lessondesign-ai__subsection ldai-form-stack" id="teaching-profile">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<div class="lessondesign-ai__subsection-header">
+				<h4>Teaching Profile</h4>
+				<p>Tell the AI how you teach. Every "Draft This Section" starts from this profile, and whatever you type in the prompt box takes priority. All fields are optional.</p>
+			</div>
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<label class="lessondesign-ai__field"><span>Grades you teach</span><input type="text" name="gradesTaught" maxlength="120" value="<%= profile.gradesTaught %>" placeholder="e.g. Grade 8"></label>
+				<label class="lessondesign-ai__field"><span>Subjects you teach</span><input type="text" name="subjectsTaught" maxlength="200" value="<%= profile.subjectsTaught %>" placeholder="e.g. Science, CTS Construction"></label>
+			</div>
+			<div class="lessondesign-ai__field">
+				<span>Teaching styles you like to use</span>
+				<div class="ldai-chip-grid">
+					<% profileOptions.teachingStyles.forEach(function (option) { %>
+						<label class="lessondesign-ai__check-option"><input type="checkbox" name="teachingStyles" value="<%= option %>" <%= profile.teachingStyles.indexOf(option) > -1 ? 'checked' : '' %>><span><%= option %></span></label>
+					<% }); %>
+				</div>
+			</div>
+			<div class="lessondesign-ai__field">
+				<span>Assessment you prefer</span>
+				<div class="ldai-chip-grid">
+					<% profileOptions.assessmentPreferences.forEach(function (option) { %>
+						<label class="lessondesign-ai__check-option"><input type="checkbox" name="assessmentPreferences" value="<%= option %>" <%= profile.assessmentPreferences.indexOf(option) > -1 ? 'checked' : '' %>><span><%= option %></span></label>
+					<% }); %>
+				</div>
+			</div>
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<% [['tone', 'How AI drafts should read'], ['detailLevel', 'Level of detail'], ['techAccess', 'Technology in your classroom'], ['lessonLength', 'Typical lesson length']].forEach(function (pair) { %>
+					<label class="lessondesign-ai__field"><span><%= pair[1] %></span>
+						<select name="<%= pair[0] %>">
+							<option value="">No preference</option>
+							<% profileOptions[pair[0]].forEach(function (option) { %>
+								<option value="<%= option %>" <%= profile[pair[0]] === option ? 'selected' : '' %>><%= option %></option>
+							<% }); %>
+						</select>
+					</label>
+				<% }); %>
+			</div>
+			<label class="lessondesign-ai__field"><span>About your class</span><textarea name="classProfile" rows="3" maxlength="1200" placeholder="e.g. 26 students, mixed reading levels, 4 English language learners, very hands-on, love sports and gaming."><%= profile.classProfile %></textarea></label>
+			<label class="lessondesign-ai__field"><span>Your teaching goals this year</span><textarea name="goals" rows="2" maxlength="800" placeholder="e.g. More student voice and choice; more real-world and career connections."><%= profile.goals %></textarea></label>
+			<label class="lessondesign-ai__field"><span>Anything else the AI should know about how you teach</span><textarea name="aboutMe" rows="2" maxlength="800" placeholder="e.g. I open every class with a short discussion question, and I avoid worksheets."><%= profile.aboutMe %></textarea></label>
+			<div class="lessondesign-ai__actions">
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Save Teaching Profile</button>
+				<a class="lessondesign-ai__button" href="/">Back to the planner</a>
+			</div>
+		</form>
+
+		<form method="post" action="/account" class="lessondesign-ai__subsection ldai-form-stack">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<div class="lessondesign-ai__subsection-header">
+				<h4>Profile &amp; Password</h4>
+				<p>Leave the password fields blank to keep your current password.</p>
+			</div>
+			<label class="lessondesign-ai__field">
+				<span>Name</span>
+				<input type="text" name="name" value="<%= user.name %>" maxlength="120">
+			</label>
+			<label class="lessondesign-ai__field">
+				<span>Current Password</span>
+				<input type="password" name="current_password" autocomplete="current-password">
+			</label>
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<label class="lessondesign-ai__field">
+					<span>New Password</span>
+					<input type="password" name="new_password" autocomplete="new-password" minlength="8">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Confirm New Password</span>
+					<input type="password" name="new_password_confirm" autocomplete="new-password" minlength="8">
+				</label>
+			</div>
+			<div class="lessondesign-ai__actions">
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Save Changes</button>
+			</div>
+		</form>
+	</section>
+</main>
+<%- include('partials/foot', { scripts: ['/assets/js/site.js'] }) %>

@@ -1,0 +1,64 @@
+<%- include('../partials/head') %>
+<main class="lessondesign-ai__shell ldai-page">
+	<section class="lessondesign-ai__panel is-active">
+		<%- include('_nav', { heading: 'Users', intro: 'Grant or remove LessonDesign access, promote administrators, and reset passwords.' }) %>
+
+		<details class="lessondesign-ai__subsection ldai-details">
+			<summary>Add a user</summary>
+			<form method="post" action="/admin/users" class="ldai-form-stack">
+				<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+				<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+					<label class="lessondesign-ai__field"><span>Name</span><input type="text" name="name" maxlength="120"></label>
+					<label class="lessondesign-ai__field"><span>Email</span><input type="email" name="email" required></label>
+					<label class="lessondesign-ai__field"><span>Temporary password (8+ characters)</span><input type="text" name="password" minlength="8" required autocomplete="off"></label>
+					<label class="lessondesign-ai__field"><span>Role</span>
+						<select name="role"><option value="teacher">Teacher</option><option value="admin">Administrator</option></select>
+					</label>
+				</div>
+				<label class="lessondesign-ai__check-option ldai-check-inline"><input type="checkbox" name="has_access" value="1" checked><span>Grant LessonDesign access now</span></label>
+				<div class="lessondesign-ai__actions"><button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Create User</button></div>
+			</form>
+		</details>
+
+		<div class="ldai-table-wrap">
+			<table class="ldai-table">
+				<thead><tr><th>User</th><th>Role</th><th>Access</th><th>Plans</th><th>Joined</th><th>Actions</th></tr></thead>
+				<tbody>
+				<% users.forEach(function (row) { var isSelf = row.id === user.id; %>
+					<tr>
+						<td><strong><%= row.name || '—' %></strong><br><small><%= row.email %></small></td>
+						<td><%= row.role === 'admin' ? 'Administrator' : 'Teacher' %></td>
+						<td><span class="ldai-badge <%= (row.role === 'admin' || row.has_access) ? 'ldai-badge--ok' : '' %>"><%= row.role === 'admin' ? 'Always' : (row.has_access ? 'Active' : 'None') %></span></td>
+						<td><%= row.plan_count %></td>
+						<td><time datetime="<%= row.created_at %>" data-local-time><%= row.created_at %></time></td>
+						<td class="ldai-table__actions">
+							<form method="post" action="/admin/users/<%= row.id %>">
+								<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+								<% if (row.role !== 'admin') { %>
+									<button class="lessondesign-ai__button ldai-button--small" name="action" value="<%= row.has_access ? 'revoke' : 'grant' %>" type="submit"><%= row.has_access ? 'Remove access' : 'Grant access' %></button>
+									<button class="lessondesign-ai__button ldai-button--small" name="action" value="make-admin" type="submit">Make admin</button>
+								<% } else if (!isSelf) { %>
+									<button class="lessondesign-ai__button ldai-button--small" name="action" value="make-teacher" type="submit">Make teacher</button>
+								<% } %>
+							</form>
+							<form method="post" action="/admin/users/<%= row.id %>" class="ldai-reset-form">
+								<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+								<input type="hidden" name="action" value="reset-password">
+								<input type="text" name="password" minlength="8" placeholder="New password" aria-label="New password for <%= row.email %>" autocomplete="off" required>
+								<button class="lessondesign-ai__button ldai-button--small" type="submit">Reset</button>
+							</form>
+							<% if (!isSelf) { %>
+							<form method="post" action="/admin/users/<%= row.id %>" data-confirm="Delete <%= row.email %> and all of their saved lesson plans?">
+								<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+								<button class="lessondesign-ai__button ldai-button--small ldai-button--danger" name="action" value="delete" type="submit">Delete</button>
+							</form>
+							<% } %>
+						</td>
+					</tr>
+				<% }); %>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</main>
+<%- include('../partials/foot', { scripts: ['/assets/js/site.js'] }) %>

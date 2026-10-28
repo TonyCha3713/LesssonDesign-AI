@@ -1,0 +1,41 @@
+<% if (user) { %>
+<section class="lessondesign-ai__account-prompt" data-auth-prompt hidden>
+	<div class="lessondesign-ai__account-prompt-copy">
+		<p class="lessondesign-ai__account-prompt-eyebrow">Subscription Required</p>
+		<h4>Your account needs LessonDesign access to save, export, and use AI Assist.</h4>
+		<p>Your draft is still saved in this browser. Redeem a key from dHL or your school:</p>
+		<ul class="lessondesign-ai__account-prompt-list">
+			<li>Your draft is still saved locally in this browser.</li>
+			<li>Contact dHL or your school administrator to activate access.</li>
+			<li>If access was just added, refresh the page and try again.</li>
+		</ul>
+		<div class="lessondesign-ai__access-key-form" data-access-key-form>
+			<label class="lessondesign-ai__field">
+				<span>Have an access key?</span>
+				<input type="text" data-access-key-input placeholder="LDAI-XXXX-XXXX-XXXX-XXXX-XXXX" autocomplete="off">
+			</label>
+			<div class="lessondesign-ai__actions">
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-access-key-redeem>Redeem Key</button>
+			</div>
+			<p class="lessondesign-ai__helper" data-access-key-status aria-live="polite"></p>
+		</div>
+	</div>
+</section>
+<% } else { %>
+<section class="lessondesign-ai__account-prompt" data-auth-prompt hidden>
+	<div class="lessondesign-ai__account-prompt-copy">
+		<p class="lessondesign-ai__account-prompt-eyebrow">Teacher Account Required</p>
+		<h4>Your draft is saved in this browser only.</h4>
+		<p>Log in to save it to your account, use AI Assist, and continue on any device.</p>
+		<ul class="lessondesign-ai__account-prompt-list">
+			<li>Save lesson plans to your dHL account.</li>
+			<li>Access expert connections, virtual experiences, and other teacher resources.</li>
+			<li>Continue where you left off from any device.</li>
+		</ul>
+	</div>
+	<div class="lessondesign-ai__account-prompt-actions">
+		<a class="lessondesign-ai__button lessondesign-ai__button--primary" href="/login?redirect=%2F">Log In</a>
+		<a class="lessondesign-ai__button" href="/register">Create Account</a>
+	</div>
+</section>
+<% } %>

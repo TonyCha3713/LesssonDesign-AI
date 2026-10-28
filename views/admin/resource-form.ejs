@@ -1,0 +1,71 @@
+<%- include('../partials/head') %>
+<main class="lessondesign-ai__shell ldai-page">
+	<section class="lessondesign-ai__panel is-active">
+		<%- include('_nav', { heading: item.dbId ? 'Edit Resource' : 'Add Resource' }) %>
+		<% if (formError) { %><p class="ldai-alert ldai-alert--error" role="alert"><%= formError %></p><% } %>
+		<form method="post" action="<%= item.dbId ? '/admin/resources/' + item.dbId : '/admin/resources/new' %>" class="ldai-form-stack">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<label class="lessondesign-ai__field">
+					<span>Title</span>
+					<input type="text" name="title" value="<%= item.title || '' %>" maxlength="180" required>
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Type</span>
+					<select name="kind">
+						<option value="expert" <%= item.kind === 'expert' ? 'selected' : '' %>>Expert</option>
+						<option value="tour" <%= item.kind !== 'expert' ? 'selected' : '' %>>Virtual Tour</option>
+					</select>
+				</label>
+			</div>
+			<label class="lessondesign-ai__field">
+				<span>Summary</span>
+				<textarea name="summary" rows="4" maxlength="420"><%= item.summary || '' %></textarea>
+			</label>
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<label class="lessondesign-ai__field">
+					<span>Subjects (comma separated)</span>
+					<input type="text" name="subjects" value="<%= (item.subjects || []).join(', ') %>" placeholder="Science and Technology, Mathematics">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Grade bands (comma separated)</span>
+					<input type="text" name="gradeBands" value="<%= (item.gradeBands || []).join(', ') %>" placeholder="Intermediate, Senior">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Tags / keywords (comma separated)</span>
+					<input type="text" name="tags" value="<%= (item.tags || []).join(', ') %>" placeholder="energy, construction, careers">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Format</span>
+					<input type="text" name="format" value="<%= item.format || '' %>" placeholder="Virtual tour, Expert talk, Workshop">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Duration</span>
+					<input type="text" name="duration" value="<%= item.duration || '' %>" placeholder="45 minutes">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Cost</span>
+					<input type="text" name="cost" value="<%= item.cost || '' %>" placeholder="Free">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>External URL</span>
+					<input type="url" name="url" value="<%= item.url || '' %>" placeholder="https://">
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Source ID (dHL record id)</span>
+					<input type="text" name="sourceId" value="<%= item.sourceId || '' %>">
+				</label>
+			</div>
+			<p class="lessondesign-ai__field-help">Guided suggestions match on subject (Intermediate = Grades 7–8, Senior = Grade 9), grade band, and keywords in the title, summary, and tags.</p>
+			<label class="lessondesign-ai__check-option ldai-check-inline">
+				<input type="checkbox" name="published" value="1" <%= item.published ? 'checked' : '' %>>
+				<span>Published (visible to teachers)</span>
+			</label>
+			<div class="lessondesign-ai__actions">
+				<a class="lessondesign-ai__button" href="/admin/resources">Cancel</a>
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Save Resource</button>
+			</div>
+		</form>
+	</section>
+</main>
+<%- include('../partials/foot') %>

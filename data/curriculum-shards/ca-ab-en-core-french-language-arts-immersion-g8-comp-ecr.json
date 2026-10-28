@@ -1,0 +1,1965 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-french-language-arts-immersion-g8-comp-ecr",
+    "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "8",
+    "gradeBand": "Grade 8",
+    "gradeLabel": "Grade 8",
+    "courseCode": "FLA8",
+    "courseLabel": "Language Arts - French Immersion",
+    "courseTitle": "French Language Arts - Immersion (7–12)",
+    "subject": "french-language-arts-immersion",
+    "subjectAreaId": "language-arts-french-immersion",
+    "subjectId": "french-language-arts-immersion",
+    "unit": "Compréhension écrite",
+    "strand": "Compréhension écrite",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-olafla-7-hs-fla8-c539141f-e782-4ecf-b40b-99175a65b8af": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=c539141f-e782-4ecf-b40b-99175a65b8af",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-e39111ca-cd79-4e8d-ba78-9e7156880f4f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=e39111ca-cd79-4e8d-ba78-9e7156880f4f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-966661c0-6df3-4d90-a4ac-79f52ab1fc05": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=966661c0-6df3-4d90-a4ac-79f52ab1fc05",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-13a2fe29-52d0-4af4-a3ff-50d739487127": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=13a2fe29-52d0-4af4-a3ff-50d739487127",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-094d4ecb-3782-4a7a-8012-3337b3d947b3": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=094d4ecb-3782-4a7a-8012-3337b3d947b3",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-32625dc0-63d7-43c7-8795-198be91d41f7": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=32625dc0-63d7-43c7-8795-198be91d41f7",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-f0295abc-2fa3-4f8a-9124-a503491df46a": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=f0295abc-2fa3-4f8a-9124-a503491df46a",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-666ed399-fd8a-4f73-a147-2f1a11cfc4a6": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=666ed399-fd8a-4f73-a147-2f1a11cfc4a6",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-812bd0c1-99fd-4f19-977a-c92e3dc51e7e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=812bd0c1-99fd-4f19-977a-c92e3dc51e7e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-56620a6e-17ff-4c00-aa53-c746f629da4e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=56620a6e-17ff-4c00-aa53-c746f629da4e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-06f6f6e1-c690-45a6-a6ec-a887019f1e3e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=06f6f6e1-c690-45a6-a6ec-a887019f1e3e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-6169f5a6-457c-470f-8381-a858f75a2c55": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=6169f5a6-457c-470f-8381-a858f75a2c55",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-a073079c-c7fc-42ee-a79f-4bd785f8d8a4": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=a073079c-c7fc-42ee-a79f-4bd785f8d8a4",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-fe146a89-b0b1-4e29-877e-35b6f4cfe905": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=fe146a89-b0b1-4e29-877e-35b6f4cfe905",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-74defe4e-29ff-440a-92d8-872483a4a3c5": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=74defe4e-29ff-440a-92d8-872483a4a3c5",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-7a1dcb99-d542-4776-90f3-65db2edc975e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=7a1dcb99-d542-4776-90f3-65db2edc975e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-ed92c361-4e28-47e7-b3eb-26f0514caae8": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=ed92c361-4e28-47e7-b3eb-26f0514caae8",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-3fcf7792-41d3-4b90-b0c1-8f4fe99b7bd7": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=3fcf7792-41d3-4b90-b0c1-8f4fe99b7bd7",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-99d42bfe-2a32-48e7-9668-931995912b72": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=99d42bfe-2a32-48e7-9668-931995912b72",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-296206f3-b8bf-483a-8e0c-cf073c4bfdf0": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=296206f3-b8bf-483a-8e0c-cf073c4bfdf0",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-9121baf6-3935-45f9-8f55-a38c4338fa5f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=9121baf6-3935-45f9-8f55-a38c4338fa5f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-ccc64255-d767-4cec-9deb-a1361245cb3b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=ccc64255-d767-4cec-9deb-a1361245cb3b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-0dc8b478-21f0-4aa9-b48c-06b2a8fca819": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=0dc8b478-21f0-4aa9-b48c-06b2a8fca819",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-f0c01eba-00d4-4640-ae64-e428506f6ece": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=f0c01eba-00d4-4640-ae64-e428506f6ece",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-bce0017d-98eb-4b91-bce0-0def62413bda": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=bce0017d-98eb-4b91-bce0-0def62413bda",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-39b98aff-47fb-4538-9df7-c167a5763a25": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=39b98aff-47fb-4538-9df7-c167a5763a25",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-92fbc12f-7550-4ae6-946e-b34dc1b38373": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=92fbc12f-7550-4ae6-946e-b34dc1b38373",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-14bccab6-5c29-4061-aa0e-1a8bf04a4399": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=14bccab6-5c29-4061-aa0e-1a8bf04a4399",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-333afbc5-0354-4441-af12-2468c8ac9c36": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=333afbc5-0354-4441-af12-2468c8ac9c36",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-32cbc660-f22e-4acc-8eda-057763492585": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=32cbc660-f22e-4acc-8eda-057763492585",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-12a06576-92e6-43be-9707-b885b3ea845e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=12a06576-92e6-43be-9707-b885b3ea845e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-d0522a5e-ac7f-4a96-aac9-e484b26c9f45": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=d0522a5e-ac7f-4a96-aac9-e484b26c9f45",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-579c94d4-b51e-49a1-9986-e1c7c9f4885c": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=579c94d4-b51e-49a1-9986-e1c7c9f4885c",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-33a92a52-dc04-48e8-8a4b-4c9be9b9b25d": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=33a92a52-dc04-48e8-8a4b-4c9be9b9b25d",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-b2f520f7-9ec5-47d1-8ad4-07faccf4a7d5": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=b2f520f7-9ec5-47d1-8ad4-07faccf4a7d5",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-93c54978-d757-4eb5-a9dc-2342616dd10b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=93c54978-d757-4eb5-a9dc-2342616dd10b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-f4eceb67-afd1-4fbb-8a81-822726963a76": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=f4eceb67-afd1-4fbb-8a81-822726963a76",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-0e4e3be2-be7b-4669-b83e-6c3d8863a3eb": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=0e4e3be2-be7b-4669-b83e-6c3d8863a3eb",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-429e8f4a-f84f-4b6a-b6b9-c3b0dcaf674c": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=429e8f4a-f84f-4b6a-b6b9-c3b0dcaf674c",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-fb5b2a30-3ef5-4ebb-91e3-44c6932c126d": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=fb5b2a30-3ef5-4ebb-91e3-44c6932c126d",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-7dc8ea7f-1ffd-4961-938e-db55c74ea801": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=7dc8ea7f-1ffd-4961-938e-db55c74ea801",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-aa44d790-4ffa-433d-81b4-2ace37e36abe": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=aa44d790-4ffa-433d-81b4-2ace37e36abe",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-41882750-70c6-4fb7-af6d-b29bcb1bf987": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=41882750-70c6-4fb7-af6d-b29bcb1bf987",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-b66795d3-ce3a-4025-a988-70d45ca0ce1e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=b66795d3-ce3a-4025-a988-70d45ca0ce1e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-73ea8858-75a1-4fc1-aa77-3d4cd76669f4": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=73ea8858-75a1-4fc1-aa77-3d4cd76669f4",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-5a7e8afd-eff3-4552-b918-97a19b2a8217": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=5a7e8afd-eff3-4552-b918-97a19b2a8217",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so1",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO1",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les causes d’un phénomène ou les solutions proposées pour résoudre un problème; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les causes d’un phénomène ou les solutions proposées pour résoudre un problème; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les causes d’un phénomène ou les solutions proposées pour résoudre un problème"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-c539141f-e782-4ecf-b40b-99175a65b8af",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "c539141f-e782-4ecf-b40b-99175a65b8af",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so2",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO2",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : réagir au texte en faisant part de ses goûts et de ses opinions et les justifier à partir de ses expériences personnelles; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : réagir au texte en faisant part de ses goûts et de ses opinions et les justifier à partir de ses expériences personnelles; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir au texte en faisant part de ses goûts et de ses opinions et les justifier à partir de ses expériences personnelles"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-e39111ca-cd79-4e8d-ba78-9e7156880f4f",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "e39111ca-cd79-4e8d-ba78-9e7156880f4f",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so3",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO3",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : discuter de l’influence des produits médiatiques sur sa façon de penser et sur son comportement; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : discuter de l’influence des produits médiatiques sur sa façon de penser et sur son comportement; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter de l’influence des produits médiatiques sur sa façon de penser et sur son comportement"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-966661c0-6df3-4d90-a4ac-79f52ab1fc05",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "966661c0-6df3-4d90-a4ac-79f52ab1fc05",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so4",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO4",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les idées principales quand elles sont implicites; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les idées principales quand elles sont implicites; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les idées principales quand elles sont implicites"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-13a2fe29-52d0-4af4-a3ff-50d739487127",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "13a2fe29-52d0-4af4-a3ff-50d739487127",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so5",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO5",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les informations pertinentes des informations superflues; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les informations pertinentes des informations superflues; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "distinguer les informations pertinentes des informations superflues"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-094d4ecb-3782-4a7a-8012-3337b3d947b3",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "094d4ecb-3782-4a7a-8012-3337b3d947b3",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so6",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO6",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : mettre en évidence le point de vue exprimé par l’auteur, par le réalisateur ou par l’illustrateur; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : mettre en évidence le point de vue exprimé par l’auteur, par le réalisateur ou par l’illustrateur; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "mettre en évidence le point de vue exprimé par l’auteur, par le réalisateur ou par l’illustrateur"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-32625dc0-63d7-43c7-8795-198be91d41f7",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "32625dc0-63d7-43c7-8795-198be91d41f7",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so7",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO7",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les faits des opinions ou les faits des hypothèses; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les faits des opinions ou les faits des hypothèses; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "distinguer les faits des opinions ou les faits des hypothèses"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-f0295abc-2fa3-4f8a-9124-a503491df46a",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f0295abc-2fa3-4f8a-9124-a503491df46a",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so8",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO8",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les informations factuelles dans des textes tels que faits divers, textes documentaires, courts articles, lettres ou textes d’opinion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les informations factuelles dans des textes tels que faits divers, textes documentaires, courts articles, lettres ou textes d’opinion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les informations factuelles dans des textes tels que faits divers, textes documentaires, courts articles, lettres ou textes d’opinion"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-666ed399-fd8a-4f73-a147-2f1a11cfc4a6",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "666ed399-fd8a-4f73-a147-2f1a11cfc4a6",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so9",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO9",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager des relations d’addition, d’opposition, de causalité dans des textes tels que les faits divers, textes documentaires, courts articles, lettres ou textes d’opinion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager des relations d’addition, d’opposition, de causalité dans des textes tels que les faits divers, textes documentaires, courts articles, lettres ou textes d’opinion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager des relations d’addition, d’opposition, de causalité dans des textes tels que les faits divers, textes documentaires, courts articles, lettres ou textes d’opinion"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-812bd0c1-99fd-4f19-977a-c92e3dc51e7e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "812bd0c1-99fd-4f19-977a-c92e3dc51e7e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce1-so10",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE1-SO10",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : réagir de façon critique à des textes en s’appuyant sur la pertinence de l’information donnée, sur la cohérence des idées et sur l’organisation du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : réagir de façon critique à des textes en s’appuyant sur la pertinence de l’information donnée, sur la cohérence des idées et sur l’organisation du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir de façon critique à des textes en s’appuyant sur la pertinence de l’information donnée, sur la cohérence des idées et sur l’organisation du texte"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-56620a6e-17ff-4c00-aa53-c746f629da4e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "56620a6e-17ff-4c00-aa53-c746f629da4e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so1",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO1",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager la dynamique des personnages d’un récit (rôles, rapports, caractérisation); consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager la dynamique des personnages d’un récit (rôles, rapports, caractérisation); consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager la dynamique des personnages d’un récit (rôles, rapports, caractérisation)"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-06f6f6e1-c690-45a6-a6ec-a887019f1e3e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "06f6f6e1-c690-45a6-a6ec-a887019f1e3e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so2",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO2",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager certains éléments qui caractérisent des textes poétiques tels le rythme et l’utilisation particulière du vocabulaire; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager certains éléments qui caractérisent des textes poétiques tels le rythme et l’utilisation particulière du vocabulaire; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager certains éléments qui caractérisent des textes poétiques tels le rythme et l’utilisation particulière du vocabulaire"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-6169f5a6-457c-470f-8381-a858f75a2c55",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "6169f5a6-457c-470f-8381-a858f75a2c55",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so3",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO3",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir au texte en faisant part de ses opinions sur la relation entre les personnages et ce, à partir de ses expériences personnelles; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir au texte en faisant part de ses opinions sur la relation entre les personnages et ce, à partir de ses expériences personnelles; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir au texte en faisant part de ses opinions sur la relation entre les personnages et ce, à partir de ses expériences personnelles"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-a073079c-c7fc-42ee-a79f-4bd785f8d8a4",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "a073079c-c7fc-42ee-a79f-4bd785f8d8a4",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so4",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO4",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : relever des passages descriptifs dans le texte et en faire ressortir le rôle et l’intérêt; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : relever des passages descriptifs dans le texte et en faire ressortir le rôle et l’intérêt; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "relever des passages descriptifs dans le texte et en faire ressortir le rôle et l’intérêt"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-fe146a89-b0b1-4e29-877e-35b6f4cfe905",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "fe146a89-b0b1-4e29-877e-35b6f4cfe905",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so5",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO5",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager les images créées par la comparaison ou par la personnification dans un texte poétique; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager les images créées par la comparaison ou par la personnification dans un texte poétique; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les images créées par la comparaison ou par la personnification dans un texte poétique"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-74defe4e-29ff-440a-92d8-872483a4a3c5",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "74defe4e-29ff-440a-92d8-872483a4a3c5",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so6",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO6",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : établir les liens entre le texte et l’image dans la bande dessinée; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : établir les liens entre le texte et l’image dans la bande dessinée; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "établir les liens entre le texte et l’image dans la bande dessinée"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-7a1dcb99-d542-4776-90f3-65db2edc975e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "7a1dcb99-d542-4776-90f3-65db2edc975e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so7",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO7",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir aux valeurs véhiculées dans un texte narratif et poétique; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir aux valeurs véhiculées dans un texte narratif et poétique; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir aux valeurs véhiculées dans un texte narratif et poétique"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-ed92c361-4e28-47e7-b3eb-26f0514caae8",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "ed92c361-4e28-47e7-b3eb-26f0514caae8",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so8",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO8",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir au texte en relevant des passages qui suscitent des sentiments, des émotions ou des souvenirs; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir au texte en relevant des passages qui suscitent des sentiments, des émotions ou des souvenirs; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir au texte en relevant des passages qui suscitent des sentiments, des émotions ou des souvenirs"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-3fcf7792-41d3-4b90-b0c1-8f4fe99b7bd7",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "3fcf7792-41d3-4b90-b0c1-8f4fe99b7bd7",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so9",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO9",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager les éléments qui créent des effets de vraisemblance, de suspense, d’exagération ou de rebondissement; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : dégager les éléments qui créent des effets de vraisemblance, de suspense, d’exagération ou de rebondissement; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les éléments qui créent des effets de vraisemblance, de suspense, d’exagération ou de rebondissement"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-99d42bfe-2a32-48e7-9668-931995912b72",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "99d42bfe-2a32-48e7-9668-931995912b72",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so10",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO10",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir au message du texte poétique à partir de ses expériences personnelles; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : réagir au message du texte poétique à partir de ses expériences personnelles; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir au message du texte poétique à partir de ses expériences personnelles"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-296206f3-b8bf-483a-8e0c-cf073c4bfdf0",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "296206f3-b8bf-483a-8e0c-cf073c4bfdf0",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce2-so11",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE2-SO11",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : établir les liens narratifs entre le texte et l’image dans la bande dessinée ou le roman-photo; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra : établir les liens narratifs entre le texte et l’image dans la bande dessinée ou le roman-photo; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "établir les liens narratifs entre le texte et l’image dans la bande dessinée ou le roman-photo"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-9121baf6-3935-45f9-8f55-a38c4338fa5f",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "9121baf6-3935-45f9-8f55-a38c4338fa5f",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits et décoder des messages visuels dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce3-so1",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE3-SO1",
+      "summaryText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier des médias d’expression française destinés aux adolescents, tels que vidéoclips, films ou DOC; consolidation des apprentissages",
+      "officialOutcomeText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier des médias d’expression française destinés aux adolescents, tels que vidéoclips, films ou DOC; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra :",
+        "items": [
+          {
+            "text": "apprécier des médias d’expression française destinés aux adolescents, tels que vidéoclips, films ou DOC"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-ccc64255-d767-4cec-9deb-a1361245cb3b",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "ccc64255-d767-4cec-9deb-a1361245cb3b",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits, des messages visuels dans des produits médiatiques pour développer une attitude positive envers la langue française et les cultures francophones",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce3-so2",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE3-SO2",
+      "summaryText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier des bandes dessinées et des courts métrages d’animation d’auteurs francophones; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier des bandes dessinées et des courts métrages d’animation d’auteurs francophones; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra :",
+        "items": [
+          {
+            "text": "apprécier des bandes dessinées et des courts métrages d’animation d’auteurs francophones"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-0dc8b478-21f0-4aa9-b48c-06b2a8fca819",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0dc8b478-21f0-4aa9-b48c-06b2a8fca819",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits, des messages visuels dans des produits médiatiques pour développer une attitude positive envers la langue française et les cultures francophones",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce3-so3",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE3-SO3",
+      "summaryText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier la contribution à l’identité canadienne de vedettes francophones dans des domaines tels les sports, la chanson et la télévision; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier la contribution à l’identité canadienne de vedettes francophones dans des domaines tels les sports, la chanson et la télévision; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra :",
+        "items": [
+          {
+            "text": "apprécier la contribution à l’identité canadienne de vedettes francophones dans des domaines tels les sports, la chanson et la télévision"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-f0c01eba-00d4-4640-ae64-e428506f6ece",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f0c01eba-00d4-4640-ae64-e428506f6ece",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits, des messages visuels dans des produits médiatiques pour développer une attitude positive envers la langue française et les cultures francophones",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce3-so4",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE3-SO4",
+      "summaryText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier des romans d’expression française pour adolescents; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra : apprécier des romans d’expression française pour adolescents; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer son ATTITUDE POSITIVE envers la langue française et les cultures francophones, l’élève devra :",
+        "items": [
+          {
+            "text": "apprécier des romans d’expression française pour adolescents"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-bce0017d-98eb-4b91-bce0-0def62413bda",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "bce0017d-98eb-4b91-bce0-0def62413bda",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes écrits, des messages visuels dans des produits médiatiques pour développer une attitude positive envers la langue française et les cultures francophones",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so1",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO1",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’auteur, sur la maison d’édition, sur la collection et sur le type de produit médiatique pour sélectionner une ressource; reconnaître qu’un auteur : traite de sujets ou de thèmes particuliers (environnement, faits vécus, relations interpersonnelles) et présente souvent les mêmes personnages (Ani Croche, Marcus, etc.), a un style particulier (humour, mystère, vulgarisation scientifique, biographie, etc.), privilégie un genre particulier d’écriture (ex. : contes, documentaires, etc.), reconnaître qu’une collection : peut viser un groupe d’âge particulier (ex. : Premier roman, magazine Hibou), traite de genres, de thèmes particuliers, etc., reconnaître qu’une maison d’édition : traite de sujets particuliers, présente des auteurs et des genres particuliers, se remémorer ses lectures de textes écrits par l’auteur en question selon la collection ou la maison d’édition dans laquelle les textes ont été publiés, imaginer le contenu du texte à partir des indices recueillis; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’auteur, sur la maison d’édition, sur la collection et sur le type de produit médiatique pour sélectionner une ressource; reconnaître qu’un auteur : traite de sujets ou de thèmes particuliers (environnement, faits vécus, relations interpersonnelles) et présente souvent les mêmes personnages (Ani Croche, Marcus, etc.), a un style particulier (humour, mystère, vulgarisation scientifique, biographie, etc.), privilégie un genre particulier d’écriture (ex. : contes, documentaires, etc.), reconnaître qu’une collection : peut viser un groupe d’âge particulier (ex. : Premier roman, magazine Hibou), traite de genres, de thèmes particuliers, etc., reconnaître qu’une maison d’édition : traite de sujets particuliers, présente des auteurs et des genres particuliers, se remémorer ses lectures de textes écrits par l’auteur en question selon la collection ou la maison d’édition dans laquelle les textes ont été publiés, imaginer le contenu du texte à partir des indices recueillis; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur l’auteur, sur la maison d’édition, sur la collection et sur le type de produit médiatique pour sélectionner une ressource",
+            "children": [
+              {
+                "text": "reconnaître qu’un auteur :",
+                "children": [
+                  {
+                    "text": "traite de sujets ou de thèmes particuliers (environnement, faits vécus, relations interpersonnelles) et présente souvent les mêmes personnages (Ani Croche, Marcus, etc.),"
+                  },
+                  {
+                    "text": "a un style particulier (humour, mystère, vulgarisation scientifique, biographie, etc.),"
+                  },
+                  {
+                    "text": "privilégie un genre particulier d’écriture (ex. : contes, documentaires, etc.),"
+                  }
+                ]
+              },
+              {
+                "text": "reconnaître qu’une collection :",
+                "children": [
+                  {
+                    "text": "peut viser un groupe d’âge particulier (ex. : Premier roman, magazine Hibou),"
+                  },
+                  {
+                    "text": "traite de genres, de thèmes particuliers, etc.,"
+                  }
+                ]
+              },
+              {
+                "text": "reconnaître qu’une maison d’édition :",
+                "children": [
+                  {
+                    "text": "traite de sujets particuliers,"
+                  },
+                  {
+                    "text": "présente des auteurs et des genres particuliers,"
+                  }
+                ]
+              },
+              {
+                "text": "se remémorer ses lectures de textes écrits par l’auteur en question selon la collection ou la maison d’édition dans laquelle les textes ont été publiés,"
+              },
+              {
+                "text": "imaginer le contenu du texte à partir des indices recueillis;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-39b98aff-47fb-4538-9df7-c167a5763a25",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "39b98aff-47fb-4538-9df7-c167a5763a25",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so2",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO2",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : déterminer, à partir des attentes, une façon d’aborder le texte telle que le survol, la lecture sélective, la lecture en détail et la lecture de l’introduction et de la conclusion; reconnaître les buts visés par chaque manière de lire, la lecture en survol: lecture rapide pour rechercher un mot, une catégorie de mots, une information précise ou encore pour se donner une vue d’ensemble du texte, lecture sélective: lecture d’un passage sélectionné à la suite d’une lecture en survol, lecture en détail: lecture faite avec attention dans le but de retenir de l’information, lecture de l’introduction et de la conclusion: lecture rapide qui permet de se donner une vue d’ensemble sur le sujet et sur les aspects traités, choisir la manière de lire qui permettra d’atteindre les buts visés; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : déterminer, à partir des attentes, une façon d’aborder le texte telle que le survol, la lecture sélective, la lecture en détail et la lecture de l’introduction et de la conclusion; reconnaître les buts visés par chaque manière de lire, la lecture en survol: lecture rapide pour rechercher un mot, une catégorie de mots, une information précise ou encore pour se donner une vue d’ensemble du texte, lecture sélective: lecture d’un passage sélectionné à la suite d’une lecture en survol, lecture en détail: lecture faite avec attention dans le but de retenir de l’information, lecture de l’introduction et de la conclusion: lecture rapide qui permet de se donner une vue d’ensemble sur le sujet et sur les aspects traités, choisir la manière de lire qui permettra d’atteindre les buts visés; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "déterminer, à partir des attentes, une façon d’aborder le texte telle que le survol, la lecture sélective, la lecture en détail et la lecture de l’introduction et de la conclusion",
+            "children": [
+              {
+                "text": "reconnaître les buts visés par chaque manière de lire,",
+                "children": [
+                  {
+                    "text": "la lecture en survol: lecture rapide pour rechercher un mot, une catégorie de mots, une information précise ou encore pour se donner une vue d’ensemble du texte,"
+                  },
+                  {
+                    "text": "lecture sélective: lecture d’un passage sélectionné à la suite d’une lecture en survol,"
+                  },
+                  {
+                    "text": "lecture en détail: lecture faite avec attention dans le but de retenir de l’information,"
+                  },
+                  {
+                    "text": "lecture de l’introduction et de la conclusion: lecture rapide qui permet de se donner une vue d’ensemble sur le sujet et sur les aspects traités,"
+                  }
+                ]
+              },
+              {
+                "text": "choisir la manière de lire qui permettra d’atteindre les buts visés;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-92fbc12f-7550-4ae6-946e-b34dc1b38373",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "92fbc12f-7550-4ae6-946e-b34dc1b38373",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so3",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO3",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : examiner l’organisation du texte à partir d’indices tels que titre, sous-titres, mise en page, marqueurs organisationnels pour identifier la structure du texte et pour orienter sa lecture; reconnaître que la structure du texte : représente l’organisation de l’information, permet de se concentrer sur l’information importante pour ainsi mieux comprendre et retenir l’information, reconnaître qu’il peut identifier la structure du texte à partir d’indices de signalement contenus dans le texte (marqueurs de relation, marqueurs organisationnels, mise en page), relever les indices fournis soit par le titre, l’annonce du sujet, la présentation du texte (ex. : tableau comparatif, ligne du temps, etc.), sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : examiner l’organisation du texte à partir d’indices tels que titre, sous-titres, mise en page, marqueurs organisationnels pour identifier la structure du texte et pour orienter sa lecture; reconnaître que la structure du texte : représente l’organisation de l’information, permet de se concentrer sur l’information importante pour ainsi mieux comprendre et retenir l’information, reconnaître qu’il peut identifier la structure du texte à partir d’indices de signalement contenus dans le texte (marqueurs de relation, marqueurs organisationnels, mise en page), relever les indices fournis soit par le titre, l’annonce du sujet, la présentation du texte (ex. : tableau comparatif, ligne du temps, etc.), sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "examiner l’organisation du texte à partir d’indices tels que titre, sous-titres, mise en page, marqueurs organisationnels pour identifier la structure du texte et pour orienter sa lecture",
+            "children": [
+              {
+                "text": "reconnaître que la structure du texte :",
+                "children": [
+                  {
+                    "text": "représente l’organisation de l’information,"
+                  },
+                  {
+                    "text": "permet de se concentrer sur l’information importante pour ainsi mieux comprendre et retenir l’information,"
+                  }
+                ]
+              },
+              {
+                "text": "reconnaître qu’il peut identifier la structure du texte à partir d’indices de signalement contenus dans le texte (marqueurs de relation, marqueurs organisationnels, mise en page),"
+              },
+              {
+                "text": "relever les indices fournis soit par le titre, l’annonce du sujet, la présentation du texte (ex. : tableau comparatif, ligne du temps, etc.),"
+              },
+              {
+                "text": "sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-14bccab6-5c29-4061-aa0e-1a8bf04a4399",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "14bccab6-5c29-4061-aa0e-1a8bf04a4399",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so4",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO4",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir une façon d’annoter le texte; évaluer ses besoins d’information en fonction de la tâche à réaliser, reconnaître l’utilité de chacun des moyens disponibles, choisir le moyen le plus approprié; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir une façon d’annoter le texte; évaluer ses besoins d’information en fonction de la tâche à réaliser, reconnaître l’utilité de chacun des moyens disponibles, choisir le moyen le plus approprié; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "prévoir une façon d’annoter le texte",
+            "children": [
+              {
+                "text": "évaluer ses besoins d’information en fonction de la tâche à réaliser,"
+              },
+              {
+                "text": "reconnaître l’utilité de chacun des moyens disponibles,"
+              },
+              {
+                "text": "choisir le moyen le plus approprié"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-333afbc5-0354-4441-af12-2468c8ac9c36",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "333afbc5-0354-4441-af12-2468c8ac9c36",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so5",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO5",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : examiner les facteurs qui influent sur sa lecture; analyser l’impact des facteurs suivants : la longueur du texte : estimer le nombre de séances nécessaires pour lire le texte, sa familiarité avec le sujet traité : évaluer ses connaissances sur le sujet, explorer la possibilité d’obtenir de l’aide, sa familiarité avec la tâche à réaliser : évaluer son expérience face à une tâche semblable, faire l’inventaire des stratégies requises pour réaliser la tâche, faire le découpage des étapes de réalisation, s’informer sur les conditions de réalisation (seul, en groupe, etc.), s’informer sur les critères de réussite, la complexité de la tâche à réaliser : déterminer si la tâche comporte plusieurs étapes, vérifier si des étapes de lecture peuvent être associées à des étapes de la tâche, le temps disponible pour lire et pour réaliser la tâche : vérifier le temps disponible pour réaliser la tâche, vérifier s’il y a suffisamment de temps pour une relecture ou pour une consultation, évaluer leur influence sur la situation de lecture et prendre les dispositions nécessaires.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : examiner les facteurs qui influent sur sa lecture; analyser l’impact des facteurs suivants : la longueur du texte : estimer le nombre de séances nécessaires pour lire le texte, sa familiarité avec le sujet traité : évaluer ses connaissances sur le sujet, explorer la possibilité d’obtenir de l’aide, sa familiarité avec la tâche à réaliser : évaluer son expérience face à une tâche semblable, faire l’inventaire des stratégies requises pour réaliser la tâche, faire le découpage des étapes de réalisation, s’informer sur les conditions de réalisation (seul, en groupe, etc.), s’informer sur les critères de réussite, la complexité de la tâche à réaliser : déterminer si la tâche comporte plusieurs étapes, vérifier si des étapes de lecture peuvent être associées à des étapes de la tâche, le temps disponible pour lire et pour réaliser la tâche : vérifier le temps disponible pour réaliser la tâche, vérifier s’il y a suffisamment de temps pour une relecture ou pour une consultation, évaluer leur influence sur la situation de lecture et prendre les dispositions nécessaires.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "examiner les facteurs qui influent sur sa lecture",
+            "children": [
+              {
+                "text": "analyser l’impact des facteurs suivants :",
+                "children": [
+                  {
+                    "text": "la longueur du texte :",
+                    "children": [
+                      {
+                        "text": "estimer le nombre de séances nécessaires pour lire le texte,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "sa familiarité avec le sujet traité :",
+                    "children": [
+                      {
+                        "text": "évaluer ses connaissances sur le sujet,"
+                      },
+                      {
+                        "text": "explorer la possibilité d’obtenir de l’aide,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "sa familiarité avec la tâche à réaliser :",
+                    "children": [
+                      {
+                        "text": "évaluer son expérience face à une tâche semblable,"
+                      },
+                      {
+                        "text": "faire l’inventaire des stratégies requises pour réaliser la tâche,"
+                      },
+                      {
+                        "text": "faire le découpage des étapes de réalisation,"
+                      },
+                      {
+                        "text": "s’informer sur les conditions de réalisation (seul, en groupe, etc.),"
+                      },
+                      {
+                        "text": "s’informer sur les critères de réussite,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "la complexité de la tâche à réaliser :",
+                    "children": [
+                      {
+                        "text": "déterminer si la tâche comporte plusieurs étapes,"
+                      },
+                      {
+                        "text": "vérifier si des étapes de lecture peuvent être associées à des étapes de la tâche,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "le temps disponible pour lire et pour réaliser la tâche :",
+                    "children": [
+                      {
+                        "text": "vérifier le temps disponible pour réaliser la tâche,"
+                      },
+                      {
+                        "text": "vérifier s’il y a suffisamment de temps pour une relecture ou pour une consultation,"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "évaluer leur influence sur la situation de lecture et prendre les dispositions nécessaires."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-32cbc660-f22e-4acc-8eda-057763492585",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "32cbc660-f22e-4acc-8eda-057763492585",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so6",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO6",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir une façon de prendre des notes pour retenir l’information; évaluer ses besoins d’information en fonction de la tâche à réaliser, reconnaître l’utilité de chacun des moyens possibles, choisir le moyen le plus approprié; choisir le moyen le plus approprié à ses besoins;.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir une façon de prendre des notes pour retenir l’information; évaluer ses besoins d’information en fonction de la tâche à réaliser, reconnaître l’utilité de chacun des moyens possibles, choisir le moyen le plus approprié; choisir le moyen le plus approprié à ses besoins;.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "prévoir une façon de prendre des notes pour retenir l’information",
+            "children": [
+              {
+                "text": "évaluer ses besoins d’information en fonction de la tâche à réaliser,"
+              },
+              {
+                "text": "reconnaître l’utilité de chacun des moyens possibles,"
+              },
+              {
+                "text": "choisir le moyen le plus approprié"
+              },
+              {
+                "text": "choisir le moyen le plus approprié à ses besoins;."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-12a06576-92e6-43be-9707-b885b3ea845e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "12a06576-92e6-43be-9707-b885b3ea845e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce4-so7",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE4-SO7",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : s’informer sur l’auteur, le sujet traité et le contexte socioculturel et historique pour orienter sa lecture; évaluer la nécessité de s’informer dans un domaine en particulier en fonction de sa familiarité avec le sujet et de ses expériences antérieures de lecture, trouver la ou les sources de référence les plus appropriées compte tenu de l’information recherchée (ex. : lectures préalables, personnes-ressources), recueillir l’information pertinente.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : s’informer sur l’auteur, le sujet traité et le contexte socioculturel et historique pour orienter sa lecture; évaluer la nécessité de s’informer dans un domaine en particulier en fonction de sa familiarité avec le sujet et de ses expériences antérieures de lecture, trouver la ou les sources de référence les plus appropriées compte tenu de l’information recherchée (ex. : lectures préalables, personnes-ressources), recueillir l’information pertinente.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "s’informer sur l’auteur, le sujet traité et le contexte socioculturel et historique pour orienter sa lecture",
+            "children": [
+              {
+                "text": "évaluer la nécessité de s’informer dans un domaine en particulier en fonction de sa familiarité avec le sujet et de ses expériences antérieures de lecture,"
+              },
+              {
+                "text": "trouver la ou les sources de référence les plus appropriées compte tenu de l’information recherchée (ex. : lectures préalables, personnes-ressources),"
+              },
+              {
+                "text": "recueillir l’information pertinente."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-d0522a5e-ac7f-4a96-aac9-e484b26c9f45",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "d0522a5e-ac7f-4a96-aac9-e484b26c9f45",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so1",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO1",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les textes à structure de cause à effet pour soutenir sa compréhension; utiliser les indices de signalement pour identifier les textes à structure de cause à effet, organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les textes à structure de cause à effet pour soutenir sa compréhension; utiliser les indices de signalement pour identifier les textes à structure de cause à effet, organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les textes à structure de cause à effet pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "utiliser les indices de signalement pour identifier les textes à structure de cause à effet,"
+              },
+              {
+                "text": "organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-579c94d4-b51e-49a1-9986-e1c7c9f4885c",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "579c94d4-b51e-49a1-9986-e1c7c9f4885c",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so2",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO2",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : modifier, en cours de lecture, sa manière de lire; reconnaître les buts visés par chaque manière de lire, préciser ses attentes face au texte, choisir la manière de lire qui répond le mieux à ses besoins, reconnaître les indices qui révèlent l’information recherchée, ajuster sa façon de lire en commençant par le moyen le plus efficace; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : modifier, en cours de lecture, sa manière de lire; reconnaître les buts visés par chaque manière de lire, préciser ses attentes face au texte, choisir la manière de lire qui répond le mieux à ses besoins, reconnaître les indices qui révèlent l’information recherchée, ajuster sa façon de lire en commençant par le moyen le plus efficace; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "modifier, en cours de lecture, sa manière de lire",
+            "children": [
+              {
+                "text": "reconnaître les buts visés par chaque manière de lire,"
+              },
+              {
+                "text": "préciser ses attentes face au texte,"
+              },
+              {
+                "text": "choisir la manière de lire qui répond le mieux à ses besoins,"
+              },
+              {
+                "text": "reconnaître les indices qui révèlent l’information recherchée,"
+              },
+              {
+                "text": "ajuster sa façon de lire en commençant par le moyen le plus efficace;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-33a92a52-dc04-48e8-8a4b-4c9be9b9b25d",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "33a92a52-dc04-48e8-8a4b-4c9be9b9b25d",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so3",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO3",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel aux habiletés langagières acquises dans une autre langue pour soutenir sa compréhension; reconnaître le bris de compréhension, établir des liens entre les mots semblables qui ont un sens commun dans les deux langues ou un sens différent en français et dans l’autre langue, établir des liens entre les phrases qui ont une structure commune dans les deux langues ou une structure différente en français et dans l’autre langue, établir des liens entre l’organisation de l’information d’un même genre de message en français et dans une autre langue connue; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel aux habiletés langagières acquises dans une autre langue pour soutenir sa compréhension; reconnaître le bris de compréhension, établir des liens entre les mots semblables qui ont un sens commun dans les deux langues ou un sens différent en français et dans l’autre langue, établir des liens entre les phrases qui ont une structure commune dans les deux langues ou une structure différente en français et dans l’autre langue, établir des liens entre l’organisation de l’information d’un même genre de message en français et dans une autre langue connue; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel aux habiletés langagières acquises dans une autre langue pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître le bris de compréhension,"
+              },
+              {
+                "text": "établir des liens entre les mots semblables qui ont un sens commun dans les deux langues ou un sens différent en français et dans l’autre langue,"
+              },
+              {
+                "text": "établir des liens entre les phrases qui ont une structure commune dans les deux langues ou une structure différente en français et dans l’autre langue,"
+              },
+              {
+                "text": "établir des liens entre l’organisation de l’information d’un même genre de message en français et dans une autre langue connue;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-b2f520f7-9ec5-47d1-8ad4-07faccf4a7d5",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "b2f520f7-9ec5-47d1-8ad4-07faccf4a7d5",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so4",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO4",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser divers moyens tels que les familles de mots ou diverses sources de référence pour saisir le sens d’un mot ou d’un concept; famille de mots, décoder le mot nouveau, émettre une hypothèse sur le sens du mot nouveau à partir du contexte et de sa ressemblance graphique avec un mot connu; vérifier son hypothèse en utilisant le regroupement par famille de mot, sources de référence : identifier l’élément qui provoque un bris de compréhension (mot, concept, etc.), choisir le meilleur moyen pour pallier le bris de compréhension : recours à un dictionnaire pour chercher le sens des mots ou pour situer une œuvre dans son contexte, recours à une encyclopédie pour clarifier un concept, recours à une personne-ressource pour résoudre une difficulté particulière; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser divers moyens tels que les familles de mots ou diverses sources de référence pour saisir le sens d’un mot ou d’un concept; famille de mots, décoder le mot nouveau, émettre une hypothèse sur le sens du mot nouveau à partir du contexte et de sa ressemblance graphique avec un mot connu; vérifier son hypothèse en utilisant le regroupement par famille de mot, sources de référence : identifier l’élément qui provoque un bris de compréhension (mot, concept, etc.), choisir le meilleur moyen pour pallier le bris de compréhension : recours à un dictionnaire pour chercher le sens des mots ou pour situer une œuvre dans son contexte, recours à une encyclopédie pour clarifier un concept, recours à une personne-ressource pour résoudre une difficulté particulière; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser divers moyens tels que les familles de mots ou diverses sources de référence pour saisir le sens d’un mot ou d’un concept",
+            "children": [
+              {
+                "text": "famille de mots,",
+                "children": [
+                  {
+                    "text": "décoder le mot nouveau,"
+                  },
+                  {
+                    "text": "émettre une hypothèse sur le sens du mot nouveau à partir du contexte et de sa ressemblance graphique avec un mot connu"
+                  },
+                  {
+                    "text": "vérifier son hypothèse en utilisant le regroupement par famille de mot,"
+                  }
+                ]
+              },
+              {
+                "text": "sources de référence :",
+                "children": [
+                  {
+                    "text": "identifier l’élément qui provoque un bris de compréhension (mot, concept, etc.),"
+                  },
+                  {
+                    "text": "choisir le meilleur moyen pour pallier le bris de compréhension :",
+                    "children": [
+                      {
+                        "text": "recours à un dictionnaire pour chercher le sens des mots ou pour situer une œuvre dans son contexte,"
+                      },
+                      {
+                        "text": "recours à une encyclopédie pour clarifier un concept,"
+                      },
+                      {
+                        "text": "recours à une personne-ressource pour résoudre une difficulté particulière;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-93c54978-d757-4eb5-a9dc-2342616dd10b",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "93c54978-d757-4eb5-a9dc-2342616dd10b",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so5",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO5",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser, en cours de lecture, certains indices du texte pour construire l’idée principale lorsqu’elle est implicite; trouver le sujet du paragraphe, sélectionner l’essentiel de ce qui est dit sur le sujet, rédiger une phrase qui inclut le sujet et ce qui est essentiel, déterminer si les autres phrases du texte se rattachent à l’idée principale rédigée, si elles fournissent des exemples ou des détails sur l’idée principale. Sinon, reprendre le processus; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser, en cours de lecture, certains indices du texte pour construire l’idée principale lorsqu’elle est implicite; trouver le sujet du paragraphe, sélectionner l’essentiel de ce qui est dit sur le sujet, rédiger une phrase qui inclut le sujet et ce qui est essentiel, déterminer si les autres phrases du texte se rattachent à l’idée principale rédigée, si elles fournissent des exemples ou des détails sur l’idée principale. Sinon, reprendre le processus; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser, en cours de lecture, certains indices du texte pour construire l’idée principale lorsqu’elle est implicite",
+            "children": [
+              {
+                "text": "trouver le sujet du paragraphe,"
+              },
+              {
+                "text": "sélectionner l’essentiel de ce qui est dit sur le sujet,"
+              },
+              {
+                "text": "rédiger une phrase qui inclut le sujet et ce qui est essentiel,"
+              },
+              {
+                "text": "déterminer si les autres phrases du texte se rattachent à l’idée principale rédigée, si elles fournissent des exemples ou des détails sur l’idée principale. Sinon, reprendre le processus;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-f4eceb67-afd1-4fbb-8a81-822726963a76",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f4eceb67-afd1-4fbb-8a81-822726963a76",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so6",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO6",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser une façon d’annoter le texte ou de prendre des notes pour soutenir sa compréhension ou pour retenir l’information; examiner la nécessité de prendre des notes, utiliser un surligneur pour faire ressortir l’information importante (idées principales), ou; écrire le sujet du paragraphe dans la marge, ou; écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.); autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser une façon d’annoter le texte ou de prendre des notes pour soutenir sa compréhension ou pour retenir l’information; examiner la nécessité de prendre des notes, utiliser un surligneur pour faire ressortir l’information importante (idées principales), ou; écrire le sujet du paragraphe dans la marge, ou; écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.); autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser une façon d’annoter le texte ou de prendre des notes pour soutenir sa compréhension ou pour retenir l’information",
+            "children": [
+              {
+                "text": "examiner la nécessité de prendre des notes,"
+              },
+              {
+                "text": "utiliser un surligneur pour faire ressortir l’information importante (idées principales), ou"
+              },
+              {
+                "text": "écrire le sujet du paragraphe dans la marge, ou"
+              },
+              {
+                "text": "écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.);"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-0e4e3be2-be7b-4669-b83e-6c3d8863a3eb",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0e4e3be2-be7b-4669-b83e-6c3d8863a3eb",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so7",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO7",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’organisation du texte descriptif; reconnaître la mention du sujet de la description au début du texte, dégager l’ordre d’énumération des éléments de la description, établir des liens entre les éléments d’information; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’organisation du texte descriptif; reconnaître la mention du sujet de la description au début du texte, dégager l’ordre d’énumération des éléments de la description, établir des liens entre les éléments d’information; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur l’organisation du texte descriptif",
+            "children": [
+              {
+                "text": "reconnaître la mention du sujet de la description au début du texte,"
+              },
+              {
+                "text": "dégager l’ordre d’énumération des éléments de la description,"
+              },
+              {
+                "text": "établir des liens entre les éléments d’information;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-429e8f4a-f84f-4b6a-b6b9-c3b0dcaf674c",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "429e8f4a-f84f-4b6a-b6b9-c3b0dcaf674c",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so8",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO8",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser les indices du texte afin de distinguer les faits des opinions et les faits des hypothèses; reconnaître que les faits sont des énoncés qui peuvent être vérifiés, reconnaître que certains mots et expressions sont signes de neutralité et de subjectivité, reconnaître que certains mots ou expressions annoncent une hypothèse, repérer les indices qui signalent la neutralité, la subjectivité ou l’hypothèse, utiliser ces indices pour départager les faits, les opinions et les hypothèses; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser les indices du texte afin de distinguer les faits des opinions et les faits des hypothèses; reconnaître que les faits sont des énoncés qui peuvent être vérifiés, reconnaître que certains mots et expressions sont signes de neutralité et de subjectivité, reconnaître que certains mots ou expressions annoncent une hypothèse, repérer les indices qui signalent la neutralité, la subjectivité ou l’hypothèse, utiliser ces indices pour départager les faits, les opinions et les hypothèses; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser les indices du texte afin de distinguer les faits des opinions et les faits des hypothèses",
+            "children": [
+              {
+                "text": "reconnaître que les faits sont des énoncés qui peuvent être vérifiés,"
+              },
+              {
+                "text": "reconnaître que certains mots et expressions sont signes de neutralité et de subjectivité,"
+              },
+              {
+                "text": "reconnaître que certains mots ou expressions annoncent une hypothèse,"
+              },
+              {
+                "text": "repérer les indices qui signalent la neutralité, la subjectivité ou l’hypothèse,"
+              },
+              {
+                "text": "utiliser ces indices pour départager les faits, les opinions et les hypothèses;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-fb5b2a30-3ef5-4ebb-91e3-44c6932c126d",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "fb5b2a30-3ef5-4ebb-91e3-44c6932c126d",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so9",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO9",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension; reconnaître que ses connaissances antérieures sont la cause du bris de compréhension, identifier les nouvelles connaissances qui posent problème, émettre de nouvelles hypothèses en s’appuyant sur les nouvelles connaissances, valider ces nouvelles connaissances en utilisant le contexte, modifier le réseau des connaissances en remplaçant les connaissances erronées par les nouvelles, poursuivre la reconstruction du sens du texte à partir des nouvelles connaissances; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension; reconnaître que ses connaissances antérieures sont la cause du bris de compréhension, identifier les nouvelles connaissances qui posent problème, émettre de nouvelles hypothèses en s’appuyant sur les nouvelles connaissances, valider ces nouvelles connaissances en utilisant le contexte, modifier le réseau des connaissances en remplaçant les connaissances erronées par les nouvelles, poursuivre la reconstruction du sens du texte à partir des nouvelles connaissances; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître que ses connaissances antérieures sont la cause du bris de compréhension,"
+              },
+              {
+                "text": "identifier les nouvelles connaissances qui posent problème,"
+              },
+              {
+                "text": "émettre de nouvelles hypothèses en s’appuyant sur les nouvelles connaissances,"
+              },
+              {
+                "text": "valider ces nouvelles connaissances en utilisant le contexte,"
+              },
+              {
+                "text": "modifier le réseau des connaissances en remplaçant les connaissances erronées par les nouvelles,"
+              },
+              {
+                "text": "poursuivre la reconstruction du sens du texte à partir des nouvelles connaissances;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-7dc8ea7f-1ffd-4961-938e-db55c74ea801",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "7dc8ea7f-1ffd-4961-938e-db55c74ea801",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so10",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO10",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : remettre en question ses hypothèses et les modifier selon les besoins pour soutenir sa compréhension; reconnaître que ses prédictions sont erronées ou partiellement incorrectes, car elles l’éloignent du sujet, se questionner sur le choix des indices utilisés pour émettre ses hypothèses, émettre de nouvelles hypothèses à partir de l’information lue, poursuivre la reconstruction du sens du texte à partir de nouveaux indices.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : remettre en question ses hypothèses et les modifier selon les besoins pour soutenir sa compréhension; reconnaître que ses prédictions sont erronées ou partiellement incorrectes, car elles l’éloignent du sujet, se questionner sur le choix des indices utilisés pour émettre ses hypothèses, émettre de nouvelles hypothèses à partir de l’information lue, poursuivre la reconstruction du sens du texte à partir de nouveaux indices.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "remettre en question ses hypothèses et les modifier selon les besoins pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître que ses prédictions sont erronées ou partiellement incorrectes, car elles l’éloignent du sujet,"
+              },
+              {
+                "text": "se questionner sur le choix des indices utilisés pour émettre ses hypothèses,"
+              },
+              {
+                "text": "émettre de nouvelles hypothèses à partir de l’information lue,"
+              },
+              {
+                "text": "poursuivre la reconstruction du sens du texte à partir de nouveaux indices."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-aa44d790-4ffa-433d-81b4-2ace37e36abe",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "aa44d790-4ffa-433d-81b4-2ace37e36abe",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so11",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO11",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’organisation du texte explicatif; reconnaître le questionnement de l’auteur, cerner la phase explicative qui apporte la réponse au questionnement, reconnaître la façon dont les explications sont agencées, dégager la conclusion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’organisation du texte explicatif; reconnaître le questionnement de l’auteur, cerner la phase explicative qui apporte la réponse au questionnement, reconnaître la façon dont les explications sont agencées, dégager la conclusion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur l’organisation du texte explicatif",
+            "children": [
+              {
+                "text": "reconnaître le questionnement de l’auteur,"
+              },
+              {
+                "text": "cerner la phase explicative qui apporte la réponse au questionnement,"
+              },
+              {
+                "text": "reconnaître la façon dont les explications sont agencées,"
+              },
+              {
+                "text": "dégager la conclusion;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-41882750-70c6-4fb7-af6d-b29bcb1bf987",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "41882750-70c6-4fb7-af6d-b29bcb1bf987",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so12",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO12",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du texte descriptif pour soutenir sa compréhension; observer la continuité et la progression qui assurent la cohérence, observer l’insertion d’un passage d’un autre type de texte pour susciter un intérêt particulier (renforcement de la crédibilité, mise en contexte, etc.), observer l’insertion d’un discours direct ou d’un discours rapporté, utiliser l’information recueillie pour reconstruire le sens du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du texte descriptif pour soutenir sa compréhension; observer la continuité et la progression qui assurent la cohérence, observer l’insertion d’un passage d’un autre type de texte pour susciter un intérêt particulier (renforcement de la crédibilité, mise en contexte, etc.), observer l’insertion d’un discours direct ou d’un discours rapporté, utiliser l’information recueillie pour reconstruire le sens du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les procédés du texte descriptif pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "observer la continuité et la progression qui assurent la cohérence,"
+              },
+              {
+                "text": "observer l’insertion d’un passage d’un autre type de texte pour susciter un intérêt particulier (renforcement de la crédibilité, mise en contexte, etc.),"
+              },
+              {
+                "text": "observer l’insertion d’un discours direct ou d’un discours rapporté,"
+              },
+              {
+                "text": "utiliser l’information recueillie pour reconstruire le sens du texte;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-b66795d3-ce3a-4025-a988-70d45ca0ce1e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "b66795d3-ce3a-4025-a988-70d45ca0ce1e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so13",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO13",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du texte explicatif pour soutenir sa compréhension; reconnaître que l’auteur peut utiliser divers procédés pour fournir les explications: la définition, la comparaison, la reformulation et l’exemple, reconnaître qu’il peut identifier les indices de signalement qui indiquent des procédés tels que la définition, la comparaison, la reformulation et l’exemple, utiliser l’information recueillie pour reconstruire le sens du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du texte explicatif pour soutenir sa compréhension; reconnaître que l’auteur peut utiliser divers procédés pour fournir les explications: la définition, la comparaison, la reformulation et l’exemple, reconnaître qu’il peut identifier les indices de signalement qui indiquent des procédés tels que la définition, la comparaison, la reformulation et l’exemple, utiliser l’information recueillie pour reconstruire le sens du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les procédés du texte explicatif pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître que l’auteur peut utiliser divers procédés pour fournir les explications: la définition, la comparaison, la reformulation et l’exemple,"
+              },
+              {
+                "text": "reconnaître qu’il peut identifier les indices de signalement qui indiquent des procédés tels que la définition, la comparaison, la reformulation et l’exemple,"
+              },
+              {
+                "text": "utiliser l’information recueillie pour reconstruire le sens du texte;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-73ea8858-75a1-4fc1-aa77-3d4cd76669f4",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "73ea8858-75a1-4fc1-aa77-3d4cd76669f4",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-ecr-lecture-ce5-so14",
+      "standardCode": "FLA8-COMP-ECR-LECTURE-CE5-SO14",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser certains indices du texte et de l’image pour inférer l’intention de l’auteur; se remémorer ses connaissances sur l’auteur, reconnaître le point de vue de l’auteur, préciser l’image qu’il peut se faire de l’auteur à partir du texte, dégager le rapport ou l’attitude de l’auteur avec son sujet, dégager le ou les buts de l’auteur.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser certains indices du texte et de l’image pour inférer l’intention de l’auteur; se remémorer ses connaissances sur l’auteur, reconnaître le point de vue de l’auteur, préciser l’image qu’il peut se faire de l’auteur à partir du texte, dégager le rapport ou l’attitude de l’auteur avec son sujet, dégager le ou les buts de l’auteur.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser certains indices du texte et de l’image pour inférer l’intention de l’auteur",
+            "children": [
+              {
+                "text": "se remémorer ses connaissances sur l’auteur,"
+              },
+              {
+                "text": "reconnaître le point de vue de l’auteur,",
+                "children": [
+                  {
+                    "text": "préciser l’image qu’il peut se faire de l’auteur à partir du texte,"
+                  },
+                  {
+                    "text": "dégager le rapport ou l’attitude de l’auteur avec son sujet,"
+                  }
+                ]
+              },
+              {
+                "text": "dégager le ou les buts de l’auteur."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension écrite.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-5a7e8afd-eff3-4552-b918-97a19b2a8217",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension écrite > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "5a7e8afd-eff3-4552-b918-97a19b2a8217",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture",
+      "moduleSequence": 30.05
+    }
+  ],
+  "aliases": []
+}

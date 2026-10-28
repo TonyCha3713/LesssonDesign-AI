@@ -1,0 +1,2110 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-manifest",
+    "notes": "Lightweight manifest for lazy-loaded Alberta POS curriculum shards. Exact outcome wording is included for the Alberta-directed demo and permission/approval path.",
+    "updated": "2026-07-20"
+  },
+  "shards": [
+    {
+      "id": "ca-ab-en-core-science-g7",
+      "label": "Alberta Science Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-science-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "science"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 70,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-science-g8",
+      "label": "Alberta Science Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-science-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "science"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 69,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-science-g9",
+      "label": "Alberta Science Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-science-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "science"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 69,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-science-ke-g8",
+      "label": "Alberta Science - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-science-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "science-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 69,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-science-ke-g9",
+      "label": "Alberta Science - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-science-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "science-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 66,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-mathematics-g7",
+      "label": "Alberta Mathematics Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-mathematics-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "mathematics"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 25,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-mathematics-g8",
+      "label": "Alberta Mathematics Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-mathematics-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "mathematics"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 17,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-mathematics-g9",
+      "label": "Alberta Mathematics Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-mathematics-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "mathematics"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 22,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-mathematics-ke-g8",
+      "label": "Alberta Mathematics - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-mathematics-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "mathematics-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 48,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-mathematics-ke-g9",
+      "label": "Alberta Mathematics - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-mathematics-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "mathematics-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 47,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts-g7",
+      "label": "Alberta English Language Arts Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-english-language-arts-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "english-language-arts"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 51,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts-g8",
+      "label": "Alberta English Language Arts Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-english-language-arts-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "english-language-arts"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 51,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts-g9",
+      "label": "Alberta English Language Arts Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-english-language-arts-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "english-language-arts"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 51,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts-ke-g8",
+      "label": "Alberta English Language Arts - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-english-language-arts-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "english-language-arts-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 51,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts-ke-g9",
+      "label": "Alberta English Language Arts - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-english-language-arts-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "english-language-arts-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 51,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g7-ci",
+      "label": "Alberta Language Arts - Français langue première Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g7-ci.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 8,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g7-com-oral",
+      "label": "Alberta Language Arts - Français langue première Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g7-com-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 78,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g7-lect",
+      "label": "Alberta Language Arts - Français langue première Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g7-lect.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 46,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g7-ecr",
+      "label": "Alberta Language Arts - Français langue première Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g7-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 89,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g8-ci",
+      "label": "Alberta Language Arts - Français langue première Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g8-ci.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 6,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g8-com-oral",
+      "label": "Alberta Language Arts - Français langue première Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g8-com-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 77,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g8-lect",
+      "label": "Alberta Language Arts - Français langue première Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g8-lect.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 40,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g8-ecr",
+      "label": "Alberta Language Arts - Français langue première Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g8-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 84,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g9-ci",
+      "label": "Alberta Language Arts - Français langue première Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g9-ci.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 7,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g9-com-oral",
+      "label": "Alberta Language Arts - Français langue première Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g9-com-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 76,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g9-lect",
+      "label": "Alberta Language Arts - Français langue première Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g9-lect.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 38,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere-g9-ecr",
+      "label": "Alberta Language Arts - Français langue première Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-francais-langue-premiere-g9-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "francais-langue-premiere"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 80,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g7-val",
+      "label": "Alberta Language Arts - French Immersion Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g7-val.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 2,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g7-comp-oral",
+      "label": "Alberta Language Arts - French Immersion Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g7-comp-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 29,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g7-comp-ecr",
+      "label": "Alberta Language Arts - French Immersion Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g7-comp-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 48,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g7-prod-oral",
+      "label": "Alberta Language Arts - French Immersion Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g7-prod-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 42,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g7-prod-ecr",
+      "label": "Alberta Language Arts - French Immersion Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g7-prod-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 88,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g8-val",
+      "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g8-val.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 1,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g8-comp-oral",
+      "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g8-comp-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 28,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g8-comp-ecr",
+      "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g8-comp-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 46,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g8-prod-oral",
+      "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g8-prod-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 35,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g8-prod-ecr",
+      "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g8-prod-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 79,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g9-val",
+      "label": "Alberta Language Arts - French Immersion Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g9-val.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 1,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g9-comp-oral",
+      "label": "Alberta Language Arts - French Immersion Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g9-comp-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 28,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g9-comp-ecr",
+      "label": "Alberta Language Arts - French Immersion Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g9-comp-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 43,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g9-prod-oral",
+      "label": "Alberta Language Arts - French Immersion Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g9-prod-oral.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 29,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion-g9-prod-ecr",
+      "label": "Alberta Language Arts - French Immersion Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-french-language-arts-immersion-g9-prod-ecr.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "french-language-arts-immersion"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 74,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-career-technology-foundations-g7",
+      "label": "Alberta Career and Technology Foundations Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-career-technology-foundations-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "career-technology-foundations"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 14,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-career-technology-foundations-g8",
+      "label": "Alberta Career and Technology Foundations Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-career-technology-foundations-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "career-technology-foundations"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 14,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-career-technology-foundations-g9",
+      "label": "Alberta Career and Technology Foundations Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-career-technology-foundations-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "career-technology-foundations"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 14,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-art-design-communications-ke-g8",
+      "label": "Alberta Art/Design and Communications - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-art-design-communications-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-art-design-communications-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 416,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-art-design-communications-ke-g9",
+      "label": "Alberta Art/Design and Communications - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-art-design-communications-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-art-design-communications-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 416,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-auto-mechanics-ke-g8",
+      "label": "Alberta Auto Mechanics - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-auto-mechanics-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-auto-mechanics-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 298,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-auto-mechanics-ke-g9",
+      "label": "Alberta Auto Mechanics - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-auto-mechanics-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-auto-mechanics-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 298,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-business-services-ke-g8",
+      "label": "Alberta Business Services - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-business-services-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-business-services-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 266,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-business-services-ke-g9",
+      "label": "Alberta Business Services - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-business-services-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-business-services-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 266,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-construction-ke-g8",
+      "label": "Alberta Construction - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-construction-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-construction-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 450,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-construction-ke-g9",
+      "label": "Alberta Construction - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-construction-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-construction-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 450,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-fabrics-ke-g8",
+      "label": "Alberta Fabrics - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-fabrics-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-fabrics-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 95,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-fabrics-ke-g9",
+      "label": "Alberta Fabrics - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-fabrics-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-fabrics-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 95,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-foods-ke-g8",
+      "label": "Alberta Foods - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-foods-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-foods-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 225,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-foods-ke-g9",
+      "label": "Alberta Foods - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-foods-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-foods-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 225,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-horticulture-ke-g8",
+      "label": "Alberta Horticulture - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-horticulture-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-horticulture-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 265,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-horticulture-ke-g9",
+      "label": "Alberta Horticulture - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-horticulture-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-horticulture-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 265,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-human-care-ke-g8",
+      "label": "Alberta Human Care - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-human-care-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-human-care-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 171,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-cts-human-care-ke-g9",
+      "label": "Alberta Human Care - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-cts-human-care-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "cts-human-care-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 171,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-art-g7",
+      "label": "Alberta Art Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-art-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "art"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 33,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-art-g8",
+      "label": "Alberta Art Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-art-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "art"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 35,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-art-g9",
+      "label": "Alberta Art Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-art-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "art"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 30,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-drama-g7",
+      "label": "Alberta Drama Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-drama-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "drama"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 7,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-drama-g8",
+      "label": "Alberta Drama Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-drama-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "drama"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 7,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-drama-g9",
+      "label": "Alberta Drama Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-drama-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "drama"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 7,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-music-g7",
+      "label": "Alberta Music Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-music-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "music"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 20,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-music-g8",
+      "label": "Alberta Music Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-music-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "music"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 20,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-music-g9",
+      "label": "Alberta Music Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-music-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "music"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 20,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-health-life-skills-g7",
+      "label": "Alberta Health and Life Skills Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-health-life-skills-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "health-life-skills"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 31,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-health-life-skills-g8",
+      "label": "Alberta Health and Life Skills Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-health-life-skills-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "health-life-skills"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 31,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-health-life-skills-g9",
+      "label": "Alberta Health and Life Skills Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-health-life-skills-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "health-life-skills"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 31,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-social-studies-g7",
+      "label": "Alberta Social Studies Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-social-studies-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "social-studies"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 22,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-social-studies-g8",
+      "label": "Alberta Social Studies Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-social-studies-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "social-studies"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 23,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-social-studies-g9",
+      "label": "Alberta Social Studies Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-social-studies-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "social-studies"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 23,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-social-studies-ke-g8",
+      "label": "Alberta Social Studies - Knowledge and Employability Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-social-studies-ke-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "social-studies-ke"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 24,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-social-studies-ke-g9",
+      "label": "Alberta Social Studies - Knowledge and Employability Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-social-studies-ke-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "social-studies-ke"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 22,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-physical-education-g7",
+      "label": "Alberta Physical Education Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-physical-education-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "physical-education"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 36,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-physical-education-g8",
+      "label": "Alberta Physical Education Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-physical-education-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "physical-education"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 36,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-physical-education-g9",
+      "label": "Alberta Physical Education Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-physical-education-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "physical-education"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 36,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-environmental-outdoor-education-g7",
+      "label": "Alberta Environmental and Outdoor Education Grade 7 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-environmental-outdoor-education-g7.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "environmental-outdoor-education"
+        ],
+        "gradeLevels": [
+          "7"
+        ]
+      },
+      "standardCount": 64,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-environmental-outdoor-education-g8",
+      "label": "Alberta Environmental and Outdoor Education Grade 8 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-environmental-outdoor-education-g8.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "environmental-outdoor-education"
+        ],
+        "gradeLevels": [
+          "8"
+        ]
+      },
+      "standardCount": 63,
+      "aliasCount": 0
+    },
+    {
+      "id": "ca-ab-en-core-environmental-outdoor-education-g9",
+      "label": "Alberta Environmental and Outdoor Education Grade 9 curriculum pieces",
+      "path": "data/curriculum-shards/ca-ab-en-core-environmental-outdoor-education-g9.json",
+      "filters": {
+        "country": "CA",
+        "jurisdictionIds": [
+          "ca-ab"
+        ],
+        "programIds": [
+          "en-core"
+        ],
+        "frameworkIds": [
+          "ca-ab-curriculum"
+        ],
+        "subjectIds": [
+          "environmental-outdoor-education"
+        ],
+        "gradeLevels": [
+          "9"
+        ]
+      },
+      "standardCount": 64,
+      "aliasCount": 0
+    }
+  ]
+}

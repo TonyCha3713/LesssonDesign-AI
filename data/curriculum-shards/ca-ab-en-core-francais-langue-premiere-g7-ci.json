@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-francais-langue-premiere-g7-ci",
+    "label": "Alberta Language Arts - Français langue première Grade 7 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "7",
+    "gradeBand": "Grade 7",
+    "gradeLabel": "Grade 7",
+    "courseCode": "FRA7",
+    "courseLabel": "Language Arts - Français langue première",
+    "courseTitle": "Français (7 à 12)",
+    "subject": "francais-langue-premiere",
+    "subjectAreaId": "language-arts-francais",
+    "subjectId": "francais-langue-premiere",
+    "unit": "Culture et identité",
+    "strand": "Culture et identité",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-lanfra-7-fra7-0be57b4e-0363-4e83-99d3-6f46a59fbc47": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=0be57b4e-0363-4e83-99d3-6f46a59fbc47",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-09190d1b-d634-475f-a5fd-6f87eecfed06": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=09190d1b-d634-475f-a5fd-6f87eecfed06",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-737008eb-660a-4237-a404-88766b862061": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=737008eb-660a-4237-a404-88766b862061",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-7c75ec54-a7af-42f6-b846-db635d74f1f0": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=7c75ec54-a7af-42f6-b846-db635d74f1f0",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-6681a254-b0de-4678-8b16-c0b4850bc62f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=6681a254-b0de-4678-8b16-c0b4850bc62f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-45ea42e0-6e0a-4333-862b-86db09175020": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=45ea42e0-6e0a-4333-862b-86db09175020",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-6ff10068-aa57-40aa-aefa-f73945e60d72": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=6ff10068-aa57-40aa-aefa-f73945e60d72",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-e0fa48fd-5ea9-4da6-96c2-a0e98919a5a0": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=e0fa48fd-5ea9-4da6-96c2-a0e98919a5a0",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c1-so1",
+      "standardCode": "FRA7-CI-C1-SO1",
+      "summaryText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : partager son appréciation d’œuvres d’auteurs de la littérature jeunesse; consolidation des apprentissages",
+      "officialOutcomeText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : partager son appréciation d’œuvres d’auteurs de la littérature jeunesse; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra :",
+        "items": [
+          {
+            "text": "partager son appréciation d’œuvres d’auteurs de la littérature jeunesse"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-0be57b4e-0363-4e83-99d3-6f46a59fbc47",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "0be57b4e-0363-4e83-99d3-6f46a59fbc47",
+      "moduleType": "outcome",
+      "moduleLabel": "Se situer face aux réalités linguistiques et culturelles francophones",
+      "moduleSequence": 10.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c1-so2",
+      "standardCode": "FRA7-CI-C1-SO2",
+      "summaryText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : discuter, à partir de son vécu, de réalités linguistiques et culturelles de la littérature jeunesse; consolidation des apprentissages",
+      "officialOutcomeText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : discuter, à partir de son vécu, de réalités linguistiques et culturelles de la littérature jeunesse; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter, à partir de son vécu, de réalités linguistiques et culturelles de la littérature jeunesse"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-09190d1b-d634-475f-a5fd-6f87eecfed06",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "09190d1b-d634-475f-a5fd-6f87eecfed06",
+      "moduleType": "outcome",
+      "moduleLabel": "Se situer face aux réalités linguistiques et culturelles francophones",
+      "moduleSequence": 10.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c1-so3",
+      "standardCode": "FRA7-CI-C1-SO3",
+      "summaryText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : discuter de la diversité culturelle au sein de la francophonie; consolidation des apprentissages",
+      "officialOutcomeText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : discuter de la diversité culturelle au sein de la francophonie; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter de la diversité culturelle au sein de la francophonie"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-737008eb-660a-4237-a404-88766b862061",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "737008eb-660a-4237-a404-88766b862061",
+      "moduleType": "outcome",
+      "moduleLabel": "Se situer face aux réalités linguistiques et culturelles francophones",
+      "moduleSequence": 10.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c1-so4",
+      "standardCode": "FRA7-CI-C1-SO4",
+      "summaryText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : discuter de son choix d’œuvres de la littérature pour adolescents; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : discuter de son choix d’œuvres de la littérature pour adolescents; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter de son choix d’œuvres de la littérature pour adolescents"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-7c75ec54-a7af-42f6-b846-db635d74f1f0",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "7c75ec54-a7af-42f6-b846-db635d74f1f0",
+      "moduleType": "outcome",
+      "moduleLabel": "Se situer face aux réalités linguistiques et culturelles francophones",
+      "moduleSequence": 10.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c1-so5",
+      "standardCode": "FRA7-CI-C1-SO5",
+      "summaryText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : partager son appréciation de la chanson populaire; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra : partager son appréciation de la chanson populaire; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour s’approprier sa RÉALITÉ CULTURELLE, l’élève devra :",
+        "items": [
+          {
+            "text": "partager son appréciation de la chanson populaire"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-6681a254-b0de-4678-8b16-c0b4850bc62f",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "6681a254-b0de-4678-8b16-c0b4850bc62f",
+      "moduleType": "outcome",
+      "moduleLabel": "Se situer face aux réalités linguistiques et culturelles francophones",
+      "moduleSequence": 10.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c2-so1",
+      "standardCode": "FRA7-CI-C2-SO1",
+      "summaryText": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra : partir d’une chanson à répondre connue pour composer ses propres chansons; consolidation des apprentissages",
+      "officialOutcomeText": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra : partir d’une chanson à répondre connue pour composer ses propres chansons; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra :",
+        "items": [
+          {
+            "text": "partir d’une chanson à répondre connue pour composer ses propres chansons"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-45ea42e0-6e0a-4333-862b-86db09175020",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "45ea42e0-6e0a-4333-862b-86db09175020",
+      "moduleType": "outcome",
+      "moduleLabel": "Exprimer, dans son milieu, certaines valeurs et manifester certains comportements qui témoignent de la manière dont il vit sa francophonie",
+      "moduleSequence": 10.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c2-so2",
+      "standardCode": "FRA7-CI-C2-SO2",
+      "summaryText": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra : collaborer à la réalisation d’un projet visant la promotion de son école; consolidation des apprentissages",
+      "officialOutcomeText": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra : collaborer à la réalisation d’un projet visant la promotion de son école; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra :",
+        "items": [
+          {
+            "text": "collaborer à la réalisation d’un projet visant la promotion de son école"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-6ff10068-aa57-40aa-aefa-f73945e60d72",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "6ff10068-aa57-40aa-aefa-f73945e60d72",
+      "moduleType": "outcome",
+      "moduleLabel": "Exprimer, dans son milieu, certaines valeurs et manifester certains comportements qui témoignent de la manière dont il vit sa francophonie",
+      "moduleSequence": 10.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-ci-c2-so3",
+      "standardCode": "FRA7-CI-C2-SO3",
+      "summaryText": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra : collaborer à la réalisation d’un projet visant à faire connaître les médias, les services et les produits culturels francophones; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra : collaborer à la réalisation d’un projet visant à faire connaître les médias, les services et les produits culturels francophones; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour appuyer son processus de CONSTRUCTION IDENTITAIRE, l’élève pourra :",
+        "items": [
+          {
+            "text": "collaborer à la réalisation d’un projet visant à faire connaître les médias, les services et les produits culturels francophones"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Culture et identité.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-e0fa48fd-5ea9-4da6-96c2-a0e98919a5a0",
+      "sourceLocator": "LANFRA_7 > FRA7 > Culture et identité > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "e0fa48fd-5ea9-4da6-96c2-a0e98919a5a0",
+      "moduleType": "outcome",
+      "moduleLabel": "Exprimer, dans son milieu, certaines valeurs et manifester certains comportements qui témoignent de la manière dont il vit sa francophonie",
+      "moduleSequence": 10.02
+    }
+  ],
+  "aliases": []
+}

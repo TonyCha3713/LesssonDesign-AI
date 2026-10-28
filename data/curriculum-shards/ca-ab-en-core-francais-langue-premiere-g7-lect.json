@@ -1,0 +1,1982 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-francais-langue-premiere-g7-lect",
+    "label": "Alberta Language Arts - Français langue première Grade 7 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "7",
+    "gradeBand": "Grade 7",
+    "gradeLabel": "Grade 7",
+    "courseCode": "FRA7",
+    "courseLabel": "Language Arts - Français langue première",
+    "courseTitle": "Français (7 à 12)",
+    "subject": "francais-langue-premiere",
+    "subjectAreaId": "language-arts-francais",
+    "subjectId": "francais-langue-premiere",
+    "unit": "Lecture",
+    "strand": "Lecture",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-lanfra-7-fra7-94bae93c-de9d-435d-99fb-6e24819df30e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=94bae93c-de9d-435d-99fb-6e24819df30e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-2d461e8c-a439-40a4-97b5-9de55103f2c9": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=2d461e8c-a439-40a4-97b5-9de55103f2c9",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-69768ed1-0907-4a82-b4e0-2c86f4c977e8": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=69768ed1-0907-4a82-b4e0-2c86f4c977e8",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-fc3e31ff-ace4-4240-9c6b-eb080ce5245c": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=fc3e31ff-ace4-4240-9c6b-eb080ce5245c",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-846590e6-133a-495f-a79f-f72f27d5b659": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=846590e6-133a-495f-a79f-f72f27d5b659",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-ab959d5c-c0ab-4b35-b8da-e6f8a69152d3": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=ab959d5c-c0ab-4b35-b8da-e6f8a69152d3",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-0cb36f72-68d5-4472-ac13-ff9ef4f711a3": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=0cb36f72-68d5-4472-ac13-ff9ef4f711a3",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-07177823-82ec-42c2-8eb1-9ebfb3d5346d": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=07177823-82ec-42c2-8eb1-9ebfb3d5346d",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-12ce118f-3f71-4f36-8ed5-2c936f3f748b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=12ce118f-3f71-4f36-8ed5-2c936f3f748b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-6fd5f91f-8beb-4ed3-9657-ee3d6fd2368c": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=6fd5f91f-8beb-4ed3-9657-ee3d6fd2368c",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-5035b95b-e68c-41ee-b60c-b433b30d8311": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=5035b95b-e68c-41ee-b60c-b433b30d8311",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-1c5c0890-e5c1-419c-bcd5-439399472be5": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=1c5c0890-e5c1-419c-bcd5-439399472be5",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-0fbd61d6-f5f1-4038-86e2-c0f916cd10ec": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=0fbd61d6-f5f1-4038-86e2-c0f916cd10ec",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-0d48011e-1b91-4249-9a18-cb54d6a3eafe": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=0d48011e-1b91-4249-9a18-cb54d6a3eafe",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-0d91444e-156c-4095-a4c6-f9ed088d1537": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=0d91444e-156c-4095-a4c6-f9ed088d1537",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-5468828d-b110-404b-b58c-3dc01dd02c5e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=5468828d-b110-404b-b58c-3dc01dd02c5e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-5ed56e00-f0ec-4ff4-b6e9-b2a4b788209d": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=5ed56e00-f0ec-4ff4-b6e9-b2a4b788209d",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-a64b95d9-90f9-4153-8c87-213dc7a19117": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=a64b95d9-90f9-4153-8c87-213dc7a19117",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-ea1f459e-c80c-442b-857f-a442a9ba04c2": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=ea1f459e-c80c-442b-857f-a442a9ba04c2",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-cb7a6bf3-8672-4d74-81c4-f706d0f16831": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=cb7a6bf3-8672-4d74-81c4-f706d0f16831",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-565eed38-9e01-4fa3-a5b5-4c035ac51719": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=565eed38-9e01-4fa3-a5b5-4c035ac51719",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-222d6f16-a3df-4313-9f22-8ff0eeaada44": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=222d6f16-a3df-4313-9f22-8ff0eeaada44",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-6ca83bba-9423-4b4f-98de-bc0db64d9493": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=6ca83bba-9423-4b4f-98de-bc0db64d9493",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-431d0329-4539-4cec-9741-3389b78900df": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=431d0329-4539-4cec-9741-3389b78900df",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-453a9ed5-0b3d-4f66-ab91-f2f3e9127dd1": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=453a9ed5-0b3d-4f66-ab91-f2f3e9127dd1",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-3a0ddccd-bb01-4a20-8f62-24719e98118e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=3a0ddccd-bb01-4a20-8f62-24719e98118e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-1b30646e-a36d-4378-b4e7-d6a86a5552d9": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=1b30646e-a36d-4378-b4e7-d6a86a5552d9",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-a5bcefef-34dc-4a48-9621-7c9a81e8201c": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=a5bcefef-34dc-4a48-9621-7c9a81e8201c",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-60ae0a97-f049-4749-8008-774be491556e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=60ae0a97-f049-4749-8008-774be491556e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-1aa8e237-9720-4518-b9de-45cef02520c2": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=1aa8e237-9720-4518-b9de-45cef02520c2",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-50bd020e-cbd6-4b34-b7a7-df815e1fc2fd": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=50bd020e-cbd6-4b34-b7a7-df815e1fc2fd",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-29f317c5-38b7-431a-afc6-0cbb1b8e0bdb": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=29f317c5-38b7-431a-afc6-0cbb1b8e0bdb",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-b472e0c4-854b-4787-a3ba-67d7249c0cf6": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=b472e0c4-854b-4787-a3ba-67d7249c0cf6",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-fadc84b8-30ce-4cbe-a6b7-0355769e4c54": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=fadc84b8-30ce-4cbe-a6b7-0355769e4c54",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-046faea3-7c83-4be2-bdee-3ff7cdd96677": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=046faea3-7c83-4be2-bdee-3ff7cdd96677",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-edee018b-21a8-4293-a33f-b225a31cc724": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=edee018b-21a8-4293-a33f-b225a31cc724",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-0ba7b5b1-7e3f-4df9-a585-e760b7c50ab8": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=0ba7b5b1-7e3f-4df9-a585-e760b7c50ab8",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-30ad64a1-e82a-4b5f-9ee6-537105fe625c": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=30ad64a1-e82a-4b5f-9ee6-537105fe625c",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-8d67e73a-e476-4244-a4a0-bbbcd1331b3e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=8d67e73a-e476-4244-a4a0-bbbcd1331b3e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-1988b769-01a8-4c9c-9e48-288987de8545": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=1988b769-01a8-4c9c-9e48-288987de8545",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-3e9f1844-881e-47b6-aefb-d600c8861a19": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=3e9f1844-881e-47b6-aefb-d600c8861a19",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-6e9bd725-878e-4389-a823-0b51490c291e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=6e9bd725-878e-4389-a823-0b51490c291e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-b4d3c7c7-8ca7-48bc-a4b5-abc6222d25c7": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=b4d3c7c7-8ca7-48bc-a4b5-abc6222d25c7",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-4c9d0285-4d44-468e-9049-fea718296081": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=4c9d0285-4d44-468e-9049-fea718296081",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-f3d022c8-41f6-45ee-8900-9d319c42c867": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=f3d022c8-41f6-45ee-8900-9d319c42c867",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-lanfra-7-fra7-c1bc0a0d-f0bb-4cec-874c-f5befd5da0bb": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7/FRA7?id=c1bc0a0d-f0bb-4cec-874c-f5befd5da0bb",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so1",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO1",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir l’application de solutions identifiées pour surmonter les difficultés survenues antérieurement lors d’expériences de lecture similaires; se remémorer ses expériences de lecture antérieures, analyser le potentiel des solutions envisagées pour surmonter les difficultés de lecture, choisir la ou les solutions qui permettraient de résoudre les problèmes susceptibles de se reproduire; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir l’application de solutions identifiées pour surmonter les difficultés survenues antérieurement lors d’expériences de lecture similaires; se remémorer ses expériences de lecture antérieures, analyser le potentiel des solutions envisagées pour surmonter les difficultés de lecture, choisir la ou les solutions qui permettraient de résoudre les problèmes susceptibles de se reproduire; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "prévoir l’application de solutions identifiées pour surmonter les difficultés survenues antérieurement lors d’expériences de lecture similaires",
+            "children": [
+              {
+                "text": "se remémorer ses expériences de lecture antérieures,"
+              },
+              {
+                "text": "analyser le potentiel des solutions envisagées pour surmonter les difficultés de lecture,"
+              },
+              {
+                "text": "choisir la ou les solutions qui permettraient de résoudre les problèmes susceptibles de se reproduire;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-94bae93c-de9d-435d-99fb-6e24819df30e",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "94bae93c-de9d-435d-99fb-6e24819df30e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so2",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO2",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : déterminer la pertinence du texte par rapport à son projet de lecture à partir d’indices tels que les pages de couverture, la table des matières, le titre des chapitres et l’index; formuler ses attentes par rapport au texte, survoler les différentes parties de l’ouvrage consulté : reconnaître que les pages de couverture : fournissent de l’information telle que le titre, le nom de l’auteur, de la collection et de la maison d’édition, fournissent parfois de l’information sur l’auteur, le contenu du livre, etc., présentent, dans la plupart des cas, une illustration évocatrice du contenu, reconnaître que la table des matières : représente le plan du livre, indique quels aspects du sujet sont traités, indique à quelle page retrouver l’information recherchée, reconnaître que le titre des chapitres fournit des indices sur le contenu de chacun d’eux, reconnaître que l’index fournit la liste des sujets traités, déterminer si l’ouvrage répond à ses attentes; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : déterminer la pertinence du texte par rapport à son projet de lecture à partir d’indices tels que les pages de couverture, la table des matières, le titre des chapitres et l’index; formuler ses attentes par rapport au texte, survoler les différentes parties de l’ouvrage consulté : reconnaître que les pages de couverture : fournissent de l’information telle que le titre, le nom de l’auteur, de la collection et de la maison d’édition, fournissent parfois de l’information sur l’auteur, le contenu du livre, etc., présentent, dans la plupart des cas, une illustration évocatrice du contenu, reconnaître que la table des matières : représente le plan du livre, indique quels aspects du sujet sont traités, indique à quelle page retrouver l’information recherchée, reconnaître que le titre des chapitres fournit des indices sur le contenu de chacun d’eux, reconnaître que l’index fournit la liste des sujets traités, déterminer si l’ouvrage répond à ses attentes; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "déterminer la pertinence du texte par rapport à son projet de lecture à partir d’indices tels que les pages de couverture, la table des matières, le titre des chapitres et l’index",
+            "children": [
+              {
+                "text": "formuler ses attentes par rapport au texte,"
+              },
+              {
+                "text": "survoler les différentes parties de l’ouvrage consulté :",
+                "children": [
+                  {
+                    "text": "reconnaître que les pages de couverture :",
+                    "children": [
+                      {
+                        "text": "fournissent de l’information telle que le titre, le nom de l’auteur, de la collection et de la maison d’édition,"
+                      },
+                      {
+                        "text": "fournissent parfois de l’information sur l’auteur, le contenu du livre, etc.,"
+                      },
+                      {
+                        "text": "présentent, dans la plupart des cas, une illustration évocatrice du contenu,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "reconnaître que la table des matières :",
+                    "children": [
+                      {
+                        "text": "représente le plan du livre,"
+                      },
+                      {
+                        "text": "indique quels aspects du sujet sont traités,"
+                      },
+                      {
+                        "text": "indique à quelle page retrouver l’information recherchée,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "reconnaître que le titre des chapitres fournit des indices sur le contenu de chacun d’eux,"
+                  },
+                  {
+                    "text": "reconnaître que l’index fournit la liste des sujets traités,"
+                  }
+                ]
+              },
+              {
+                "text": "déterminer si l’ouvrage répond à ses attentes;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-2d461e8c-a439-40a4-97b5-9de55103f2c9",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "2d461e8c-a439-40a4-97b5-9de55103f2c9",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so3",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO3",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : formuler ses attentes par rapport au texte; cerner son intention de lecture, cerner les aspects du sujet sur lesquels il veut de l’information, formuler des questions sur ce qu’il aimerait apprendre sur le sujet, ou; se préparer à entrer dans le monde de l’imaginaire; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : formuler ses attentes par rapport au texte; cerner son intention de lecture, cerner les aspects du sujet sur lesquels il veut de l’information, formuler des questions sur ce qu’il aimerait apprendre sur le sujet, ou; se préparer à entrer dans le monde de l’imaginaire; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "formuler ses attentes par rapport au texte",
+            "children": [
+              {
+                "text": "cerner son intention de lecture,"
+              },
+              {
+                "text": "cerner les aspects du sujet sur lesquels il veut de l’information,"
+              },
+              {
+                "text": "formuler des questions sur ce qu’il aimerait apprendre sur le sujet, ou"
+              },
+              {
+                "text": "se préparer à entrer dans le monde de l’imaginaire;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-69768ed1-0907-4a82-b4e0-2c86f4c977e8",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "69768ed1-0907-4a82-b4e0-2c86f4c977e8",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so4",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO4",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir un moyen de prendre des notes pour retenir l’information; évaluer son besoin d’information en fonction de la tâche à réaliser, faire l’inventaire des moyens possibles pour prendre des notes, reconnaître l’utilité de chacun des moyens; choisir le moyen le plus approprié à ses besoins; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir un moyen de prendre des notes pour retenir l’information; évaluer son besoin d’information en fonction de la tâche à réaliser, faire l’inventaire des moyens possibles pour prendre des notes, reconnaître l’utilité de chacun des moyens; choisir le moyen le plus approprié à ses besoins; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "prévoir un moyen de prendre des notes pour retenir l’information",
+            "children": [
+              {
+                "text": "évaluer son besoin d’information en fonction de la tâche à réaliser,"
+              },
+              {
+                "text": "faire l’inventaire des moyens possibles pour prendre des notes,"
+              },
+              {
+                "text": "reconnaître l’utilité de chacun des moyens"
+              },
+              {
+                "text": "choisir le moyen le plus approprié à ses besoins;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-fc3e31ff-ace4-4240-9c6b-eb080ce5245c",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "fc3e31ff-ace4-4240-9c6b-eb080ce5245c",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so5",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO5",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire des prédictions sur l’organisation du contenu à partir des indices annonçant la ou les structures pour orienter sa lecture; reconnaître que la structure du texte : représente l’organisation de l’information, permet de se concentrer sur l’information importante pour ainsi mieux comprendre et retenir l’information, reconnaître qu’il peut identifier la structure du texte à partir d’indices de signalement contenus dans le texte (marqueurs de relation, marqueurs organisationnels), se remémorer les indices qui servent à identifier différentes structures du texte, relever les indices fournis par le titre, par l’annonce du sujet ou par la présentation du texte (tableau comparatif, ligne de temps, etc.), sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire des prédictions sur l’organisation du contenu à partir des indices annonçant la ou les structures pour orienter sa lecture; reconnaître que la structure du texte : représente l’organisation de l’information, permet de se concentrer sur l’information importante pour ainsi mieux comprendre et retenir l’information, reconnaître qu’il peut identifier la structure du texte à partir d’indices de signalement contenus dans le texte (marqueurs de relation, marqueurs organisationnels), se remémorer les indices qui servent à identifier différentes structures du texte, relever les indices fournis par le titre, par l’annonce du sujet ou par la présentation du texte (tableau comparatif, ligne de temps, etc.), sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire des prédictions sur l’organisation du contenu à partir des indices annonçant la ou les structures pour orienter sa lecture",
+            "children": [
+              {
+                "text": "reconnaître que la structure du texte :",
+                "children": [
+                  {
+                    "text": "représente l’organisation de l’information,"
+                  },
+                  {
+                    "text": "permet de se concentrer sur l’information importante pour ainsi mieux comprendre et retenir l’information,"
+                  }
+                ]
+              },
+              {
+                "text": "reconnaître qu’il peut identifier la structure du texte à partir d’indices de signalement contenus dans le texte (marqueurs de relation, marqueurs organisationnels),"
+              },
+              {
+                "text": "se remémorer les indices qui servent à identifier différentes structures du texte,"
+              },
+              {
+                "text": "relever les indices fournis par le titre, par l’annonce du sujet ou par la présentation du texte (tableau comparatif, ligne de temps, etc.),"
+              },
+              {
+                "text": "sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-846590e6-133a-495f-a79f-f72f27d5b659",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "846590e6-133a-495f-a79f-f72f27d5b659",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so6",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO6",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : déterminer, à partir des attentes, une façon d’aborder le texte telle que le survol, la lecture sélective, la lecture en détail et la lecture de l’introduction et de la conclusion; reconnaître les buts visés par chaque manière de lire : la lecture en survol : lecture très rapide pour rechercher un mot, une catégorie de mots, une information précise ou encore pour se donner une vue d’ensemble du texte, lecture sélective : lecture d’un passage sélectionné à la suite d’une lecture en survol, lecture en détail : lecture faite avec attention dans le but de retenir de l’information, lecture de l’introduction et de la conclusion : lecture rapide qui permet de se donner une vue d’ensemble sur le sujet et sur les aspects traités, choisir la manière de lire qui permettra d’atteindre les buts visés; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : déterminer, à partir des attentes, une façon d’aborder le texte telle que le survol, la lecture sélective, la lecture en détail et la lecture de l’introduction et de la conclusion; reconnaître les buts visés par chaque manière de lire : la lecture en survol : lecture très rapide pour rechercher un mot, une catégorie de mots, une information précise ou encore pour se donner une vue d’ensemble du texte, lecture sélective : lecture d’un passage sélectionné à la suite d’une lecture en survol, lecture en détail : lecture faite avec attention dans le but de retenir de l’information, lecture de l’introduction et de la conclusion : lecture rapide qui permet de se donner une vue d’ensemble sur le sujet et sur les aspects traités, choisir la manière de lire qui permettra d’atteindre les buts visés; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "déterminer, à partir des attentes, une façon d’aborder le texte telle que le survol, la lecture sélective, la lecture en détail et la lecture de l’introduction et de la conclusion",
+            "children": [
+              {
+                "text": "reconnaître les buts visés par chaque manière de lire :",
+                "children": [
+                  {
+                    "text": "la lecture en survol : lecture très rapide pour rechercher un mot, une catégorie de mots, une information précise ou encore pour se donner une vue d’ensemble du texte,"
+                  },
+                  {
+                    "text": "lecture sélective : lecture d’un passage sélectionné à la suite d’une lecture en survol,"
+                  },
+                  {
+                    "text": "lecture en détail : lecture faite avec attention dans le but de retenir de l’information,"
+                  },
+                  {
+                    "text": "lecture de l’introduction et de la conclusion : lecture rapide qui permet de se donner une vue d’ensemble sur le sujet et sur les aspects traités,"
+                  }
+                ]
+              },
+              {
+                "text": "choisir la manière de lire qui permettra d’atteindre les buts visés;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-ab959d5c-c0ab-4b35-b8da-e6f8a69152d3",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "ab959d5c-c0ab-4b35-b8da-e6f8a69152d3",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so7",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO7",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir une façon d’annoter le texte ou de prendre des notes; évaluer son besoin d’information en fonction de la tâche à réaliser, reconnaître l’utilité de chacun des moyens disponibles, choisir le moyen le plus approprié; écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.), ou; adopter un code pour marquer le temps, les actions, la présence des personnages, leurs traits physiques ou psychologiques, etc.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : prévoir une façon d’annoter le texte ou de prendre des notes; évaluer son besoin d’information en fonction de la tâche à réaliser, reconnaître l’utilité de chacun des moyens disponibles, choisir le moyen le plus approprié; écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.), ou; adopter un code pour marquer le temps, les actions, la présence des personnages, leurs traits physiques ou psychologiques, etc.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "prévoir une façon d’annoter le texte ou de prendre des notes",
+            "children": [
+              {
+                "text": "évaluer son besoin d’information en fonction de la tâche à réaliser,"
+              },
+              {
+                "text": "reconnaître l’utilité de chacun des moyens disponibles,"
+              },
+              {
+                "text": "choisir le moyen le plus approprié"
+              },
+              {
+                "text": "écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.), ou"
+              },
+              {
+                "text": "adopter un code pour marquer le temps, les actions, la présence des personnages, leurs traits physiques ou psychologiques, etc.;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-0cb36f72-68d5-4472-ac13-ff9ef4f711a3",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "0cb36f72-68d5-4472-ac13-ff9ef4f711a3",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so8",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO8",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : examiner les facteurs qui influent sur sa lecture; analyser l’impact des facteurs suivants : la longueur du texte : estimer le nombre de séances nécessaires pour lire le texte, sa familiarité avec le sujet traité : évaluer ses connaissances sur le sujet, explorer la possibilité d’obtenir de l’aide, sa familiarité avec la tâche à réaliser : évaluer son expérience face à une tâche semblable, faire l’inventaire des stratégies requises pour réaliser la tâche, faire le découpage des étapes de réalisation, s’informer sur les conditions de réalisation (seul, en groupe, etc.), s’informer sur les critères de réussite, la complexité de la tâche à réaliser : déterminer si la tâche comporte plusieurs étapes, vérifier si des étapes de lecture peuvent être associées à des étapes de la tâche, le temps disponible pour lire et pour réaliser la tâche : vérifier le temps disponible pour réaliser la tâche, vérifier s’il y a suffisamment de temps pour une relecture ou pour une consultation, évaluer leur influence sur la situation de lecture et prendre les dispositions nécessaires; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : examiner les facteurs qui influent sur sa lecture; analyser l’impact des facteurs suivants : la longueur du texte : estimer le nombre de séances nécessaires pour lire le texte, sa familiarité avec le sujet traité : évaluer ses connaissances sur le sujet, explorer la possibilité d’obtenir de l’aide, sa familiarité avec la tâche à réaliser : évaluer son expérience face à une tâche semblable, faire l’inventaire des stratégies requises pour réaliser la tâche, faire le découpage des étapes de réalisation, s’informer sur les conditions de réalisation (seul, en groupe, etc.), s’informer sur les critères de réussite, la complexité de la tâche à réaliser : déterminer si la tâche comporte plusieurs étapes, vérifier si des étapes de lecture peuvent être associées à des étapes de la tâche, le temps disponible pour lire et pour réaliser la tâche : vérifier le temps disponible pour réaliser la tâche, vérifier s’il y a suffisamment de temps pour une relecture ou pour une consultation, évaluer leur influence sur la situation de lecture et prendre les dispositions nécessaires; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "examiner les facteurs qui influent sur sa lecture",
+            "children": [
+              {
+                "text": "analyser l’impact des facteurs suivants :",
+                "children": [
+                  {
+                    "text": "la longueur du texte :",
+                    "children": [
+                      {
+                        "text": "estimer le nombre de séances nécessaires pour lire le texte,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "sa familiarité avec le sujet traité :",
+                    "children": [
+                      {
+                        "text": "évaluer ses connaissances sur le sujet,"
+                      },
+                      {
+                        "text": "explorer la possibilité d’obtenir de l’aide,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "sa familiarité avec la tâche à réaliser :",
+                    "children": [
+                      {
+                        "text": "évaluer son expérience face à une tâche semblable,"
+                      },
+                      {
+                        "text": "faire l’inventaire des stratégies requises pour réaliser la tâche,"
+                      },
+                      {
+                        "text": "faire le découpage des étapes de réalisation,"
+                      },
+                      {
+                        "text": "s’informer sur les conditions de réalisation (seul, en groupe, etc.),"
+                      },
+                      {
+                        "text": "s’informer sur les critères de réussite,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "la complexité de la tâche à réaliser :",
+                    "children": [
+                      {
+                        "text": "déterminer si la tâche comporte plusieurs étapes,"
+                      },
+                      {
+                        "text": "vérifier si des étapes de lecture peuvent être associées à des étapes de la tâche,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "le temps disponible pour lire et pour réaliser la tâche :"
+                  },
+                  {
+                    "text": "vérifier le temps disponible pour réaliser la tâche,"
+                  },
+                  {
+                    "text": "vérifier s’il y a suffisamment de temps pour une relecture ou pour une consultation,"
+                  }
+                ]
+              },
+              {
+                "text": "évaluer leur influence sur la situation de lecture et prendre les dispositions nécessaires;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-07177823-82ec-42c2-8eb1-9ebfb3d5346d",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "07177823-82ec-42c2-8eb1-9ebfb3d5346d",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l1-so9",
+      "standardCode": "FRA7-LECT-LECTURE-L1-SO9",
+      "summaryText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : s’informer sur l’auteur, le sujet traité et le contexte socioculturel et historique pour orienter sa lecture; évaluer la nécessité de s’informer dans un domaine en particulier en fonction de sa familiarité avec le sujet et de ses expériences antérieures de lecture, trouver la ou les sources de référence les plus appropriées compte tenu de l’information recherchée (ex. : lectures préalables, personnes-ressources), recueillir l’information pertinente.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes : s’informer sur l’auteur, le sujet traité et le contexte socioculturel et historique pour orienter sa lecture; évaluer la nécessité de s’informer dans un domaine en particulier en fonction de sa familiarité avec le sujet et de ses expériences antérieures de lecture, trouver la ou les sources de référence les plus appropriées compte tenu de l’information recherchée (ex. : lectures préalables, personnes-ressources), recueillir l’information pertinente.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "s’informer sur l’auteur, le sujet traité et le contexte socioculturel et historique pour orienter sa lecture",
+            "children": [
+              {
+                "text": "évaluer la nécessité de s’informer dans un domaine en particulier en fonction de sa familiarité avec le sujet et de ses expériences antérieures de lecture,"
+              },
+              {
+                "text": "trouver la ou les sources de référence les plus appropriées compte tenu de l’information recherchée (ex. : lectures préalables, personnes-ressources),"
+              },
+              {
+                "text": "recueillir l’information pertinente."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-12ce118f-3f71-4f36-8ed5-2c936f3f748b",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "12ce118f-3f71-4f36-8ed5-2c936f3f748b",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: planifier sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.01
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so1",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO1",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les textes à structures comparatives pour soutenir sa compréhension; utiliser les marques d’organisation du texte pour identifier la structure comparative, organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur pour reconstruire le sens du texte; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les textes à structures comparatives pour soutenir sa compréhension; utiliser les marques d’organisation du texte pour identifier la structure comparative, organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur pour reconstruire le sens du texte; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les textes à structures comparatives pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "utiliser les marques d’organisation du texte pour identifier la structure comparative,"
+              },
+              {
+                "text": "organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur pour reconstruire le sens du texte;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-6fd5f91f-8beb-4ed3-9657-ee3d6fd2368c",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "6fd5f91f-8beb-4ed3-9657-ee3d6fd2368c",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so2",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO2",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : reconnaître un bris de compréhension, en identifier la cause et prendre les moyens pour corriger la situation; reconnaître que ce qu’il lit n’est pas clair, identifier la source du problème : au niveau du mot : mot nouveau ou mot présenté dans un contexte nouveau, au niveau d’une idée : incapacité à comprendre, compréhension vague ou conflit avec les connaissances antérieures, entre les phrases : conflit avec la compréhension d’une autre phrase ou incapacité à trouver la relation entre les phrases, identifier une solution et l’appliquer; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : reconnaître un bris de compréhension, en identifier la cause et prendre les moyens pour corriger la situation; reconnaître que ce qu’il lit n’est pas clair, identifier la source du problème : au niveau du mot : mot nouveau ou mot présenté dans un contexte nouveau, au niveau d’une idée : incapacité à comprendre, compréhension vague ou conflit avec les connaissances antérieures, entre les phrases : conflit avec la compréhension d’une autre phrase ou incapacité à trouver la relation entre les phrases, identifier une solution et l’appliquer; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "reconnaître un bris de compréhension, en identifier la cause et prendre les moyens pour corriger la situation",
+            "children": [
+              {
+                "text": "reconnaître que ce qu’il lit n’est pas clair,"
+              },
+              {
+                "text": "identifier la source du problème :",
+                "children": [
+                  {
+                    "text": "au niveau du mot : mot nouveau ou mot présenté dans un contexte nouveau,"
+                  },
+                  {
+                    "text": "au niveau d’une idée : incapacité à comprendre, compréhension vague ou conflit avec les connaissances antérieures,"
+                  },
+                  {
+                    "text": "entre les phrases : conflit avec la compréhension d’une autre phrase ou incapacité à trouver la relation entre les phrases,"
+                  }
+                ]
+              },
+              {
+                "text": "identifier une solution et l’appliquer;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-5035b95b-e68c-41ee-b60c-b433b30d8311",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "5035b95b-e68c-41ee-b60c-b433b30d8311",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so3",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO3",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser un schéma ou une constellation pour organiser ses connaissances; reconnaître l’importance d’organiser l’information pour mieux comprendre ou pour mieux retenir de l’information, reconnaître qu’il existe plusieurs façons d’organiser l’information ou de prendre des notes, examiner la nécessité d’organiser l’information pour mieux comprendre ou pour retenir l’information, choisir le format qui convient le mieux au texte et à la situation de lecture (schéma associé à la structure du texte, schéma de définition, constellation sémantique, etc.); consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser un schéma ou une constellation pour organiser ses connaissances; reconnaître l’importance d’organiser l’information pour mieux comprendre ou pour mieux retenir de l’information, reconnaître qu’il existe plusieurs façons d’organiser l’information ou de prendre des notes, examiner la nécessité d’organiser l’information pour mieux comprendre ou pour retenir l’information, choisir le format qui convient le mieux au texte et à la situation de lecture (schéma associé à la structure du texte, schéma de définition, constellation sémantique, etc.); consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser un schéma ou une constellation pour organiser ses connaissances",
+            "children": [
+              {
+                "text": "reconnaître l’importance d’organiser l’information pour mieux comprendre ou pour mieux retenir de l’information,"
+              },
+              {
+                "text": "reconnaître qu’il existe plusieurs façons d’organiser l’information ou de prendre des notes,"
+              },
+              {
+                "text": "examiner la nécessité d’organiser l’information pour mieux comprendre ou pour retenir l’information,"
+              },
+              {
+                "text": "choisir le format qui convient le mieux au texte et à la situation de lecture (schéma associé à la structure du texte, schéma de définition, constellation sémantique, etc.);"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-1c5c0890-e5c1-419c-bcd5-439399472be5",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "1c5c0890-e5c1-419c-bcd5-439399472be5",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so4",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO4",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les préfixes et sur les suffixes pour trouver le sens d’un mot nouveau; repérer la partie connue du mot, émettre une hypothèse sur le sens donné par l’affixe (préfixe ou suffixe) en tenant compte du sens donné à la partie connue du mot, vérifier si le mot reconnu s’insère bien dans le contexte; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les préfixes et sur les suffixes pour trouver le sens d’un mot nouveau; repérer la partie connue du mot, émettre une hypothèse sur le sens donné par l’affixe (préfixe ou suffixe) en tenant compte du sens donné à la partie connue du mot, vérifier si le mot reconnu s’insère bien dans le contexte; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les préfixes et sur les suffixes pour trouver le sens d’un mot nouveau",
+            "children": [
+              {
+                "text": "repérer la partie connue du mot,"
+              },
+              {
+                "text": "émettre une hypothèse sur le sens donné par l’affixe (préfixe ou suffixe) en tenant compte du sens donné à la partie connue du mot,"
+              },
+              {
+                "text": "vérifier si le mot reconnu s’insère bien dans le contexte;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-0fbd61d6-f5f1-4038-86e2-c0f916cd10ec",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "0fbd61d6-f5f1-4038-86e2-c0f916cd10ec",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so5",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO5",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances des familles de mots pour trouver le sens d’un mot nouveau; décoder le mot nouveau, émettre une hypothèse sur le sens du mot nouveau à partir du contexte et de sa ressemblance avec un mot connu, utiliser le sens de mots de la même famille que le mot recherché pour vérifier son hypothèse en utilisant le regroupement par famille de mots; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances des familles de mots pour trouver le sens d’un mot nouveau; décoder le mot nouveau, émettre une hypothèse sur le sens du mot nouveau à partir du contexte et de sa ressemblance avec un mot connu, utiliser le sens de mots de la même famille que le mot recherché pour vérifier son hypothèse en utilisant le regroupement par famille de mots; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances des familles de mots pour trouver le sens d’un mot nouveau",
+            "children": [
+              {
+                "text": "décoder le mot nouveau,"
+              },
+              {
+                "text": "émettre une hypothèse sur le sens du mot nouveau à partir du contexte et de sa ressemblance avec un mot connu,"
+              },
+              {
+                "text": "utiliser le sens de mots de la même famille que le mot recherché pour vérifier son hypothèse en utilisant le regroupement par famille de mots;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-0d48011e-1b91-4249-9a18-cb54d6a3eafe",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "0d48011e-1b91-4249-9a18-cb54d6a3eafe",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so6",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO6",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les textes à structures de cause à effet ou à structures de problème et solution pour soutenir sa compréhension; utiliser les marques d’organisation du texte pour identifier la structure de cause à effet ou de problème et solution, organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur pour reconstruire le sens du texte; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les textes à structures de cause à effet ou à structures de problème et solution pour soutenir sa compréhension; utiliser les marques d’organisation du texte pour identifier la structure de cause à effet ou de problème et solution, organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur pour reconstruire le sens du texte; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les textes à structures de cause à effet ou à structures de problème et solution pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "utiliser les marques d’organisation du texte pour identifier la structure de cause à effet ou de problème et solution,"
+              },
+              {
+                "text": "organiser l’information lue en tenant compte de la structure de texte utilisée par l’auteur pour reconstruire le sens du texte;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-0d91444e-156c-4095-a4c6-f9ed088d1537",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "0d91444e-156c-4095-a4c6-f9ed088d1537",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so7",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO7",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : modifier, en cours de lecture, sa manière de lire; reconnaître les buts visés par chaque manière de lire, préciser ses attentes face au texte, choisir la manière de lire qui répond le mieux à ses besoins, reconnaître les indices qui révèlent l’information recherchée, ajuster sa façon de lire en commençant par le moyen le plus efficace; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : modifier, en cours de lecture, sa manière de lire; reconnaître les buts visés par chaque manière de lire, préciser ses attentes face au texte, choisir la manière de lire qui répond le mieux à ses besoins, reconnaître les indices qui révèlent l’information recherchée, ajuster sa façon de lire en commençant par le moyen le plus efficace; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "modifier, en cours de lecture, sa manière de lire",
+            "children": [
+              {
+                "text": "reconnaître les buts visés par chaque manière de lire,"
+              },
+              {
+                "text": "préciser ses attentes face au texte,"
+              },
+              {
+                "text": "choisir la manière de lire qui répond le mieux à ses besoins,"
+              },
+              {
+                "text": "reconnaître les indices qui révèlent l’information recherchée,"
+              },
+              {
+                "text": "ajuster sa façon de lire en commençant par le moyen le plus efficace;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-5468828d-b110-404b-b58c-3dc01dd02c5e",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "5468828d-b110-404b-b58c-3dc01dd02c5e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so8",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO8",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser, en cours de lecture, les indices lui permettant de construire l’idée principale lorsqu’elle est implicite; trouver le sujet du paragraphe, sélectionner l’essentiel de ce qui est dit sur le sujet, rédiger une phrase qui inclut le sujet et ce qui est essentiel, déterminer si les autres phrases du texte se rattachent à l’idée principale rédigée, si elles fournissent des exemples ou des détails sur l’idée principale. Sinon, reprendre le processus; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser, en cours de lecture, les indices lui permettant de construire l’idée principale lorsqu’elle est implicite; trouver le sujet du paragraphe, sélectionner l’essentiel de ce qui est dit sur le sujet, rédiger une phrase qui inclut le sujet et ce qui est essentiel, déterminer si les autres phrases du texte se rattachent à l’idée principale rédigée, si elles fournissent des exemples ou des détails sur l’idée principale. Sinon, reprendre le processus; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser, en cours de lecture, les indices lui permettant de construire l’idée principale lorsqu’elle est implicite",
+            "children": [
+              {
+                "text": "trouver le sujet du paragraphe,"
+              },
+              {
+                "text": "sélectionner l’essentiel de ce qui est dit sur le sujet,"
+              },
+              {
+                "text": "rédiger une phrase qui inclut le sujet et ce qui est essentiel,"
+              },
+              {
+                "text": "déterminer si les autres phrases du texte se rattachent à l’idée principale rédigée, si elles fournissent des exemples ou des détails sur l’idée principale. Sinon, reprendre le processus;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-5ed56e00-f0ec-4ff4-b6e9-b2a4b788209d",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "5ed56e00-f0ec-4ff4-b6e9-b2a4b788209d",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so9",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO9",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser les indices du texte pour distinguer les faits des opinions; reconnaître que les faits sont des énoncés qui peuvent être vérifiés, reconnaître que certains mots et expressions sont signes de neutralité et de subjectivité, repérer les indices qui signalent la neutralité ou la subjectivité, utiliser ces indices pour départager les faits des opinions; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser les indices du texte pour distinguer les faits des opinions; reconnaître que les faits sont des énoncés qui peuvent être vérifiés, reconnaître que certains mots et expressions sont signes de neutralité et de subjectivité, repérer les indices qui signalent la neutralité ou la subjectivité, utiliser ces indices pour départager les faits des opinions; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser les indices du texte pour distinguer les faits des opinions",
+            "children": [
+              {
+                "text": "reconnaître que les faits sont des énoncés qui peuvent être vérifiés,"
+              },
+              {
+                "text": "reconnaître que certains mots et expressions sont signes de neutralité et de subjectivité,"
+              },
+              {
+                "text": "repérer les indices qui signalent la neutralité ou la subjectivité,"
+              },
+              {
+                "text": "utiliser ces indices pour départager les faits des opinions;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-a64b95d9-90f9-4153-8c87-213dc7a19117",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "a64b95d9-90f9-4153-8c87-213dc7a19117",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so10",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO10",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel aux habiletés langagières acquises dans une autre langue pour soutenir sa compréhension; reconnaître le bris de compréhension, établir des liens entre les mots semblables qui ont un sens commun dans les deux langues ou un sens différent en français et dans l’autre langue connue, établir des liens entre les phrases qui ont une structure commune ou une structure différente en français et dans une autre langue connue, établir des liens entre l’organisation de l’information d’un même genre de message en français et dans une autre langue; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel aux habiletés langagières acquises dans une autre langue pour soutenir sa compréhension; reconnaître le bris de compréhension, établir des liens entre les mots semblables qui ont un sens commun dans les deux langues ou un sens différent en français et dans l’autre langue connue, établir des liens entre les phrases qui ont une structure commune ou une structure différente en français et dans une autre langue connue, établir des liens entre l’organisation de l’information d’un même genre de message en français et dans une autre langue; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel aux habiletés langagières acquises dans une autre langue pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître le bris de compréhension,"
+              },
+              {
+                "text": "établir des liens entre les mots semblables qui ont un sens commun dans les deux langues ou un sens différent en français et dans l’autre langue connue,"
+              },
+              {
+                "text": "établir des liens entre les phrases qui ont une structure commune ou une structure différente en français et dans une autre langue connue,"
+              },
+              {
+                "text": "établir des liens entre l’organisation de l’information d’un même genre de message en français et dans une autre langue;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-ea1f459e-c80c-442b-857f-a442a9ba04c2",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "ea1f459e-c80c-442b-857f-a442a9ba04c2",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so11",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO11",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser une façon d’annoter le texte ou de prendre des notes pour soutenir sa compréhension ou pour retenir l’information; examiner la nécessité de prendre des notes, utiliser un surligneur pour faire ressortir l’information importante (idées principales), écrire le sujet du paragraphe dans la marge, écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.); niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser une façon d’annoter le texte ou de prendre des notes pour soutenir sa compréhension ou pour retenir l’information; examiner la nécessité de prendre des notes, utiliser un surligneur pour faire ressortir l’information importante (idées principales), écrire le sujet du paragraphe dans la marge, écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.); niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser une façon d’annoter le texte ou de prendre des notes pour soutenir sa compréhension ou pour retenir l’information",
+            "children": [
+              {
+                "text": "examiner la nécessité de prendre des notes,"
+              },
+              {
+                "text": "utiliser un surligneur pour faire ressortir l’information importante (idées principales),"
+              },
+              {
+                "text": "écrire le sujet du paragraphe dans la marge,"
+              },
+              {
+                "text": "écrire l’information importante en style télégraphique (dans un tout organisé : plan, schéma associé à la structure de texte, etc.);"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-cb7a6bf3-8672-4d74-81c4-f706d0f16831",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "cb7a6bf3-8672-4d74-81c4-f706d0f16831",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so12",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO12",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’organisation du texte descriptif; reconnaître la mention du sujet de la description au début du texte, dégager l’ordre d’énumération des éléments de la description, établir des liens entre les éléments d’information; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur l’organisation du texte descriptif; reconnaître la mention du sujet de la description au début du texte, dégager l’ordre d’énumération des éléments de la description, établir des liens entre les éléments d’information; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur l’organisation du texte descriptif",
+            "children": [
+              {
+                "text": "reconnaître la mention du sujet de la description au début du texte,"
+              },
+              {
+                "text": "dégager l’ordre d’énumération des éléments de la description,"
+              },
+              {
+                "text": "établir des liens entre les éléments d’information;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-565eed38-9e01-4fa3-a5b5-4c035ac51719",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "565eed38-9e01-4fa3-a5b5-4c035ac51719",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so13",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO13",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du texte descriptif pour soutenir sa compréhension; observer la continuité et la progression qui assurent la cohérence, observer l’insertion d’un passage d’un autre type de texte pour susciter un intérêt particulier (renforcement de la crédibilité, mise en contexte, etc.), observer l’insertion d’un discours direct ou d’un discours rapporté, utiliser l’information recueillie pour reconstruire le sens du texte; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du texte descriptif pour soutenir sa compréhension; observer la continuité et la progression qui assurent la cohérence, observer l’insertion d’un passage d’un autre type de texte pour susciter un intérêt particulier (renforcement de la crédibilité, mise en contexte, etc.), observer l’insertion d’un discours direct ou d’un discours rapporté, utiliser l’information recueillie pour reconstruire le sens du texte; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les procédés du texte descriptif pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "observer la continuité et la progression qui assurent la cohérence,"
+              },
+              {
+                "text": "observer l’insertion d’un passage d’un autre type de texte pour susciter un intérêt particulier (renforcement de la crédibilité, mise en contexte, etc.),"
+              },
+              {
+                "text": "observer l’insertion d’un discours direct ou d’un discours rapporté,"
+              },
+              {
+                "text": "utiliser l’information recueillie pour reconstruire le sens du texte;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-222d6f16-a3df-4313-9f22-8ff0eeaada44",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "222d6f16-a3df-4313-9f22-8ff0eeaada44",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so14",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO14",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension; reconnaître que ses connaissances antérieures peuvent être la cause du bris de compréhension, identifier les nouvelles connaissances qui posent problème, émettre de nouvelles hypothèses en s’appuyant sur les nouvelles connaissances, valider ces nouvelles connaissances en utilisant le contexte, modifier le réseau des connaissances en remplaçant les connaissances erronées par les nouvelles, poursuivre la reconstruction du sens du texte à partir des nouvelles connaissances; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension; reconnaître que ses connaissances antérieures peuvent être la cause du bris de compréhension, identifier les nouvelles connaissances qui posent problème, émettre de nouvelles hypothèses en s’appuyant sur les nouvelles connaissances, valider ces nouvelles connaissances en utilisant le contexte, modifier le réseau des connaissances en remplaçant les connaissances erronées par les nouvelles, poursuivre la reconstruction du sens du texte à partir des nouvelles connaissances; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître que ses connaissances antérieures peuvent être la cause du bris de compréhension,"
+              },
+              {
+                "text": "identifier les nouvelles connaissances qui posent problème,"
+              },
+              {
+                "text": "émettre de nouvelles hypothèses en s’appuyant sur les nouvelles connaissances,"
+              },
+              {
+                "text": "valider ces nouvelles connaissances en utilisant le contexte,"
+              },
+              {
+                "text": "modifier le réseau des connaissances en remplaçant les connaissances erronées par les nouvelles,"
+              },
+              {
+                "text": "poursuivre la reconstruction du sens du texte à partir des nouvelles connaissances;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-6ca83bba-9423-4b4f-98de-bc0db64d9493",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "6ca83bba-9423-4b4f-98de-bc0db64d9493",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l2-so15",
+      "standardCode": "FRA7-LECT-LECTURE-L2-SO15",
+      "summaryText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser diverses sources de référence pour soutenir sa compréhension; identifier l’élément qui provoque un bris de compréhension (mot important dont le sens ne peut être saisi par le contexte; information sur un élément du sujet ou sur l’auteur qui nécessite des connaissances préalables pour être bien comprise; etc.), choisir le meilleur moyen pour pallier le bris de compréhension : recours à un dictionnaire pour chercher le sens des mots ou pour situer une œuvre dans son contexte, recours à une encyclopédie pour clarifier un concept, recours à une personne-ressource, etc.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes : utiliser diverses sources de référence pour soutenir sa compréhension; identifier l’élément qui provoque un bris de compréhension (mot important dont le sens ne peut être saisi par le contexte; information sur un élément du sujet ou sur l’auteur qui nécessite des connaissances préalables pour être bien comprise; etc.), choisir le meilleur moyen pour pallier le bris de compréhension : recours à un dictionnaire pour chercher le sens des mots ou pour situer une œuvre dans son contexte, recours à une encyclopédie pour clarifier un concept, recours à une personne-ressource, etc.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet de lecture, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser diverses sources de référence pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "identifier l’élément qui provoque un bris de compréhension (mot important dont le sens ne peut être saisi par le contexte; information sur un élément du sujet ou sur l’auteur qui nécessite des connaissances préalables pour être bien comprise; etc.),"
+              },
+              {
+                "text": "choisir le meilleur moyen pour pallier le bris de compréhension :",
+                "children": [
+                  {
+                    "text": "recours à un dictionnaire pour chercher le sens des mots ou pour situer une œuvre dans son contexte,"
+                  },
+                  {
+                    "text": "recours à une encyclopédie pour clarifier un concept,"
+                  },
+                  {
+                    "text": "recours à une personne-ressource, etc."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-431d0329-4539-4cec-9741-3389b78900df",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "431d0329-4539-4cec-9741-3389b78900df",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: gérer sa lecture de divers textes, y compris des produits médiatiques",
+      "moduleSequence": 30.02
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so1",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO1",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : reconstruire le sens du message à l’aide d’un plan ou d’un schéma fourni par l’enseignant; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : reconstruire le sens du message à l’aide d’un plan ou d’un schéma fourni par l’enseignant; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "reconstruire le sens du message à l’aide d’un plan ou d’un schéma fourni par l’enseignant"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-453a9ed5-0b3d-4f66-ab91-f2f3e9127dd1",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "453a9ed5-0b3d-4f66-ab91-f2f3e9127dd1",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so2",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO2",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les moyens utilisés par l’auteur pour présenter un fait ou pour exprimer son opinion; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les moyens utilisés par l’auteur pour présenter un fait ou pour exprimer son opinion; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les moyens utilisés par l’auteur pour présenter un fait ou pour exprimer son opinion"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-3a0ddccd-bb01-4a20-8f62-24719e98118e",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "3a0ddccd-bb01-4a20-8f62-24719e98118e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so3",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO3",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : discuter des moyens linguistiques, techniques et visuels utilisés dans des produits médiatiques pour transmettre un message; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : discuter des moyens linguistiques, techniques et visuels utilisés dans des produits médiatiques pour transmettre un message; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter des moyens linguistiques, techniques et visuels utilisés dans des produits médiatiques pour transmettre un message"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-1b30646e-a36d-4378-b4e7-d6a86a5552d9",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "1b30646e-a36d-4378-b4e7-d6a86a5552d9",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so4",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO4",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les idées principales implicites; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les idées principales implicites; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les idées principales implicites"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-a5bcefef-34dc-4a48-9621-7c9a81e8201c",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "a5bcefef-34dc-4a48-9621-7c9a81e8201c",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so5",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO5",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les causes d’un phénomène ou les solutions proposées pour résoudre un problème; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les causes d’un phénomène ou les solutions proposées pour résoudre un problème; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les causes d’un phénomène ou les solutions proposées pour résoudre un problème"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-60ae0a97-f049-4749-8008-774be491556e",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "60ae0a97-f049-4749-8008-774be491556e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so6",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO6",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les informations essentielles des informations accessoires ou superflues; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les informations essentielles des informations accessoires ou superflues; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "distinguer les informations essentielles des informations accessoires ou superflues"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-1aa8e237-9720-4518-b9de-45cef02520c2",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "1aa8e237-9720-4518-b9de-45cef02520c2",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so7",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO7",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les faits des opinions; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : distinguer les faits des opinions; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "distinguer les faits des opinions"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-50bd020e-cbd6-4b34-b7a7-df815e1fc2fd",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "50bd020e-cbd6-4b34-b7a7-df815e1fc2fd",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so8",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO8",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : analyser les procédés employés par l’auteur d’un texte descriptif; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : analyser les procédés employés par l’auteur d’un texte descriptif; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "analyser les procédés employés par l’auteur d’un texte descriptif"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-29f317c5-38b7-431a-afc6-0cbb1b8e0bdb",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "29f317c5-38b7-431a-afc6-0cbb1b8e0bdb",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so9",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO9",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : catégoriser l’information du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : catégoriser l’information du texte; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "catégoriser l’information du texte"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-b472e0c4-854b-4787-a3ba-67d7249c0cf6",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "b472e0c4-854b-4787-a3ba-67d7249c0cf6",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so10",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO10",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les moyens utilisés par l’auteur pour transmettre son message; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : dégager les moyens utilisés par l’auteur pour transmettre son message; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les moyens utilisés par l’auteur pour transmettre son message"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-fadc84b8-30ce-4cbe-a6b7-0355769e4c54",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "fadc84b8-30ce-4cbe-a6b7-0355769e4c54",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l3-so11",
+      "standardCode": "FRA7-LECT-LECTURE-L3-SO11",
+      "summaryText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : évaluer la clarté du message en tenant compte du choix du vocabulaire et de l’organisation de l’information; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écrit, l’élève devra : évaluer la clarté du message en tenant compte du choix du vocabulaire et de l’organisation de l’information; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écrit, l’élève devra :",
+        "items": [
+          {
+            "text": "évaluer la clarté du message en tenant compte du choix du vocabulaire et de l’organisation de l’information"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-046faea3-7c83-4be2-bdee-3ff7cdd96677",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "046faea3-7c83-4be2-bdee-3ff7cdd96677",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à un besoin d’information",
+      "moduleSequence": 30.03
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so1",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO1",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : établir des liens entre le texte et l’image dans la bande dessinée; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : établir des liens entre le texte et l’image dans la bande dessinée; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "établir des liens entre le texte et l’image dans la bande dessinée"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-edee018b-21a8-4293-a33f-b225a31cc724",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "edee018b-21a8-4293-a33f-b225a31cc724",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so2",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO2",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir au texte en relevant des passages qui suscitent des sentiments, des émotions ou des souvenirs; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir au texte en relevant des passages qui suscitent des sentiments, des émotions ou des souvenirs; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir au texte en relevant des passages qui suscitent des sentiments, des émotions ou des souvenirs"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-0ba7b5b1-7e3f-4df9-a585-e760b7c50ab8",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "0ba7b5b1-7e3f-4df9-a585-e760b7c50ab8",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so3",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO3",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : donner un sens à certaines images évoquées par l’auteur dans un texte poétique; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : donner un sens à certaines images évoquées par l’auteur dans un texte poétique; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "donner un sens à certaines images évoquées par l’auteur dans un texte poétique"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-30ad64a1-e82a-4b5f-9ee6-537105fe625c",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "30ad64a1-e82a-4b5f-9ee6-537105fe625c",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so4",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO4",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : dégager les relations entre les personnages d’un récit; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : dégager les relations entre les personnages d’un récit; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les relations entre les personnages d’un récit"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-8d67e73a-e476-4244-a4a0-bbbcd1331b3e",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "8d67e73a-e476-4244-a4a0-bbbcd1331b3e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so5",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO5",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : établir des liens entre les caractéristiques des personnages et leurs actions; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : établir des liens entre les caractéristiques des personnages et leurs actions; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "établir des liens entre les caractéristiques des personnages et leurs actions"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-1988b769-01a8-4c9c-9e48-288987de8545",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "1988b769-01a8-4c9c-9e48-288987de8545",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so6",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO6",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir à la dynamique entre les personnages et les actions à partir de ses expériences personnelles; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir à la dynamique entre les personnages et les actions à partir de ses expériences personnelles; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir à la dynamique entre les personnages et les actions à partir de ses expériences personnelles"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-3e9f1844-881e-47b6-aefb-d600c8861a19",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "3e9f1844-881e-47b6-aefb-d600c8861a19",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so7",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO7",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : dégager les éléments qui créent des effets de vraisemblance, de suspense, d’exagération ou de rebondissement; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : dégager les éléments qui créent des effets de vraisemblance, de suspense, d’exagération ou de rebondissement; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les éléments qui créent des effets de vraisemblance, de suspense, d’exagération ou de rebondissement"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-6e9bd725-878e-4389-a823-0b51490c291e",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "6e9bd725-878e-4389-a823-0b51490c291e",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so8",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO8",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir à certains passages présentant un intérêt particulier à partir des ses expériences personnelles; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir à certains passages présentant un intérêt particulier à partir des ses expériences personnelles; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir à certains passages présentant un intérêt particulier à partir des ses expériences personnelles"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-b4d3c7c7-8ca7-48bc-a4b5-abc6222d25c7",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "b4d3c7c7-8ca7-48bc-a4b5-abc6222d25c7",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so9",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO9",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : évaluer, dans un texte poétique, les effets de certains éléments tels que l’association d’idées, d’images, de mots ou de sons; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : évaluer, dans un texte poétique, les effets de certains éléments tels que l’association d’idées, d’images, de mots ou de sons; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "évaluer, dans un texte poétique, les effets de certains éléments tels que l’association d’idées, d’images, de mots ou de sons"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-4c9d0285-4d44-468e-9049-fea718296081",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "4c9d0285-4d44-468e-9049-fea718296081",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so10",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO10",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : relever des passages descriptifs dans le texte et en faire ressortir le rôle et l’intérêt; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : relever des passages descriptifs dans le texte et en faire ressortir le rôle et l’intérêt; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "relever des passages descriptifs dans le texte et en faire ressortir le rôle et l’intérêt"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-f3d022c8-41f6-45ee-8900-9d319c42c867",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "f3d022c8-41f6-45ee-8900-9d319c42c867",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    },
+    {
+      "id": "ca-ab-francais-langue-premiere-lanfra-7-fra7-fra7-lect-lecture-l4-so11",
+      "standardCode": "FRA7-LECT-LECTURE-L4-SO11",
+      "summaryText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir aux caractéristiques physiques et psychologiques des personnages à partir de ses expériences personnelles; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra : réagir aux caractéristiques physiques et psychologiques des personnages à partir de ses expériences personnelles; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire et d’esthétique, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir aux caractéristiques physiques et psychologiques des personnages à partir de ses expériences personnelles"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop Français langue première abilities in Lecture.",
+      "sourceDocumentId": "ca-ab-curriculum-lanfra-7-fra7-c1bc0a0d-f0bb-4cec-874c-f5befd5da0bb",
+      "sourceLocator": "LANFRA_7 > FRA7 > Lecture > Résultat d’apprentissage général > Résultat d’apprentissage spécifique",
+      "sourceOutcomeId": "c1bc0a0d-f0bb-4cec-874c-f5befd5da0bb",
+      "moduleType": "outcome",
+      "moduleLabel": "Lecture: comprendre des textes divers, y compris des produits médiatiques, pour répondre à des besoins d’imaginaire et d’esthétique",
+      "moduleSequence": 30.04
+    }
+  ],
+  "aliases": []
+}

@@ -1,0 +1,1166 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-french-language-arts-immersion-g8-comp-oral",
+    "label": "Alberta Language Arts - French Immersion Grade 8 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "8",
+    "gradeBand": "Grade 8",
+    "gradeLabel": "Grade 8",
+    "courseCode": "FLA8",
+    "courseLabel": "Language Arts - French Immersion",
+    "courseTitle": "French Language Arts - Immersion (7–12)",
+    "subject": "french-language-arts-immersion",
+    "subjectAreaId": "language-arts-french-immersion",
+    "subjectId": "french-language-arts-immersion",
+    "unit": "Compréhension orale",
+    "strand": "Compréhension orale",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-olafla-7-hs-fla8-0e68d254-5067-4db8-bb8e-1c3d98c28890": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=0e68d254-5067-4db8-bb8e-1c3d98c28890",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-2a8d6f70-0449-450d-9a1a-574c26513aa5": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=2a8d6f70-0449-450d-9a1a-574c26513aa5",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-9736989f-f17e-4bba-adce-d6b4bb32dc70": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=9736989f-f17e-4bba-adce-d6b4bb32dc70",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-de37c055-9c84-43fa-8832-0e4a2b4df3be": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=de37c055-9c84-43fa-8832-0e4a2b4df3be",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-cbd6b759-9758-45ff-82e8-b85449108354": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=cbd6b759-9758-45ff-82e8-b85449108354",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-de589b53-df6e-4cd5-9f26-b9843a3dfb29": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=de589b53-df6e-4cd5-9f26-b9843a3dfb29",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-42843eba-4fb2-42e7-abcf-35d076292afc": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=42843eba-4fb2-42e7-abcf-35d076292afc",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-1d737efd-2d73-4f85-b813-923b6ca659cd": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=1d737efd-2d73-4f85-b813-923b6ca659cd",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-eaca8696-a152-4dbc-ab0c-4c21f8ecaacc": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=eaca8696-a152-4dbc-ab0c-4c21f8ecaacc",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-2aea584c-b7a4-47f8-b03d-20268535b3a6": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=2aea584c-b7a4-47f8-b03d-20268535b3a6",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-d64c7045-c259-4284-b9d8-e94b15f407c1": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=d64c7045-c259-4284-b9d8-e94b15f407c1",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-f49e9a21-7fd3-4cba-869a-8b19aca6457f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=f49e9a21-7fd3-4cba-869a-8b19aca6457f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-f90b2cfb-b6bc-4088-8f65-781b10a4dc2e": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=f90b2cfb-b6bc-4088-8f65-781b10a4dc2e",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-77858fc3-5ca2-41f4-ad0c-3dfb663e1255": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=77858fc3-5ca2-41f4-ad0c-3dfb663e1255",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-40c4c20a-849c-4fb7-ad90-49d293999290": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=40c4c20a-849c-4fb7-ad90-49d293999290",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-ca4cf2fd-d80b-4db6-b50d-80ce06c6a07a": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=ca4cf2fd-d80b-4db6-b50d-80ce06c6a07a",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-57aeff78-da28-4436-8448-8200d1f50345": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=57aeff78-da28-4436-8448-8200d1f50345",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-fa9de15f-13d6-431e-8d51-48b13de30d75": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=fa9de15f-13d6-431e-8d51-48b13de30d75",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-61ee3088-b93c-4583-91d2-9f747f582a4a": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=61ee3088-b93c-4583-91d2-9f747f582a4a",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-c956a97a-5a04-4835-a410-be91f6408869": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=c956a97a-5a04-4835-a410-be91f6408869",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-c25b0574-97d6-4049-8ea0-606daa5c8db1": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=c25b0574-97d6-4049-8ea0-606daa5c8db1",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-e5aa3783-9dcf-44fc-bad4-a3137bfc760f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=e5aa3783-9dcf-44fc-bad4-a3137bfc760f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-8d6cfc66-09ff-4a0e-92bf-ede9ac983940": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=8d6cfc66-09ff-4a0e-92bf-ede9ac983940",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-15cafa2c-318f-4cd4-87e8-fe21f6f43159": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=15cafa2c-318f-4cd4-87e8-fe21f6f43159",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-198c30c5-1dd8-4e87-ac90-e6e942337976": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=198c30c5-1dd8-4e87-ac90-e6e942337976",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-0cc0bf41-ca42-4ed8-a1e1-a648367cfac1": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=0cc0bf41-ca42-4ed8-a1e1-a648367cfac1",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-0f75ebe6-7271-4b9b-8a8a-4df4c9825534": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=0f75ebe6-7271-4b9b-8a8a-4df4c9825534",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla8-8fb562a6-3c02-4270-bb2f-ef2eb9609466": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA8?id=8fb562a6-3c02-4270-bb2f-ef2eb9609466",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co1-so1",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO1-SO1",
+      "summaryText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : réagir au discours en faisant part de ses goûts et de ses opinions et en les appuyant à partir d’expériences personnelles; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : réagir au discours en faisant part de ses goûts et de ses opinions et en les appuyant à partir d’expériences personnelles; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "réagir au discours en faisant part de ses goûts et de ses opinions et en les appuyant à partir d’expériences personnelles"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-0e68d254-5067-4db8-bb8e-1c3d98c28890",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0e68d254-5067-4db8-bb8e-1c3d98c28890",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 20.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co1-so2",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO1-SO2",
+      "summaryText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : distinguer les faits des opinions ou les faits des hypothèses; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : distinguer les faits des opinions ou les faits des hypothèses; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "distinguer les faits des opinions ou les faits des hypothèses"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-2a8d6f70-0449-450d-9a1a-574c26513aa5",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "2a8d6f70-0449-450d-9a1a-574c26513aa5",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 20.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co1-so3",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO1-SO3",
+      "summaryText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : dégager le point de vue de l’auteur; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : dégager le point de vue de l’auteur; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager le point de vue de l’auteur"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-9736989f-f17e-4bba-adce-d6b4bb32dc70",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "9736989f-f17e-4bba-adce-d6b4bb32dc70",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 20.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co1-so4",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO1-SO4",
+      "summaryText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : analyser des éléments tels que la trame sonore, le slogan, la caractérisation et l’humour dans une publicité; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : analyser des éléments tels que la trame sonore, le slogan, la caractérisation et l’humour dans une publicité; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "analyser des éléments tels que la trame sonore, le slogan, la caractérisation et l’humour dans une publicité"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-de37c055-9c84-43fa-8832-0e4a2b4df3be",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "de37c055-9c84-43fa-8832-0e4a2b4df3be",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 20.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co1-so5",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO1-SO5",
+      "summaryText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : distinguer les faits, les opinions, les hypothèses dans des reportages, des bulletins de nouvelles ou des entrevues; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à un besoin d’information à l’écoute, l’élève devra : distinguer les faits, les opinions, les hypothèses dans des reportages, des bulletins de nouvelles ou des entrevues; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à un besoin d’information à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "distinguer les faits, les opinions, les hypothèses dans des reportages, des bulletins de nouvelles ou des entrevues"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-cbd6b759-9758-45ff-82e8-b85449108354",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "cbd6b759-9758-45ff-82e8-b85449108354",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à un besoin d’information",
+      "moduleSequence": 20.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co2-so1",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO2-SO1",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : dégager la dynamique des personnages (rôles, rapports et caractérisation) et son impact sur l’action dans des émissions jeunesse ou dans des films; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : dégager la dynamique des personnages (rôles, rapports et caractérisation) et son impact sur l’action dans des émissions jeunesse ou dans des films; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager la dynamique des personnages (rôles, rapports et caractérisation) et son impact sur l’action dans des émissions jeunesse ou dans des films"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-de589b53-df6e-4cd5-9f26-b9843a3dfb29",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "de589b53-df6e-4cd5-9f26-b9843a3dfb29",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 20.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co2-so2",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO2-SO2",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : faire part de ses sentiments et de ses opinions sur les relations entre les personnages à partir de son expérience personnelle; consolidation des apprentissages",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : faire part de ses sentiments et de ses opinions sur les relations entre les personnages à partir de son expérience personnelle; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "faire part de ses sentiments et de ses opinions sur les relations entre les personnages à partir de son expérience personnelle"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-42843eba-4fb2-42e7-abcf-35d076292afc",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "42843eba-4fb2-42e7-abcf-35d076292afc",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 20.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co2-so3",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO2-SO3",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : dégager certains éléments caractéristiques des poèmes ou des chansons tels que le langage imagé et le rythme; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : dégager certains éléments caractéristiques des poèmes ou des chansons tels que le langage imagé et le rythme; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager certains éléments caractéristiques des poèmes ou des chansons tels que le langage imagé et le rythme"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-1d737efd-2d73-4f85-b813-923b6ca659cd",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "1d737efd-2d73-4f85-b813-923b6ca659cd",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 20.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co2-so4",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO2-SO4",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : discuter des thèmes, des messages, des rythmes de la chanson populaire francophone en établissant des liens avec l’univers de la chanson populaire de son milieu; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : discuter des thèmes, des messages, des rythmes de la chanson populaire francophone en établissant des liens avec l’univers de la chanson populaire de son milieu; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter des thèmes, des messages, des rythmes de la chanson populaire francophone en établissant des liens avec l’univers de la chanson populaire de son milieu"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-eaca8696-a152-4dbc-ab0c-4c21f8ecaacc",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "eaca8696-a152-4dbc-ab0c-4c21f8ecaacc",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 20.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co2-so5",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO2-SO5",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : établir des liens entre ses valeurs et celles présentées dans un film, une pièce de théâtre ou une chanson; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : établir des liens entre ses valeurs et celles présentées dans un film, une pièce de théâtre ou une chanson; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "établir des liens entre ses valeurs et celles présentées dans un film, une pièce de théâtre ou une chanson"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-2aea584c-b7a4-47f8-b03d-20268535b3a6",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "2aea584c-b7a4-47f8-b03d-20268535b3a6",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 20.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co2-so6",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO2-SO6",
+      "summaryText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : dégager les thèmes dans une émission télévisée, dans un film ou dans une pièce de théâtre; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra : dégager les thèmes dans une émission télévisée, dans un film ou dans une pièce de théâtre; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique à l’écoute, l’élève devra :",
+        "items": [
+          {
+            "text": "dégager les thèmes dans une émission télévisée, dans un film ou dans une pièce de théâtre"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-d64c7045-c259-4284-b9d8-e94b15f407c1",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "d64c7045-c259-4284-b9d8-e94b15f407c1",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux et décoder des messages sonores dans des produits médiatiques pour répondre à des besoins d’imaginaire, de divertissement et d’esthétique",
+      "moduleSequence": 20.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co3-so1",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO3-SO1",
+      "summaryText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française, l’élève devra : apprécier des films et des bandes vidéo d’expression française pour adolescents; consolidation des apprentissages",
+      "officialOutcomeText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française, l’élève devra : apprécier des films et des bandes vidéo d’expression française pour adolescents; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer son ATTITUDE POSITIVE envers la langue française, l’élève devra :",
+        "items": [
+          {
+            "text": "apprécier des films et des bandes vidéo d’expression française pour adolescents"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-f49e9a21-7fd3-4cba-869a-8b19aca6457f",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f49e9a21-7fd3-4cba-869a-8b19aca6457f",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux, des messages sonores dans des produits médiatiques pour développer une attitude positive envers la langue française et les cultures francophones",
+      "moduleSequence": 20.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co3-so2",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO3-SO2",
+      "summaryText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française, l’élève devra : apprécier des émissions radiophoniques ou télévisées en français destinées aux adolescents; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour démontrer son ATTITUDE POSITIVE envers la langue française, l’élève devra : apprécier des émissions radiophoniques ou télévisées en français destinées aux adolescents; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer son ATTITUDE POSITIVE envers la langue française, l’élève devra :",
+        "items": [
+          {
+            "text": "apprécier des émissions radiophoniques ou télévisées en français destinées aux adolescents"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-f90b2cfb-b6bc-4088-8f65-781b10a4dc2e",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f90b2cfb-b6bc-4088-8f65-781b10a4dc2e",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: comprendre des discours oraux, des messages sonores dans des produits médiatiques pour développer une attitude positive envers la langue française et les cultures francophones",
+      "moduleSequence": 20.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co4-so1",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO4-SO1",
+      "summaryText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire des prédictions sur le contenu à partir de ses connaissances de l’interprète, de l’auteur, du présentateur ou de l’émission pour orienter son écoute; se remémorer ce qu’il connaît du style, des sujets habituellement traités, de l’opinion des gens, etc., imaginer ce que pourrait être le contenu; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire des prédictions sur le contenu à partir de ses connaissances de l’interprète, de l’auteur, du présentateur ou de l’émission pour orienter son écoute; se remémorer ce qu’il connaît du style, des sujets habituellement traités, de l’opinion des gens, etc., imaginer ce que pourrait être le contenu; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire des prédictions sur le contenu à partir de ses connaissances de l’interprète, de l’auteur, du présentateur ou de l’émission pour orienter son écoute",
+            "children": [
+              {
+                "text": "se remémorer ce qu’il connaît du style, des sujets habituellement traités, de l’opinion des gens, etc.,"
+              },
+              {
+                "text": "imaginer ce que pourrait être le contenu;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-77858fc3-5ca2-41f4-ad0c-3dfb663e1255",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "77858fc3-5ca2-41f4-ad0c-3dfb663e1255",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: planifier son écoute",
+      "moduleSequence": 20.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co4-so2",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO4-SO2",
+      "summaryText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire des prédictions sur l’organisation du contenu à partir des indices annonçant la ou les structures du discours pour orienter son écoute; reconnaître que les structures de texte : représentent l’organisation de l’information, permettent de se concentrer sur l’information importante pour mieux la comprendre et pour mieux la retenir, se remémorer les indices qui servent à identifier les structures de texte, relever les indices fournis par le titre, par l’annonce du sujet, par le matériel d’accompagnement ou par le présentateur, sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis; consolidation des apprentissages",
+      "officialOutcomeText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire des prédictions sur l’organisation du contenu à partir des indices annonçant la ou les structures du discours pour orienter son écoute; reconnaître que les structures de texte : représentent l’organisation de l’information, permettent de se concentrer sur l’information importante pour mieux la comprendre et pour mieux la retenir, se remémorer les indices qui servent à identifier les structures de texte, relever les indices fournis par le titre, par l’annonce du sujet, par le matériel d’accompagnement ou par le présentateur, sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire des prédictions sur l’organisation du contenu à partir des indices annonçant la ou les structures du discours pour orienter son écoute",
+            "children": [
+              {
+                "text": "reconnaître que les structures de texte :",
+                "children": [
+                  {
+                    "text": "représentent l’organisation de l’information,"
+                  },
+                  {
+                    "text": "permettent de se concentrer sur l’information importante pour mieux la comprendre et pour mieux la retenir,"
+                  }
+                ]
+              },
+              {
+                "text": "se remémorer les indices qui servent à identifier les structures de texte,"
+              },
+              {
+                "text": "relever les indices fournis par le titre, par l’annonce du sujet, par le matériel d’accompagnement ou par le présentateur,"
+              },
+              {
+                "text": "sélectionner la structure de texte qui s’apparente le mieux aux indices recueillis;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-40c4c20a-849c-4fb7-ad90-49d293999290",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "40c4c20a-849c-4fb7-ad90-49d293999290",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: planifier son écoute",
+      "moduleSequence": 20.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co4-so3",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO4-SO3",
+      "summaryText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : examiner les facteurs qui influencent la situation d’écoute; prendre en considération les facteurs suivants : la durée du discours, le genre de discours, la familiarité avec le sujet et le vocabulaire : la possibilité de réécouter ou de visionner de nouveau le document, la possibilité de poser des questions et d’interagir, la possibilité d’avoir un cadre de référence pour prendre des notes, la tâche à réaliser : la familiarité avec la tâche, les modalités de réalisation de la tâche, le temps nécessaire pour accomplir la tâche proposée, évaluer leur influence sur la situation d’écoute et prendre les dispositions nécessaires pour surmonter les difficultés; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : examiner les facteurs qui influencent la situation d’écoute; prendre en considération les facteurs suivants : la durée du discours, le genre de discours, la familiarité avec le sujet et le vocabulaire : la possibilité de réécouter ou de visionner de nouveau le document, la possibilité de poser des questions et d’interagir, la possibilité d’avoir un cadre de référence pour prendre des notes, la tâche à réaliser : la familiarité avec la tâche, les modalités de réalisation de la tâche, le temps nécessaire pour accomplir la tâche proposée, évaluer leur influence sur la situation d’écoute et prendre les dispositions nécessaires pour surmonter les difficultés; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "examiner les facteurs qui influencent la situation d’écoute",
+            "children": [
+              {
+                "text": "prendre en considération les facteurs suivants :",
+                "children": [
+                  {
+                    "text": "la durée du discours,"
+                  },
+                  {
+                    "text": "le genre de discours,"
+                  },
+                  {
+                    "text": "la familiarité avec le sujet et le vocabulaire :",
+                    "children": [
+                      {
+                        "text": "la possibilité de réécouter ou de visionner de nouveau le document,"
+                      },
+                      {
+                        "text": "la possibilité de poser des questions et d’interagir,"
+                      },
+                      {
+                        "text": "la possibilité d’avoir un cadre de référence pour prendre des notes,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "la tâche à réaliser :",
+                    "children": [
+                      {
+                        "text": "la familiarité avec la tâche,"
+                      },
+                      {
+                        "text": "les modalités de réalisation de la tâche,"
+                      },
+                      {
+                        "text": "le temps nécessaire pour accomplir la tâche proposée,"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "évaluer leur influence sur la situation d’écoute et prendre les dispositions nécessaires pour surmonter les difficultés;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-ca4cf2fd-d80b-4db6-b50d-80ce06c6a07a",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "ca4cf2fd-d80b-4db6-b50d-80ce06c6a07a",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: planifier son écoute",
+      "moduleSequence": 20.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co4-so4",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO4-SO4",
+      "summaryText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : s’informer sur l’émetteur pour orienter son écoute; évaluer la nécessité de faire des lectures préalables ou de consulter des personnes-ressources en tenant compte de ses attentes, de la tâche à réaliser et de sa familiarité avec le sujet, prendre les dispositions nécessaires.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : s’informer sur l’émetteur pour orienter son écoute; évaluer la nécessité de faire des lectures préalables ou de consulter des personnes-ressources en tenant compte de ses attentes, de la tâche à réaliser et de sa familiarité avec le sujet, prendre les dispositions nécessaires.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "s’informer sur l’émetteur pour orienter son écoute",
+            "children": [
+              {
+                "text": "évaluer la nécessité de faire des lectures préalables ou de consulter des personnes-ressources en tenant compte de ses attentes, de la tâche à réaliser et de sa familiarité avec le sujet,"
+              },
+              {
+                "text": "prendre les dispositions nécessaires."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-57aeff78-da28-4436-8448-8200d1f50345",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "57aeff78-da28-4436-8448-8200d1f50345",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: planifier son écoute",
+      "moduleSequence": 20.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co4-so5",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO4-SO5",
+      "summaryText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : s’informer sur le contexte socioculturel et historique du discours pour orienter son écoute; évaluer la nécessité de faire des lectures préalables ou de consulter des personnes-ressources en tenant compte de ses attentes, de la tâche à réaliser et de sa familiarité avec le sujet, prendre les dispositions nécessaires pour surmonter les difficultés.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes : s’informer sur le contexte socioculturel et historique du discours pour orienter son écoute; évaluer la nécessité de faire des lectures préalables ou de consulter des personnes-ressources en tenant compte de ses attentes, de la tâche à réaliser et de sa familiarité avec le sujet, prendre les dispositions nécessaires pour surmonter les difficultés.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour PLANIFIER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "s’informer sur le contexte socioculturel et historique du discours pour orienter son écoute",
+            "children": [
+              {
+                "text": "évaluer la nécessité de faire des lectures préalables ou de consulter des personnes-ressources en tenant compte de ses attentes, de la tâche à réaliser et de sa familiarité avec le sujet,"
+              },
+              {
+                "text": "prendre les dispositions nécessaires pour surmonter les difficultés."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-fa9de15f-13d6-431e-8d51-48b13de30d75",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "fa9de15f-13d6-431e-8d51-48b13de30d75",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: planifier son écoute",
+      "moduleSequence": 20.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so1",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO1",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les structures textuelles pour soutenir sa compréhension et pour retenir l’information; reconnaître qu’il peut identifier la structure de texte à partir d’indices de signalement (marqueurs de relation) contenus dans le texte, repérer les marqueurs de relation qui servent d’organisateurs, les associer à une structure textuelle, s’appuyer sur la structure textuelle identifiée pour organiser l’information; consolidation des apprentissages",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les structures textuelles pour soutenir sa compréhension et pour retenir l’information; reconnaître qu’il peut identifier la structure de texte à partir d’indices de signalement (marqueurs de relation) contenus dans le texte, repérer les marqueurs de relation qui servent d’organisateurs, les associer à une structure textuelle, s’appuyer sur la structure textuelle identifiée pour organiser l’information; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les structures textuelles pour soutenir sa compréhension et pour retenir l’information",
+            "children": [
+              {
+                "text": "reconnaître qu’il peut identifier la structure de texte à partir d’indices de signalement (marqueurs de relation) contenus dans le texte,"
+              },
+              {
+                "text": "repérer les marqueurs de relation qui servent d’organisateurs,"
+              },
+              {
+                "text": "les associer à une structure textuelle,"
+              },
+              {
+                "text": "s’appuyer sur la structure textuelle identifiée pour organiser l’information;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-61ee3088-b93c-4583-91d2-9f747f582a4a",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "61ee3088-b93c-4583-91d2-9f747f582a4a",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so2",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO2",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : utiliser les indices du discours pour distinguer les faits des opinions; reconnaître que les faits peuvent être vérifiés hors de tout doute, reconnaître que certains mots et expressions sont signes de neutralité et d’autres sont d’ordre subjectif, repérer les indices qui signalent la neutralité ou la subjectivité, utiliser ces indices pour départager les faits des opinions; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : utiliser les indices du discours pour distinguer les faits des opinions; reconnaître que les faits peuvent être vérifiés hors de tout doute, reconnaître que certains mots et expressions sont signes de neutralité et d’autres sont d’ordre subjectif, repérer les indices qui signalent la neutralité ou la subjectivité, utiliser ces indices pour départager les faits des opinions; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser les indices du discours pour distinguer les faits des opinions",
+            "children": [
+              {
+                "text": "reconnaître que les faits peuvent être vérifiés hors de tout doute,"
+              },
+              {
+                "text": "reconnaître que certains mots et expressions sont signes de neutralité et d’autres sont d’ordre subjectif,"
+              },
+              {
+                "text": "repérer les indices qui signalent la neutralité ou la subjectivité,"
+              },
+              {
+                "text": "utiliser ces indices pour départager les faits des opinions;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-c956a97a-5a04-4835-a410-be91f6408869",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "c956a97a-5a04-4835-a410-be91f6408869",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so3",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO3",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : adopter un comportement ou des attitudes qui facilitent l’écoute; prendre conscience de son attitude face au sujet ou à l’émetteur, faire un retour sur les éléments qui donnent de la valeur à la tâche, déterminer si son attitude lui permet de réaliser son projet de communication, modifier son attitude si nécessaire; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : adopter un comportement ou des attitudes qui facilitent l’écoute; prendre conscience de son attitude face au sujet ou à l’émetteur, faire un retour sur les éléments qui donnent de la valeur à la tâche, déterminer si son attitude lui permet de réaliser son projet de communication, modifier son attitude si nécessaire; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "adopter un comportement ou des attitudes qui facilitent l’écoute",
+            "children": [
+              {
+                "text": "prendre conscience de son attitude face au sujet ou à l’émetteur,"
+              },
+              {
+                "text": "faire un retour sur les éléments qui donnent de la valeur à la tâche,"
+              },
+              {
+                "text": "déterminer si son attitude lui permet de réaliser son projet de communication,"
+              },
+              {
+                "text": "modifier son attitude si nécessaire;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-c25b0574-97d6-4049-8ea0-606daa5c8db1",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "c25b0574-97d6-4049-8ea0-606daa5c8db1",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so4",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO4",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension; reconnaître que ses connaissances antérieures peuvent être la cause d’un bris de compréhension, identifier les nouvelles informations qui posent problème, émettre de nouvelles hypothèses en s’appuyant sur les nouvelles informations, valider ces nouvelles connaissances en utilisant le contexte; modifier le réseau de ses connaissances en remplaçant les connaissances erronées par de nouvelles connaissances, poursuivre la reconstruction du sens du texte à partir des nouveaux indices; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension; reconnaître que ses connaissances antérieures peuvent être la cause d’un bris de compréhension, identifier les nouvelles informations qui posent problème, émettre de nouvelles hypothèses en s’appuyant sur les nouvelles informations, valider ces nouvelles connaissances en utilisant le contexte; modifier le réseau de ses connaissances en remplaçant les connaissances erronées par de nouvelles connaissances, poursuivre la reconstruction du sens du texte à partir des nouveaux indices; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "remettre en question ses connaissances antérieures, si nécessaire, pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître que ses connaissances antérieures peuvent être la cause d’un bris de compréhension,"
+              },
+              {
+                "text": "identifier les nouvelles informations qui posent problème,"
+              },
+              {
+                "text": "émettre de nouvelles hypothèses en s’appuyant sur les nouvelles informations,"
+              },
+              {
+                "text": "valider ces nouvelles connaissances en utilisant le contexte"
+              },
+              {
+                "text": "modifier le réseau de ses connaissances en remplaçant les connaissances erronées par de nouvelles connaissances,"
+              },
+              {
+                "text": "poursuivre la reconstruction du sens du texte à partir des nouveaux indices;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-e5aa3783-9dcf-44fc-bad4-a3137bfc760f",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "e5aa3783-9dcf-44fc-bad4-a3137bfc760f",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so5",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO5",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : noter les points sur lesquels il veut des clarifications; reconnaître que ce qui a été entendu ne concorde pas avec ce qui avait été prévu, ou n’est pas assez clair, noter en style télégraphique l’information qui pose problème pour y revenir plus tard; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : noter les points sur lesquels il veut des clarifications; reconnaître que ce qui a été entendu ne concorde pas avec ce qui avait été prévu, ou n’est pas assez clair, noter en style télégraphique l’information qui pose problème pour y revenir plus tard; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "noter les points sur lesquels il veut des clarifications",
+            "children": [
+              {
+                "text": "reconnaître que ce qui a été entendu ne concorde pas avec ce qui avait été prévu, ou n’est pas assez clair,"
+              },
+              {
+                "text": "noter en style télégraphique l’information qui pose problème pour y revenir plus tard;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-8d6cfc66-09ff-4a0e-92bf-ede9ac983940",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "8d6cfc66-09ff-4a0e-92bf-ede9ac983940",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so6",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO6",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : utiliser des moyens pour tolérer l’ambiguïté tout en ne perdant pas le fil conducteur; faire le point sur ce que veut nous dire le locuteur, vérifier si le locuteur ne s’est pas éloigné du sujet, s’il n’a pas pris une tangente qui n’ajoute rien au sujet principal, noter en style télégraphique l’information qui pose problème pour y revenir plus tard.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : utiliser des moyens pour tolérer l’ambiguïté tout en ne perdant pas le fil conducteur; faire le point sur ce que veut nous dire le locuteur, vérifier si le locuteur ne s’est pas éloigné du sujet, s’il n’a pas pris une tangente qui n’ajoute rien au sujet principal, noter en style télégraphique l’information qui pose problème pour y revenir plus tard.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser des moyens pour tolérer l’ambiguïté tout en ne perdant pas le fil conducteur",
+            "children": [
+              {
+                "text": "faire le point sur ce que veut nous dire le locuteur,"
+              },
+              {
+                "text": "vérifier si le locuteur ne s’est pas éloigné du sujet, s’il n’a pas pris une tangente qui n’ajoute rien au sujet principal,"
+              },
+              {
+                "text": "noter en style télégraphique l’information qui pose problème pour y revenir plus tard."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-15cafa2c-318f-4cd4-87e8-fe21f6f43159",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "15cafa2c-318f-4cd4-87e8-fe21f6f43159",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so7",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO7",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du discours explicatif; reconnaître le questionnement, cerner la phase explicative qui apporte la réponse au questionnement, reconnaître la façon dont les explications sont agencées (énumération, comparaison, rapport de cause à effet, etc.), dégager la conclusion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : faire appel à ses connaissances sur les procédés du discours explicatif; reconnaître le questionnement, cerner la phase explicative qui apporte la réponse au questionnement, reconnaître la façon dont les explications sont agencées (énumération, comparaison, rapport de cause à effet, etc.), dégager la conclusion; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "faire appel à ses connaissances sur les procédés du discours explicatif",
+            "children": [
+              {
+                "text": "reconnaître le questionnement,"
+              },
+              {
+                "text": "cerner la phase explicative qui apporte la réponse au questionnement,"
+              },
+              {
+                "text": "reconnaître la façon dont les explications sont agencées (énumération, comparaison, rapport de cause à effet, etc.),"
+              },
+              {
+                "text": "dégager la conclusion;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-198c30c5-1dd8-4e87-ac90-e6e942337976",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "198c30c5-1dd8-4e87-ac90-e6e942337976",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so8",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO8",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : remettre en question ses hypothèses et les modifier, au besoin, pour soutenir sa compréhension; reconnaître que ses prédictions peuvent être erronées ou partiellement incorrectes, car elles l’éloignent du sujet, se questionner sur le choix des indices utilisés pour émettre ses hypothèses, émettre de nouvelles hypothèses à partir de l’information transmise, poursuivre la reconstruction du sens du texte à partir de nouveaux indices; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : remettre en question ses hypothèses et les modifier, au besoin, pour soutenir sa compréhension; reconnaître que ses prédictions peuvent être erronées ou partiellement incorrectes, car elles l’éloignent du sujet, se questionner sur le choix des indices utilisés pour émettre ses hypothèses, émettre de nouvelles hypothèses à partir de l’information transmise, poursuivre la reconstruction du sens du texte à partir de nouveaux indices; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "remettre en question ses hypothèses et les modifier, au besoin, pour soutenir sa compréhension",
+            "children": [
+              {
+                "text": "reconnaître que ses prédictions peuvent être erronées ou partiellement incorrectes, car elles l’éloignent du sujet,"
+              },
+              {
+                "text": "se questionner sur le choix des indices utilisés pour émettre ses hypothèses,"
+              },
+              {
+                "text": "émettre de nouvelles hypothèses à partir de l’information transmise,"
+              },
+              {
+                "text": "poursuivre la reconstruction du sens du texte à partir de nouveaux indices;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-0cc0bf41-ca42-4ed8-a1e1-a648367cfac1",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0cc0bf41-ca42-4ed8-a1e1-a648367cfac1",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so9",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO9",
+      "summaryText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : utiliser, en cours d’écoute, certains indices du discours pour inférer l’intention de l’auteur; observer le rapport de l’auteur avec son sujet (distanciation ou engagement), observer le ton, le vocabulaire et le type de phrases, utiliser l’information obtenue pour connaître les buts de l’auteur.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes : utiliser, en cours d’écoute, certains indices du discours pour inférer l’intention de l’auteur; observer le rapport de l’auteur avec son sujet (distanciation ou engagement), observer le ton, le vocabulaire et le type de phrases, utiliser l’information obtenue pour connaître les buts de l’auteur.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER son projet d’écoute, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser, en cours d’écoute, certains indices du discours pour inférer l’intention de l’auteur",
+            "children": [
+              {
+                "text": "observer le rapport de l’auteur avec son sujet (distanciation ou engagement),"
+              },
+              {
+                "text": "observer le ton, le vocabulaire et le type de phrases,"
+              },
+              {
+                "text": "utiliser l’information obtenue pour connaître les buts de l’auteur."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-0f75ebe6-7271-4b9b-8a8a-4df4c9825534",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0f75ebe6-7271-4b9b-8a8a-4df4c9825534",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla8-fla8-comp-oral-ecoute-co5-so10",
+      "standardCode": "FLA8-COMP-ORAL-ECOUTE-CO5-SO10",
+      "summaryText": "Pour PRENDRE CONSCIENCE de ses apprentissages et de ses besoins d’apprentissage, l’élève devra : discuter de son engagement et de sa persévérance à la tâche (la valeur, les exigences et la contrôlabilité); autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour PRENDRE CONSCIENCE de ses apprentissages et de ses besoins d’apprentissage, l’élève devra : discuter de son engagement et de sa persévérance à la tâche (la valeur, les exigences et la contrôlabilité); autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour PRENDRE CONSCIENCE de ses apprentissages et de ses besoins d’apprentissage, l’élève devra :",
+        "items": [
+          {
+            "text": "discuter de son engagement et de sa persévérance à la tâche (la valeur, les exigences et la contrôlabilité)"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Compréhension orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla8-8fb562a6-3c02-4270-bb2f-ef2eb9609466",
+      "sourceLocator": "OLAFLA_7_HS > FLA8 > Compréhension orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "8fb562a6-3c02-4270-bb2f-ef2eb9609466",
+      "moduleType": "outcome",
+      "moduleLabel": "Écoute: gérer son écoute",
+      "moduleSequence": 20.05
+    }
+  ],
+  "aliases": []
+}

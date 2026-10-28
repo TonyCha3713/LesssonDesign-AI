@@ -1,0 +1,384 @@
+<%- include('partials/head', { isPlanner: true }) %>
+<script type="application/json" id="ldai-data"><%- JSON.stringify(plannerData).replace(/</g, '\\u003c') %></script>
+<%
+	/*
+	 * BUILD ORDER (wizard) vs DOCUMENT ORDER (finished plan + Review checklist)
+	 * -----------------------------------------------------------------------
+	 * The six steps below are the build order. Every block a teacher edits is a
+	 * section with a stable data-section id. The Review checklist "Fix" links,
+	 * Back/Continue buttons and the progress bar all navigate by step/section
+	 * id, never by step number, so steps can be reordered here without touching
+	 * the JavaScript. The finished plan and Review checklist keep their own
+	 * document order (see buildReadinessItems / buildPreviewHtml in the JS).
+	 */
+	const steps = [
+		{ id: 'welcome', label: 'Welcome', short: 'Start' },
+		{ id: 'foundation', label: 'Foundation', short: 'Idea' },
+		{ id: 'targets', label: 'Learning Targets & Assessment', short: 'Goals' },
+		{ id: 'connections', label: 'Connections', short: 'Connect' },
+		{ id: 'design', label: 'Design', short: 'Design' },
+		{ id: 'ready', label: 'Ready', short: 'Review' }
+	];
+%>
+	<div class="lessondesign-ai__shell">
+		<nav class="lessondesign-ai__steps" aria-label="Lesson planning steps">
+			<% steps.forEach(function (step, index) { %>
+				<% if (index > 0) { %><span class="ldai-connector"></span><% } %>
+				<button class="lessondesign-ai__step<%= index === 0 ? ' is-active' : '' %>" type="button" data-step-target="<%= step.id %>" title="<%= step.label %>" aria-label="Step <%= index + 1 %>: <%= step.label %>">
+					<span class="lessondesign-ai__step-index"><%= index + 1 %></span>
+					<span class="lessondesign-ai__step-label"><%= step.short %></span>
+				</button>
+			<% }); %>
+		</nav>
+		<div class="lessondesign-ai__live-status" data-status-message aria-live="polite"></div>
+
+		<div class="lessondesign-ai__planner-layout">
+			<form class="lessondesign-ai__form" data-ldai-form autocomplete="off" novalidate>
+
+				<!-- 1. Welcome ---------------------------------------------------- -->
+				<section class="lessondesign-ai__panel is-active" data-step-panel="welcome">
+					<div class="lessondesign-ai__welcome">
+						<div class="lessondesign-ai__welcome-grid">
+							<div class="lessondesign-ai__welcome-main">
+								<p class="lessondesign-ai__eyebrow">Lesson Planning Studio</p>
+								<div class="ldai-welcome-icon" aria-hidden="true">
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2e7bbc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="18" x2="15" y2="18"></line><line x1="10" y1="22" x2="14" y2="22"></line><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path></svg>
+								</div>
+								<h3>Welcome To <span class="ldai-blue">LessonDesign AI</span></h3>
+								<p class="lessondesign-ai__welcome-copy">Plan meaningful lessons from start to finish in one guided workspace that connects your curriculum, lesson ideas, and Digital Human Library experiences, with AI support available when you need it.</p>
+								<div class="ldai-pills">
+									<span class="ldai-pill ldai-pill--blue">
+										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+										Curriculum-aligned
+									</span>
+									<span class="ldai-pill ldai-pill--orange">
+										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+										Expert Connections
+									</span>
+									<span class="ldai-pill ldai-pill--cyan">
+										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+										Virtual Tours &amp; VR
+									</span>
+								</div>
+								<div class="lessondesign-ai__actions">
+									<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-next-step="foundation" data-start-label>Start New Lesson Plan &rarr;</button>
+									<button class="lessondesign-ai__button" type="button" data-resume-draft hidden>Continue Current Draft</button>
+								</div>
+								<% if (user) { %>
+								<div class="lessondesign-ai__welcome-ai-key" data-user-ai-key-panel>
+									<h4>Your Gemini API Key (Optional)</h4>
+									<p class="lessondesign-ai__field-help">Add your own free Gemini API key to use AI Assist under your own Google account instead of this site's shared key. Your key stays private to your account and is never shown again after saving.</p>
+									<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+										<label class="lessondesign-ai__field">
+											<span>Gemini API Key</span>
+											<input type="password" data-user-gemini-key-input autocomplete="off" placeholder="<%= user.hasGeminiKey ? 'Saved - leave blank to keep, or paste a new key to replace' : 'Paste your personal Gemini API key' %>">
+										</label>
+										<div class="lessondesign-ai__actions">
+											<button class="lessondesign-ai__button" type="button" data-user-gemini-key-save>Save Key</button>
+											<button class="lessondesign-ai__button" type="button" data-user-gemini-key-clear>Remove Key</button>
+										</div>
+									</div>
+									<p class="lessondesign-ai__helper" data-user-gemini-key-status aria-live="polite"></p>
+									<p class="lessondesign-ai__field-help"><a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer">Get a free Gemini API key from Google AI Studio</a></p>
+								</div>
+								<% } %>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- 2. Foundation: lesson identity + curriculum anchor ------------- -->
+				<section class="lessondesign-ai__panel" data-step-panel="foundation" hidden>
+					<div class="lessondesign-ai__panel-header">
+						<div class="lessondesign-ai__panel-title-row"><h3>Lesson Foundation</h3></div>
+						<p>Name the lesson and anchor it to your grade, subject, and curriculum.</p>
+					</div>
+					<%- include('partials/account-prompt') %>
+					<%- include('partials/ai-panel', { section: 'foundation' }) %>
+					<div class="lessondesign-ai__section-coach" data-section-coach="foundation" hidden></div>
+					<div class="lessondesign-ai__section-stack">
+						<section class="lessondesign-ai__subsection" data-section="lesson-idea" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Core Lesson Idea</h4>
+								<p>Name the lesson, frame the central prompt, and note the classroom context it needs to fit.</p>
+							</div>
+							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+								<label class="lessondesign-ai__field">
+									<span>Lesson Title</span>
+									<input type="text" name="lesson_title" maxlength="180" data-bind="foundation.title" placeholder="Example: Water Systems and Community Action">
+								</label>
+								<label class="lessondesign-ai__field">
+									<span>Big Idea Or Prompt</span>
+									<input type="text" name="lesson_prompt" maxlength="220" data-bind="foundation.prompt" placeholder="What should students understand, explore, or create?">
+								</label>
+							</div>
+							<label class="lessondesign-ai__field">
+								<span>Lesson Overview</span>
+								<textarea name="lesson_overview" rows="4" maxlength="1500" data-bind="foundation.overview" placeholder="Describe the context, the learners, and what this lesson is meant to accomplish."></textarea>
+							</label>
+							<label class="lessondesign-ai__field">
+								<span>Learner Context</span>
+								<textarea name="learner_context" rows="3" maxlength="1200" data-bind="foundation.learnerContext" placeholder="Anything about the learners, classroom context, or community setting that should shape the plan."></textarea>
+							</label>
+						</section>
+
+						<section class="lessondesign-ai__subsection" data-section="curriculum" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Curriculum</h4>
+								<p>Choose your grade and subject, then select the curriculum pieces this lesson addresses.</p>
+							</div>
+							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+								<label class="lessondesign-ai__field">
+									<span>Grade</span>
+									<select name="ldai_curriculum_grade" data-bind="curriculum.grade" autocomplete="off">
+										<option value="">Choose A Grade</option>
+									</select>
+								</label>
+								<label class="lessondesign-ai__field">
+									<span>Subject</span>
+									<select name="ldai_curriculum_track" data-bind="curriculum.track" autocomplete="off">
+										<option value="">Choose A Subject</option>
+									</select>
+								</label>
+							</div>
+							<div class="lessondesign-ai__curriculum-layout">
+								<div class="lessondesign-ai__curriculum" data-expectation-list></div>
+								<div class="lessondesign-ai__selection-summary" data-expectation-summary></div>
+							</div>
+						</section>
+					</div>
+					<div class="lessondesign-ai__actions">
+						<span class="lessondesign-ai__finish-note">Start with what you know. Fields can be filled in any order, whether you begin with the lesson idea or with grade and subject.</span>
+						<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-next-step="targets">Continue to Learning Targets &amp; Assessment</button>
+					</div>
+				</section>
+
+				<!-- 3. Learning Targets & Assessment ------------------------------- -->
+				<section class="lessondesign-ai__panel" data-step-panel="targets" hidden>
+					<div class="lessondesign-ai__panel-header">
+						<h3>Learning Targets &amp; Assessment</h3>
+						<p>Define what students will learn and how you will know they have learned it.</p>
+					</div>
+					<%- include('partials/account-prompt') %>
+					<div class="lessondesign-ai__selected-curriculum-strip" data-targets-curriculum hidden></div>
+					<%- include('partials/ai-panel', { section: 'targets' }) %>
+					<div class="lessondesign-ai__section-coach" data-section-coach="targets" hidden></div>
+					<div class="lessondesign-ai__section-stack">
+						<section class="lessondesign-ai__subsection" data-section="learning-objectives" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Learning Objectives</h4>
+								<p>What do you want students to know and be able to do?</p>
+							</div>
+							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+								<label class="lessondesign-ai__field">
+									<span>Learning Goals</span>
+									<textarea name="learning_goals" rows="5" maxlength="1500" data-bind="foundation.learningGoals" placeholder="Students will explain how evidence supports a claim."></textarea>
+									<span class="lessondesign-ai__field-help">Press Enter to start a new objective. No commas are needed between lines.</span>
+								</label>
+								<label class="lessondesign-ai__field">
+									<span>Success Criteria</span>
+									<textarea name="success_criteria" rows="5" maxlength="1500" data-bind="foundation.successCriteria" placeholder="I can use evidence to explain my thinking."></textarea>
+									<span class="lessondesign-ai__field-help">Press Enter to start a new success criterion. No commas are needed between lines.</span>
+								</label>
+							</div>
+						</section>
+						<section class="lessondesign-ai__subsection" data-section="assessment" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Assessment</h4>
+								<p>How will you gather evidence of learning during and at the end of the lesson?</p>
+							</div>
+							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+								<label class="lessondesign-ai__field">
+									<span>Formative Assessment</span>
+									<textarea name="formative_assessment" rows="4" maxlength="1200" data-bind="foundation.formativeAssessment" placeholder="Assessment For and As Learning (observations, conversations, products)"></textarea>
+								</label>
+								<label class="lessondesign-ai__field">
+									<span>Summative Assessment</span>
+									<textarea name="summative_assessment" rows="4" maxlength="1200" data-bind="foundation.summativeAssessment" placeholder="Assessment of Learning (observations, conversations, products)"></textarea>
+								</label>
+							</div>
+						</section>
+						<section class="lessondesign-ai__subsection" data-section="transferable-skills" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Transferable Skills</h4>
+								<p>Which broad skills does this lesson help students develop?</p>
+							</div>
+							<fieldset class="lessondesign-ai__choice-group">
+								<legend class="lessondesign-ai__visually-hidden">Transferable Skills</legend>
+								<div class="lessondesign-ai__check-grid">
+									<% transferableSkills.forEach(function (skill) { %>
+										<label class="lessondesign-ai__check-option"><input type="checkbox" value="<%= skill %>" data-array-bind="design.transferableSkills"><span><%= skill %></span></label>
+									<% }); %>
+								</div>
+							</fieldset>
+						</section>
+					</div>
+					<div class="lessondesign-ai__actions">
+						<button class="lessondesign-ai__button" type="button" data-prev-step="foundation">Back to Foundation</button>
+						<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-next-step="connections">Continue to Connections</button>
+					</div>
+				</section>
+
+				<!-- 4. Connections ------------------------------------------------- -->
+				<section class="lessondesign-ai__panel" data-step-panel="connections" hidden>
+					<div class="lessondesign-ai__panel-header">
+						<h3>Learning Connections</h3>
+						<p>Find experts and virtual learning experiences that fit the lesson.</p>
+					</div>
+					<%- include('partials/account-prompt') %>
+					<div class="lessondesign-ai__section-stack" data-section="connections" tabindex="-1">
+						<fieldset class="lessondesign-ai__choice-group">
+							<legend>How Do You Want To Find A Learning Connection?</legend>
+							<div class="lessondesign-ai__choice-options">
+								<label class="lessondesign-ai__choice-option">
+									<input type="radio" name="connection_mode" value="guided" data-bind="connections.mode">
+									<span>
+										<strong>Suggest Likely Fits From This Draft</strong>
+										<span class="lessondesign-ai__field-help">Use the lesson idea, grade, subject, curriculum pieces, goals, and success criteria already in the draft to surface likely matches first.</span>
+									</span>
+								</label>
+								<label class="lessondesign-ai__choice-option">
+									<input type="radio" name="connection_mode" value="browse" data-bind="connections.mode">
+									<span>
+										<strong>I Want To Browse Experts And Tours Myself</strong>
+										<span class="lessondesign-ai__field-help">Keep the results neutral and use filters and search to narrow them manually.</span>
+									</span>
+								</label>
+							</div>
+						</fieldset>
+						<p class="lessondesign-ai__helper" data-resource-guidance>Suggestions use the lesson context already in the draft. Add a subject, goal, or prompt for stronger matches.</p>
+						<div class="lessondesign-ai__section-coach" data-section-coach="connections" hidden></div>
+						<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+							<label class="lessondesign-ai__field">
+								<span>Search Resources</span>
+								<input type="search" name="resource_search" data-resource-search placeholder="Search by topic, subject, or format">
+							</label>
+							<label class="lessondesign-ai__field">
+								<span>Resource Type</span>
+								<select name="resource_type" data-resource-type>
+									<option value="all">All Resources</option>
+									<option value="expert">Experts</option>
+									<option value="tour">Virtual Tours</option>
+								</select>
+							</label>
+							<label class="lessondesign-ai__field">
+								<span>Connection Notes</span>
+								<input type="text" name="connection_note" maxlength="500" data-bind="connections.note" placeholder="What should this connection add to the lesson?">
+							</label>
+						</div>
+						<div class="lessondesign-ai__resource-layout">
+							<div class="lessondesign-ai__resource-results-panel">
+								<div class="lessondesign-ai__resource-results-head">
+									<div class="lessondesign-ai__resource-summary" data-resource-summary></div>
+								</div>
+								<div class="lessondesign-ai__resource-list" data-resource-results></div>
+								<div class="lessondesign-ai__resource-results-actions">
+									<button class="lessondesign-ai__button" type="button" data-resource-toggle hidden></button>
+								</div>
+							</div>
+							<aside class="lessondesign-ai__selected" data-selected-resources></aside>
+						</div>
+					</div>
+					<div class="lessondesign-ai__actions">
+						<button class="lessondesign-ai__button" type="button" data-prev-step="targets">Back to Learning Targets &amp; Assessment</button>
+						<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-next-step="design">Continue to Design</button>
+					</div>
+				</section>
+
+				<!-- 5. Design: Support Every Learner first, then the experience ---- -->
+				<section class="lessondesign-ai__panel" data-step-panel="design" hidden>
+					<div class="lessondesign-ai__panel-header">
+						<div class="lessondesign-ai__panel-title-row"><h3>Design</h3></div>
+						<p>Plan access for every learner first, then the learning experience.</p>
+					</div>
+					<%- include('partials/account-prompt') %>
+					<%- include('partials/ai-panel', { section: 'design' }) %>
+					<div class="lessondesign-ai__section-coach" data-section-coach="design" hidden></div>
+					<div class="lessondesign-ai__section-stack">
+						<section class="lessondesign-ai__subsection" data-section="learner-support" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Support Every Learner</h4>
+								<p>Plan with inclusion, accessibility, and culturally responsive pedagogy in mind.</p>
+							</div>
+							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+								<label class="lessondesign-ai__field">
+									<span>Differentiation And Accessibility</span>
+									<textarea name="differentiation" rows="5" maxlength="1500" data-bind="design.differentiation" placeholder="How will you support varied entry points, pacing, language, and accessibility needs?"></textarea>
+								</label>
+								<div class="lessondesign-ai__field">
+									<span>Culturally Relevant and Responsive Pedagogy (CRRP)</span>
+									<div class="lessondesign-ai__check-grid">
+										<% crrpOptions.forEach(function (option) { %>
+											<label class="lessondesign-ai__check-option"><input type="checkbox" value="<%= option %>" data-array-bind="design.crrpChecks"><span><%= option %></span></label>
+										<% }); %>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="lessondesign-ai__subsection" data-section="learning-sequence" tabindex="-1">
+							<div class="lessondesign-ai__subsection-header">
+								<h4>Plan The Learning Experience</h4>
+								<p>Suggest a few learning activities, instructional strategies, materials, and technology tools.</p>
+							</div>
+							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+								<label class="lessondesign-ai__field">
+									<span>Learning Activities &amp; Instructional Strategies</span>
+									<textarea name="learning_activities" rows="7" maxlength="2200" data-bind="design.learningActivities" placeholder="One activity or phase per line."></textarea>
+								</label>
+								<label class="lessondesign-ai__field">
+									<span>Materials</span>
+									<textarea name="materials" rows="7" maxlength="1500" data-bind="design.materials" placeholder="List resources and materials needed for the lesson."></textarea>
+								</label>
+							</div>
+							<label class="lessondesign-ai__field">
+								<span>Technology</span>
+								<textarea name="technology" rows="4" maxlength="1200" data-bind="design.technology" placeholder="List devices, platforms, and digital tools students will use."></textarea>
+							</label>
+						</section>
+						<label class="lessondesign-ai__field" data-section="teacher-notes" tabindex="-1">
+							<span>Additional Notes</span>
+							<textarea name="teacher_notes" rows="5" maxlength="1500" data-bind="design.teacherNotes" placeholder="Anything else the teacher should remember before, during, or after facilitation."></textarea>
+						</label>
+					</div>
+					<div class="lessondesign-ai__actions">
+						<button class="lessondesign-ai__button" type="button" data-prev-step="connections">Back to Connections</button>
+						<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-next-step="ready">Review Lesson Plan</button>
+					</div>
+				</section>
+
+				<!-- 6. Ready -------------------------------------------------------- -->
+				<section class="lessondesign-ai__panel" data-step-panel="ready" hidden>
+					<%- include('partials/account-prompt') %>
+					<div class="lessondesign-ai__ready-layout<%= user && user.hasAccess ? '' : ' lessondesign-ai__ready-layout--guest' %>">
+						<div class="lessondesign-ai__ready-main">
+							<div class="lessondesign-ai__readiness" data-readiness-panel aria-live="polite"></div>
+							<% if (user && user.hasAccess) { %>
+								<div class="lessondesign-ai__preview" data-preview></div>
+							<% } %>
+						</div>
+						<% if (user && user.hasAccess) { %>
+							<aside class="lessondesign-ai__export-tools" data-section="review-export" tabindex="-1">
+								<h4>Review And Export</h4>
+								<p>These actions are available because this draft is connected to your teacher account.</p>
+								<div class="lessondesign-ai__stack">
+									<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-view-preview>View Lesson Plan</button>
+									<button class="lessondesign-ai__button" type="button" data-download-summary>Download Lesson Plan (PDF)</button>
+									<a class="lessondesign-ai__button" href="/plans">My Lesson Plans</a>
+									<button class="lessondesign-ai__button" type="button" data-reset-planner>Start New Draft</button>
+								</div>
+								<p class="lessondesign-ai__helper" data-last-saved></p>
+							</aside>
+						<% } else { %>
+							<div data-section="review-export" tabindex="-1" hidden></div>
+						<% } %>
+					</div>
+					<div class="lessondesign-ai__actions">
+						<button class="lessondesign-ai__button" type="button" data-prev-step="design">Back to Design</button>
+						<span class="lessondesign-ai__finish-note"><%= user && user.hasAccess ? 'Your lesson plans are saved to your account automatically. Open them anytime from My Lesson Plans.' : 'Use Back to Design if you want to revise the lesson before finishing.' %></span>
+					</div>
+				</section>
+			</form>
+			<aside class="ldai-outline" data-lesson-outline aria-label="Lesson outline"></aside>
+		</div>
+	</div>
+<%- include('partials/foot', { scripts: ['/assets/js/lesson-design-ai.js'] }) %>

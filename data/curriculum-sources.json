@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "source-registry-platform",
+    "notes": "Registry for sharded source-backed Alberta curriculum data for the current demo scope.",
+    "updated": "2026-07-20"
+  },
+  "countries": [
+    {
+      "id": "CA",
+      "label": "Canada"
+    }
+  ],
+  "gradeLevels": [
+    {
+      "id": "7",
+      "label": "Grade 7"
+    },
+    {
+      "id": "8",
+      "label": "Grade 8"
+    },
+    {
+      "id": "9",
+      "label": "Grade 9"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "science",
+      "label": "Science"
+    },
+    {
+      "id": "science-ke",
+      "label": "Science - Knowledge and Employability"
+    },
+    {
+      "id": "mathematics",
+      "label": "Mathematics"
+    },
+    {
+      "id": "mathematics-ke",
+      "label": "Mathematics - Knowledge and Employability"
+    },
+    {
+      "id": "english-language-arts",
+      "label": "English Language Arts"
+    },
+    {
+      "id": "english-language-arts-ke",
+      "label": "English Language Arts - Knowledge and Employability"
+    },
+    {
+      "id": "francais-langue-premiere",
+      "label": "Language Arts - Français langue première"
+    },
+    {
+      "id": "french-language-arts-immersion",
+      "label": "Language Arts - French Immersion"
+    },
+    {
+      "id": "career-technology-foundations",
+      "label": "Career and Technology Foundations"
+    },
+    {
+      "id": "cts-art-design-communications-ke",
+      "label": "Art/Design and Communications - Knowledge and Employability"
+    },
+    {
+      "id": "cts-auto-mechanics-ke",
+      "label": "Auto Mechanics - Knowledge and Employability"
+    },
+    {
+      "id": "cts-business-services-ke",
+      "label": "Business Services - Knowledge and Employability"
+    },
+    {
+      "id": "cts-construction-ke",
+      "label": "Construction - Knowledge and Employability"
+    },
+    {
+      "id": "cts-fabrics-ke",
+      "label": "Fabrics - Knowledge and Employability"
+    },
+    {
+      "id": "cts-foods-ke",
+      "label": "Foods - Knowledge and Employability"
+    },
+    {
+      "id": "cts-horticulture-ke",
+      "label": "Horticulture - Knowledge and Employability"
+    },
+    {
+      "id": "cts-human-care-ke",
+      "label": "Human Care - Knowledge and Employability"
+    },
+    {
+      "id": "art",
+      "label": "Art"
+    },
+    {
+      "id": "drama",
+      "label": "Drama"
+    },
+    {
+      "id": "music",
+      "label": "Music"
+    },
+    {
+      "id": "health-life-skills",
+      "label": "Health and Life Skills"
+    },
+    {
+      "id": "social-studies",
+      "label": "Social Studies"
+    },
+    {
+      "id": "social-studies-ke",
+      "label": "Social Studies - Knowledge and Employability"
+    },
+    {
+      "id": "physical-education",
+      "label": "Physical Education"
+    },
+    {
+      "id": "environmental-outdoor-education",
+      "label": "Environmental and Outdoor Education"
+    }
+  ],
+  "jurisdictions": [
+    {
+      "id": "ca-ab",
+      "country": "CA",
+      "region": "Alberta",
+      "authority": "Alberta Education",
+      "status": "reasonable-depth",
+      "sourceUrl": "https://www.alberta.ca/curriculum-and-programs-of-study"
+    }
+  ],
+  "frameworks": [
+    {
+      "id": "ca-ab-curriculum",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "label": "Alberta Curriculum",
+      "status": "reasonable-depth",
+      "sourceUrl": "https://www.alberta.ca/curriculum-and-programs-of-study"
+    }
+  ],
+  "directorySources": [
+    {
+      "id": "alberta-curriculum",
+      "label": "Alberta curriculum and programs of study",
+      "sourceUrl": "https://www.alberta.ca/curriculum-and-programs-of-study"
+    },
+    {
+      "id": "learnalberta-curriculum",
+      "label": "LearnAlberta curriculum",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en"
+    }
+  ],
+  "programs": [
+    {
+      "id": "en-core",
+      "label": "Curriculum",
+      "country": "CA",
+      "sourceLanguage": "en",
+      "summaryLanguage": "en"
+    }
+  ],
+  "subjectAreas": [
+    {
+      "id": "science-technology",
+      "label": "Science, technology, and engineering",
+      "featuredSubject": "science"
+    },
+    {
+      "id": "mathematics",
+      "label": "Mathematics",
+      "featuredSubject": "mathematics"
+    },
+    {
+      "id": "language-arts-english",
+      "label": "Language Arts - English",
+      "featuredSubject": "english-language-arts"
+    },
+    {
+      "id": "language-arts-francais",
+      "label": "Language Arts - Français langue première",
+      "featuredSubject": "francais-langue-premiere"
+    },
+    {
+      "id": "language-arts-french-immersion",
+      "label": "Language Arts - French Immersion",
+      "featuredSubject": "french-language-arts-immersion"
+    },
+    {
+      "id": "career-technology",
+      "label": "Career and Technology",
+      "featuredSubject": "career-technology-foundations"
+    },
+    {
+      "id": "fine-arts",
+      "label": "Fine Arts",
+      "featuredSubject": "art"
+    },
+    {
+      "id": "health-life-skills",
+      "label": "Health and Life Skills",
+      "featuredSubject": "health-life-skills"
+    },
+    {
+      "id": "social-studies",
+      "label": "Social Studies",
+      "featuredSubject": "social-studies"
+    },
+    {
+      "id": "physical-education",
+      "label": "Physical Education",
+      "featuredSubject": "physical-education"
+    },
+    {
+      "id": "environmental-outdoor-education",
+      "label": "Environmental and Outdoor Education",
+      "featuredSubject": "environmental-outdoor-education"
+    }
+  ],
+  "curriculumTracks": [
+    {
+      "id": "ca-ab-en-core-science",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "science-technology",
+      "subject": "science",
+      "label": "Science",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/SCIGEN_79"
+    },
+    {
+      "id": "ca-ab-en-core-science-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "science-technology",
+      "subject": "science-ke",
+      "label": "Science - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/SCIKAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-mathematics",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "mathematics",
+      "subject": "mathematics",
+      "label": "Mathematics",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/MAT_79"
+    },
+    {
+      "id": "ca-ab-en-core-mathematics-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "mathematics",
+      "subject": "mathematics-ke",
+      "label": "Mathematics - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/MATKAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "language-arts-english",
+      "subject": "english-language-arts",
+      "label": "English Language Arts",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANENG_79"
+    },
+    {
+      "id": "ca-ab-en-core-english-language-arts-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "language-arts-english",
+      "subject": "english-language-arts-ke",
+      "label": "English Language Arts - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANKEE_89"
+    },
+    {
+      "id": "ca-ab-en-core-francais-langue-premiere",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "language-arts-francais",
+      "subject": "francais-langue-premiere",
+      "label": "Language Arts - Français langue première",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/LANFRA_7"
+    },
+    {
+      "id": "ca-ab-en-core-french-language-arts-immersion",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "language-arts-french-immersion",
+      "subject": "french-language-arts-immersion",
+      "label": "Language Arts - French Immersion",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS"
+    },
+    {
+      "id": "ca-ab-en-core-career-technology-foundations",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "career-technology-foundations",
+      "label": "Career and Technology Foundations",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTF"
+    },
+    {
+      "id": "ca-ab-en-core-cts-art-design-communications-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-art-design-communications-ke",
+      "label": "Art/Design and Communications - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSDES_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-auto-mechanics-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-auto-mechanics-ke",
+      "label": "Auto Mechanics - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSMEC_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-business-services-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-business-services-ke",
+      "label": "Business Services - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSINF_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-construction-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-construction-ke",
+      "label": "Construction - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSCON_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-fabrics-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-fabrics-ke",
+      "label": "Fabrics - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSFAS_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-foods-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-foods-ke",
+      "label": "Foods - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSFOD_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-horticulture-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-horticulture-ke",
+      "label": "Horticulture - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSAGR_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-cts-human-care-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "career-technology",
+      "subject": "cts-human-care-ke",
+      "label": "Human Care - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/CTSCCS_KAE_89"
+    },
+    {
+      "id": "ca-ab-en-core-art",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "fine-arts",
+      "subject": "art",
+      "label": "Art",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARART_79"
+    },
+    {
+      "id": "ca-ab-en-core-drama",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "fine-arts",
+      "subject": "drama",
+      "label": "Drama",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79"
+    },
+    {
+      "id": "ca-ab-en-core-music",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "fine-arts",
+      "subject": "music",
+      "label": "Music",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARGEN_79"
+    },
+    {
+      "id": "ca-ab-en-core-health-life-skills",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "health-life-skills",
+      "subject": "health-life-skills",
+      "label": "Health and Life Skills",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/HEALTH_79"
+    },
+    {
+      "id": "ca-ab-en-core-social-studies",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "social-studies",
+      "subject": "social-studies",
+      "label": "Social Studies",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/SSSGEN_79"
+    },
+    {
+      "id": "ca-ab-en-core-social-studies-ke",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "social-studies",
+      "subject": "social-studies-ke",
+      "label": "Social Studies - Knowledge and Employability",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/SSSKAE_8"
+    },
+    {
+      "id": "ca-ab-en-core-physical-education",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "physical-education",
+      "subject": "physical-education",
+      "label": "Physical Education",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/PDEPHY"
+    },
+    {
+      "id": "ca-ab-en-core-environmental-outdoor-education",
+      "country": "CA",
+      "jurisdictionId": "ca-ab",
+      "frameworkId": "ca-ab-curriculum",
+      "programId": "en-core",
+      "subjectAreaId": "environmental-outdoor-education",
+      "subject": "environmental-outdoor-education",
+      "label": "Environmental and Outdoor Education",
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/ENV"
+    }
+  ]
+}

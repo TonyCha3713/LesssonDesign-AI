@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-french-language-arts-immersion-g7-val",
+    "label": "Alberta Language Arts - French Immersion Grade 7 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "7",
+    "gradeBand": "Grade 7",
+    "gradeLabel": "Grade 7",
+    "courseCode": "FLA7",
+    "courseLabel": "Language Arts - French Immersion",
+    "courseTitle": "French Language Arts - Immersion (7–12)",
+    "subject": "french-language-arts-immersion",
+    "subjectAreaId": "language-arts-french-immersion",
+    "subjectId": "french-language-arts-immersion",
+    "unit": "Valorisation de l’apprentissage du français",
+    "strand": "Valorisation de l’apprentissage du français",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-olafla-7-hs-fla7-e81472e6-9a9e-4d1d-903c-a47b28609e43": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA7?id=e81472e6-9a9e-4d1d-903c-a47b28609e43",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla7-231503ba-148a-44f9-942c-054b624e9d81": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA7?id=231503ba-148a-44f9-942c-054b624e9d81",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla7-fla7-val-attitudes-v1-so1",
+      "standardCode": "FLA7-VAL-ATTITUDES-V1-SO1",
+      "summaryText": "Pour démontrer une ATTITUDE POSITIVE face à l’apprentissage du français, l’élève pourra : contribuer à son développement langagier et à celui des autres; consolidation des apprentissages",
+      "officialOutcomeText": "Pour démontrer une ATTITUDE POSITIVE face à l’apprentissage du français, l’élève pourra : contribuer à son développement langagier et à celui des autres; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer une ATTITUDE POSITIVE face à l’apprentissage du français, l’élève pourra :",
+        "items": [
+          {
+            "text": "contribuer à son développement langagier et à celui des autres"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Valorisation de l’apprentissage du français.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla7-e81472e6-9a9e-4d1d-903c-a47b28609e43",
+      "sourceLocator": "OLAFLA_7_HS > FLA7 > Valorisation de l’apprentissage du français > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "e81472e6-9a9e-4d1d-903c-a47b28609e43",
+      "moduleType": "outcome",
+      "moduleLabel": "Attitudes: valoriser son apprentissage du français comme un outil de développement personnel, intellectuel et social",
+      "moduleSequence": 10.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla7-fla7-val-attitudes-v1-so2",
+      "standardCode": "FLA7-VAL-ATTITUDES-V1-SO2",
+      "summaryText": "Pour démontrer une ATTITUDE POSITIVE face à l’apprentissage du français, l’élève pourra : poursuivre de façon autonome son apprentissage du français; niveau intermédiaire d’indépendance; soutien fréquent`",
+      "officialOutcomeText": "Pour démontrer une ATTITUDE POSITIVE face à l’apprentissage du français, l’élève pourra : poursuivre de façon autonome son apprentissage du français; niveau intermédiaire d’indépendance; soutien fréquent`",
+      "officialOutcomeStructure": {
+        "lead": "Pour démontrer une ATTITUDE POSITIVE face à l’apprentissage du français, l’élève pourra :",
+        "items": [
+          {
+            "text": "poursuivre de façon autonome son apprentissage du français"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent`"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Valorisation de l’apprentissage du français.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla7-231503ba-148a-44f9-942c-054b624e9d81",
+      "sourceLocator": "OLAFLA_7_HS > FLA7 > Valorisation de l’apprentissage du français > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "231503ba-148a-44f9-942c-054b624e9d81",
+      "moduleType": "outcome",
+      "moduleLabel": "Attitudes: valoriser son apprentissage du français comme un outil de développement personnel, intellectuel et social",
+      "moduleSequence": 10.01
+    }
+  ],
+  "aliases": []
+}

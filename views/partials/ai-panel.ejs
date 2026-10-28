@@ -1,0 +1,46 @@
+<%
+	// Prompt box + quick ideas per AI-enabled step. Edit the copy and chips here.
+	var aiCopy = {
+		foundation: {
+			label: 'What lesson do you have in mind? (optional)',
+			placeholder: 'e.g. A hands-on lesson where students design a small solar setup for a remote cabin. My class loves building things, and several students are English language learners.',
+			chips: ['Hands-on and real-world', 'Connect to our local community', 'Include Indigenous / land-based perspectives', 'Highlight career connections']
+		},
+		targets: {
+			label: 'How do you want to set goals and assess learning? (optional)',
+			placeholder: 'e.g. Three student-friendly goals, a quick exit ticket, and a final performance task that students can show in more than one way.',
+			chips: ['Student-friendly "I can" statements', 'End with a performance task', 'Include self- and peer-assessment', 'Keep it to 3 goals']
+		},
+		design: {
+			label: 'How should the lesson run? (optional)',
+			placeholder: 'e.g. A 45-minute class with one shared projector and lots of group discussion. Add supports for two students with IEPs.',
+			chips: ['Fit a 45-minute class', 'Low-tech / unplugged', 'Support English language learners', 'Lots of group work and discussion']
+		}
+	}[section];
+%>
+<div class="lessondesign-ai__ai-assist" data-ai-panel="<%= section %>">
+	<label class="lessondesign-ai__field lessondesign-ai__ai-prompt">
+		<span><%= aiCopy.label %></span>
+		<textarea rows="3" maxlength="600" data-ai-instructions placeholder="<%= aiCopy.placeholder %>"></textarea>
+	</label>
+	<div class="lessondesign-ai__ai-chips" aria-label="Quick ideas">
+		<% aiCopy.chips.forEach(function (chip) { %>
+			<button class="lessondesign-ai__ai-chip" type="button" data-ai-chip="<%= chip %>">+ <%= chip %></button>
+		<% }); %>
+	</div>
+	<div class="lessondesign-ai__ai-toolbar">
+		<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="button" data-ai-action="draft_section">Draft This Section</button>
+		<button class="lessondesign-ai__button" type="button" data-ai-action="improve_existing">Improve What I Wrote</button>
+	</div>
+	<p class="lessondesign-ai__field-help lessondesign-ai__ai-profile-hint">
+		<% if (!user) { %>
+			<a href="/login?redirect=%2F">Log in</a> to use AI Assist.
+		<% } else if (profileStarted) { %>
+			Drafts also use your Teaching Profile. <a href="/account#teaching-profile">Edit profile</a>
+		<% } else { %>
+			Tip: <a href="/account#teaching-profile">set up your Teaching Profile</a> once so every draft starts from how you teach.
+		<% } %>
+	</p>
+	<p class="lessondesign-ai__helper" data-ai-status aria-live="polite"></p>
+	<div class="lessondesign-ai__ai-response" data-ai-response-panel hidden></div>
+</div>

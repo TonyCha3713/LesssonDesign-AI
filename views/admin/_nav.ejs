@@ -1,0 +1,15 @@
+<div class="lessondesign-ai__panel-header ldai-row">
+	<div>
+		<p class="lessondesign-ai__eyebrow">Administration</p>
+		<h3><%= heading %></h3>
+		<% if (typeof intro !== 'undefined') { %><p><%= intro %></p><% } %>
+	</div>
+</div>
+<nav class="ldai-tabs" aria-label="Admin sections">
+	<a class="ldai-tab<%= adminSection === 'settings' ? ' is-current' : '' %>" href="/admin/settings">AI &amp; Site Settings</a>
+	<a class="ldai-tab<%= adminSection === 'keys' ? ' is-current' : '' %>" href="/admin/keys">Access Keys</a>
+	<a class="ldai-tab<%= adminSection === 'resources' ? ' is-current' : '' %>" href="/admin/resources">Learning Connections</a>
+	<a class="ldai-tab<%= adminSection === 'users' ? ' is-current' : '' %>" href="/admin/users">Users</a>
+</nav>
+<% if (notice) { %><p class="ldai-alert ldai-alert--success" role="status"><%= notice %></p><% } %>
+<% if (error) { %><p class="ldai-alert ldai-alert--error" role="alert"><%= error %></p><% } %>

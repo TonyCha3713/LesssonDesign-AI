@@ -1,0 +1,34 @@
+<%- include('../partials/head') %>
+<main class="lessondesign-ai__shell ldai-page">
+	<section class="lessondesign-ai__panel is-active">
+		<%- include('_nav', { heading: 'Learning Connections', intro: 'Experts and virtual tours teachers can add on the Connections step. Resources you add here are searched first; the ' + bundledCount + ' bundled sample records in data/resources.json are used as a fallback.' }) %>
+		<div class="lessondesign-ai__actions">
+			<a class="lessondesign-ai__button lessondesign-ai__button--primary" href="/admin/resources/new">Add Resource</a>
+		</div>
+		<div class="ldai-table-wrap">
+			<table class="ldai-table">
+				<thead><tr><th>Title</th><th>Type</th><th>Subjects</th><th>Grade bands</th><th>Status</th><th></th></tr></thead>
+				<tbody>
+				<% if (!items.length) { %><tr><td colspan="6" class="lessondesign-ai__empty">No site resources yet — the planner is using the bundled sample library.</td></tr><% } %>
+				<% items.forEach(function (item) { %>
+					<tr>
+						<td><a href="/admin/resources/<%= item.dbId %>"><%= item.title %></a></td>
+						<td><%= item.kind === 'expert' ? 'Expert' : 'Virtual Tour' %></td>
+						<td><%= item.subjects.join(', ') %></td>
+						<td><%= item.gradeBands.join(', ') %></td>
+						<td><span class="ldai-badge <%= item.published ? 'ldai-badge--ok' : '' %>"><%= item.published ? 'Published' : 'Draft' %></span></td>
+						<td class="ldai-table__actions">
+							<a class="lessondesign-ai__button ldai-button--small" href="/admin/resources/<%= item.dbId %>">Edit</a>
+							<form method="post" action="/admin/resources/<%= item.dbId %>/delete" data-confirm="Delete this resource? Plans that selected it will drop it on next save.">
+								<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+								<button class="lessondesign-ai__button ldai-button--small" type="submit">Delete</button>
+							</form>
+						</td>
+					</tr>
+				<% }); %>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</main>
+<%- include('../partials/foot', { scripts: ['/assets/js/site.js'] }) %>

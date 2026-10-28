@@ -1,0 +1,752 @@
+{
+  "metadata": {
+    "dataset": "dhl-science-demo-sample",
+    "notes": "Compact fallback sample for the Alberta Grades 7-9 science demo. Derived from the private dHL snapshot using public-facing resource fields only.",
+    "updated": "2026-07-03",
+    "expertCount": 8,
+    "tourCount": 16,
+    "totalCount": 24,
+    "scope": "Science/STEM resources only; maximum 24 fallback records."
+  },
+  "experts": [
+    {
+      "id": "expert-420",
+      "kind": "expert",
+      "title": "AIMS- Adventures in Medicine and Science at Saint Louis University School of Medicine",
+      "summary": "The AIMS Virtual Anatomy Classroom provides hands-on interactive field trips designed to enhance any science curriculum. These hour-long distance learning programs introduce students to the wonders of the human body in a way that is...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Career Talk",
+      "duration": "60 minutes",
+      "cost": "$285.00",
+      "tags": [
+        "health",
+        "science",
+        "human anatomy",
+        "medicine/healthcare",
+        "health and wellness",
+        "#aims #slusom #youthoutreach #humananatomy"
+      ],
+      "url": "",
+      "sourceId": 420
+    },
+    {
+      "id": "expert-164",
+      "kind": "expert",
+      "title": "Alaska Sea Life",
+      "summary": "The Alaska SeaLife Center is the only facility in Alaska that combines a public aquarium with marine research, education, and wildlife response. While primarily dedicated to marine research and education, the nonprofit Center is the only...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Primary",
+        "Junior",
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Educational Program",
+      "duration": "30 minutes",
+      "cost": "Fee-based",
+      "tags": [
+        "science",
+        "marine science education",
+        "video conferencing",
+        "water",
+        "coast",
+        "marine",
+        "animals",
+        "reef",
+        "reefs",
+        "terrestrial"
+      ],
+      "url": "",
+      "sourceId": 164
+    },
+    {
+      "id": "expert-430",
+      "kind": "expert",
+      "title": "Alberta Veterinary Technologist Association",
+      "summary": "Do you love animals? Turn that passion into a fulfilling career! Discover what it takes to become a Registered Veterinary Technologist (RVT). Students will learn about the critical role RVTs play with interactive topics such as: - The role...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Primary",
+        "Junior",
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Career Talk",
+      "duration": "60 minutes",
+      "cost": "Free",
+      "tags": [
+        "science",
+        "veterinary technology",
+        "animal care",
+        "education/career development",
+        "veterinary medicine",
+        "veterinary technologist",
+        "animals",
+        "working with animals",
+        "animal careers",
+        "vet tech careers"
+      ],
+      "url": "https://www.abvta.com",
+      "sourceId": 430
+    },
+    {
+      "id": "expert-120",
+      "kind": "expert",
+      "title": "Alzheimer Society Huron County",
+      "summary": "The Alzheimer Society of Huron County is affiliated with the Alzheimer Society of Ontario and the Alzheimer Society of Canada. As a local Chapter, one of 38 in Ontario, we provide programs, services and education to persons with...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Educational Program",
+      "duration": "30 minutes",
+      "cost": "Free",
+      "tags": [
+        "health",
+        "science",
+        "alzheimer disease",
+        "healthy lifestyles and brain health",
+        "mental illness",
+        "brain disorders",
+        "dementia",
+        "brain health",
+        "brains",
+        "alzheimers"
+      ],
+      "url": "",
+      "sourceId": 120
+    },
+    {
+      "id": "expert-52",
+      "kind": "expert",
+      "title": "Bamfield Marine Sciences Centre",
+      "summary": "BMSC Live is an initiative of the Bamfield Marine Science Centre's National Award-Winning Field Trip Program. Connect your classroom to our laboratory-studio or virtual field trip for a variety of inspiring 45-60min learning experiences...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Educational Program",
+      "duration": "80 minutes",
+      "cost": "$150 (Canadian schools may qualify for a bursary)",
+      "tags": [
+        "science",
+        "marine science and ecology",
+        "rainforest ecology",
+        "oceanography",
+        "water",
+        "coast",
+        "marine",
+        "animals",
+        "reef",
+        "reefs"
+      ],
+      "url": "",
+      "sourceId": 52
+    },
+    {
+      "id": "expert-211",
+      "kind": "expert",
+      "title": "Cambridge Butterfly Conservatory",
+      "summary": "Students’ learning will come to life in a lush, tropical garden – marvel at thousands of free-flying butterflies as you experience the tropics under floral canopies and a cascading waterfall. Your visit to Cambridge Butterfly...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Primary",
+        "Junior",
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Educational Program",
+      "duration": "90 minutes",
+      "cost": "ranging from $150 to $325 per program",
+      "tags": [
+        "science",
+        "butterflies",
+        "insects",
+        "ecology",
+        "butterfly",
+        "insect",
+        "bug",
+        "nature",
+        "conservatory",
+        "ecosystem"
+      ],
+      "url": "",
+      "sourceId": 211
+    },
+    {
+      "id": "expert-402",
+      "kind": "expert",
+      "title": "Canadian Nuclear Laboratories, Chalk River Labs",
+      "summary": "Science and Technology: Career talks and counselling available about entering the field of nuclear engineering. Jude is a highly motivated, analytical and results-oriented hardware/software developer with hands-on skills and experience in...",
+      "subjects": [
+        "Science and Technology",
+        "Mathematics"
+      ],
+      "gradeBands": [
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Career Talk",
+      "duration": "30 minutes",
+      "cost": "Free",
+      "tags": [
+        "mathematics",
+        "science",
+        "technology",
+        "engineering",
+        "nuclear energy",
+        "computer systems",
+        "science and technology",
+        "research scientist"
+      ],
+      "url": "",
+      "sourceId": 402
+    },
+    {
+      "id": "expert-106",
+      "kind": "expert",
+      "title": "Canadian Wildlife Federation",
+      "summary": "CWF Education engages students, youth, teachers, educators and the public in innovative conservation learning activities and projects across Canada. CWF is dedicated to ensuring that our wildlife and natural places remain a treasured part...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Primary",
+        "Junior",
+        "Intermediate",
+        "Senior"
+      ],
+      "format": "Educational Program",
+      "duration": "30 minutes",
+      "cost": "May have cost",
+      "tags": [
+        "science",
+        "canadian wildlife",
+        "animal protection",
+        "advocating responsible human actions",
+        "animals",
+        "wildlife centres",
+        "sanctuaries",
+        "rescue",
+        "biology",
+        "nature"
+      ],
+      "url": "",
+      "sourceId": 106
+    }
+  ],
+  "tours": [
+    {
+      "id": "tour-2196",
+      "kind": "tour",
+      "title": "1 MW Containerized Diesel Generator Virtual Tour",
+      "summary": "A large diesel generator fills this container-sized power system. The tour shows engine parts, control panels, and how electricity is created and managed. It helps explain how generators produce power for industrial use.",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "how things are made",
+        "diesel generator",
+        "industrial power systems",
+        "engine components",
+        "mechanical engineering",
+        "energy production",
+        "generator technology",
+        "power supply equipment",
+        "heavy machinery",
+        "industrial operations"
+      ],
+      "url": "",
+      "sourceId": 2196
+    },
+    {
+      "id": "tour-928",
+      "kind": "tour",
+      "title": "1.5 Hours of Multiple Intense Tornadoes in Dodge City, KS",
+      "summary": "Follow a powerful supercell storm near Dodge City as it produces multiple intense tornadoes over a 1.5-hour period. The footage tracks the storm’s evolution as rotating funnels form, strengthen, and move across open plains, narrowly...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "weather / environment",
+        "tornadoes",
+        "severe weather",
+        "storm chasing",
+        "extreme weather",
+        "tornado outbreak",
+        "dodge city",
+        "kansas",
+        "supercell thunderstorm",
+        "tornado alley"
+      ],
+      "url": "",
+      "sourceId": 928
+    },
+    {
+      "id": "tour-2054",
+      "kind": "tour",
+      "title": "360 Antarctica - Journey Through The Ice | National Geographic",
+      "summary": "Crash through a frozen ocean as National Geographic takes you to Antarctica where you will come face to face with the curious locals that call this spectacular continent home.",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "weather / environment",
+        "antarctica exploration",
+        "frozen ocean",
+        "polar wildlife",
+        "icy landscapes",
+        "penguins and seals",
+        "antarctic travel",
+        "remote environments",
+        "polar regions",
+        "extreme conditions"
+      ],
+      "url": "",
+      "sourceId": 2054
+    },
+    {
+      "id": "tour-2056",
+      "kind": "tour",
+      "title": "360 Antarctica - Unexpected Snow | National Geographic",
+      "summary": "Explore a penguin and seal colony in Antarctica as a storm moves in.",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "weather / environment",
+        "antarctic storm",
+        "penguin colony",
+        "seal habitat",
+        "extreme weather",
+        "polar regions",
+        "wildlife exploration",
+        "snow landscapes",
+        "antarctic exploration",
+        "remote environments"
+      ],
+      "url": "",
+      "sourceId": 2056
+    },
+    {
+      "id": "tour-2053",
+      "kind": "tour",
+      "title": "360 Climbing Giants | National Geographic",
+      "summary": "Climb to the top the biggest trees on earth with National Geographic VR. Deep inside Sequoia & Kings Canyon National Parks a team of scientists are studying how these 3,000-year-old trees are reacting to sudden climate change. This is truly...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "weather / environment",
+        "giant trees",
+        "sequoia climbing",
+        "environmental study",
+        "climate impact",
+        "forest ecosystems",
+        "ancient trees",
+        "nature exploration",
+        "sequoia national park",
+        "tree conservation"
+      ],
+      "url": "",
+      "sourceId": 2053
+    },
+    {
+      "id": "tour-2055",
+      "kind": "tour",
+      "title": "360 Kamchatka Volcano Eruption | National Geographic",
+      "summary": "National Geographic VR takes you flying in 360 to the rim of a spectacular erupting volcano. Over 15,500 feet tall, Klyuchevskoy is one of the tallest and most active volcanoes on the planet.",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "weather / environment",
+        "kamchatka volcano",
+        "volcanic eruption",
+        "natural disasters",
+        "extreme landscapes",
+        "volcano exploration",
+        "russia travel",
+        "volcanic activity",
+        "geological wonders",
+        "high-altitude adventure"
+      ],
+      "url": "",
+      "sourceId": 2055
+    },
+    {
+      "id": "tour-1545",
+      "kind": "tour",
+      "title": "3D Interactive Earth Globes",
+      "summary": "Take closer look at our planet Earth with an interactive Earth globe. You can see a photo realistic Earth, peak at the tectonic plates, or study political maps. View average temperature, rainfall, and climate zones. Compare GDP or...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies",
+        "The Arts"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "space",
+        "stem",
+        "arts & culture",
+        "earth globe simulation",
+        "interactive globe model",
+        "3d earth visualization",
+        "earth globe app",
+        "digital earth model",
+        "3d earth exploration",
+        "earth geography"
+      ],
+      "url": "",
+      "sourceId": 1545
+    },
+    {
+      "id": "tour-1383",
+      "kind": "tour",
+      "title": "A Story of Diversity and Its Loss in Virtual Reality",
+      "summary": "Discover the Biodiversity Wall at the Museum für Naturkunde Berlin through three interactive exhibits. View a story about biodiversity and its loss, explore 24 highlighted examples from the wall’s 3,000 species, and zoom in on a...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies",
+        "Language"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "arts & culture",
+        "animals",
+        "museums",
+        "habitat conservation",
+        "ecosystem awareness",
+        "environmental activism",
+        "virtual environmentalism",
+        "species preservation",
+        "climate crisis",
+        "wildlife protection"
+      ],
+      "url": "",
+      "sourceId": 1383
+    },
+    {
+      "id": "tour-1428",
+      "kind": "tour",
+      "title": "A Thousand Leopards in the Sea",
+      "summary": "Explore the coral atolls of Lakshadweep, a chain of small islands off India’s west coast. Travel across shallow lagoons, sunken atolls, and submerged banks where large groups of fish gather in surprising numbers. This journey highlights...",
+      "subjects": [
+        "Science and Technology",
+        "Mathematics"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "animals",
+        "google earth",
+        "weather / environment",
+        "leopard seal",
+        "marine predators",
+        "marine life",
+        "leopard behavior",
+        "leopard conservation",
+        "aquatic animals",
+        "marine biodiversity"
+      ],
+      "url": "",
+      "sourceId": 1428
+    },
+    {
+      "id": "tour-1494",
+      "kind": "tour",
+      "title": "Achieving Zero Landfill Waste in U.S. National Parks",
+      "summary": "Across U.S. national parks, new waste-reduction initiatives are changing how visitors manage trash. Recycling stations, composting programs, and visitor education efforts are used to reduce the amount of waste sent to landfills. These...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "google earth",
+        "weather / environment",
+        "zero waste",
+        "national parks",
+        "waste management",
+        "environmental conservation",
+        "sustainable tourism",
+        "green initiatives",
+        "eco-friendly practices",
+        "conservation efforts"
+      ],
+      "url": "",
+      "sourceId": 1494
+    },
+    {
+      "id": "tour-1670",
+      "kind": "tour",
+      "title": "Acidifying Oceans Interactive Tour",
+      "summary": "Oceans cover 71% of the Earth and support all life, yet their chemistry is rapidly changing. Acidification affects marine ecosystems with catastrophic consequences. Dive into this interactive tour from the HEARTBEAT OF THE EARTH series.",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "stem",
+        "weather / environment",
+        "ocean acidification",
+        "marine ecology",
+        "climate change",
+        "ocean chemistry",
+        "coral reefs",
+        "marine ecosystems",
+        "carbon dioxide absorption",
+        "ocean acid levels"
+      ],
+      "url": "",
+      "sourceId": 1670
+    },
+    {
+      "id": "tour-2164",
+      "kind": "tour",
+      "title": "Advanced Plant Phenotyping Laboratory",
+      "summary": "Discover automated plant-imaging systems and robotic greenhouses that measure growth, stress tolerance, water use, and biochemistry. Learn how genetics is linked to observable traits for bioenergy and food production. Explore this...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "stem",
+        "occupations",
+        "weather / environment",
+        "how things are made",
+        "plant phenotyping",
+        "high‑throughput imaging",
+        "robotics in agriculture",
+        "phenomics",
+        "sustainable crops",
+        "plant traits"
+      ],
+      "url": "",
+      "sourceId": 2164
+    },
+    {
+      "id": "tour-7",
+      "kind": "tour",
+      "title": "African Black-footed Penguins Splash Zone- Monterey Bay Aquarium, California",
+      "summary": "The Monterey Bay Aquarium Penguin Cam shows live penguin activity at the aquarium’s coastal exhibit in California. You can watch penguins swim, dive, walk on rocks, and interact with each other in their habitat. These scenes help you...",
+      "subjects": [
+        "Science and Technology"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Live cam",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "animals",
+        "penguins",
+        "aquarium cams",
+        "marine life",
+        "african penguins",
+        "aquarium conservation",
+        "zoo entertainment",
+        "penguin enclosure",
+        "marine conservation",
+        "penguin habitat"
+      ],
+      "url": "",
+      "sourceId": 7
+    },
+    {
+      "id": "tour-1468",
+      "kind": "tour",
+      "title": "Air Arts Virtual Gallery",
+      "summary": "With over 30 artists exhibiting, Air Arts is a wide ranging and ambitious arts in health programme, designed in partnership with staff and patients at University Hospitals of Derby and Burton, England. The programme aims to distract from...",
+      "subjects": [
+        "The Arts",
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "exhibits",
+        "arts & culture",
+        "air arts",
+        "hospital art",
+        "healing art",
+        "healthcare innovation",
+        "patient wellbeing",
+        "art therapy",
+        "hospital environment",
+        "medical art"
+      ],
+      "url": "",
+      "sourceId": 1468
+    },
+    {
+      "id": "tour-1905",
+      "kind": "tour",
+      "title": "Airbus Wing Integration Centre",
+      "summary": "Explore the Advanced Wing Integration Centre at Airbus Filton, a research hub for large aircraft structures. See labs, equipment rooms, and two massive walls capable of holding 240 cars or a single aircraft wing. Learn about the technology...",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "exhibits",
+        "how things are made",
+        "occupations",
+        "stem",
+        "airbus",
+        "wing integration",
+        "aircraft technology",
+        "aerospace engineering",
+        "research center",
+        "structural testing"
+      ],
+      "url": "",
+      "sourceId": 1905
+    },
+    {
+      "id": "tour-1626",
+      "kind": "tour",
+      "title": "Airlander 10: The World's Largest Aircraft",
+      "summary": "Airlander 10 is the world’s largest aircraft, combining lighter-than-air technology with modern aeronautics. It looks like a massive airship but is an innovative hybrid vehicle. Take a tour and see this engineering feat in action.",
+      "subjects": [
+        "Science and Technology",
+        "Social Studies"
+      ],
+      "gradeBands": [
+        "Junior",
+        "Intermediate"
+      ],
+      "format": "Virtual tour",
+      "duration": "Flexible length",
+      "cost": "Linked resource",
+      "tags": [
+        "stem",
+        "airlander 10",
+        "aircraft",
+        "aviation",
+        "hybrid air vehicle",
+        "transportation",
+        "aerospace",
+        "flight technology",
+        "innovation",
+        "giant airship"
+      ],
+      "url": "",
+      "sourceId": 1626
+    }
+  ]
+}

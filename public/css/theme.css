@@ -1,0 +1,941 @@
+/*
+ * LessonDesign AI — theme layer (loaded last).
+ *
+ * This file sets the modern look on top of the original planner styles:
+ * bundled fonts, a calm flat palette, lighter cards, a sticky step bar, the
+ * lesson outline sidebar, the autosave toast, and the compact Review page.
+ * To re-brand, start with the variables in the first block.
+ */
+
+/* ---- Fonts (bundled, work offline) --------------------------------------- */
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url("../fonts/inter-latin-wght-normal.woff2") format("woff2-variations");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url("../fonts/inter-latin-ext-wght-normal.woff2") format("woff2-variations");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+	font-family: "Plus Jakarta Sans";
+	font-style: normal;
+	font-weight: 200 800;
+	font-display: swap;
+	src: url("../fonts/plus-jakarta-sans-latin-wght-normal.woff2") format("woff2-variations");
+}
+
+/* ---- Design tokens -------------------------------------------------------- */
+.lessondesign-ai {
+	--ldai-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	--ldai-font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+
+	--ldai-bg: #f5f7fa;
+	--ldai-surface: #ffffff;
+	--ldai-surface-soft: #f8fafc;
+	--ldai-surface-tint: #eff6fc;
+	--ldai-border: #e3e8ef;
+	--ldai-border-strong: #cfd8e3;
+	--ldai-border-input: #cfd8e3;
+	--ldai-text: #1f2d3d;
+	--ldai-text-strong: #0f1c2b;
+	--ldai-muted: #526273;           /* 6.5:1 on white */
+	--ldai-placeholder: #7b8a9a;
+	--ldai-blue: #2470b3;
+	--ldai-blue-dark: #174f80;
+	--ldai-blue-dim: rgba(36, 112, 179, 0.08);
+	--ldai-blue-border: rgba(36, 112, 179, 0.24);
+	--ldai-orange: #e58a2b;
+	--ldai-orange-hover: #d47a1d;
+	--ldai-orange-shadow: rgba(229, 138, 43, 0.22);
+	--ldai-green: #2f9e5b;
+	--ldai-danger: #c0392b;
+	--ldai-focus: rgba(36, 112, 179, 0.35);
+	--ldai-shadow-sm: 0 1px 2px rgba(15, 28, 43, 0.05);
+	--ldai-shadow-md: 0 1px 3px rgba(15, 28, 43, 0.06), 0 6px 16px rgba(15, 28, 43, 0.05);
+	--ldai-shadow-lg: 0 12px 32px rgba(15, 28, 43, 0.1);
+	--ldai-radius: 20px;
+	--ldai-radius-sm: 12px;
+	--ldai-header-h: 64px;
+
+	font-family: var(--ldai-font);
+	font-size: 15px;
+	line-height: 1.55;
+	color: var(--ldai-text);
+	background: var(--ldai-bg);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+	background: #f5f7fa;
+}
+
+.lessondesign-ai h1,
+.lessondesign-ai h2,
+.lessondesign-ai h3,
+.lessondesign-ai h4,
+.lessondesign-ai__panel-header h3,
+.lessondesign-ai__welcome h3,
+.lessondesign-ai__account-prompt-copy h4 {
+	font-family: var(--ldai-font-display);
+	letter-spacing: -0.02em;
+}
+
+/* ---- Header --------------------------------------------------------------- */
+.ldai-header {
+	height: var(--ldai-header-h);
+	background: #ffffff;
+	border-bottom: 1px solid var(--ldai-border);
+	box-shadow: none;
+}
+
+.ldai-logo-mark {
+	width: 36px;
+	height: 36px;
+	border-radius: 10px;
+	background: var(--ldai-blue);
+	border: none;
+	box-shadow: none;
+}
+
+.ldai-logo-text {
+	color: var(--ldai-text-strong);
+	font-family: var(--ldai-font-display);
+	font-weight: 700;
+	letter-spacing: -0.01em;
+}
+
+.ldai-nav-link,
+.ldai-nav-link:visited,
+button.ldai-nav-link {
+	color: var(--ldai-muted) !important;
+	font-weight: 600;
+}
+
+.ldai-nav-link:hover,
+.ldai-nav-link:focus {
+	background: var(--ldai-surface-soft) !important;
+	color: var(--ldai-text-strong) !important;
+}
+
+.ldai-nav-link.is-current {
+	background: var(--ldai-blue-dim) !important;
+	color: var(--ldai-blue-dark) !important;
+}
+
+.ldai-nav-link--cta,
+.ldai-nav-link--cta:visited {
+	background: var(--ldai-blue) !important;
+	color: #fff !important;
+}
+
+.ldai-nav-link--cta:hover,
+.ldai-nav-link--cta:focus {
+	background: var(--ldai-blue-dark) !important;
+	color: #fff !important;
+}
+
+/* ---- Shell + panels: flat white sections on soft gray --------------------- */
+.lessondesign-ai__shell {
+	max-width: 1280px;
+	padding: 24px 24px 0;
+}
+
+.lessondesign-ai__panel {
+	padding: 32px;
+	border: 1px solid var(--ldai-border);
+	border-radius: var(--ldai-radius);
+	background: var(--ldai-surface);
+	box-shadow: var(--ldai-shadow-md);
+	animation: ldai-fade-in 0.2s ease-out;
+}
+
+.lessondesign-ai__panel-header {
+	margin: 0 0 24px;
+	padding: 0 0 20px;
+	background: none;
+	border-radius: 0;
+	border-bottom: 1px solid var(--ldai-border);
+}
+
+.lessondesign-ai__panel-header::after {
+	display: none;
+}
+
+.lessondesign-ai__panel-header h3 {
+	margin: 0 0 6px;
+	font-size: clamp(24px, 2.6vw, 30px);
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.lessondesign-ai__panel-header p {
+	font-size: 15px;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__eyebrow {
+	color: var(--ldai-blue);
+	letter-spacing: 0.08em;
+}
+
+.lessondesign-ai__section-stack {
+	gap: 16px;
+}
+
+.lessondesign-ai__subsection {
+	padding: 24px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 16px;
+	background: var(--ldai-surface);
+	box-shadow: none;
+}
+
+.lessondesign-ai__subsection::before {
+	display: none;
+}
+
+.lessondesign-ai__subsection-header {
+	margin-bottom: 16px;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.lessondesign-ai__subsection-header h4 {
+	margin: 0 0 4px;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	text-transform: none;
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__subsection-header p {
+	font-size: 14px;
+	line-height: 1.55;
+}
+
+/* ---- Form controls ------------------------------------------------------- */
+.lessondesign-ai__field > span,
+.lessondesign-ai__field legend {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0;
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__field input,
+.lessondesign-ai__field textarea,
+.lessondesign-ai__field select {
+	padding: 11px 14px;
+	border: 1px solid var(--ldai-border-input);
+	border-radius: 10px;
+	background: #fff;
+	font-size: 15px;
+	box-shadow: none;
+}
+
+.lessondesign-ai__field input:hover,
+.lessondesign-ai__field textarea:hover,
+.lessondesign-ai__field select:hover {
+	border-color: #b4c1d0;
+}
+
+.lessondesign-ai__field input:focus,
+.lessondesign-ai__field textarea:focus,
+.lessondesign-ai__field select:focus,
+.lessondesign-ai__field input:focus-visible,
+.lessondesign-ai__field textarea:focus-visible,
+.lessondesign-ai__field select:focus-visible {
+	outline: none;
+	border-color: var(--ldai-blue);
+	box-shadow: 0 0 0 3px var(--ldai-focus);
+}
+
+.lessondesign-ai__field textarea {
+	min-height: 120px;
+}
+
+.lessondesign-ai__field-help,
+.lessondesign-ai__helper {
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__choice-group {
+	padding: 16px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 14px;
+	background: var(--ldai-surface-soft);
+	box-shadow: none;
+}
+
+.lessondesign-ai__choice-option,
+.lessondesign-ai__check-option {
+	padding: 12px 14px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 12px;
+	background: #fff;
+	min-height: 44px;
+}
+
+.lessondesign-ai__choice-option:has(input:checked),
+.lessondesign-ai__check-option:has(input:checked),
+.lessondesign-ai__expectation.is-selected {
+	border-color: var(--ldai-blue);
+	background: var(--ldai-surface-tint);
+	box-shadow: none;
+}
+
+.lessondesign-ai__check-option input,
+.lessondesign-ai__choice-option input {
+	accent-color: var(--ldai-blue);
+	width: 16px;
+	height: 16px;
+}
+
+/* ---- Buttons: orange only for the one main action ------------------------ */
+.lessondesign-ai__button {
+	min-height: 44px;
+	padding: 10px 18px;
+	border: 1px solid var(--ldai-border-strong);
+	border-radius: 10px;
+	background: #fff;
+	color: var(--ldai-text-strong);
+	font-size: 15px;
+	font-weight: 600;
+	box-shadow: var(--ldai-shadow-sm);
+}
+
+.lessondesign-ai__button:hover {
+	background: var(--ldai-surface-soft);
+	border-color: #b4c1d0;
+	transform: none;
+}
+
+.lessondesign-ai__button--primary,
+.lessondesign-ai .lessondesign-ai__ai-toolbar .lessondesign-ai__button--primary {
+	border-color: var(--ldai-orange);
+	background: var(--ldai-orange);
+	color: #fff;
+	font-size: 15px;
+	box-shadow: 0 1px 2px var(--ldai-orange-shadow), 0 4px 12px var(--ldai-orange-shadow);
+}
+
+.lessondesign-ai__button--primary:hover,
+.lessondesign-ai .lessondesign-ai__ai-toolbar .lessondesign-ai__button--primary:hover {
+	background: var(--ldai-orange-hover);
+	border-color: var(--ldai-orange-hover);
+	color: #fff;
+}
+
+.lessondesign-ai__button:focus-visible,
+.lessondesign-ai__step:focus-visible,
+.lessondesign-ai__readiness-action:focus-visible,
+.ldai-outline__item:focus-visible,
+.lessondesign-ai__ai-chip:focus-visible {
+	outline: 3px solid var(--ldai-focus) !important;
+	outline-offset: 2px;
+}
+
+/* ---- Sticky step bar ------------------------------------------------------- */
+.lessondesign-ai__steps {
+	position: sticky;
+	top: calc(var(--ldai-header-h) + 8px);
+	z-index: 60;
+	margin-bottom: 20px;
+	padding: 8px;
+	gap: 2px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 14px;
+	background: rgba(255, 255, 255, 0.92);
+	backdrop-filter: saturate(1.4) blur(10px);
+	-webkit-backdrop-filter: saturate(1.4) blur(10px);
+	box-shadow: var(--ldai-shadow-md);
+}
+
+.lessondesign-ai__step,
+.lessondesign-ai__step:first-child {
+	padding: 6px 12px 6px 6px;
+	gap: 8px;
+	border-radius: 10px;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__step:hover {
+	background: var(--ldai-surface-soft);
+}
+
+.lessondesign-ai__step-index {
+	width: 28px;
+	height: 28px;
+	border: 1.5px solid var(--ldai-border-strong);
+	background: #fff;
+	color: var(--ldai-muted);
+	font-size: 13px;
+	box-shadow: none;
+}
+
+.lessondesign-ai__step-label {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.lessondesign-ai__step.is-active,
+.lessondesign-ai__step[aria-current="step"] {
+	background: var(--ldai-blue-dim);
+	color: var(--ldai-blue-dark);
+}
+
+.lessondesign-ai__step.is-active .lessondesign-ai__step-index {
+	border-color: var(--ldai-blue);
+	background: var(--ldai-blue);
+	color: #fff;
+	box-shadow: none;
+}
+
+.lessondesign-ai__step.is-complete {
+	background: transparent;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__step.is-complete .lessondesign-ai__step-index {
+	border-color: var(--ldai-green);
+	background: var(--ldai-green);
+	color: #fff;
+}
+
+.ldai-connector {
+	min-width: 12px;
+	height: 2px;
+	background: var(--ldai-border);
+}
+
+/* ---- Workspace layout: form + lesson outline ---------------------------- */
+@media (min-width: 1100px) {
+	.lessondesign-ai__planner-layout {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) 272px;
+		gap: 24px;
+		align-items: start;
+	}
+
+	[data-current-step="welcome"] .lessondesign-ai__planner-layout {
+		grid-template-columns: minmax(0, 1fr);
+	}
+}
+
+.ldai-outline {
+	display: none;
+}
+
+@media (min-width: 1100px) {
+	.ldai-outline {
+		display: block;
+		position: sticky;
+		top: calc(var(--ldai-header-h) + 88px);
+		padding: 18px;
+		border: 1px solid var(--ldai-border);
+		border-radius: 16px;
+		background: #fff;
+		box-shadow: var(--ldai-shadow-md);
+	}
+
+	[data-current-step="welcome"] .ldai-outline {
+		display: none;
+	}
+}
+
+.ldai-outline__eyebrow {
+	margin: 0 0 4px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ldai-blue);
+}
+
+.ldai-outline__title {
+	margin: 0 0 4px;
+	font-family: var(--ldai-font-display);
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 1.3;
+	color: var(--ldai-text-strong);
+	overflow-wrap: anywhere;
+}
+
+.ldai-outline__meta {
+	margin: 0 0 14px;
+	font-size: 13px;
+	color: var(--ldai-muted);
+}
+
+.ldai-outline__list {
+	display: grid;
+	gap: 2px;
+	margin: 0 0 14px;
+	padding: 0;
+	list-style: none;
+}
+
+.ldai-outline__item {
+	display: grid;
+	grid-template-columns: 18px 1fr auto;
+	align-items: center;
+	gap: 8px;
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border-radius: 8px;
+	background: transparent;
+	color: var(--ldai-text);
+	font: inherit;
+	font-size: 14px;
+	text-align: left;
+	cursor: pointer;
+}
+
+.ldai-outline__item:hover {
+	background: var(--ldai-surface-soft);
+}
+
+.ldai-outline__check {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: 1.5px solid var(--ldai-border-strong);
+}
+
+.ldai-outline__item.is-done .ldai-outline__check {
+	border-color: var(--ldai-green);
+	background: var(--ldai-green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.2l2.2 2.2 4.8-4.8' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 14px no-repeat;
+}
+
+.ldai-outline__count {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--ldai-muted);
+}
+
+.ldai-outline__saved {
+	margin: 0;
+	padding-top: 12px;
+	border-top: 1px solid var(--ldai-border);
+	font-size: 12px;
+	color: var(--ldai-muted);
+}
+
+/* ---- Autosave / status toast --------------------------------------------- */
+.lessondesign-ai__live-status,
+.lessondesign-ai__live-status:not(:empty) {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 200;
+	max-width: min(380px, calc(100vw - 40px));
+	margin: 0;
+	padding: 10px 14px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 10px;
+	background: var(--ldai-text-strong);
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: var(--ldai-shadow-lg);
+	opacity: 0;
+	transform: translateY(8px);
+	pointer-events: none;
+	transition: opacity 0.2s, transform 0.2s;
+}
+
+.lessondesign-ai__live-status.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.lessondesign-ai.is-data-loading .lessondesign-ai__live-status:not(:empty) {
+	opacity: 1;
+	transform: none;
+	background: var(--ldai-text-strong);
+	color: #fff;
+}
+
+.lessondesign-ai.is-data-error .lessondesign-ai__live-status:not(:empty) {
+	opacity: 1;
+	transform: none;
+	pointer-events: auto;
+	background: #fff;
+	border-color: rgba(192, 57, 43, 0.4);
+	color: var(--ldai-danger);
+}
+
+/* ---- Slim account banner (replaces the big sign-in card) ---------------- */
+.lessondesign-ai__account-prompt {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px 16px;
+	flex-wrap: wrap;
+	margin: 0 0 20px;
+	padding: 12px 16px;
+	border: 1px solid rgba(229, 138, 43, 0.35);
+	border-radius: 12px;
+	background: #fff8f0;
+	box-shadow: none;
+}
+
+.lessondesign-ai__account-prompt-copy h4 {
+	margin: 0;
+	font-family: var(--ldai-font);
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 1.45;
+}
+
+.lessondesign-ai__account-prompt-copy p {
+	margin: 2px 0 0;
+	font-size: 13px;
+}
+
+.lessondesign-ai__account-prompt-eyebrow,
+.lessondesign-ai__account-prompt-list {
+	display: none !important;
+}
+
+.lessondesign-ai__account-prompt-actions {
+	display: flex;
+	gap: 8px;
+	min-width: 0;
+}
+
+.lessondesign-ai__account-prompt-actions .lessondesign-ai__button {
+	min-height: 36px;
+	padding: 6px 14px;
+	font-size: 14px;
+}
+
+.lessondesign-ai__account-prompt .lessondesign-ai__access-key-form {
+	display: flex;
+	align-items: flex-end;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.lessondesign-ai__account-prompt .lessondesign-ai__access-key-form .lessondesign-ai__actions {
+	margin: 0;
+}
+
+/* ---- Welcome -------------------------------------------------------------- */
+.lessondesign-ai__welcome-main {
+	padding: 40px;
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+.lessondesign-ai__welcome-main::after {
+	display: none;
+}
+
+.lessondesign-ai__welcome h3 {
+	font-size: clamp(32px, 4.4vw, 48px);
+	font-weight: 800;
+	line-height: 1.08;
+	letter-spacing: -0.03em;
+}
+
+.lessondesign-ai__welcome-copy {
+	max-width: 620px;
+	font-size: 17px;
+	color: var(--ldai-muted);
+}
+
+.ldai-welcome-icon {
+	box-shadow: none;
+	animation: none;
+}
+
+/* ---- AI panel ---------------------------------------------------------- */
+.lessondesign-ai .lessondesign-ai__ai-assist {
+	padding: 18px;
+	border: 1px solid var(--ldai-blue-border);
+	border-radius: 16px;
+	background: linear-gradient(180deg, #f4f9fe, #ffffff 70%);
+}
+
+.lessondesign-ai__ai-chip {
+	border-color: var(--ldai-border-strong);
+	color: var(--ldai-text);
+	font-weight: 500;
+}
+
+.lessondesign-ai__ai-chip:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.lessondesign-ai.is-ai-loading [data-ai-status]:not(:empty)::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 8px;
+	border: 2px solid var(--ldai-blue-border);
+	border-top-color: var(--ldai-blue);
+	border-radius: 50%;
+	vertical-align: -1px;
+	animation: ldai-spin 0.8s linear infinite;
+}
+
+@keyframes ldai-spin {
+	to { transform: rotate(360deg); }
+}
+
+/* ---- Cards elsewhere ----------------------------------------------------- */
+.lessondesign-ai__coach-card,
+.lessondesign-ai__resource-card,
+.lessondesign-ai__selected,
+.lessondesign-ai__selection-summary,
+.lessondesign-ai__curriculum,
+.lessondesign-ai__export-tools,
+.lessondesign-ai__preview {
+	border-color: var(--ldai-border);
+	background: #fff;
+	box-shadow: none;
+}
+
+.lessondesign-ai__coach-card {
+	border-left: 3px solid var(--ldai-blue);
+	border-radius: 12px;
+}
+
+/* ---- Review (Ready) ---------------------------------------------------- */
+.lessondesign-ai__readiness {
+	padding: 24px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 16px;
+	background: #fff;
+	box-shadow: none;
+}
+
+.ldai-review-head {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	margin-bottom: 18px;
+}
+
+.ldai-review-ring {
+	--ldai-progress: 0;
+	position: relative;
+	flex: 0 0 64px;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background: conic-gradient(var(--ldai-green) calc(var(--ldai-progress) * 1%), var(--ldai-border) 0);
+}
+
+.ldai-review-ring::after {
+	content: attr(data-label);
+	position: absolute;
+	inset: 6px;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	background: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--ldai-text-strong);
+}
+
+.ldai-review-head h4 {
+	margin: 0 0 4px;
+	font-size: 20px;
+	color: var(--ldai-text-strong);
+}
+
+.ldai-review-head p {
+	margin: 0;
+	font-size: 14px;
+	color: var(--ldai-muted);
+}
+
+.ldai-review-label {
+	margin: 18px 0 8px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__readiness-item {
+	grid-template-columns: 12px minmax(0, 1fr) auto;
+	padding: 12px 14px;
+	border-color: var(--ldai-border);
+	border-radius: 12px;
+}
+
+.lessondesign-ai__readiness-dot {
+	width: 10px;
+	height: 10px;
+	box-shadow: none;
+}
+
+.lessondesign-ai__readiness-item.is-complete .lessondesign-ai__readiness-dot {
+	box-shadow: none;
+}
+
+.ldai-review-done summary {
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--ldai-blue-dark);
+	list-style: none;
+}
+
+.ldai-review-done summary::-webkit-details-marker {
+	display: none;
+}
+
+.ldai-review-done summary::before {
+	content: "▸ ";
+}
+
+.ldai-review-done[open] summary::before {
+	content: "▾ ";
+}
+
+.ldai-review-done .lessondesign-ai__readiness-list {
+	margin-top: 10px;
+}
+
+/* ---- Footer ---------------------------------------------------------------- */
+.ldai-footer {
+	color: var(--ldai-placeholder);
+}
+
+/* ---- Small screens --------------------------------------------------------- */
+@media (max-width: 900px) {
+	.lessondesign-ai__panel {
+		padding: 22px;
+	}
+
+	.lessondesign-ai__welcome-main {
+		padding: 12px 4px;
+	}
+
+	.lessondesign-ai__steps {
+		top: calc(var(--ldai-header-h) + 4px);
+	}
+}
+
+@media (max-width: 700px) {
+	.lessondesign-ai__shell {
+		padding: 16px 12px 0;
+	}
+
+	.lessondesign-ai__subsection {
+		padding: 18px 16px;
+	}
+
+	.lessondesign-ai__step-label {
+		display: none;
+	}
+
+	.lessondesign-ai__step.is-active .lessondesign-ai__step-label {
+		display: inline;
+	}
+
+	.lessondesign-ai__ai-toolbar {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}
+
+/* ---- Typography refinements ------------------------------------------------ */
+.lessondesign-ai h1,
+.lessondesign-ai h2,
+.lessondesign-ai h3,
+.lessondesign-ai h4,
+.lessondesign-ai__panel-header h3,
+.lessondesign-ai__welcome h3 {
+	letter-spacing: -0.01em;
+	word-spacing: 0.06em;
+}
+
+/* Curriculum picker: calmer hierarchy */
+.lessondesign-ai .lessondesign-ai__curriculum-section-head h4 {
+	font-family: var(--ldai-font);
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0;
+}
+
+.lessondesign-ai .lessondesign-ai__curriculum-subsection-head h5 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.lessondesign-ai .lessondesign-ai__expectation-title {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.lessondesign-ai .lessondesign-ai__resource-card h4 {
+	font-size: 16px;
+}
+
+/* ---- Mobile header + steps --------------------------------------------- */
+.ldai-nav-link,
+button.ldai-nav-link {
+	white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+	.ldai-header {
+		gap: 8px;
+	}
+
+	.ldai-header__nav {
+		min-width: 0;
+		-webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+		mask-image: linear-gradient(90deg, #000 85%, transparent);
+	}
+
+	.lessondesign-ai__steps {
+		justify-content: space-between;
+	}
+
+	.ldai-connector {
+		min-width: 4px;
+	}
+
+	.lessondesign-ai__step,
+	.lessondesign-ai__step:first-child {
+		padding: 4px;
+	}
+
+	.lessondesign-ai__step.is-active {
+		padding-right: 10px;
+	}
+}
+
+.lessondesign-ai__selection-summary:empty {
+	display: none;
+}

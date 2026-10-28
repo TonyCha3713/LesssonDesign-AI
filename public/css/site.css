@@ -1,0 +1,570 @@
+/*
+ * Site chrome for the standalone app (header nav, auth pages, My Lesson Plans,
+ * admin). The planner itself is styled by lesson-design-ai.css, carried over
+ * from the WordPress plugin. Colours come from the --ldai-* variables there.
+ */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	background: #eef4f8;
+}
+
+body > .lessondesign-ai {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 0;
+}
+
+.lessondesign-ai a {
+	color: var(--ldai-blue-dark);
+}
+
+/* ---- Header -------------------------------------------------------------- */
+
+.ldai-brand,
+.ldai-brand:visited {
+	text-decoration: none;
+}
+
+.ldai-header__nav {
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+.ldai-nav-form {
+	display: inline;
+	margin: 0;
+}
+
+button.ldai-nav-link {
+	font: inherit;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.ldai-nav-link.is-current {
+	background: rgba(255, 255, 255, 0.18) !important;
+	color: #fff !important;
+}
+
+.ldai-nav-link--cta,
+.ldai-nav-link--cta:visited {
+	background: rgba(255, 255, 255, 0.95) !important;
+	color: var(--ldai-blue-dark) !important;
+}
+
+.ldai-nav-link--cta:hover,
+.ldai-nav-link--cta:focus {
+	background: #fff !important;
+	color: var(--ldai-blue-dark) !important;
+}
+
+.ldai-nav-link:focus-visible,
+.lessondesign-ai__button:focus-visible,
+.ldai-tab:focus-visible {
+	outline: 3px solid rgba(232, 152, 62, 0.65) !important;
+	outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+	.ldai-nav-link,
+	.ldai-nav-link:visited,
+	button.ldai-nav-link {
+		padding: 8px 10px;
+		font-size: 13px;
+	}
+}
+
+/* ---- Footer ------------------------------------------------------------- */
+
+.ldai-footer {
+	margin-top: auto;
+	padding: 36px 24px 28px;
+	text-align: center;
+	color: var(--ldai-muted);
+	font-size: 13px;
+}
+
+.ldai-footer p {
+	margin: 0;
+}
+
+/* ---- Generic pages -------------------------------------------------------- */
+
+.ldai-page {
+	flex: 1 0 auto;
+	width: 100%;
+}
+
+.ldai-page--narrow {
+	max-width: 760px;
+}
+
+.ldai-page .lessondesign-ai__panel {
+	content-visibility: visible;
+}
+
+.ldai-row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 18px;
+	flex-wrap: wrap;
+}
+
+.ldai-row > .lessondesign-ai__button {
+	position: relative;
+	z-index: 1;
+}
+
+.ldai-form-stack {
+	display: grid;
+	gap: 16px;
+}
+
+.ldai-form-stack .lessondesign-ai__actions {
+	margin-top: 4px;
+}
+
+.ldai-inline-form {
+	margin-top: 22px;
+	align-items: center;
+}
+
+.ldai-align-end {
+	align-self: end;
+}
+
+.ldai-check-inline {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: fit-content;
+	max-width: 100%;
+}
+
+.ldai-auth-card .lessondesign-ai__field input {
+	width: 100%;
+}
+
+/* ---- Alerts --------------------------------------------------------------- */
+
+.ldai-alert {
+	margin: 0 0 18px;
+	padding: 14px 16px;
+	border: 1px solid var(--ldai-blue-border);
+	border-radius: 16px;
+	background: var(--ldai-surface-tint);
+	color: var(--ldai-text-strong);
+	font-size: 14px;
+	line-height: 1.55;
+}
+
+.ldai-alert--success {
+	border-color: rgba(91, 171, 78, 0.45);
+	background: rgba(91, 171, 78, 0.1);
+}
+
+.ldai-alert--error {
+	border-color: rgba(192, 57, 43, 0.4);
+	background: rgba(192, 57, 43, 0.08);
+	color: #8c2a20;
+}
+
+.ldai-key-reveal {
+	display: grid;
+	gap: 10px;
+}
+
+.ldai-key-reveal code {
+	display: inline-block;
+	width: fit-content;
+	max-width: 100%;
+	padding: 10px 14px;
+	border-radius: 12px;
+	background: #fff;
+	border: 1px dashed var(--ldai-border-strong);
+	font-size: 18px;
+	letter-spacing: 0.06em;
+	cursor: copy;
+	overflow-wrap: anywhere;
+}
+
+.ldai-key-reveal code.is-copied::after {
+	content: "  ✓ copied";
+	font-size: 13px;
+	letter-spacing: 0;
+	color: var(--ldai-green);
+}
+
+/* ---- Admin ---------------------------------------------------------------- */
+
+.ldai-tabs {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	margin: 0 0 22px;
+}
+
+.ldai-tab,
+.ldai-tab:visited {
+	padding: 9px 16px;
+	border-radius: 999px;
+	border: 1px solid var(--ldai-border);
+	background: #fff;
+	color: var(--ldai-text);
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.ldai-tab.is-current {
+	background: var(--ldai-blue);
+	border-color: var(--ldai-blue);
+	color: #fff;
+}
+
+.ldai-status-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 14px;
+	margin-bottom: 24px;
+}
+
+.ldai-status-card {
+	display: grid;
+	gap: 4px;
+	padding: 16px 18px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 18px;
+	background: var(--ldai-surface-soft);
+}
+
+.ldai-status-card span {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ldai-blue);
+}
+
+.ldai-status-card strong {
+	font-size: 16px;
+	color: var(--ldai-text-strong);
+}
+
+.ldai-status-card small {
+	color: var(--ldai-muted);
+	font-size: 13px;
+}
+
+.ldai-table-wrap {
+	width: 100%;
+	overflow-x: auto;
+	margin-top: 18px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 18px;
+	background: #fff;
+}
+
+.ldai-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.ldai-table th,
+.ldai-table td {
+	padding: 12px 14px;
+	border-bottom: 1px solid var(--ldai-border);
+	text-align: left;
+	vertical-align: top;
+}
+
+.ldai-table th {
+	background: var(--ldai-surface-soft);
+	font-size: 12px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--ldai-muted);
+}
+
+.ldai-table tr:last-child td {
+	border-bottom: none;
+}
+
+.ldai-table small {
+	color: var(--ldai-muted);
+}
+
+.ldai-table__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	align-items: center;
+}
+
+.ldai-table__actions form {
+	display: inline-flex;
+	gap: 6px;
+	margin: 0;
+	flex-wrap: wrap;
+}
+
+.ldai-reset-form input {
+	width: 130px;
+	padding: 6px 10px;
+	border: 1px solid var(--ldai-border-input);
+	border-radius: 10px;
+	font: inherit;
+	font-size: 13px;
+}
+
+.lessondesign-ai .ldai-button--small {
+	min-height: 0;
+	padding: 6px 12px;
+	font-size: 13px;
+	width: auto;
+}
+
+.lessondesign-ai .ldai-button--danger {
+	color: var(--ldai-danger);
+	border-color: rgba(192, 57, 43, 0.35);
+}
+
+.ldai-badge {
+	display: inline-block;
+	padding: 3px 10px;
+	border-radius: 999px;
+	background: rgba(20, 50, 74, 0.08);
+	font-size: 12px;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.ldai-badge--ok {
+	background: rgba(91, 171, 78, 0.16);
+	color: #2f6d25;
+}
+
+.ldai-badge--danger {
+	background: rgba(192, 57, 43, 0.12);
+	color: #8c2a20;
+}
+
+.ldai-details summary {
+	cursor: pointer;
+	font-weight: 700;
+	color: var(--ldai-text-strong);
+}
+
+.ldai-details[open] summary {
+	margin-bottom: 16px;
+}
+
+/* ---- My Lesson Plans ----------------------------------------------------- */
+
+.ldai-plan-list {
+	display: grid;
+	gap: 12px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ldai-plan-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 18px 20px;
+	border: 1px solid var(--ldai-border);
+	border-radius: 20px;
+	background: #fff;
+	box-shadow: var(--ldai-shadow-sm);
+	flex-wrap: wrap;
+}
+
+.ldai-plan-card__copy {
+	display: grid;
+	gap: 4px;
+	min-width: 0;
+}
+
+.ldai-plan-card__copy strong {
+	font-size: 17px;
+	color: var(--ldai-text-strong);
+	overflow-wrap: anywhere;
+}
+
+.ldai-plan-card__copy span {
+	color: var(--ldai-muted);
+	font-size: 13px;
+}
+
+.ldai-plan-card__actions {
+	display: flex;
+	gap: 8px;
+}
+
+@media (max-width: 700px) {
+	.ldai-plan-card__actions {
+		width: 100%;
+	}
+
+	.ldai-plan-card__actions > * {
+		flex: 1;
+	}
+}
+
+/* ---- Planner additions --------------------------------------------------- */
+
+/* Step 3 shows the curriculum chosen in Foundation so goals are written against visible expectations. */
+.lessondesign-ai__selected-curriculum-strip {
+	margin: 0 0 18px;
+	padding: 16px 18px;
+	border: 1px solid var(--ldai-blue-border);
+	border-radius: 18px;
+	background: linear-gradient(135deg, rgba(46, 123, 188, 0.07), rgba(255, 255, 255, 0.95));
+}
+
+.lessondesign-ai__selected-curriculum-strip h5 {
+	margin: 0 0 8px;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ldai-blue);
+}
+
+.lessondesign-ai__selected-curriculum-strip ul {
+	margin: 0;
+	padding-left: 18px;
+	display: grid;
+	gap: 6px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__selected-curriculum-strip p {
+	margin: 0;
+	font-size: 14px;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__selected-curriculum-strip button {
+	margin-top: 10px;
+}
+
+/* Section deep-link target from the Review checklist "Fix" buttons. */
+@keyframes ldai-section-flash {
+	0% { box-shadow: 0 0 0 0 rgba(232, 152, 62, 0.0); }
+	20% { box-shadow: 0 0 0 4px rgba(232, 152, 62, 0.55); }
+	100% { box-shadow: 0 0 0 0 rgba(232, 152, 62, 0.0); }
+}
+
+.lessondesign-ai [data-section].is-deep-linked {
+	animation: ldai-section-flash 1.8s ease-out 1;
+	border-radius: 22px;
+}
+
+.lessondesign-ai [data-section]:focus {
+	outline: none;
+}
+
+.lessondesign-ai [data-section] {
+	scroll-margin-top: 96px;
+}
+
+/* Buttons and other components set their own display; keep [hidden] authoritative. */
+.lessondesign-ai [hidden] {
+	display: none !important;
+}
+
+.screen-reader-text,
+.lessondesign-ai__visually-hidden {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* ---- AI prompt box -------------------------------------------------------- */
+.lessondesign-ai__ai-assist .lessondesign-ai__ai-prompt {
+	margin: 0 0 10px;
+}
+
+.lessondesign-ai__ai-assist .lessondesign-ai__ai-prompt textarea {
+	min-height: 84px;
+}
+
+.lessondesign-ai__ai-chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 0 0 14px;
+}
+
+.lessondesign-ai__ai-chip {
+	padding: 6px 12px;
+	border: 1px dashed var(--ldai-blue-border);
+	border-radius: 999px;
+	background: #fff;
+	color: var(--ldai-blue-dark);
+	font: inherit;
+	font-size: 13px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.lessondesign-ai__ai-chip:hover,
+.lessondesign-ai__ai-chip:focus-visible {
+	background: var(--ldai-blue-dim);
+	border-style: solid;
+}
+
+.lessondesign-ai__ai-profile-hint {
+	margin: 10px 0 0;
+}
+
+.ldai-chip-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 8px;
+}
+
+.lessondesign-ai .lessondesign-ai__ai-assist {
+	padding: 18px;
+	border: 1px solid rgba(46, 123, 188, 0.18);
+	border-radius: 22px;
+	background: linear-gradient(135deg, rgba(46, 123, 188, 0.06), rgba(255, 255, 255, 0.96));
+}
+
+.lessondesign-ai .lessondesign-ai__ai-assist .lessondesign-ai__ai-toolbar {
+	padding: 0;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.lessondesign-ai .lessondesign-ai__ai-toolbar .lessondesign-ai__button--primary {
+	border-color: var(--ldai-orange);
+	background: linear-gradient(135deg, #f0a74f, var(--ldai-orange));
+	color: #fff;
+}
+
+.lessondesign-ai .lessondesign-ai__ai-toolbar .lessondesign-ai__button--primary:disabled {
+	opacity: 0.55;
+}

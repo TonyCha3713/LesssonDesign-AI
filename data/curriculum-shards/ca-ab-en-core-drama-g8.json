@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-drama-g8",
+    "label": "Alberta Drama Grade 8 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "8",
+    "gradeBand": "Grade 8",
+    "gradeLabel": "Grade 8",
+    "courseCode": "DMA8",
+    "courseLabel": "Drama",
+    "courseTitle": "Drama (7–9)",
+    "subject": "drama",
+    "subjectAreaId": "fine-arts",
+    "subjectId": "drama",
+    "unit": "Learner Expectations",
+    "strand": "Learner Expectations",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-fardma-79-dma8-c8fc54d5-ce38-4035-b923-6a43718dc45b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=c8fc54d5-ce38-4035-b923-6a43718dc45b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma8-18daaec6-9daa-4bc7-b9a4-0d3f53f0641f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=18daaec6-9daa-4bc7-b9a4-0d3f53f0641f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma8-19c6fb4d-8ca7-4521-9bf2-3faa14b322a8": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=19c6fb4d-8ca7-4521-9bf2-3faa14b322a8",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma8-1eafa15a-785a-49cf-afa3-b77ff0cac946": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=1eafa15a-785a-49cf-afa3-b77ff0cac946",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma8-2bf76ff3-7038-4774-af52-8783d249338f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=2bf76ff3-7038-4774-af52-8783d249338f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma8-4235cc5c-d11b-44c6-a454-7db9cea8c290": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=4235cc5c-d11b-44c6-a454-7db9cea8c290",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma8-24dd6de0-f1ae-425b-afc3-bc2693732e67": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA8?id=24dd6de0-f1ae-425b-afc3-bc2693732e67",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-mov-l2",
+      "standardCode": "DMA8-MOV-L2",
+      "summaryText": "The student will be able to: 20. Extend body flexibility. 21. Display clarity of movement and gesture. 22. Use exaggerated movement and gesture. 23. Plan, repeat and combine movement patterns. 24. Plan movement for audience visibility and spatial limitations. 25. Communicate environment, character, and situation non-verbally.",
+      "officialOutcomeText": "The student will be able to: 20. Extend body flexibility. 21. Display clarity of movement and gesture. 22. Use exaggerated movement and gesture. 23. Plan, repeat and combine movement patterns. 24. Plan movement for audience visibility and spatial limitations. 25. Communicate environment, character, and situation non-verbally.",
+      "curriculumFocus": "Students develop drama abilities related to 20. Extend body flexibility.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-c8fc54d5-ce38-4035-b923-6a43718dc45b",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Movement > Level II - Intermediate",
+      "sourceOutcomeId": "c8fc54d5-ce38-4035-b923-6a43718dc45b",
+      "moduleType": "outcome",
+      "moduleLabel": "Movement",
+      "moduleSequence": 10
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-sp-l2",
+      "standardCode": "DMA8-SP-L2",
+      "summaryText": "The student will be able to: 9. Use volume, articulation and projection to achieve clarity. 10. Demonstrate effects of intonation, rate, pause and phrasing on the meaning of words. 11. Use pitch to effect quality of voice production. 12. Demonstrate a stage whisper. 13. Use voice to communicate mood and emotion. 14. Use a variety of character voices.",
+      "officialOutcomeText": "The student will be able to: 9. Use volume, articulation and projection to achieve clarity. 10. Demonstrate effects of intonation, rate, pause and phrasing on the meaning of words. 11. Use pitch to effect quality of voice production. 12. Demonstrate a stage whisper. 13. Use voice to communicate mood and emotion. 14. Use a variety of character voices.",
+      "curriculumFocus": "Students develop drama abilities related to 9. Use volume, articulation and projection to achieve clarity.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-18daaec6-9daa-4bc7-b9a4-0d3f53f0641f",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Speech > Level II - Intermediate",
+      "sourceOutcomeId": "18daaec6-9daa-4bc7-b9a4-0d3f53f0641f",
+      "moduleType": "outcome",
+      "moduleLabel": "Speech",
+      "moduleSequence": 20
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-ia-l2",
+      "standardCode": "DMA8-IA-L2",
+      "summaryText": "The student will be able to: 13. Recognize the techniques of offering, accepting, advancing and blocking. 14. Use varied stimuli for character development. 15. Use the body and body language to enhance characterization. 16. Demonstrate economy in movement and speech. 17. Select and use language appropriate to a given character and situation. 18. Use voice variety to enhance a character. 19. Discover how feelings affect a character. 20. Enter and exit in character. 21. Sustain a character throughout an exercise or scene. 22. Create business appropriate to character and situation. 23. Demonstrate understanding of character motivation. 24. Recognize that relationships exist between characters in given situations. 25. Demonstrate understanding of focus and the processes of sharing, giving and taking.",
+      "officialOutcomeText": "The student will be able to: 13. Recognize the techniques of offering, accepting, advancing and blocking. 14. Use varied stimuli for character development. 15. Use the body and body language to enhance characterization. 16. Demonstrate economy in movement and speech. 17. Select and use language appropriate to a given character and situation. 18. Use voice variety to enhance a character. 19. Discover how feelings affect a character. 20. Enter and exit in character. 21. Sustain a character throughout an exercise or scene. 22. Create business appropriate to character and situation. 23. Demonstrate understanding of character motivation. 24. Recognize that relationships exist between characters in given situations. 25. Demonstrate understanding of focus and the processes of sharing, giving and taking.",
+      "curriculumFocus": "Students develop drama abilities related to 13. Recognize the techniques of offering, accepting, advancing and blocking.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-19c6fb4d-8ca7-4521-9bf2-3faa14b322a8",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Improvisation/Acting > Level II - Intermediate",
+      "sourceOutcomeId": "19c6fb4d-8ca7-4521-9bf2-3faa14b322a8",
+      "moduleType": "outcome",
+      "moduleLabel": "Improvisation/Acting",
+      "moduleSequence": 30
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-ts-l2",
+      "standardCode": "DMA8-TS-L2",
+      "summaryText": "The student will be able to: 4. Recognize that drama exists in every culture. 5. Recognize that “theatre is a mirror of society”. 6. Show awareness of selected periods and playwrights.",
+      "officialOutcomeText": "The student will be able to: 4. Recognize that drama exists in every culture. 5. Recognize that “theatre is a mirror of society”. 6. Show awareness of selected periods and playwrights.",
+      "curriculumFocus": "Students develop drama abilities related to 4. Recognize that drama exists in every culture.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-1eafa15a-785a-49cf-afa3-b77ff0cac946",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Theatre Studies > Level II - Intermediate (Theatre History)",
+      "sourceOutcomeId": "1eafa15a-785a-49cf-afa3-b77ff0cac946",
+      "moduleType": "outcome",
+      "moduleLabel": "Theatre Studies",
+      "moduleSequence": 40
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-tt-awareness",
+      "standardCode": "DMA8-TT-AWARENESS",
+      "summaryText": "The student will be able to: 1. Recognize the basic terminology associated with the component being studied. 2. Demonstrate understanding of the basic functions of the component being studied. 3. Show awareness of the importance of research. 4. Show awareness of available resources pertaining to the component being studied; e.g., supplies, libraries and theatre companies. 5. Demonstrate understanding of the various conventions of the component being studied.",
+      "officialOutcomeText": "The student will be able to: 1. Recognize the basic terminology associated with the component being studied. 2. Demonstrate understanding of the basic functions of the component being studied. 3. Show awareness of the importance of research. 4. Show awareness of available resources pertaining to the component being studied; e.g., supplies, libraries and theatre companies. 5. Demonstrate understanding of the various conventions of the component being studied.",
+      "curriculumFocus": "Students develop drama abilities related to 1. Recognize the basic terminology associated with the component being studied.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-2bf76ff3-7038-4774-af52-8783d249338f",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Technical Theatre > Awareness",
+      "sourceOutcomeId": "2bf76ff3-7038-4774-af52-8783d249338f",
+      "moduleType": "outcome",
+      "moduleLabel": "Technical Theatre",
+      "moduleSequence": 50
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-tt-readiness",
+      "standardCode": "DMA8-TT-READINESS",
+      "summaryText": "The student will be able to: 6. Demonstrate understanding of the importance of planning and organization. 7. Select a project appropriate to the component being studied. 8. Demonstrate understanding of the use of colour, shape and texture to achieve a desired effect. 9. Use sketching to explore ideas for the project. 10. Demonstrate understanding of and use appropriate methods and tools for designing the project; e.g., makeup charts, cue sheets, working drawings. 11. Arrange and sequence time, ideas, information, materials and/or personnel for achievement of the project.",
+      "officialOutcomeText": "The student will be able to: 6. Demonstrate understanding of the importance of planning and organization. 7. Select a project appropriate to the component being studied. 8. Demonstrate understanding of the use of colour, shape and texture to achieve a desired effect. 9. Use sketching to explore ideas for the project. 10. Demonstrate understanding of and use appropriate methods and tools for designing the project; e.g., makeup charts, cue sheets, working drawings. 11. Arrange and sequence time, ideas, information, materials and/or personnel for achievement of the project.",
+      "curriculumFocus": "Students develop drama abilities related to 6. Demonstrate understanding of the importance of planning and organization.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-4235cc5c-d11b-44c6-a454-7db9cea8c290",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Technical Theatre > Readiness",
+      "sourceOutcomeId": "4235cc5c-d11b-44c6-a454-7db9cea8c290",
+      "moduleType": "outcome",
+      "moduleLabel": "Technical Theatre",
+      "moduleSequence": 50
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma8-dma8-tt-application",
+      "standardCode": "DMA8-TT-APPLICATION",
+      "summaryText": "The student will be able to: 12. Demonstrate understanding of and apply appropriate regulations, procedures and precautions to ensure safe working conditions. 13. Determine and acquire necessary supplies or substitutes to construct the planned project. 14. Use appropriate tools and skills to assemble or construct the planned project. 15. Use the project. 16. Demonstrate the integration of technical theatre with other disciplines in order to enhance dramatic communication.",
+      "officialOutcomeText": "The student will be able to: 12. Demonstrate understanding of and apply appropriate regulations, procedures and precautions to ensure safe working conditions. 13. Determine and acquire necessary supplies or substitutes to construct the planned project. 14. Use appropriate tools and skills to assemble or construct the planned project. 15. Use the project. 16. Demonstrate the integration of technical theatre with other disciplines in order to enhance dramatic communication.",
+      "curriculumFocus": "Students develop drama abilities related to 12. Demonstrate understanding of and apply appropriate regulations, procedures and precautions to ensure safe working conditions.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma8-24dd6de0-f1ae-425b-afc3-bc2693732e67",
+      "sourceLocator": "FARDMA_79 > DMA8 > Learner Expectations > Technical Theatre > Application",
+      "sourceOutcomeId": "24dd6de0-f1ae-425b-afc3-bc2693732e67",
+      "moduleType": "outcome",
+      "moduleLabel": "Technical Theatre",
+      "moduleSequence": 50
+    }
+  ],
+  "aliases": []
+}

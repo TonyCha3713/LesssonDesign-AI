@@ -1,0 +1,29 @@
+<%- include('partials/head') %>
+<main class="lessondesign-ai__shell ldai-page ldai-page--narrow">
+	<section class="lessondesign-ai__panel is-active ldai-auth-card">
+		<div class="lessondesign-ai__panel-header">
+			<p class="lessondesign-ai__eyebrow">Teacher Account</p>
+			<h3>Log in</h3>
+			<p>Save lesson plans to your account and pick up where you left off on any device.</p>
+		</div>
+		<% if (error) { %><p class="ldai-alert ldai-alert--error" role="alert"><%= error %></p><% } %>
+		<form method="post" action="/login" class="ldai-form-stack">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<input type="hidden" name="redirect" value="<%= redirect %>">
+			<label class="lessondesign-ai__field">
+				<span>Email</span>
+				<input type="email" name="email" value="<%= email %>" autocomplete="email" required autofocus>
+			</label>
+			<label class="lessondesign-ai__field">
+				<span>Password</span>
+				<input type="password" name="password" autocomplete="current-password" required>
+			</label>
+			<div class="lessondesign-ai__actions">
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Log In</button>
+				<% if (registrationEnabled) { %><a class="lessondesign-ai__button" href="/register">Create Account</a><% } %>
+			</div>
+		</form>
+		<p class="lessondesign-ai__field-help">Forgot your password? Ask your LessonDesign administrator to reset it.</p>
+	</section>
+</main>
+<%- include('partials/foot') %>

@@ -1,0 +1,38 @@
+<%- include('partials/head') %>
+<main class="lessondesign-ai__shell ldai-page" data-ldai-plans>
+	<script type="application/json" id="ldai-data"><%- JSON.stringify(plannerData).replace(/</g, '\\u003c') %></script>
+	<section class="lessondesign-ai__panel is-active">
+		<div class="lessondesign-ai__panel-header ldai-row">
+			<div>
+				<h3>My Lesson Plans</h3>
+				<p>Plans save to your account automatically while you work in the planner.</p>
+			</div>
+			<a class="lessondesign-ai__button lessondesign-ai__button--primary" href="/?new=1" data-new-plan>Start New Lesson Plan</a>
+		</div>
+		<p class="lessondesign-ai__helper" data-plans-status aria-live="polite"></p>
+		<% if (!user.hasAccess) { %>
+			<div class="ldai-alert">
+				<strong>Your account needs LessonDesign access.</strong>
+				Redeem an access key on your <a href="/account">Account</a> page to save and reopen lesson plans.
+			</div>
+		<% } else if (!plans.length) { %>
+			<p class="lessondesign-ai__empty">No saved lesson plans yet. Start the planner to create your first plan.</p>
+		<% } else { %>
+			<ul class="ldai-plan-list">
+				<% plans.forEach(function (plan) { %>
+					<li class="ldai-plan-card" data-plan-row="<%= plan.id %>">
+						<div class="ldai-plan-card__copy">
+							<strong><%= plan.title || 'Untitled Lesson' %></strong>
+							<span>Last saved <time datetime="<%= plan.lastSaved %>" data-local-time><%= plan.lastSaved %></time></span>
+						</div>
+						<div class="ldai-plan-card__actions">
+							<a class="lessondesign-ai__button lessondesign-ai__button--primary" href="/?plan=<%= encodeURIComponent(plan.id) %>">Open</a>
+							<button class="lessondesign-ai__button" type="button" data-plan-delete="<%= plan.id %>">Delete</button>
+						</div>
+					</li>
+				<% }); %>
+			</ul>
+		<% } %>
+	</section>
+</main>
+<%- include('partials/foot', { scripts: ['/assets/js/site.js'] }) %>

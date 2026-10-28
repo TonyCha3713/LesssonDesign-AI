@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-drama-g7",
+    "label": "Alberta Drama Grade 7 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "7",
+    "gradeBand": "Grade 7",
+    "gradeLabel": "Grade 7",
+    "courseCode": "DMA7",
+    "courseLabel": "Drama",
+    "courseTitle": "Drama (7–9)",
+    "subject": "drama",
+    "subjectAreaId": "fine-arts",
+    "subjectId": "drama",
+    "unit": "Learner Expectations",
+    "strand": "Learner Expectations",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-fardma-79-dma7-879235ce-dc5f-4068-8d32-02bbaeb59457": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=879235ce-dc5f-4068-8d32-02bbaeb59457",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma7-fd6b7800-dba5-4c18-86a6-108b2f6312f9": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=fd6b7800-dba5-4c18-86a6-108b2f6312f9",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma7-86992387-4df0-43b5-bdf1-e3e59ad65a11": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=86992387-4df0-43b5-bdf1-e3e59ad65a11",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma7-e271ae36-b5a4-4a4e-85e0-47580be87141": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=e271ae36-b5a4-4a4e-85e0-47580be87141",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma7-86d33fa5-7865-425a-8af3-fae15c07dfae": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=86d33fa5-7865-425a-8af3-fae15c07dfae",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma7-cef1f9c0-e523-4130-acba-2481dd86636b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=cef1f9c0-e523-4130-acba-2481dd86636b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-fardma-79-dma7-681cccb7-15b5-4732-b7e1-8e8400a85940": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/FARDMA_79/DMA7?id=681cccb7-15b5-4732-b7e1-8e8400a85940",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-mov-l1",
+      "standardCode": "DMA7-MOV-L1",
+      "summaryText": "The student will be able to: 1. Demonstrate understanding of and apply appropriate safety procedures. 2. Demonstrate awareness of personal and shared space. 3. Use physical relaxation techniques effectively. 4. Recognize the need for and demonstrate warmup activities. 5. Move individual body parts. 6. Use proper posture. 7. Demonstrate awareness of his or her own body and its movement potential. 8. Display increased freedom of movement. 9. Travel through space in a variety of ways; e.g., running, creeping and jumping. 10. Use varying speed of movement. 11. Use directions and pathways. 12. Use levels. 13. Control focus and energy in movement and gesture. 14. Create shapes with the body. 15. Display increased balance and coordination. 16. Demonstrate freezing of movement. 17. Use movement to communicate nonverbally. 18. Create movement in response to music. 19. Translate sounds, words, images, and emotions into movement.",
+      "officialOutcomeText": "The student will be able to: 1. Demonstrate understanding of and apply appropriate safety procedures. 2. Demonstrate awareness of personal and shared space. 3. Use physical relaxation techniques effectively. 4. Recognize the need for and demonstrate warmup activities. 5. Move individual body parts. 6. Use proper posture. 7. Demonstrate awareness of his or her own body and its movement potential. 8. Display increased freedom of movement. 9. Travel through space in a variety of ways; e.g., running, creeping and jumping. 10. Use varying speed of movement. 11. Use directions and pathways. 12. Use levels. 13. Control focus and energy in movement and gesture. 14. Create shapes with the body. 15. Display increased balance and coordination. 16. Demonstrate freezing of movement. 17. Use movement to communicate nonverbally. 18. Create movement in response to music. 19. Translate sounds, words, images, and emotions into movement.",
+      "curriculumFocus": "Students develop drama abilities related to 1. Demonstrate understanding of and apply appropriate safety procedures.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-879235ce-dc5f-4068-8d32-02bbaeb59457",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Movement > Level I - Beginning",
+      "sourceOutcomeId": "879235ce-dc5f-4068-8d32-02bbaeb59457",
+      "moduleType": "outcome",
+      "moduleLabel": "Movement",
+      "moduleSequence": 10
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-sp-l1",
+      "standardCode": "DMA7-SP-L1",
+      "summaryText": "The student will be able to: 1. Speak spontaneously. 2. Use vocal relaxation and warmup techniques. 3. Use effective breathing techniques. 4. Use techniques of storytelling. 5. Recognize the need to control and protect the voice. 6. Use volume appropriate to situation. 7. Create vocal sound effects to explore voice potential. 8. Understand volume, articulation, projection, rate, pause, phrasing, pitch and intonation.",
+      "officialOutcomeText": "The student will be able to: 1. Speak spontaneously. 2. Use vocal relaxation and warmup techniques. 3. Use effective breathing techniques. 4. Use techniques of storytelling. 5. Recognize the need to control and protect the voice. 6. Use volume appropriate to situation. 7. Create vocal sound effects to explore voice potential. 8. Understand volume, articulation, projection, rate, pause, phrasing, pitch and intonation.",
+      "curriculumFocus": "Students develop drama abilities related to 1. Speak spontaneously.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-fd6b7800-dba5-4c18-86a6-108b2f6312f9",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Speech > Level I - Beginning",
+      "sourceOutcomeId": "fd6b7800-dba5-4c18-86a6-108b2f6312f9",
+      "moduleType": "outcome",
+      "moduleLabel": "Speech",
+      "moduleSequence": 20
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-ia-l1",
+      "standardCode": "DMA7-IA-L1",
+      "summaryText": "The student will be able to: 1. Use warmup techniques for preparation of body, voice and mind. 2. Respond to directions without breaking concentration — side coaching. 3. Demonstrate the ability to be still. 4. Create experiences through imaging, visualizing and fantasizing. 5. Create and tell a story spontaneously. 6. Understand and apply the essential elements of a story: character, setting, conflict, climax and plot. 7. Use stage vocabulary: stage areas, body positions and crosses. 8. Demonstrate appropriate rehearsal behaviours and routines. 9. Communicate a clear beginning, middle and end in spontaneous and planned scenes. 10. Use essential story elements in spontaneous and planned scenes. 11. Create a dramatic situation in response to varied stimuli: objects, pictures, music. 12. Make logical choices within the boundaries of situation and character.",
+      "officialOutcomeText": "The student will be able to: 1. Use warmup techniques for preparation of body, voice and mind. 2. Respond to directions without breaking concentration — side coaching. 3. Demonstrate the ability to be still. 4. Create experiences through imaging, visualizing and fantasizing. 5. Create and tell a story spontaneously. 6. Understand and apply the essential elements of a story: character, setting, conflict, climax and plot. 7. Use stage vocabulary: stage areas, body positions and crosses. 8. Demonstrate appropriate rehearsal behaviours and routines. 9. Communicate a clear beginning, middle and end in spontaneous and planned scenes. 10. Use essential story elements in spontaneous and planned scenes. 11. Create a dramatic situation in response to varied stimuli: objects, pictures, music. 12. Make logical choices within the boundaries of situation and character.",
+      "curriculumFocus": "Students develop drama abilities related to 1. Use warmup techniques for preparation of body, voice and mind.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-86992387-4df0-43b5-bdf1-e3e59ad65a11",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Improvisation/Acting > Level I - Beginning",
+      "sourceOutcomeId": "86992387-4df0-43b5-bdf1-e3e59ad65a11",
+      "moduleType": "outcome",
+      "moduleLabel": "Improvisation/Acting",
+      "moduleSequence": 30
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-ts-l1",
+      "standardCode": "DMA7-TS-L1",
+      "summaryText": "The student will be able to: 1. Demonstrate understanding of the need for analysis of the work of self and others. 2. Identify specific criteria to assess a presentation. 3. Verbalize and write a review.",
+      "officialOutcomeText": "The student will be able to: 1. Demonstrate understanding of the need for analysis of the work of self and others. 2. Identify specific criteria to assess a presentation. 3. Verbalize and write a review.",
+      "curriculumFocus": "Students develop drama abilities related to 1. Demonstrate understanding of the need for analysis of the work of self and others.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-e271ae36-b5a4-4a4e-85e0-47580be87141",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Theatre Studies > Level I - Beginning (Performance Analysis)",
+      "sourceOutcomeId": "e271ae36-b5a4-4a4e-85e0-47580be87141",
+      "moduleType": "outcome",
+      "moduleLabel": "Theatre Studies",
+      "moduleSequence": 40
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-tt-awareness",
+      "standardCode": "DMA7-TT-AWARENESS",
+      "summaryText": "The student will be able to: 1. Recognize the basic terminology associated with the component being studied. 2. Demonstrate understanding of the basic functions of the component being studied. 3. Show awareness of the importance of research. 4. Show awareness of available resources pertaining to the component being studied; e.g., supplies, libraries and theatre companies. 5. Demonstrate understanding of the various conventions of the component being studied.",
+      "officialOutcomeText": "The student will be able to: 1. Recognize the basic terminology associated with the component being studied. 2. Demonstrate understanding of the basic functions of the component being studied. 3. Show awareness of the importance of research. 4. Show awareness of available resources pertaining to the component being studied; e.g., supplies, libraries and theatre companies. 5. Demonstrate understanding of the various conventions of the component being studied.",
+      "curriculumFocus": "Students develop drama abilities related to 1. Recognize the basic terminology associated with the component being studied.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-86d33fa5-7865-425a-8af3-fae15c07dfae",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Technical Theatre > Awareness",
+      "sourceOutcomeId": "86d33fa5-7865-425a-8af3-fae15c07dfae",
+      "moduleType": "outcome",
+      "moduleLabel": "Technical Theatre",
+      "moduleSequence": 50
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-tt-readiness",
+      "standardCode": "DMA7-TT-READINESS",
+      "summaryText": "The student will be able to: 6. Demonstrate understanding of the importance of planning and organization. 7. Select a project appropriate to the component being studied. 8. Demonstrate understanding of the use of colour, shape and texture to achieve a desired effect. 9. Use sketching to explore ideas for the project. 10. Demonstrate understanding of and use appropriate methods and tools for designing the project; e.g., makeup charts, cue sheets, working drawings. 11. Arrange and sequence time, ideas, information, materials and/or personnel for achievement of the project.",
+      "officialOutcomeText": "The student will be able to: 6. Demonstrate understanding of the importance of planning and organization. 7. Select a project appropriate to the component being studied. 8. Demonstrate understanding of the use of colour, shape and texture to achieve a desired effect. 9. Use sketching to explore ideas for the project. 10. Demonstrate understanding of and use appropriate methods and tools for designing the project; e.g., makeup charts, cue sheets, working drawings. 11. Arrange and sequence time, ideas, information, materials and/or personnel for achievement of the project.",
+      "curriculumFocus": "Students develop drama abilities related to 6. Demonstrate understanding of the importance of planning and organization.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-cef1f9c0-e523-4130-acba-2481dd86636b",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Technical Theatre > Readiness",
+      "sourceOutcomeId": "cef1f9c0-e523-4130-acba-2481dd86636b",
+      "moduleType": "outcome",
+      "moduleLabel": "Technical Theatre",
+      "moduleSequence": 50
+    },
+    {
+      "id": "ca-ab-drama-fardma-79-dma7-dma7-tt-application",
+      "standardCode": "DMA7-TT-APPLICATION",
+      "summaryText": "The student will be able to: 12. Demonstrate understanding of and apply appropriate regulations, procedures and precautions to ensure safe working conditions. 13. Determine and acquire necessary supplies or substitutes to construct the planned project. 14. Use appropriate tools and skills to assemble or construct the planned project. 15. Use the project. 16. Demonstrate the integration of technical theatre with other disciplines in order to enhance dramatic communication.",
+      "officialOutcomeText": "The student will be able to: 12. Demonstrate understanding of and apply appropriate regulations, procedures and precautions to ensure safe working conditions. 13. Determine and acquire necessary supplies or substitutes to construct the planned project. 14. Use appropriate tools and skills to assemble or construct the planned project. 15. Use the project. 16. Demonstrate the integration of technical theatre with other disciplines in order to enhance dramatic communication.",
+      "curriculumFocus": "Students develop drama abilities related to 12. Demonstrate understanding of and apply appropriate regulations, procedures and precautions to ensure safe working conditions.",
+      "sourceDocumentId": "ca-ab-curriculum-fardma-79-dma7-681cccb7-15b5-4732-b7e1-8e8400a85940",
+      "sourceLocator": "FARDMA_79 > DMA7 > Learner Expectations > Technical Theatre > Application",
+      "sourceOutcomeId": "681cccb7-15b5-4732-b7e1-8e8400a85940",
+      "moduleType": "outcome",
+      "moduleLabel": "Technical Theatre",
+      "moduleSequence": 50
+    }
+  ],
+  "aliases": []
+}

@@ -1,0 +1,2440 @@
+/* LessonDesign AI planner UI */
+
+/* === Animations === */
+@keyframes ldai-float {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-7px); }
+}
+
+@keyframes ldai-fade-in {
+	from { opacity: 0; transform: translateY(8px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Root & Variables === */
+.lessondesign-ai {
+	--ldai-bg: #eef4f8;
+	--ldai-surface: rgba(255, 255, 255, 0.96);
+	--ldai-surface-soft: #f3f8fd;
+	--ldai-surface-tint: #e8f2fc;
+	--ldai-border: rgba(20, 50, 74, 0.13);
+	--ldai-border-strong: rgba(20, 50, 74, 0.22);
+	--ldai-border-input: #b9cfe2;
+	--ldai-text: #18384f;
+	--ldai-text-strong: #10283d;
+	--ldai-muted: #4e657b;
+	--ldai-placeholder: #758ca2;
+	--ldai-blue: #2e7bbc;
+	--ldai-blue-dark: #184f7e;
+	--ldai-blue-dim: rgba(46, 123, 188, 0.12);
+	--ldai-blue-border: rgba(46, 123, 188, 0.28);
+	--ldai-orange: #e8983e;
+	--ldai-orange-hover: #d8892f;
+	--ldai-orange-shadow: rgba(232, 152, 62, 0.28);
+	--ldai-green: #5bab4e;
+	--ldai-cyan: #38b6d4;
+	--ldai-danger: #c0392b;
+	--ldai-shadow-sm: 0 4px 12px rgba(17, 42, 64, 0.055);
+	--ldai-shadow-md: 0 10px 24px rgba(17, 42, 64, 0.08);
+	--ldai-shadow-lg: 0 18px 40px rgba(17, 42, 64, 0.11);
+	--ldai-radius: 28px;
+	--ldai-radius-sm: 16px;
+	font-family: "Aptos", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+	color: var(--ldai-text);
+	background:
+		radial-gradient(circle at top left, rgba(46, 123, 188, 0.11), transparent 28%),
+		radial-gradient(circle at 88% 10%, rgba(232, 152, 62, 0.08), transparent 24%),
+		linear-gradient(180deg, #e7eff6 0%, #f4f8fb 180px, #eef4f8 100%);
+	width: 100%;
+	max-width: none;
+	padding: 0 0 88px;
+	position: relative;
+	overflow-x: clip;
+}
+
+.lessondesign-ai::before,
+.lessondesign-ai::after {
+	display: none;
+}
+
+.lessondesign-ai::before {
+	top: 116px;
+	left: -110px;
+	width: 280px;
+	height: 280px;
+	background: radial-gradient(circle, rgba(56, 182, 212, 0.14), transparent 70%);
+}
+
+.lessondesign-ai::after {
+	top: 340px;
+	right: -90px;
+	width: 240px;
+	height: 240px;
+	background: radial-gradient(circle, rgba(232, 152, 62, 0.12), transparent 72%);
+}
+
+.lessondesign-ai *,
+.lessondesign-ai *::before,
+.lessondesign-ai *::after {
+	box-sizing: border-box;
+}
+
+/* === Header Bar === */
+.ldai-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 72px;
+	padding: 0 clamp(18px, 3vw, 40px);
+	background: linear-gradient(135deg, #174d77 0%, #2e7bbc 52%, #58a8de 100%);
+	box-shadow: 0 4px 14px rgba(23, 77, 119, 0.16);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ldai-header__left {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.ldai-logo-mark {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 42px;
+	height: 42px;
+	border-radius: 14px;
+	background: rgba(255, 255, 255, 0.16);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	color: #fff;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0.01em;
+	flex-shrink: 0;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+.ldai-logo-text {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+.ldai-header__nav {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.ldai-nav-link,
+.ldai-nav-link:visited {
+	display: inline-block;
+	padding: 8px 14px;
+	border-radius: 999px;
+	border: none !important;
+	box-shadow: none !important;
+	outline: none;
+	background: transparent !important;
+	color: rgba(255, 255, 255, 0.85) !important;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none !important;
+	transition: background 0.15s, color 0.15s;
+}
+
+.ldai-nav-link:hover,
+.ldai-nav-link:focus {
+	background: rgba(255, 255, 255, 0.14) !important;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+/* === Shell / Layout === */
+.lessondesign-ai__shell {
+	max-width: 1240px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 24px 0;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	container-type: inline-size;
+	position: relative;
+	z-index: 1;
+}
+
+.lessondesign-ai__planner-layout {
+	display: block;
+}
+
+.lessondesign-ai__sidebar,
+.lessondesign-ai__header,
+.lessondesign-ai__status {
+	display: none !important;
+}
+
+.lessondesign-ai__form {
+	width: 100%;
+}
+
+.lessondesign-ai__live-status {
+	margin: 0 0 18px;
+}
+
+.lessondesign-ai__live-status:empty {
+	display: none;
+}
+
+.lessondesign-ai__live-status:not(:empty) {
+	padding: 12px 16px;
+	border: 1px solid var(--ldai-blue-border);
+	border-radius: 16px;
+	background: linear-gradient(135deg, rgba(46, 123, 188, 0.1), rgba(255, 255, 255, 0.92));
+	color: var(--ldai-blue-dark);
+	font-size: 14px;
+	font-weight: 600;
+	box-shadow: var(--ldai-shadow-sm);
+}
+
+.lessondesign-ai.is-data-loading .lessondesign-ai__live-status:not(:empty) {
+	border-color: var(--ldai-orange);
+	background: linear-gradient(135deg, rgba(232, 152, 62, 0.14), rgba(255, 255, 255, 0.94));
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai.is-data-error .lessondesign-ai__live-status:not(:empty) {
+	border-color: rgba(192, 57, 43, 0.36);
+	background: linear-gradient(135deg, rgba(192, 57, 43, 0.11), rgba(255, 255, 255, 0.94));
+	color: var(--ldai-danger);
+}
+
+/* === Step Indicator === */
+.lessondesign-ai__steps {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	margin-bottom: 18px;
+	padding: 16px 18px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 24px;
+	background: rgba(255, 255, 255, 0.84);
+	box-shadow: var(--ldai-shadow-sm);
+	overflow-x: auto;
+	scrollbar-width: none;
+	-webkit-overflow-scrolling: touch;
+}
+
+.lessondesign-ai__steps::-webkit-scrollbar {
+	display: none;
+}
+
+.lessondesign-ai__step {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex: 0 0 auto;
+	appearance: none;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font: inherit;
+	padding: 10px 12px;
+	border-radius: 16px;
+	color: #8093a8;
+	transition: color 0.2s, background 0.2s;
+	clip-path: none;
+	min-width: 0;
+	min-height: 0;
+	box-shadow: none;
+}
+
+.lessondesign-ai__step:first-child {
+	padding-left: 0;
+	clip-path: none;
+}
+
+.lessondesign-ai__step + .lessondesign-ai__step {
+	margin-left: 0;
+}
+
+.lessondesign-ai__step::after {
+	display: none;
+}
+
+.lessondesign-ai__step:hover {
+	color: var(--ldai-text);
+	background: rgba(255, 255, 255, 0.65);
+}
+
+.lessondesign-ai__step-index {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	border: 2px solid #d0dcea;
+	background: var(--ldai-surface);
+	color: #8e9bac;
+	font-size: 14px;
+	font-weight: 700;
+	flex-shrink: 0;
+	transition: background 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.lessondesign-ai__step-label {
+	font-size: 14px;
+	font-weight: 700;
+	white-space: nowrap;
+	line-height: 1.2;
+}
+
+/* Step connector */
+.ldai-connector {
+	flex: 1;
+	min-width: 18px;
+	height: 3px;
+	background: linear-gradient(90deg, rgba(209, 220, 232, 0.7), rgba(221, 227, 235, 0.95));
+	border-radius: 999px;
+	transition: background 0.3s;
+}
+
+/* Active step */
+.lessondesign-ai__step.is-active {
+	color: var(--ldai-blue);
+	background: rgba(46, 123, 188, 0.08);
+}
+
+.lessondesign-ai__step.is-active .lessondesign-ai__step-index {
+	background: var(--ldai-blue);
+	border-color: var(--ldai-blue);
+	color: #fff;
+	box-shadow: 0 4px 12px rgba(46, 123, 188, 0.28);
+}
+
+/* Complete step */
+.lessondesign-ai__step.is-complete {
+	color: var(--ldai-green);
+	background: rgba(91, 171, 78, 0.08);
+}
+
+.lessondesign-ai__step.is-complete .lessondesign-ai__step-index {
+	background: var(--ldai-green);
+	border-color: var(--ldai-green);
+	color: #fff;
+	box-shadow: 0 4px 12px rgba(91, 171, 78, 0.25);
+}
+
+/* Connector turns green after a complete step */
+.lessondesign-ai__step.is-complete + .ldai-connector {
+	background: var(--ldai-green);
+}
+
+/* Upcoming step */
+.lessondesign-ai__step.is-upcoming {
+	color: #99aaba;
+}
+
+/* === Focus visible === */
+.lessondesign-ai__step:focus-visible,
+.lessondesign-ai__button:focus-visible,
+.lessondesign-ai__field input:focus-visible,
+.lessondesign-ai__field textarea:focus-visible,
+.lessondesign-ai__field select:focus-visible {
+	outline: 3px solid var(--ldai-blue-border);
+	outline-offset: 2px;
+}
+
+.lessondesign-ai__field input:focus,
+.lessondesign-ai__field textarea:focus,
+.lessondesign-ai__field select:focus {
+	border-color: var(--ldai-blue);
+	outline: none;
+	box-shadow: 0 0 0 3px var(--ldai-blue-dim);
+}
+
+/* === Panel / Card === */
+.lessondesign-ai__panel {
+	display: block;
+	scroll-margin-top: 96px;
+	padding: 36px;
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: var(--ldai-radius);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 251, 255, 0.95));
+	box-shadow: var(--ldai-shadow-md);
+	overflow: hidden;
+	contain: layout paint;
+	content-visibility: auto;
+	contain-intrinsic-size: 680px;
+}
+
+.lessondesign-ai__panel[hidden] {
+	display: none !important;
+}
+
+.lessondesign-ai__panel + .lessondesign-ai__panel {
+	margin-top: 0;
+}
+
+/* === Panel Header === */
+.lessondesign-ai__panel-header {
+	margin: -36px -36px 28px;
+	padding: 26px 36px 24px;
+	border-bottom: 1px solid rgba(20, 50, 74, 0.1);
+	background: linear-gradient(135deg, rgba(246, 250, 255, 0.99), rgba(231, 242, 253, 0.97));
+	border-radius: 28px 28px 22px 22px;
+	position: relative;
+}
+
+.lessondesign-ai__panel-header::after {
+	content: "";
+	position: absolute;
+	right: -36px;
+	top: -48px;
+	width: 180px;
+	height: 180px;
+	border-radius: 999px;
+	background: radial-gradient(circle, rgba(46, 123, 188, 0.14), transparent 70%);
+	pointer-events: none;
+}
+
+.lessondesign-ai__panel-header h3 {
+	margin: 0 0 8px;
+	font-family: "Aptos Display", "Aptos", "Trebuchet MS", sans-serif;
+	font-size: clamp(26px, 3.4vw, 33px);
+	font-weight: 700;
+	color: var(--ldai-text-strong);
+	line-height: 1.04;
+	letter-spacing: -0.04em;
+	position: relative;
+	z-index: 1;
+}
+
+.lessondesign-ai__panel-header p {
+	margin: 0;
+	font-size: 15px;
+	color: #5a7085;
+	line-height: 1.6;
+	max-width: 760px;
+	position: relative;
+	z-index: 1;
+}
+
+.lessondesign-ai__panel-title-row {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 8px;
+	position: relative;
+	z-index: 1;
+}
+
+.lessondesign-ai__account-prompt {
+	display: grid;
+	grid-template-columns: minmax(0, 1.8fr) auto;
+	gap: 20px;
+	align-items: center;
+	margin: 0 0 26px;
+	padding: 22px 24px;
+	border: 1px solid rgba(232, 152, 62, 0.34);
+	border-radius: 24px;
+	background:
+		radial-gradient(circle at top right, rgba(232, 152, 62, 0.16), transparent 34%),
+		linear-gradient(135deg, rgba(255, 247, 235, 0.99), rgba(255, 255, 255, 0.98) 58%);
+	box-shadow: 0 18px 36px rgba(232, 152, 62, 0.14);
+}
+
+.lessondesign-ai__account-prompt-copy h4 {
+	margin: 0 0 10px;
+	font-family: "Aptos Display", "Aptos", "Trebuchet MS", sans-serif;
+	font-size: clamp(22px, 2.4vw, 28px);
+	line-height: 1.06;
+	letter-spacing: -0.04em;
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__account-prompt-copy p {
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.6;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__account-prompt-eyebrow {
+	margin: 0 0 8px !important;
+	font-size: 12px !important;
+	font-weight: 800;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #b66d18 !important;
+}
+
+.lessondesign-ai__account-prompt-list {
+	display: grid;
+	gap: 10px;
+	margin: 16px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lessondesign-ai__access-key-form {
+	margin-top: 20px;
+	padding-top: 16px;
+	border-top: 1px solid rgba(20, 50, 74, 0.1);
+	max-width: 420px;
+}
+
+.lessondesign-ai__account-prompt-list li {
+	position: relative;
+	padding-left: 18px;
+	font-size: 14px;
+	line-height: 1.55;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__account-prompt-list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.62em;
+	width: 8px;
+	height: 8px;
+	border-radius: 999px;
+	background: var(--ldai-orange);
+	box-shadow: 0 0 0 5px rgba(232, 152, 62, 0.12);
+}
+
+.lessondesign-ai__account-prompt-actions {
+	display: grid;
+	gap: 10px;
+	min-width: 220px;
+}
+
+.lessondesign-ai__account-prompt-actions .lessondesign-ai__button {
+	width: 100%;
+	justify-content: center;
+}
+
+.lessondesign-ai__ai-assist {
+	margin: 0 0 18px;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+.lessondesign-ai__ai-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	padding: 12px;
+	border: 1px solid rgba(46, 123, 188, 0.16);
+	border-radius: 20px;
+	background: rgba(246, 251, 255, 0.82);
+	width: fit-content;
+	max-width: 100%;
+}
+
+.lessondesign-ai__ai-toolbar .lessondesign-ai__button {
+	min-height: 42px;
+	padding: 10px 16px;
+	border-radius: 14px;
+	background: #fff;
+	color: var(--ldai-blue-dark);
+	border-color: rgba(46, 123, 188, 0.18);
+	box-shadow: 0 8px 18px rgba(17, 42, 64, 0.045);
+}
+
+.lessondesign-ai__ai-toolbar .lessondesign-ai__button:hover {
+	background: #fff;
+	border-color: rgba(46, 123, 188, 0.28);
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__ai-assist .lessondesign-ai__helper {
+	min-height: 0;
+	margin-top: 8px;
+}
+
+.lessondesign-ai__ai-response {
+	margin-top: 12px;
+}
+
+.lessondesign-ai__section-coach {
+	margin: 10px 0 24px;
+}
+
+.lessondesign-ai__coach-card {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-items: start;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 20px 22px;
+	border: 1px solid rgba(46, 123, 188, 0.18);
+	border-radius: 20px;
+	background:
+		linear-gradient(90deg, rgba(46, 123, 188, 0.1) 0, rgba(46, 123, 188, 0.1) 5px, transparent 5px),
+		linear-gradient(135deg, rgba(248, 252, 255, 0.99), rgba(255, 255, 255, 0.99));
+	box-shadow: 0 12px 24px rgba(17, 42, 64, 0.045);
+}
+
+.lessondesign-ai__coach-copy {
+	display: grid;
+	gap: 7px;
+	min-width: 0;
+}
+
+.lessondesign-ai__coach-copy span,
+.lessondesign-ai__coach-copy strong,
+.lessondesign-ai__coach-copy p {
+	display: block;
+}
+
+.lessondesign-ai__coach-copy span {
+	width: fit-content;
+	margin-bottom: 2px;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	color: var(--ldai-blue);
+	font-size: 11px;
+	font-weight: 900;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.lessondesign-ai__coach-copy strong {
+	color: var(--ldai-text-strong);
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.lessondesign-ai__coach-copy p {
+	margin: 0;
+	color: var(--ldai-muted);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.lessondesign-ai__coach-action {
+	flex: 0 0 auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2px;
+	min-height: 42px;
+	padding: 9px 16px;
+	border: 1px solid rgba(46, 123, 188, 0.28);
+	border-radius: 999px;
+	background: #fff;
+	color: var(--ldai-blue-dark);
+	font: inherit;
+	font-size: 14px;
+	font-weight: 800;
+	cursor: pointer;
+	box-shadow: 0 8px 16px rgba(17, 42, 64, 0.045);
+}
+
+.lessondesign-ai__coach-action:hover,
+.lessondesign-ai__coach-action:focus {
+	border-color: rgba(46, 123, 188, 0.38);
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__ai-card {
+	padding: 18px;
+	border: 1px solid var(--ldai-border);
+	border-radius: var(--ldai-radius-sm);
+	background: #fff;
+	box-shadow: var(--ldai-shadow-sm);
+}
+
+.lessondesign-ai__ai-card-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.lessondesign-ai__ai-card-header h4,
+.lessondesign-ai__ai-list h5,
+.lessondesign-ai__ai-field-header h5 {
+	margin: 0;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__ai-card-header h4 {
+	font-size: 16px;
+}
+
+.lessondesign-ai__ai-card-header p {
+	margin: 6px 0 0;
+	font-size: 13px;
+	color: var(--ldai-muted);
+	line-height: 1.5;
+}
+
+.lessondesign-ai__ai-review-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.lessondesign-ai__ai-list {
+	margin-bottom: 14px;
+	padding: 14px 16px;
+	border: 1px solid var(--ldai-border);
+	border-radius: var(--ldai-radius-sm);
+	background: #f8fbff;
+}
+
+.lessondesign-ai__ai-list h5 {
+	margin-bottom: 8px;
+	font-size: 13px;
+}
+
+.lessondesign-ai__ai-list ul {
+	margin: 0;
+	padding-left: 18px;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__ai-list li + li {
+	margin-top: 6px;
+}
+
+.lessondesign-ai__ai-list--warning {
+	background: rgba(232, 152, 62, 0.09);
+	border-color: rgba(232, 152, 62, 0.22);
+}
+
+.lessondesign-ai__ai-list--rationale {
+	background: rgba(91, 171, 78, 0.08);
+	border-color: rgba(91, 171, 78, 0.18);
+}
+
+.lessondesign-ai__ai-fields {
+	display: grid;
+	gap: 12px;
+	margin-bottom: 14px;
+}
+
+.lessondesign-ai__ai-field-card {
+	padding: 16px;
+	border: 1px solid var(--ldai-border);
+	border-radius: var(--ldai-radius-sm);
+	background: #fff;
+}
+
+.lessondesign-ai__ai-field-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.lessondesign-ai__ai-field-header h5 {
+	font-size: 14px;
+}
+
+.lessondesign-ai__ai-field-value {
+	font-size: 14px;
+	line-height: 1.6;
+	color: var(--ldai-muted);
+}
+
+/* === Welcome Screen === */
+.lessondesign-ai__welcome {
+	max-width: none;
+	margin: 0;
+	padding: 4px 0 0;
+	text-align: left;
+}
+
+.lessondesign-ai__welcome-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 24px;
+	align-items: stretch;
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.lessondesign-ai__welcome-main {
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: 24px;
+	box-shadow: var(--ldai-shadow-sm);
+}
+
+.lessondesign-ai__welcome-ai-key {
+	position: relative;
+	margin-top: 24px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(20, 50, 74, 0.1);
+}
+
+.lessondesign-ai__welcome-ai-key h4 {
+	margin: 0 0 6px;
+}
+
+.lessondesign-ai__welcome-main {
+	padding: 34px;
+	background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(245, 250, 255, 0.96));
+	position: relative;
+	overflow: hidden;
+}
+
+.lessondesign-ai__welcome-main::after {
+	content: "";
+	position: absolute;
+	inset: auto -50px -60px auto;
+	width: 220px;
+	height: 220px;
+	border-radius: 999px;
+	background: radial-gradient(circle, rgba(46, 123, 188, 0.12), transparent 72%);
+	pointer-events: none;
+}
+
+.lessondesign-ai__eyebrow {
+	margin: 0 0 18px;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--ldai-blue-dark);
+}
+
+/* Welcome icon */
+.ldai-welcome-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 72px;
+	height: 72px;
+	margin: 0 0 24px;
+	border-radius: 20px;
+	background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(232, 243, 255, 0.94));
+	border: 1px solid rgba(46, 123, 188, 0.16);
+	box-shadow: 0 8px 20px rgba(46, 123, 188, 0.08);
+}
+
+.lessondesign-ai__welcome h3 {
+	margin: 0 0 16px;
+	font-family: "Aptos Display", "Aptos", "Trebuchet MS", sans-serif;
+	font-size: clamp(42px, 6vw, 64px);
+	font-weight: 800;
+	line-height: 0.98;
+	letter-spacing: -0.06em;
+	color: var(--ldai-text-strong);
+	max-width: 680px;
+	position: relative;
+	z-index: 1;
+}
+
+.ldai-blue {
+	color: var(--ldai-blue);
+}
+
+.lessondesign-ai__welcome-copy {
+	max-width: 620px;
+	margin: 0 0 28px;
+	font-size: 18px;
+	color: var(--ldai-muted);
+	line-height: 1.7;
+	position: relative;
+	z-index: 1;
+}
+
+/* Feature pills */
+.ldai-pills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 10px;
+	margin: 0 0 28px;
+	position: relative;
+	z-index: 1;
+}
+
+.ldai-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	padding: 10px 16px;
+	border-radius: 999px;
+	font-size: 13px;
+	font-weight: 700;
+	border: 1px solid transparent;
+	background: rgba(255, 255, 255, 0.88);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.ldai-pill--blue {
+	background: var(--ldai-blue-dim);
+	border-color: var(--ldai-blue-border);
+	color: var(--ldai-blue);
+}
+
+.ldai-pill--orange {
+	background: rgba(232, 152, 62, 0.07);
+	border-color: rgba(232, 152, 62, 0.22);
+	color: #b87420;
+}
+
+.ldai-pill--cyan {
+	background: rgba(56, 182, 212, 0.07);
+	border-color: rgba(56, 182, 212, 0.22);
+	color: #1a8fa8;
+}
+
+.ldai-pill--green {
+	background: rgba(91, 171, 78, 0.07);
+	border-color: rgba(91, 171, 78, 0.22);
+	color: #3d8a30;
+}
+
+/* Legacy benefits list - replaced by ldai-pills */
+.lessondesign-ai__benefits {
+	display: none;
+}
+
+/* === Buttons === */
+.lessondesign-ai__button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 13px 20px;
+	border: 1px solid var(--ldai-border-input);
+	border-radius: 14px;
+	background: rgba(247, 251, 255, 0.96);
+	color: var(--ldai-text);
+	font: inherit;
+	font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.15s, box-shadow 0.15s;
+	appearance: none;
+	text-decoration: none;
+	box-shadow: 0 8px 18px rgba(17, 42, 64, 0.05);
+}
+
+.lessondesign-ai__button:hover {
+	background: #fff;
+	border-color: #9eb9d2;
+	color: var(--ldai-text-strong);
+	transform: translateY(-1px);
+}
+
+.lessondesign-ai__button:disabled {
+	opacity: 0.72;
+	cursor: not-allowed;
+	box-shadow: none;
+}
+
+.lessondesign-ai__button--primary {
+	border-color: var(--ldai-orange);
+	background: linear-gradient(135deg, #f0a74f, var(--ldai-orange));
+	color: #fff;
+	font-size: 16px;
+	box-shadow: 0 16px 28px var(--ldai-orange-shadow);
+}
+
+.lessondesign-ai__button--primary:hover {
+	background: linear-gradient(135deg, #ec9b3d, var(--ldai-orange-hover));
+	border-color: var(--ldai-orange-hover);
+}
+
+.lessondesign-ai__button--danger {
+	border-color: #f5c6cb;
+	color: var(--ldai-danger);
+	background: #fff5f5;
+}
+
+.lessondesign-ai__button--danger:hover {
+	background: #ffe8e8;
+}
+
+/* === Actions row === */
+.lessondesign-ai__actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin-top: 30px;
+}
+
+.lessondesign-ai__welcome .lessondesign-ai__actions {
+	justify-content: flex-start;
+	margin-top: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.lessondesign-ai__finish-note {
+	display: none;
+}
+
+/* === Section Stack === */
+.lessondesign-ai__section-stack {
+	display: grid;
+	gap: 20px;
+}
+
+.lessondesign-ai__subsection {
+	padding: 24px 26px;
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: 22px;
+	background: linear-gradient(180deg, rgba(252, 254, 255, 0.99), rgba(241, 247, 253, 0.97));
+	box-shadow: 0 12px 26px rgba(17, 42, 64, 0.06);
+	position: relative;
+}
+
+.lessondesign-ai__subsection::before {
+	content: "";
+	position: absolute;
+	left: 26px;
+	right: 26px;
+	top: 0;
+	height: 4px;
+	border-radius: 999px;
+	background: linear-gradient(90deg, rgba(46, 123, 188, 0.9), rgba(56, 182, 212, 0.26), transparent 82%);
+}
+
+.lessondesign-ai__subsection + .lessondesign-ai__subsection {
+	margin-top: 0;
+	padding-top: 24px;
+	border-top: 1px solid rgba(20, 50, 74, 0.1);
+}
+
+.lessondesign-ai__subsection-header {
+	margin-bottom: 18px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid rgba(20, 50, 74, 0.08);
+}
+
+.lessondesign-ai__subsection-header h4 {
+	margin: 0 0 8px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--ldai-blue-dark);
+}
+
+.lessondesign-ai__subsection-header p {
+	display: block;
+	margin: 0;
+	font-size: 14px;
+	color: var(--ldai-muted);
+	line-height: 1.65;
+}
+
+/* === Grid === */
+.lessondesign-ai__grid {
+	display: grid;
+	gap: 18px;
+	margin-bottom: 18px;
+}
+
+.lessondesign-ai__grid--two {
+	grid-template-columns: 1fr;
+}
+
+.lessondesign-ai__grid--three {
+	grid-template-columns: 1fr;
+}
+
+@media (min-width: 860px) {
+	.lessondesign-ai__grid--two {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.lessondesign-ai__grid--three {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+/* === Form Fields === */
+.lessondesign-ai__field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-weight: 400;
+}
+
+.lessondesign-ai__field > span,
+.lessondesign-ai__field legend {
+	font-size: 13px;
+	font-weight: 800;
+	color: var(--ldai-text-strong);
+	line-height: 1.35;
+	letter-spacing: 0.015em;
+}
+
+.lessondesign-ai__field input,
+.lessondesign-ai__field textarea,
+.lessondesign-ai__field select {
+	width: 100%;
+	padding: 14px 16px;
+	border: 1px solid var(--ldai-border-input);
+	border-radius: 14px;
+	background: rgba(252, 254, 255, 0.98);
+	font: inherit;
+	font-size: 15px;
+	color: var(--ldai-text);
+	transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 2px 0 rgba(255, 255, 255, 0.6);
+}
+
+.lessondesign-ai__field input::placeholder,
+.lessondesign-ai__field textarea::placeholder {
+	color: var(--ldai-placeholder);
+}
+
+.lessondesign-ai__field textarea {
+	min-height: 140px;
+	line-height: 1.58;
+	resize: vertical;
+}
+
+.lessondesign-ai__field-help,
+.lessondesign-ai__helper {
+	display: block;
+	font-size: 13px;
+	color: var(--ldai-muted);
+	line-height: 1.5;
+	font-weight: 400;
+	margin: 4px 0 0;
+}
+
+/* === Choice Groups / Radio === */
+.lessondesign-ai__choice-group {
+	margin: 0 0 16px;
+	padding: 18px;
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: 20px;
+	background: rgba(250, 253, 255, 0.95);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.lessondesign-ai__choice-group legend {
+	padding: 0 6px;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__choice-options {
+	display: grid;
+	gap: 10px;
+	margin-top: 12px;
+}
+
+.lessondesign-ai__choice-option {
+	display: grid;
+	grid-template-columns: 20px 1fr;
+	gap: 12px;
+	padding: 14px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 16px;
+	background: #fff;
+	align-items: start;
+	cursor: pointer;
+}
+
+.lessondesign-ai__choice-option input {
+	margin-top: 3px;
+	width: auto;
+}
+
+/* === Checkboxes === */
+.lessondesign-ai__check-grid {
+	display: grid;
+	gap: 10px;
+	margin-top: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.lessondesign-ai__check-option {
+	display: grid;
+	grid-template-columns: 20px 1fr;
+	gap: 12px;
+	padding: 14px;
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 0.98);
+	align-items: start;
+	font-weight: 600;
+	cursor: pointer;
+	transition: border-color 0.15s, background 0.15s;
+}
+
+.lessondesign-ai__choice-option:hover,
+.lessondesign-ai__check-option:hover,
+.lessondesign-ai__expectation:hover {
+	border-color: rgba(46, 123, 188, 0.2);
+	box-shadow: none;
+}
+
+.lessondesign-ai__choice-option:has(input:checked),
+.lessondesign-ai__check-option:has(input:checked),
+.lessondesign-ai__expectation.is-selected {
+	border-color: rgba(46, 123, 188, 0.34);
+	background: linear-gradient(180deg, rgba(232, 243, 255, 0.88), rgba(255, 255, 255, 0.98));
+	box-shadow: 0 0 0 1px rgba(46, 123, 188, 0.08);
+}
+
+.lessondesign-ai__check-option input {
+	margin-top: 3px;
+	width: auto;
+}
+
+.lessondesign-ai__check-option span {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.45;
+}
+
+/* === Curriculum === */
+.lessondesign-ai__curriculum,
+.lessondesign-ai__selection-summary {
+	margin-bottom: 16px;
+}
+
+.lessondesign-ai__curriculum-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+	gap: 18px;
+	align-items: start;
+	margin-bottom: 16px;
+}
+
+.lessondesign-ai__panel[data-step-panel="foundation"] .lessondesign-ai__curriculum {
+	max-height: 520px;
+	overflow: auto;
+	overscroll-behavior: contain;
+	scrollbar-gutter: stable;
+	padding: 18px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 20px;
+	background: rgba(247, 251, 255, 0.98);
+	contain: layout paint;
+	-webkit-overflow-scrolling: touch;
+}
+
+.lessondesign-ai__selection-summary {
+	position: sticky;
+	top: 92px;
+	max-height: 520px;
+	overflow: auto;
+	overscroll-behavior: contain;
+	padding: 18px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 20px;
+	background: linear-gradient(180deg, rgba(248, 251, 255, 0.98), rgba(240, 246, 255, 0.96));
+}
+
+.lessondesign-ai__curriculum-subject-head small,
+.lessondesign-ai__curriculum-section-head small,
+.lessondesign-ai__curriculum-subsection-head small,
+.lessondesign-ai__selected-curriculum-item small {
+	color: var(--ldai-muted);
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+.lessondesign-ai__curriculum-subject + .lessondesign-ai__curriculum-subject {
+	margin-top: 26px;
+	padding-top: 22px;
+	border-top: 1px solid rgba(20, 50, 74, 0.12);
+}
+
+.lessondesign-ai__curriculum-subject-head {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 14px;
+	margin-bottom: 16px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(20, 50, 74, 0.1);
+}
+
+.lessondesign-ai__curriculum-subject-head h3,
+.lessondesign-ai__curriculum-section-head h4 {
+	margin: 0;
+	color: var(--ldai-text-strong);
+	line-height: 1.25;
+}
+
+.lessondesign-ai__curriculum-subject-head h3 {
+	font-size: 19px;
+	font-weight: 850;
+}
+
+.lessondesign-ai__curriculum-section + .lessondesign-ai__curriculum-section {
+	margin-top: 20px;
+}
+
+.lessondesign-ai__curriculum-section-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 14px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	list-style: none;
+}
+
+.lessondesign-ai__curriculum-section-head::-webkit-details-marker {
+	display: none;
+}
+
+.lessondesign-ai__curriculum-section-head h4 {
+	flex: 1;
+	min-width: 0;
+	font-size: 19px;
+	font-weight: 850;
+}
+
+.lessondesign-ai__curriculum-section-head::before {
+	content: "-";
+	display: inline-grid;
+	place-items: center;
+	flex: 0 0 auto;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: rgba(46, 123, 188, 0.1);
+	color: var(--ldai-blue-dark);
+	font-size: 15px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.lessondesign-ai__curriculum-section:not([open]) .lessondesign-ai__curriculum-section-head {
+	margin-bottom: 0;
+}
+
+.lessondesign-ai__curriculum-section:not([open]) .lessondesign-ai__curriculum-section-head::before {
+	content: "+";
+}
+
+.lessondesign-ai__curriculum-subsection + .lessondesign-ai__curriculum-subsection {
+	margin-top: 10px;
+}
+
+.lessondesign-ai__curriculum-subsection {
+	border: 1px solid rgba(20, 50, 74, 0.08);
+	border-radius: 12px;
+	background: rgba(248, 251, 255, 0.9);
+}
+
+.lessondesign-ai__curriculum-subsection-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin: 0;
+	padding: 12px 14px;
+	cursor: pointer;
+	list-style: none;
+}
+
+.lessondesign-ai__curriculum-subsection-head::-webkit-details-marker {
+	display: none;
+}
+
+.lessondesign-ai__curriculum-subsection-head::before {
+	content: "-";
+	display: inline-grid;
+	place-items: center;
+	flex: 0 0 auto;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: rgba(46, 123, 188, 0.1);
+	color: var(--ldai-blue-dark);
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.lessondesign-ai__curriculum-subsection:not([open]) .lessondesign-ai__curriculum-subsection-head::before {
+	content: "+";
+}
+
+.lessondesign-ai__curriculum-subsection--understanding .lessondesign-ai__curriculum-subsection-head::before {
+	background: rgba(61, 138, 108, 0.12);
+	color: #2f6f58;
+}
+
+.lessondesign-ai__curriculum-subsection--skill .lessondesign-ai__curriculum-subsection-head::before {
+	background: rgba(46, 123, 188, 0.12);
+	color: var(--ldai-blue-dark);
+}
+
+.lessondesign-ai__curriculum-subsection--disposition .lessondesign-ai__curriculum-subsection-head::before {
+	background: rgba(232, 152, 62, 0.14);
+	color: #9a5c12;
+}
+
+.lessondesign-ai__curriculum-subsection-head h5 {
+	flex: 1;
+	min-width: 0;
+	margin: 0;
+	color: var(--ldai-text-strong);
+	font-size: 16px;
+	font-weight: 850;
+	line-height: 1.25;
+}
+
+.lessondesign-ai__curriculum-subsection-body {
+	padding: 0 12px 12px;
+}
+
+.lessondesign-ai__curriculum-static-group + .lessondesign-ai__curriculum-static-group {
+	margin-top: 18px;
+}
+
+.lessondesign-ai__curriculum-static-head {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 12px;
+	margin: 4px 0 10px;
+	padding: 0 2px 8px;
+	border-bottom: 1px solid rgba(20, 50, 74, 0.1);
+}
+
+.lessondesign-ai__curriculum-static-head h5 {
+	margin: 0;
+	color: var(--ldai-text-strong);
+	font-size: 16px;
+	font-weight: 850;
+	line-height: 1.25;
+}
+
+.lessondesign-ai__curriculum-static-head small {
+	color: var(--ldai-muted);
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+.lessondesign-ai__curriculum-section-list .lessondesign-ai__expectation:last-child {
+	margin-bottom: 0;
+}
+
+.lessondesign-ai__curriculum-subsection .lessondesign-ai__expectation:last-child {
+	margin-bottom: 0;
+}
+
+.lessondesign-ai__expectation {
+	display: grid;
+	grid-template-columns: 24px 1fr;
+	gap: 14px;
+	padding: 18px;
+	margin-bottom: 12px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 16px;
+	background: #fff;
+	align-items: start;
+	transition: border-color 0.15s, background 0.15s;
+	contain: layout paint;
+	content-visibility: auto;
+	contain-intrinsic-size: 170px;
+}
+
+.lessondesign-ai__expectation:hover {
+	transform: none;
+	box-shadow: none;
+}
+
+.lessondesign-ai__expectation input {
+	margin-top: 4px;
+	width: auto;
+}
+
+.lessondesign-ai__expectation-title {
+	display: block;
+	color: var(--ldai-text-strong);
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.25;
+}
+
+.lessondesign-ai__expectation-text {
+	display: block;
+	margin-top: 8px;
+	font-size: 15px;
+	color: var(--ldai-muted);
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.lessondesign-ai__expectation-text--structured {
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__expectation-lead {
+	display: block;
+	color: var(--ldai-muted);
+	line-height: 1.5;
+}
+
+.lessondesign-ai__expectation-bullets {
+	display: grid;
+	gap: 7px;
+	margin-top: 10px;
+	padding: 10px 12px;
+	border-left: 3px solid rgba(46, 123, 188, 0.32);
+	border-radius: 0 10px 10px 0;
+	background: rgba(232, 242, 252, 0.52);
+}
+
+.lessondesign-ai__expectation-bullets [role="listitem"] {
+	position: relative;
+	display: block;
+	padding-left: 16px;
+	color: var(--ldai-text);
+	line-height: 1.45;
+}
+
+.lessondesign-ai__expectation-item-text {
+	display: block;
+}
+
+.lessondesign-ai__expectation-bullets [role="listitem"]::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.68em;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: var(--ldai-orange);
+}
+
+.lessondesign-ai__expectation-bullets--nested {
+	gap: 5px;
+	margin-top: 7px;
+	padding: 0 0 0 14px;
+	border-left: 2px solid rgba(46, 123, 188, 0.2);
+	border-radius: 0;
+	background: transparent;
+}
+
+.lessondesign-ai__expectation-bullets--nested [role="listitem"]::before {
+	width: 4px;
+	height: 4px;
+	background: rgba(46, 123, 188, 0.72);
+}
+
+.lessondesign-ai__expectation-bullets--numbered [role="listitem"] {
+	padding-left: 0;
+}
+
+.lessondesign-ai__expectation-bullets--numbered [role="listitem"]::before {
+	display: none;
+}
+
+.lessondesign-ai__expectation-notes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-top: 10px;
+}
+
+.lessondesign-ai__expectation-notes [role="listitem"] {
+	display: inline-flex;
+	width: fit-content;
+	padding: 3px 7px;
+	border: 1px solid rgba(46, 123, 188, 0.18);
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.72);
+	color: var(--ldai-muted);
+	font-size: 12px;
+	line-height: 1.25;
+}
+
+.lessondesign-ai__expectation-status {
+	display: inline-flex;
+	align-items: center;
+	width: fit-content;
+	margin-top: 8px;
+	padding: 4px 8px;
+	border: 1px solid rgba(232, 152, 62, 0.28);
+	border-radius: 999px;
+	background: rgba(255, 247, 235, 0.94);
+	color: #9a5c12;
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.lessondesign-ai__expectation-document {
+	display: block;
+	margin-top: 6px;
+	color: var(--ldai-muted);
+	font-size: 12px;
+	line-height: 1.45;
+}
+
+.lessondesign-ai__expectation-source-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 4px 8px;
+	margin-top: 8px;
+	color: var(--ldai-muted);
+	font-size: 12px;
+	line-height: 1.35;
+}
+
+.lessondesign-ai__expectation-source,
+.lessondesign-ai__expectation-source:visited {
+	display: inline-flex;
+	width: fit-content;
+	color: var(--ldai-blue-dark);
+	font-size: 13px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.lessondesign-ai__expectation-source:hover {
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__expectation-code::before {
+	content: "\00b7";
+	margin-right: 8px;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__expectation-code.is-solo::before {
+	content: "";
+	margin-right: 0;
+}
+
+.lessondesign-ai__selection-summary-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+
+.lessondesign-ai__selection-summary-head strong {
+	color: var(--ldai-text-strong);
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+.lessondesign-ai__selection-summary-head span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 28px;
+	height: 28px;
+	padding: 0 8px;
+	border-radius: 999px;
+	background: rgba(46, 123, 188, 0.12);
+	color: var(--ldai-blue-dark);
+	font-size: 13px;
+	font-weight: 900;
+}
+
+.lessondesign-ai__selected-curriculum-list {
+	display: grid;
+	gap: 10px;
+}
+
+.lessondesign-ai__selected-curriculum-item {
+	display: grid;
+	grid-template-columns: 28px 1fr;
+	gap: 10px;
+	align-items: start;
+	padding: 10px;
+	border: 1px solid rgba(20, 50, 74, 0.08);
+	border-radius: 12px;
+	background: rgba(255, 255, 255, 0.84);
+}
+
+.lessondesign-ai__selected-curriculum-item button {
+	display: inline-grid;
+	place-items: center;
+	width: 28px;
+	height: 28px;
+	padding: 0;
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: 50%;
+	background: #fff;
+	color: var(--ldai-muted);
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.lessondesign-ai__selected-curriculum-item button:hover {
+	border-color: rgba(196, 71, 71, 0.28);
+	color: #a33a3a;
+}
+
+.lessondesign-ai__selected-curriculum-item strong,
+.lessondesign-ai__selected-curriculum-item small {
+	display: block;
+}
+
+.lessondesign-ai__selected-curriculum-item strong {
+	color: var(--ldai-text-strong);
+	font-size: 13px;
+	line-height: 1.3;
+}
+
+.lessondesign-ai__selected-curriculum-item small {
+	margin-top: 4px;
+	color: var(--ldai-muted);
+	font-size: 12px;
+	line-height: 1.35;
+}
+
+/* === Connections / Resources === */
+.lessondesign-ai__panel[data-step-panel="connections"] .lessondesign-ai__choice-group {
+	display: none;
+}
+
+.lessondesign-ai__panel[data-step-panel="connections"] .lessondesign-ai__helper {
+	margin-bottom: 14px;
+}
+
+.lessondesign-ai__resource-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+	gap: 22px;
+	align-items: start;
+	margin-bottom: 16px;
+}
+
+.lessondesign-ai__resource-results-panel {
+	display: grid;
+	gap: 16px;
+	padding: 18px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 24px;
+	background: linear-gradient(180deg, rgba(246, 250, 254, 0.98), rgba(238, 246, 253, 0.95));
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.78);
+}
+
+.lessondesign-ai__resource-results-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.lessondesign-ai__resource-summary {
+	font-size: 14px;
+	line-height: 1.55;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__resource-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 16px;
+}
+
+.lessondesign-ai__resource-card {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 13px;
+	min-height: 100%;
+	padding: 22px 24px;
+	border: 1px solid rgba(20, 50, 74, 0.15);
+	border-radius: 22px;
+	background: #fff;
+	box-shadow: 0 3px 10px rgba(17, 42, 64, 0.04);
+	transition: border-color 0.15s;
+	content-visibility: auto;
+	contain-intrinsic-size: 220px;
+}
+
+.lessondesign-ai__resource-card:hover {
+	border-color: rgba(46, 123, 188, 0.2);
+	box-shadow: 0 3px 10px rgba(17, 42, 64, 0.04);
+}
+
+.lessondesign-ai__resource-card.is-selected {
+	border-color: rgba(91, 171, 78, 0.32);
+	background:
+		linear-gradient(180deg, rgba(253, 255, 252, 1), rgba(249, 253, 249, 0.98)),
+		#fff;
+	box-shadow: 0 0 0 1px rgba(91, 171, 78, 0.12);
+}
+
+.lessondesign-ai__resource-card-top {
+	display: block;
+}
+
+.lessondesign-ai__resource-title-group {
+	display: grid;
+	gap: 8px;
+	min-width: 0;
+}
+
+.lessondesign-ai__resource-heading-row {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	gap: 16px;
+	align-items: start;
+}
+
+.lessondesign-ai__resource-card h4 {
+	margin: 0;
+	color: var(--ldai-text-strong);
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1.12;
+	letter-spacing: -0.025em;
+}
+
+.lessondesign-ai__resource-summary-text {
+	max-width: 76ch;
+	margin: 0;
+	font-size: 14px;
+	color: var(--ldai-muted);
+	line-height: 1.62;
+}
+
+.lessondesign-ai__resource-match {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 10px;
+	width: fit-content;
+	max-width: 100%;
+	margin: 0;
+	padding: 8px 11px;
+	border: 1px solid rgba(46, 123, 188, 0.14);
+	border-radius: 16px;
+	background: rgba(243, 249, 255, 0.92);
+	color: var(--ldai-text);
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.lessondesign-ai__resource-match span {
+	color: var(--ldai-blue-dark);
+	font-size: 10px;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.lessondesign-ai__resource-match strong {
+	color: var(--ldai-muted);
+	font-weight: 600;
+}
+
+.lessondesign-ai__resource-meta,
+.lessondesign-ai__resource-footer,
+.lessondesign-ai__actions,
+.lessondesign-ai__resource-details {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+}
+
+.lessondesign-ai__resource-footer {
+	margin-top: auto;
+	padding-top: 2px;
+}
+
+.lessondesign-ai__resource-details {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 14px;
+	font-size: 13px;
+	color: var(--ldai-muted);
+	line-height: 1.45;
+}
+
+.lessondesign-ai__resource-details strong {
+	color: var(--ldai-text-strong);
+	font-weight: 800;
+}
+
+.lessondesign-ai__resource-action {
+	min-height: 38px;
+	padding: 8px 15px;
+	border-radius: 999px;
+	font-size: 13px;
+	font-weight: 850;
+	box-shadow: none;
+}
+
+.lessondesign-ai__resource-action.lessondesign-ai__button--primary {
+	border-color: rgba(232, 152, 62, 0.7);
+	background: rgba(232, 152, 62, 0.12);
+	color: #9a5c12;
+}
+
+.lessondesign-ai__resource-action.lessondesign-ai__button--primary:hover {
+	background: rgba(232, 152, 62, 0.18);
+	border-color: rgba(232, 152, 62, 0.9);
+	color: #74450e;
+}
+
+.lessondesign-ai__resource-card.is-selected .lessondesign-ai__resource-action {
+	border-color: rgba(91, 171, 78, 0.28);
+	background: rgba(91, 171, 78, 0.09);
+	color: #3d7f32;
+}
+
+.lessondesign-ai__resource-results-actions {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.lessondesign-ai__pill,
+.lessondesign-ai__tag-list li {
+	display: inline-flex;
+	align-items: center;
+	padding: 4px 9px;
+	border-radius: 999px;
+	background: var(--ldai-blue-dim);
+	border: 1px solid var(--ldai-blue-border);
+	color: var(--ldai-blue);
+	font-size: 11px;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+.lessondesign-ai__tag-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lessondesign-ai__tag-list li {
+	background: rgba(46, 123, 188, 0.08);
+	border-color: rgba(46, 123, 188, 0.18);
+	color: var(--ldai-blue-dark);
+}
+
+.lessondesign-ai__selected {
+	margin-top: 0;
+	padding: 18px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 22px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 250, 255, 0.94));
+	box-shadow: 0 4px 12px rgba(17, 42, 64, 0.045);
+}
+
+.lessondesign-ai__selected h4 {
+	margin: 0 0 10px;
+	font-size: 15px;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__selected p {
+	margin: 0;
+	font-size: 14px;
+	color: var(--ldai-muted);
+}
+
+.lessondesign-ai__selected-list {
+	display: grid;
+	gap: 10px;
+	margin: 12px 0 0;
+	padding: 0;
+	list-style: none;
+	max-height: 420px;
+	overflow: auto;
+}
+
+.lessondesign-ai__selected-list li {
+	display: grid;
+	gap: 3px;
+	padding: 12px 14px;
+	border: 1px solid rgba(20, 50, 74, 0.09);
+	border-radius: 14px;
+	background: rgba(255, 255, 255, 0.92);
+	font-size: 14px;
+}
+
+/* === Ready Step === */
+.lessondesign-ai__ready-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+	align-items: start;
+	gap: 24px;
+}
+
+.lessondesign-ai__ready-layout--guest {
+	grid-template-columns: minmax(0, 1fr);
+}
+
+.lessondesign-ai__ready-main {
+	display: grid;
+	gap: 18px;
+	min-width: 0;
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] {
+	text-align: left;
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] .lessondesign-ai__panel-header {
+	padding-top: 104px;
+	border-bottom: none;
+	position: relative;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] .lessondesign-ai__panel-header::before {
+	content: "\2713";
+	position: absolute;
+	top: 24px;
+	left: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 72px;
+	height: 72px;
+	margin-left: -36px;
+	border: 2px solid rgba(91, 171, 78, 0.3);
+	border-radius: 50%;
+	background: rgba(91, 171, 78, 0.07);
+	color: var(--ldai-green);
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.lessondesign-ai__export-tools {
+	width: 100%;
+	max-width: 640px;
+	padding: 24px;
+	border: 1px solid rgba(20, 50, 74, 0.12);
+	border-radius: 22px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(245, 250, 255, 0.96));
+	text-align: left;
+	box-shadow: 0 12px 26px rgba(17, 42, 64, 0.06);
+}
+
+.lessondesign-ai__export-tools h4,
+.lessondesign-ai__export-tools > p {
+	display: block;
+	margin: 0;
+}
+
+.lessondesign-ai__export-tools h4 {
+	color: var(--ldai-text-strong);
+	font-size: 20px;
+}
+
+.lessondesign-ai__export-tools > p {
+	margin-top: 8px;
+	color: var(--ldai-muted);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.lessondesign-ai__stack {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 12px;
+	margin-top: 18px;
+}
+
+.lessondesign-ai__readiness {
+	width: 100%;
+	padding: 20px;
+	border: 1px solid rgba(20, 50, 74, 0.12);
+	border-radius: 20px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(245, 250, 255, 0.96));
+	text-align: left;
+	box-shadow: 0 12px 26px rgba(17, 42, 64, 0.06);
+}
+
+.lessondesign-ai__readiness-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.lessondesign-ai__readiness-header h4 {
+	margin: 0 0 6px;
+	color: var(--ldai-text-strong);
+	font-size: 20px;
+}
+
+.lessondesign-ai__readiness-header p {
+	margin: 0;
+	color: var(--ldai-muted);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.lessondesign-ai__readiness-count {
+	flex: 0 0 auto;
+	padding: 7px 10px;
+	border: 1px solid rgba(46, 123, 188, 0.2);
+	border-radius: 999px;
+	background: #fff;
+	color: var(--ldai-blue-dark);
+	font-size: 12px;
+	font-weight: 800;
+}
+
+.lessondesign-ai__readiness-list {
+	display: grid;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lessondesign-ai__readiness-item {
+	display: grid;
+	grid-template-columns: 14px minmax(0, 1fr) auto;
+	gap: 12px;
+	align-items: center;
+	padding: 12px;
+	border: 1px solid rgba(20, 50, 74, 0.1);
+	border-radius: 14px;
+	background: #fff;
+}
+
+.lessondesign-ai__readiness-dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 999px;
+	background: var(--ldai-orange);
+	box-shadow: 0 0 0 5px rgba(232, 152, 62, 0.12);
+}
+
+.lessondesign-ai__readiness-item.is-complete .lessondesign-ai__readiness-dot {
+	background: var(--ldai-green);
+	box-shadow: 0 0 0 5px rgba(91, 171, 78, 0.12);
+}
+
+.lessondesign-ai__readiness-copy strong,
+.lessondesign-ai__readiness-copy span {
+	display: block;
+}
+
+.lessondesign-ai__readiness-copy strong {
+	color: var(--ldai-text-strong);
+	font-size: 14px;
+}
+
+.lessondesign-ai__readiness-copy span {
+	margin-top: 3px;
+	color: var(--ldai-muted);
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.lessondesign-ai__readiness-action,
+.lessondesign-ai__readiness-action:visited {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 34px;
+	padding: 7px 12px;
+	border: 1px solid rgba(46, 123, 188, 0.22);
+	border-radius: 999px;
+	background: #fff;
+	color: var(--ldai-blue-dark);
+	font: inherit;
+	font-size: 13px;
+	font-weight: 800;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.lessondesign-ai__readiness-action:hover,
+.lessondesign-ai__readiness-action:focus {
+	border-color: rgba(46, 123, 188, 0.36);
+	color: var(--ldai-text-strong);
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] [data-download-json],
+.lessondesign-ai__panel[data-step-panel="ready"] [data-load-json] {
+	display: none !important;
+}
+
+.lessondesign-ai__preview {
+	display: none;
+	width: 100%;
+	max-width: 860px;
+	padding: 24px;
+	border: 1px solid var(--ldai-border);
+	border-radius: var(--ldai-radius);
+	background: #fff;
+	text-align: left;
+}
+
+.lessondesign-ai.is-preview-visible .lessondesign-ai__panel[data-step-panel="ready"] .lessondesign-ai__preview {
+	display: block;
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] .lessondesign-ai__actions {
+	justify-content: flex-start;
+	margin-top: 22px;
+	text-align: left;
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] [data-last-saved] {
+	margin-top: 16px;
+	text-align: left;
+}
+
+.lessondesign-ai__panel[data-step-panel="ready"] .lessondesign-ai__finish-note {
+	display: block;
+	max-width: 760px;
+	color: var(--ldai-muted);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* Preview sections */
+.lessondesign-ai__preview-section + .lessondesign-ai__preview-section {
+	margin-top: 18px;
+	padding-top: 18px;
+	border-top: 1px solid var(--ldai-border);
+}
+
+.lessondesign-ai__preview-section h4 {
+	margin: 0 0 10px;
+	font-size: 15px;
+	color: var(--ldai-text);
+}
+
+.lessondesign-ai__preview-item + .lessondesign-ai__preview-item {
+	margin-top: 10px;
+}
+
+.lessondesign-ai__preview-item strong {
+	display: block;
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+
+.lessondesign-ai__preview-item ul {
+	margin: 4px 0 0 18px;
+	padding: 0;
+	font-size: 14px;
+	color: var(--ldai-muted);
+}
+
+/* === Misc === */
+.lessondesign-ai__empty {
+	font-size: 14px;
+	color: var(--ldai-muted);
+	line-height: 1.5;
+}
+
+/* === Responsive === */
+@media (max-width: 900px) {
+	.lessondesign-ai__shell {
+		padding: 24px 16px 0;
+	}
+
+	.lessondesign-ai__welcome {
+		padding: 0;
+	}
+
+	.lessondesign-ai__welcome-grid,
+	.lessondesign-ai__curriculum-layout,
+	.lessondesign-ai__resource-layout,
+	.lessondesign-ai__ready-layout {
+		grid-template-columns: 1fr;
+	}
+
+	.lessondesign-ai__selection-summary {
+		position: static;
+		max-height: none;
+	}
+
+	.lessondesign-ai__readiness-header {
+		display: block;
+	}
+
+	.lessondesign-ai__readiness-count {
+		display: inline-flex;
+		margin-top: 12px;
+	}
+
+	.lessondesign-ai__welcome h3 {
+		font-size: clamp(34px, 8vw, 48px);
+	}
+
+	.lessondesign-ai__welcome-copy {
+		font-size: 16px;
+	}
+
+	.lessondesign-ai__selected {
+		position: static;
+	}
+
+	.lessondesign-ai__panel {
+		padding: 28px;
+	}
+
+	.lessondesign-ai__panel-header {
+		margin: -28px -28px 24px;
+		padding: 22px 28px 20px;
+	}
+
+	.lessondesign-ai__account-prompt {
+		grid-template-columns: 1fr;
+	}
+
+	.lessondesign-ai__account-prompt-actions {
+		min-width: 0;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 700px) {
+	.ldai-header {
+		padding: 0 16px;
+	}
+
+	.ldai-logo-text {
+		display: none;
+	}
+
+	.lessondesign-ai__step-label {
+		display: none;
+	}
+
+	.lessondesign-ai__welcome h3 {
+		font-size: 32px;
+	}
+
+	.lessondesign-ai__welcome-copy {
+		font-size: 15px;
+	}
+
+	.ldai-pills {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.lessondesign-ai__actions {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.lessondesign-ai__button {
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.lessondesign-ai__coach-card {
+		grid-template-columns: 1fr;
+		align-items: stretch;
+	}
+
+	.lessondesign-ai__coach-action {
+		justify-self: stretch;
+		width: 100%;
+	}
+
+	.lessondesign-ai__resource-list {
+		grid-template-columns: 1fr;
+	}
+
+	.lessondesign-ai__stack {
+		grid-template-columns: 1fr;
+	}
+
+	.lessondesign-ai__subsection {
+		padding: 22px 20px;
+	}
+
+	.lessondesign-ai__subsection::before {
+		left: 20px;
+		right: 20px;
+	}
+
+	.lessondesign-ai__welcome-main {
+		border-radius: 20px;
+	}
+
+	.lessondesign-ai__welcome-main {
+		padding: 24px;
+	}
+
+	.lessondesign-ai__panel {
+		padding: 24px;
+	}
+
+	.lessondesign-ai__panel-header {
+		margin: -24px -24px 22px;
+		padding: 22px 24px 20px;
+		border-radius: 20px 20px 18px 18px;
+	}
+
+	.lessondesign-ai__account-prompt {
+		padding: 20px;
+		border-radius: 20px;
+	}
+
+	.lessondesign-ai__account-prompt-actions {
+		grid-template-columns: 1fr;
+	}
+
+	.lessondesign-ai__steps {
+		padding: 12px 14px;
+	}
+
+	.lessondesign-ai__step {
+		padding: 8px 6px;
+	}
+
+	.lessondesign-ai__step-index {
+		width: 38px;
+		height: 38px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.lessondesign-ai *,
+	.lessondesign-ai *::before,
+	.lessondesign-ai *::after {
+		animation: none !important;
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+	}
+}

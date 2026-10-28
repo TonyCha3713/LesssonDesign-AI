@@ -1,0 +1,1232 @@
+{
+  "metadata": {
+    "schemaVersion": "2026-05-curriculum-platform",
+    "dataStatus": "runtime-shard",
+    "id": "ca-ab-en-core-french-language-arts-immersion-g9-prod-oral",
+    "label": "Alberta Language Arts - French Immersion Grade 9 curriculum pieces",
+    "updated": "2026-07-20"
+  },
+  "defaults": {
+    "country": "CA",
+    "region": "Alberta",
+    "authority": "Alberta Education",
+    "jurisdictionId": "ca-ab",
+    "programId": "en-core",
+    "frameworkId": "ca-ab-curriculum",
+    "sourceLanguage": "en",
+    "summaryLanguage": "en",
+    "sourceStatus": "source-backed-exact-outcome",
+    "reviewStatus": "source-backed-exact-outcome",
+    "gradeLevel": "9",
+    "gradeBand": "Grade 9",
+    "gradeLabel": "Grade 9",
+    "courseCode": "FLA9",
+    "courseLabel": "Language Arts - French Immersion",
+    "courseTitle": "French Language Arts - Immersion (7–12)",
+    "subject": "french-language-arts-immersion",
+    "subjectAreaId": "language-arts-french-immersion",
+    "subjectId": "french-language-arts-immersion",
+    "unit": "Production orale",
+    "strand": "Production orale",
+    "lastVerified": "2026-07-20",
+    "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+  },
+  "documents": {
+    "ca-ab-curriculum-olafla-7-hs-fla9-1521804f-8e96-4280-b0d2-e69b464fad7b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=1521804f-8e96-4280-b0d2-e69b464fad7b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-7baa60b2-4b00-41fa-9f8d-835fb13c48d9": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=7baa60b2-4b00-41fa-9f8d-835fb13c48d9",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-291aedc3-9218-4793-ac1c-54e49ae1726b": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=291aedc3-9218-4793-ac1c-54e49ae1726b",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-2af22ee2-f996-4cde-9958-bca876a2b012": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=2af22ee2-f996-4cde-9958-bca876a2b012",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-a3bfb2d9-a5c3-489e-9d9f-e5befe82d037": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=a3bfb2d9-a5c3-489e-9d9f-e5befe82d037",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-833cc58f-3db8-45a9-9b2b-6ab8796aacdb": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=833cc58f-3db8-45a9-9b2b-6ab8796aacdb",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-d7038aea-fb61-48c7-93fb-544e2b9bf978": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=d7038aea-fb61-48c7-93fb-544e2b9bf978",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-f6766cc1-d7dc-437c-bf80-3a2d129b9168": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=f6766cc1-d7dc-437c-bf80-3a2d129b9168",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-bc5b0e52-8695-49bf-b244-7a01d27167cd": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=bc5b0e52-8695-49bf-b244-7a01d27167cd",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-f712b21d-0387-464e-adf3-7aeaf4b0c7ab": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=f712b21d-0387-464e-adf3-7aeaf4b0c7ab",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-f278d45a-70dd-4e4a-be34-a29e109d29c5": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=f278d45a-70dd-4e4a-be34-a29e109d29c5",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-f89db369-3fdf-4fe9-8597-f9a9a7e0f67f": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=f89db369-3fdf-4fe9-8597-f9a9a7e0f67f",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-d4aad197-1375-4444-846e-1e07a102e806": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=d4aad197-1375-4444-846e-1e07a102e806",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-08e1a231-3098-4021-b779-c9472f338ec2": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=08e1a231-3098-4021-b779-c9472f338ec2",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-0961e0a1-6908-40b4-8ba2-0e487eadfef3": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=0961e0a1-6908-40b4-8ba2-0e487eadfef3",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-0e501c09-211b-4130-aeab-6dc212005fb9": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=0e501c09-211b-4130-aeab-6dc212005fb9",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-94c595e2-7590-430b-b0a0-0554966579d0": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=94c595e2-7590-430b-b0a0-0554966579d0",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-e817bd60-fb95-431c-88d0-ad0e72423ff2": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=e817bd60-fb95-431c-88d0-ad0e72423ff2",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-fbd40bb6-9549-42b0-8bc8-7ccca98a2afc": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=fbd40bb6-9549-42b0-8bc8-7ccca98a2afc",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-9a960871-0ef2-4b49-ad6d-59478d3c1e45": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=9a960871-0ef2-4b49-ad6d-59478d3c1e45",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-716428b8-d048-474f-99cb-2d259e303b07": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=716428b8-d048-474f-99cb-2d259e303b07",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-48504e49-3ff8-4123-8e59-5baa1a204fa0": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=48504e49-3ff8-4123-8e59-5baa1a204fa0",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-741dd1cd-52c5-4fbb-9468-f91754e16e7d": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=741dd1cd-52c5-4fbb-9468-f91754e16e7d",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-2d6ec350-7318-4295-b132-16cd57530860": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=2d6ec350-7318-4295-b132-16cd57530860",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-416248d8-7d56-47f2-83c5-74f6b89820a6": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=416248d8-7d56-47f2-83c5-74f6b89820a6",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-439d5a6f-7886-4913-b7bc-95ed9ae5eac4": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=439d5a6f-7886-4913-b7bc-95ed9ae5eac4",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-00ccfa01-6cc8-43e4-8c62-0ae8875fd6d5": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=00ccfa01-6cc8-43e4-8c62-0ae8875fd6d5",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-f2db7eb5-a74c-43f1-937c-91ae711ae116": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=f2db7eb5-a74c-43f1-937c-91ae711ae116",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    },
+    "ca-ab-curriculum-olafla-7-hs-fla9-84268ac4-1940-437a-ac81-9bac5cc13ccf": {
+      "sourceUrl": "https://curriculum.learnalberta.ca/curriculum/en/pos/OLAFLA_7_HS/FLA9?id=84268ac4-1940-437a-ac81-9bac5cc13ccf",
+      "documentTitle": "Alberta Curriculum",
+      "documentVersion": "Current online curriculum source; exact outcome wording retained for Alberta-directed demo",
+      "sourceLanguage": "en",
+      "lastVerified": "2026-07-20",
+      "licenseNotes": "Exact Alberta outcome wording is included for the Alberta-directed demo and permission/approval path; confirm written permission before public redistribution."
+    }
+  },
+  "standards": [
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po1-so1",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO1-SO1",
+      "summaryText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : présenter une situation en exposant le problème et en proposant des solutions; consolidation des apprentissages",
+      "officialOutcomeText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : présenter une situation en exposant le problème et en proposant des solutions; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour COMMUNIQUER ses différents besoins, l’élève pourra :",
+        "items": [
+          {
+            "text": "présenter une situation en exposant le problème et en proposant des solutions"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-1521804f-8e96-4280-b0d2-e69b464fad7b",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "1521804f-8e96-4280-b0d2-e69b464fad7b",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler pour transmettre de l’information selon son intention de communication et pour répondre à un besoin d’interaction sociale",
+      "moduleSequence": 40.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po1-so2",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO1-SO2",
+      "summaryText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : participer à des discussions de groupe pour planifier un projet et le réaliser; consolidation des apprentissages",
+      "officialOutcomeText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : participer à des discussions de groupe pour planifier un projet et le réaliser; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour COMMUNIQUER ses différents besoins, l’élève pourra :",
+        "items": [
+          {
+            "text": "participer à des discussions de groupe pour planifier un projet et le réaliser"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-7baa60b2-4b00-41fa-9f8d-835fb13c48d9",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "7baa60b2-4b00-41fa-9f8d-835fb13c48d9",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler pour transmettre de l’information selon son intention de communication et pour répondre à un besoin d’interaction sociale",
+      "moduleSequence": 40.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po1-so3",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO1-SO3",
+      "summaryText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : produire un message contenant des aspects incitatifs tels que le slogan, la caractérisation, la trame sonore ou la technique interactive; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : produire un message contenant des aspects incitatifs tels que le slogan, la caractérisation, la trame sonore ou la technique interactive; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour COMMUNIQUER ses différents besoins, l’élève pourra :",
+        "items": [
+          {
+            "text": "produire un message contenant des aspects incitatifs tels que le slogan, la caractérisation, la trame sonore ou la technique interactive"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-291aedc3-9218-4793-ac1c-54e49ae1726b",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "291aedc3-9218-4793-ac1c-54e49ae1726b",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler pour transmettre de l’information selon son intention de communication et pour répondre à un besoin d’interaction sociale",
+      "moduleSequence": 40.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po1-so4",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO1-SO4",
+      "summaryText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : décrire une expérience d’apprentissage en expliquant le contexte, la démarche et les résultats, en situation interactive ou non interactive; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour COMMUNIQUER ses différents besoins, l’élève pourra : décrire une expérience d’apprentissage en expliquant le contexte, la démarche et les résultats, en situation interactive ou non interactive; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour COMMUNIQUER ses différents besoins, l’élève pourra :",
+        "items": [
+          {
+            "text": "décrire une expérience d’apprentissage en expliquant le contexte, la démarche et les résultats, en situation interactive ou non interactive"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-2af22ee2-f996-4cde-9958-bca876a2b012",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "2af22ee2-f996-4cde-9958-bca876a2b012",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler pour transmettre de l’information selon son intention de communication et pour répondre à un besoin d’interaction sociale",
+      "moduleSequence": 40.01
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-po2-so1",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-PO2-SO1",
+      "summaryText": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra : participer, avec d’autres élèves, à un jeu de rôle à partir d’un scénario donné; consolidation des apprentissages",
+      "officialOutcomeText": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra : participer, avec d’autres élèves, à un jeu de rôle à partir d’un scénario donné; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra :",
+        "items": [
+          {
+            "text": "participer, avec d’autres élèves, à un jeu de rôle à partir d’un scénario donné"
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-a3bfb2d9-a5c3-489e-9d9f-e5befe82d037",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "a3bfb2d9-a5c3-489e-9d9f-e5befe82d037",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé: parler pour explorer le langage et pour divertir",
+      "moduleSequence": 40.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-po2-so2",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-PO2-SO2",
+      "summaryText": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra : faire une lecture expressive d’un extrait de texte qu’il a choisi; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra : faire une lecture expressive d’un extrait de texte qu’il a choisi; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra :",
+        "items": [
+          {
+            "text": "faire une lecture expressive d’un extrait de texte qu’il a choisi"
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-833cc58f-3db8-45a9-9b2b-6ab8796aacdb",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "833cc58f-3db8-45a9-9b2b-6ab8796aacdb",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé: parler pour explorer le langage et pour divertir",
+      "moduleSequence": 40.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-po2-so3",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-PO2-SO3",
+      "summaryText": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra : improviser sur un thème, avec d’autres élèves, en réaction à une situation proposée; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra : improviser sur un thème, avec d’autres élèves, en réaction à une situation proposée; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour satisfaire ses besoins de COMMUNIQUER ORALEMENT, l’élève pourra :",
+        "items": [
+          {
+            "text": "improviser sur un thème, avec d’autres élèves, en réaction à une situation proposée"
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-d7038aea-fb61-48c7-93fb-544e2b9bf978",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "d7038aea-fb61-48c7-93fb-544e2b9bf978",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé: parler pour explorer le langage et pour divertir",
+      "moduleSequence": 40.02
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so1",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO1",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : reconnaître et corriger les anglicismes syntaxiques les plus courants dans l’emploi des prépositions; reconnaître que certaines structures de phrases sont le calque de l’anglais, vérifier si la construction de la phrase respecte celle de la langue française, la reformuler si nécessaire : ex. : aller AU dentiste (CHEZ le), lire SUR le journal (DANS), être fâché APRÈS lui (CONTRE), on n’a pas été permis d’y aller (on ne nous a pas permis d’y aller), etc.; consolidation des apprentissages",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : reconnaître et corriger les anglicismes syntaxiques les plus courants dans l’emploi des prépositions; reconnaître que certaines structures de phrases sont le calque de l’anglais, vérifier si la construction de la phrase respecte celle de la langue française, la reformuler si nécessaire : ex. : aller AU dentiste (CHEZ le), lire SUR le journal (DANS), être fâché APRÈS lui (CONTRE), on n’a pas été permis d’y aller (on ne nous a pas permis d’y aller), etc.; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "reconnaître et corriger les anglicismes syntaxiques les plus courants dans l’emploi des prépositions",
+            "children": [
+              {
+                "text": "reconnaître que certaines structures de phrases sont le calque de l’anglais,"
+              },
+              {
+                "text": "vérifier si la construction de la phrase respecte celle de la langue française,"
+              },
+              {
+                "text": "la reformuler si nécessaire :",
+                "children": [
+                  {
+                    "text": "ex. : aller AU dentiste (CHEZ le), lire SUR le journal (DANS), être fâché APRÈS lui (CONTRE), on n’a pas été permis d’y aller (on ne nous a pas permis d’y aller), etc.;"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-f6766cc1-d7dc-437c-bf80-3a2d129b9168",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f6766cc1-d7dc-437c-bf80-3a2d129b9168",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so2",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO2",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : ordonner correctement les mots dans la séquence suivante : nom sujet ou pronom sujet + pronom complément + verbe; ex. : je TE donne mon crayon; consolidation des apprentissages",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : ordonner correctement les mots dans la séquence suivante : nom sujet ou pronom sujet + pronom complément + verbe; ex. : je TE donne mon crayon; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "ordonner correctement les mots dans la séquence suivante :",
+            "children": [
+              {
+                "text": "nom sujet ou pronom sujet + pronom complément + verbe"
+              },
+              {
+                "text": "ex. : je TE donne mon crayon;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-bc5b0e52-8695-49bf-b244-7a01d27167cd",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "bc5b0e52-8695-49bf-b244-7a01d27167cd",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so3",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO3",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser le présent du subjonctif dans les cas usuels, ex. : il faut que…, je veux que…, j’aimerais que…; consolidation des apprentissages",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser le présent du subjonctif dans les cas usuels, ex. : il faut que…, je veux que…, j’aimerais que…; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "utiliser le présent du subjonctif dans les cas usuels,",
+            "children": [
+              {
+                "text": "ex. : il faut que…, je veux que…, j’aimerais que…;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-f712b21d-0387-464e-adf3-7aeaf4b0c7ab",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f712b21d-0387-464e-adf3-7aeaf4b0c7ab",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so4",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO4",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : reconnaître et corriger les anglicismes sémantiques les plus courants; ex. : appointements/rendez-vous, forme/formulaire, etc.; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : reconnaître et corriger les anglicismes sémantiques les plus courants; ex. : appointements/rendez-vous, forme/formulaire, etc.; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "reconnaître et corriger les anglicismes sémantiques les plus courants",
+            "children": [
+              {
+                "text": "ex. : appointements/rendez-vous, forme/formulaire, etc.;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-f278d45a-70dd-4e4a-be34-a29e109d29c5",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f278d45a-70dd-4e4a-be34-a29e109d29c5",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so5",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO5",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser les temps verbaux nécessaires pour exprimer ses expériences passées, présentes et à venir; présent + présent, passé composé + imparfait, futur simple + présent; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser les temps verbaux nécessaires pour exprimer ses expériences passées, présentes et à venir; présent + présent, passé composé + imparfait, futur simple + présent; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "utiliser les temps verbaux nécessaires pour exprimer ses expériences passées, présentes et à venir",
+            "children": [
+              {
+                "text": "présent + présent,"
+              },
+              {
+                "text": "passé composé + imparfait,"
+              },
+              {
+                "text": "futur simple + présent;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-f89db369-3fdf-4fe9-8597-f9a9a7e0f67f",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f89db369-3fdf-4fe9-8597-f9a9a7e0f67f",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so6",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO6",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser correctement les pronoms possessifs et démonstratifs; ex. : Je veux le sien/Je veux celui-là; C’est le sien/C’est celui de Lucie.; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser correctement les pronoms possessifs et démonstratifs; ex. : Je veux le sien/Je veux celui-là; C’est le sien/C’est celui de Lucie.; autonomie de l’élève; RA à mesure quantifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "utiliser correctement les pronoms possessifs et démonstratifs",
+            "children": [
+              {
+                "text": "ex. : Je veux le sien/Je veux celui-là; C’est le sien/C’est celui de Lucie."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA à mesure quantifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-d4aad197-1375-4444-846e-1e07a102e806",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "d4aad197-1375-4444-846e-1e07a102e806",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so7",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO7",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : mettre à profit la rétroaction fournie par ses pairs sur la forme de son message; reconnaître que la rétroaction d’un pair a pour but de l’aider à rendre son message plus facile à comprendre, établir des liens entre sa façon d’exprimer son idée et celle proposée par le pair (choix des mots, choix des temps de verbes, structures de phrases), utiliser les changements proposés par le pair dans des situations ultérieures semblables de manière à intégrer ses nouvelles connaissances de la langue dans son langage courant.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : mettre à profit la rétroaction fournie par ses pairs sur la forme de son message; reconnaître que la rétroaction d’un pair a pour but de l’aider à rendre son message plus facile à comprendre, établir des liens entre sa façon d’exprimer son idée et celle proposée par le pair (choix des mots, choix des temps de verbes, structures de phrases), utiliser les changements proposés par le pair dans des situations ultérieures semblables de manière à intégrer ses nouvelles connaissances de la langue dans son langage courant.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "mettre à profit la rétroaction fournie par ses pairs sur la forme de son message",
+            "children": [
+              {
+                "text": "reconnaître que la rétroaction d’un pair a pour but de l’aider à rendre son message plus facile à comprendre,"
+              },
+              {
+                "text": "établir des liens entre sa façon d’exprimer son idée et celle proposée par le pair (choix des mots, choix des temps de verbes, structures de phrases),"
+              },
+              {
+                "text": "utiliser les changements proposés par le pair dans des situations ultérieures semblables de manière à intégrer ses nouvelles connaissances de la langue dans son langage courant."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-08e1a231-3098-4021-b779-c9472f338ec2",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "08e1a231-3098-4021-b779-c9472f338ec2",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so8",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO8",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser des verbes et des expressions qui marquent clairement son point de vue; ex. : aux dires de…, en dépit de ce qu’un tel dit, je pense que…, contrairement à ce qu’un tel dit, je trouve que…, etc.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : utiliser des verbes et des expressions qui marquent clairement son point de vue; ex. : aux dires de…, en dépit de ce qu’un tel dit, je pense que…, contrairement à ce qu’un tel dit, je trouve que…, etc.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "utiliser des verbes et des expressions qui marquent clairement son point de vue",
+            "children": [
+              {
+                "text": "ex. : aux dires de…, en dépit de ce qu’un tel dit, je pense que…, contrairement à ce qu’un tel dit, je trouve que…, etc.;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-0961e0a1-6908-40b4-8ba2-0e487eadfef3",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0961e0a1-6908-40b4-8ba2-0e487eadfef3",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po3-so9",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO3-SO9",
+      "summaryText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : mettre à profit la rétroaction fournie par l’enseignant et par ses pairs sur la concordance des temps; reconnaître que la rétroaction de l’enseignant ou d’un pair a pour but de l’aider à rendre son message plus facile à comprendre, établir des liens entre sa séquence de choix de temps de verbe et celle proposée par l’enseignant ou par le pair, utiliser les changements proposés par l’enseignant ou par le pair dans des situations ultérieures semblables de manière à intégrer ses nouvelles connaissances de la langue dans son langage courant.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes : mettre à profit la rétroaction fournie par l’enseignant et par ses pairs sur la concordance des temps; reconnaître que la rétroaction de l’enseignant ou d’un pair a pour but de l’aider à rendre son message plus facile à comprendre, établir des liens entre sa séquence de choix de temps de verbe et celle proposée par l’enseignant ou par le pair, utiliser les changements proposés par l’enseignant ou par le pair dans des situations ultérieures semblables de manière à intégrer ses nouvelles connaissances de la langue dans son langage courant.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour gérer ses projets de communication à l’oral, l’élève utilisera les CONNAISSANCES suivantes :",
+        "items": [
+          {
+            "text": "mettre à profit la rétroaction fournie par l’enseignant et par ses pairs sur la concordance des temps",
+            "children": [
+              {
+                "text": "reconnaître que la rétroaction de l’enseignant ou d’un pair a pour but de l’aider à rendre son message plus facile à comprendre,"
+              },
+              {
+                "text": "établir des liens entre sa séquence de choix de temps de verbe et celle proposée par l’enseignant ou par le pair,"
+              },
+              {
+                "text": "utiliser les changements proposés par l’enseignant ou par le pair dans des situations ultérieures semblables de manière à intégrer ses nouvelles connaissances de la langue dans son langage courant."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-0e501c09-211b-4130-aeab-6dc212005fb9",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "0e501c09-211b-4130-aeab-6dc212005fb9",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: parler clairement et correctement selon la situation de communication",
+      "moduleSequence": 40.03
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so1",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO1",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : sélectionner le contenu en tenant compte de la familiarité du public avec le sujet et le vocabulaire; cerner les connaissances du public sur le sujet traité, déterminer s’ils ont les connaissances de base pour comprendre le message, déterminer si le message comportera des mots nouveaux ou des mots avec lesquels le public est peu familier, retenir les aspects du sujet qui répondent aux caractéristiques du public cible; consolidation des apprentissages",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : sélectionner le contenu en tenant compte de la familiarité du public avec le sujet et le vocabulaire; cerner les connaissances du public sur le sujet traité, déterminer s’ils ont les connaissances de base pour comprendre le message, déterminer si le message comportera des mots nouveaux ou des mots avec lesquels le public est peu familier, retenir les aspects du sujet qui répondent aux caractéristiques du public cible; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "sélectionner le contenu en tenant compte de la familiarité du public avec le sujet et le vocabulaire",
+            "children": [
+              {
+                "text": "cerner les connaissances du public sur le sujet traité,"
+              },
+              {
+                "text": "déterminer s’ils ont les connaissances de base pour comprendre le message,"
+              },
+              {
+                "text": "déterminer si le message comportera des mots nouveaux ou des mots avec lesquels le public est peu familier,"
+              },
+              {
+                "text": "retenir les aspects du sujet qui répondent aux caractéristiques du public cible;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-94c595e2-7590-430b-b0a0-0554966579d0",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "94c595e2-7590-430b-b0a0-0554966579d0",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so2",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO2",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : prévoir des modalités d’intervention pour pallier un bris de compréhension chez le public cible; relever les passages susceptibles de poser problème à cause du degré d’abstraction ou du degré de familiarité du public cible avec le sujet ou le vocabulaire, choisir le ou les moyens les plus appropriés pour fournir le support nécessaire à la compréhension de son message : mettre en relief l’information importante à l’aide des répétitions, en jouant avec l’intonation, le volume, les gestes, donner des exemples et faire des analogies, comparer l’information nouvelle à des éléments connus, utiliser des illustrations, des graphiques, une démonstration, etc.; consolidation des apprentissages",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : prévoir des modalités d’intervention pour pallier un bris de compréhension chez le public cible; relever les passages susceptibles de poser problème à cause du degré d’abstraction ou du degré de familiarité du public cible avec le sujet ou le vocabulaire, choisir le ou les moyens les plus appropriés pour fournir le support nécessaire à la compréhension de son message : mettre en relief l’information importante à l’aide des répétitions, en jouant avec l’intonation, le volume, les gestes, donner des exemples et faire des analogies, comparer l’information nouvelle à des éléments connus, utiliser des illustrations, des graphiques, une démonstration, etc.; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "prévoir des modalités d’intervention pour pallier un bris de compréhension chez le public cible",
+            "children": [
+              {
+                "text": "relever les passages susceptibles de poser problème à cause du degré d’abstraction ou du degré de familiarité du public cible avec le sujet ou le vocabulaire,"
+              },
+              {
+                "text": "choisir le ou les moyens les plus appropriés pour fournir le support nécessaire à la compréhension de son message :",
+                "children": [
+                  {
+                    "text": "mettre en relief l’information importante à l’aide des répétitions, en jouant avec l’intonation, le volume, les gestes,"
+                  },
+                  {
+                    "text": "donner des exemples et faire des analogies,"
+                  },
+                  {
+                    "text": "comparer l’information nouvelle à des éléments connus,"
+                  },
+                  {
+                    "text": "utiliser des illustrations, des graphiques, une démonstration, etc.;"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-e817bd60-fb95-431c-88d0-ad0e72423ff2",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "e817bd60-fb95-431c-88d0-ad0e72423ff2",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so3",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO3",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : apporter les changements nécessaires au choix et à l’organisation du contenu de son exposé, après s’être exercé; s’exercer, reconnaître les passages à améliorer, décider des changements à apporter pour améliorer sa présentation, prendre les dispositions nécessaires; consolidation des apprentissages",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : apporter les changements nécessaires au choix et à l’organisation du contenu de son exposé, après s’être exercé; s’exercer, reconnaître les passages à améliorer, décider des changements à apporter pour améliorer sa présentation, prendre les dispositions nécessaires; consolidation des apprentissages",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "apporter les changements nécessaires au choix et à l’organisation du contenu de son exposé, après s’être exercé",
+            "children": [
+              {
+                "text": "s’exercer,"
+              },
+              {
+                "text": "reconnaître les passages à améliorer,"
+              },
+              {
+                "text": "décider des changements à apporter pour améliorer sa présentation,"
+              },
+              {
+                "text": "prendre les dispositions nécessaires;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "consolidation des apprentissages"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-fbd40bb6-9549-42b0-8bc8-7ccca98a2afc",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "fbd40bb6-9549-42b0-8bc8-7ccca98a2afc",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so4",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO4",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : établir un plan de travail tout en tenant compte des conditions de présentation; identifier les conditions de présentation telles que le temps alloué, la disponibilité des supports techniques, l’ordre des présentations, la période de questions et la forme finale du discours, évaluer leur impact sur la présentation, prendre les dispositions nécessaires.; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : établir un plan de travail tout en tenant compte des conditions de présentation; identifier les conditions de présentation telles que le temps alloué, la disponibilité des supports techniques, l’ordre des présentations, la période de questions et la forme finale du discours, évaluer leur impact sur la présentation, prendre les dispositions nécessaires.; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "établir un plan de travail tout en tenant compte des conditions de présentation",
+            "children": [
+              {
+                "text": "identifier les conditions de présentation telles que le temps alloué, la disponibilité des supports techniques, l’ordre des présentations, la période de questions et la forme finale du discours,"
+              },
+              {
+                "text": "évaluer leur impact sur la présentation,"
+              },
+              {
+                "text": "prendre les dispositions nécessaires."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-9a960871-0ef2-4b49-ad6d-59478d3c1e45",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "9a960871-0ef2-4b49-ad6d-59478d3c1e45",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so5",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO5",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : prévoir une introduction qui expose le sujet et une conclusion qui fait la synthèse; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : prévoir une introduction qui expose le sujet et une conclusion qui fait la synthèse; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "prévoir une introduction qui expose le sujet et une conclusion qui fait la synthèse"
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-716428b8-d048-474f-99cb-2d259e303b07",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "716428b8-d048-474f-99cb-2d259e303b07",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so6",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO6",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : choisir la façon de traiter le sujet de sa présentation tout en tenant compte de la sensibilité du public cible sur le sujet; cerner les caractéristiques du public cible en fonction du sujet traité, relever les éléments susceptibles de causer un malaise chez un ou plusieurs auditeurs, choisir la formulation qui permettra le mieux de respecter leurs sensibilités; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : choisir la façon de traiter le sujet de sa présentation tout en tenant compte de la sensibilité du public cible sur le sujet; cerner les caractéristiques du public cible en fonction du sujet traité, relever les éléments susceptibles de causer un malaise chez un ou plusieurs auditeurs, choisir la formulation qui permettra le mieux de respecter leurs sensibilités; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "choisir la façon de traiter le sujet de sa présentation tout en tenant compte de la sensibilité du public cible sur le sujet",
+            "children": [
+              {
+                "text": "cerner les caractéristiques du public cible en fonction du sujet traité,"
+              },
+              {
+                "text": "relever les éléments susceptibles de causer un malaise chez un ou plusieurs auditeurs,"
+              },
+              {
+                "text": "choisir la formulation qui permettra le mieux de respecter leurs sensibilités;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-48504e49-3ff8-4123-8e59-5baa1a204fa0",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "48504e49-3ff8-4123-8e59-5baa1a204fa0",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so7",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO7",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : apporter les changements nécessaires au vocabulaire et à la structure de phrase, après s’être exercé; s’exercer, reconnaître les passages à améliorer, décider des changements à apporter pour améliorer sa présentation, prendre les dispositions nécessaires.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : apporter les changements nécessaires au vocabulaire et à la structure de phrase, après s’être exercé; s’exercer, reconnaître les passages à améliorer, décider des changements à apporter pour améliorer sa présentation, prendre les dispositions nécessaires.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "apporter les changements nécessaires au vocabulaire et à la structure de phrase, après s’être exercé",
+            "children": [
+              {
+                "text": "s’exercer,"
+              },
+              {
+                "text": "reconnaître les passages à améliorer,"
+              },
+              {
+                "text": "décider des changements à apporter pour améliorer sa présentation,"
+              },
+              {
+                "text": "prendre les dispositions nécessaires."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-741dd1cd-52c5-4fbb-9468-f91754e16e7d",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "741dd1cd-52c5-4fbb-9468-f91754e16e7d",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-et-interaction-po4-so8",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-ET-INTERACTION-PO4-SO8",
+      "summaryText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : apporter des changements à l’organisation du contenu en regroupant les arguments et en les ordonnant, après s’être exercé; s’exercer, reconnaître les passages à améliorer, décider des changements à apporter pour améliorer la force de son argumentation, prendre les dispositions nécessaires.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes : apporter des changements à l’organisation du contenu en regroupant les arguments et en les ordonnant, après s’être exercé; s’exercer, reconnaître les passages à améliorer, décider des changements à apporter pour améliorer la force de son argumentation, prendre les dispositions nécessaires.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour préparer sa production orale, l’élève mettra en application les STRATÉGIES suivantes :",
+        "items": [
+          {
+            "text": "apporter des changements à l’organisation du contenu en regroupant les arguments et en les ordonnant, après s’être exercé",
+            "children": [
+              {
+                "text": "s’exercer,"
+              },
+              {
+                "text": "reconnaître les passages à améliorer,"
+              },
+              {
+                "text": "décider des changements à apporter pour améliorer la force de son argumentation,"
+              },
+              {
+                "text": "prendre les dispositions nécessaires."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-2d6ec350-7318-4295-b132-16cd57530860",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "2d6ec350-7318-4295-b132-16cd57530860",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé et interaction: planifier sa production orale",
+      "moduleSequence": 40.04
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-expose-po5-so1",
+      "standardCode": "FLA9-PROD-ORAL-EXPOSE-PO5-SO1",
+      "summaryText": "Pour GÉRER SA PRÉSENTATION, l’élève mettra en application les stratégies et les connaissances suivantes : tenir compte des réactions du public et s’ajuster en conséquence; observer les réactions du public, utiliser, s’il y a lieu, les moyens prévus pour pallier un bris de communication (modifier le débit de parole ou le volume de la voix, clarifier une information ou un terme, etc.).; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER SA PRÉSENTATION, l’élève mettra en application les stratégies et les connaissances suivantes : tenir compte des réactions du public et s’ajuster en conséquence; observer les réactions du public, utiliser, s’il y a lieu, les moyens prévus pour pallier un bris de communication (modifier le débit de parole ou le volume de la voix, clarifier une information ou un terme, etc.).; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER SA PRÉSENTATION, l’élève mettra en application les stratégies et les connaissances suivantes :",
+        "items": [
+          {
+            "text": "tenir compte des réactions du public et s’ajuster en conséquence",
+            "children": [
+              {
+                "text": "observer les réactions du public,"
+              },
+              {
+                "text": "utiliser, s’il y a lieu, les moyens prévus pour pallier un bris de communication (modifier le débit de parole ou le volume de la voix, clarifier une information ou un terme, etc.)."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-416248d8-7d56-47f2-83c5-74f6b89820a6",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "416248d8-7d56-47f2-83c5-74f6b89820a6",
+      "moduleType": "outcome",
+      "moduleLabel": "Exposé: gérer sa production orale",
+      "moduleSequence": 40.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-interaction-po5-so1",
+      "standardCode": "FLA9-PROD-ORAL-INTERACTION-PO5-SO1",
+      "summaryText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : utiliser divers moyens pour inclure les participants dans la conversation; résumer les propos pour un nouvel arrivant, ou; inciter une personne à parler en lui posant une question, en rapportant ses propos et en lui demandant de développer un point particulier; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : utiliser divers moyens pour inclure les participants dans la conversation; résumer les propos pour un nouvel arrivant, ou; inciter une personne à parler en lui posant une question, en rapportant ses propos et en lui demandant de développer un point particulier; autonomie de l’élève; RA observable, qualifiable",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser divers moyens pour inclure les participants dans la conversation",
+            "children": [
+              {
+                "text": "résumer les propos pour un nouvel arrivant, ou"
+              },
+              {
+                "text": "inciter une personne à parler en lui posant une question, en rapportant ses propos et en lui demandant de développer un point particulier;"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "autonomie de l’élève",
+          "RA observable, qualifiable"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-439d5a6f-7886-4913-b7bc-95ed9ae5eac4",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "439d5a6f-7886-4913-b7bc-95ed9ae5eac4",
+      "moduleType": "outcome",
+      "moduleLabel": "Interaction: gérer sa production orale",
+      "moduleSequence": 40.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-interaction-po5-so2",
+      "standardCode": "FLA9-PROD-ORAL-INTERACTION-PO5-SO2",
+      "summaryText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : utiliser divers moyens pour recentrer la discussion; lorsque le groupe s’est éloigné du sujet : reconnaître que le groupe est engagé sur une tangente, inviter les interlocuteurs à revenir au sujet initial, lorsque le sujet s’est étendu inutilement : faire la synthèse, délimiter le champ de discussion, hiérarchiser les propos.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : utiliser divers moyens pour recentrer la discussion; lorsque le groupe s’est éloigné du sujet : reconnaître que le groupe est engagé sur une tangente, inviter les interlocuteurs à revenir au sujet initial, lorsque le sujet s’est étendu inutilement : faire la synthèse, délimiter le champ de discussion, hiérarchiser les propos.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "utiliser divers moyens pour recentrer la discussion",
+            "children": [
+              {
+                "text": "lorsque le groupe s’est éloigné du sujet :",
+                "children": [
+                  {
+                    "text": "reconnaître que le groupe est engagé sur une tangente,"
+                  },
+                  {
+                    "text": "inviter les interlocuteurs à revenir au sujet initial,"
+                  }
+                ]
+              },
+              {
+                "text": "lorsque le sujet s’est étendu inutilement :",
+                "children": [
+                  {
+                    "text": "faire la synthèse,"
+                  },
+                  {
+                    "text": "délimiter le champ de discussion,"
+                  },
+                  {
+                    "text": "hiérarchiser les propos."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-00ccfa01-6cc8-43e4-8c62-0ae8875fd6d5",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "00ccfa01-6cc8-43e4-8c62-0ae8875fd6d5",
+      "moduleType": "outcome",
+      "moduleLabel": "Interaction: gérer sa production orale",
+      "moduleSequence": 40.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-interaction-po5-so3",
+      "standardCode": "FLA9-PROD-ORAL-INTERACTION-PO5-SO3",
+      "summaryText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : évaluer l’efficacité de ses interventions; déterminer, à partir de l’intention de communication et de la situation de communication, si les buts ont été atteints, évaluer l’efficacité des moyens qu’il a utilisés pour assurer la progression de la discussion, cerner les éléments à améliorer lors de sa participation, chercher des solutions qui pourront être mises en application lors de situations semblables.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : évaluer l’efficacité de ses interventions; déterminer, à partir de l’intention de communication et de la situation de communication, si les buts ont été atteints, évaluer l’efficacité des moyens qu’il a utilisés pour assurer la progression de la discussion, cerner les éléments à améliorer lors de sa participation, chercher des solutions qui pourront être mises en application lors de situations semblables.; niveau avancé d’indépendance; soutien occasionnel",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "évaluer l’efficacité de ses interventions",
+            "children": [
+              {
+                "text": "déterminer, à partir de l’intention de communication et de la situation de communication, si les buts ont été atteints,"
+              },
+              {
+                "text": "évaluer l’efficacité des moyens qu’il a utilisés pour assurer la progression de la discussion,"
+              },
+              {
+                "text": "cerner les éléments à améliorer lors de sa participation,"
+              },
+              {
+                "text": "chercher des solutions qui pourront être mises en application lors de situations semblables."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau avancé d’indépendance",
+          "soutien occasionnel"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-f2db7eb5-a74c-43f1-937c-91ae711ae116",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "f2db7eb5-a74c-43f1-937c-91ae711ae116",
+      "moduleType": "outcome",
+      "moduleLabel": "Interaction: gérer sa production orale",
+      "moduleSequence": 40.05
+    },
+    {
+      "id": "ca-ab-french-language-arts-immersion-olafla-7-hs-fla9-fla9-prod-oral-interaction-po5-so4",
+      "standardCode": "FLA9-PROD-ORAL-INTERACTION-PO5-SO4",
+      "summaryText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : questionner pour amener un interlocuteur à clarifier ou à approfondir son point de vue; cerner le point de vue de ses interlocuteurs, identifier un élément qui mérite d’être approfondi dans l’intérêt de tous, demander de l’information complémentaire.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeText": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes : questionner pour amener un interlocuteur à clarifier ou à approfondir son point de vue; cerner le point de vue de ses interlocuteurs, identifier un élément qui mérite d’être approfondi dans l’intérêt de tous, demander de l’information complémentaire.; niveau intermédiaire d’indépendance; soutien fréquent",
+      "officialOutcomeStructure": {
+        "lead": "Pour GÉRER SES INTERVENTIONS, l’élève mettra en application les stratégies suivantes :",
+        "items": [
+          {
+            "text": "questionner pour amener un interlocuteur à clarifier ou à approfondir son point de vue",
+            "children": [
+              {
+                "text": "cerner le point de vue de ses interlocuteurs,"
+              },
+              {
+                "text": "identifier un élément qui mérite d’être approfondi dans l’intérêt de tous,"
+              },
+              {
+                "text": "demander de l’information complémentaire."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "niveau intermédiaire d’indépendance",
+          "soutien fréquent"
+        ]
+      },
+      "curriculumFocus": "Students develop French immersion language arts abilities in Production orale.",
+      "sourceDocumentId": "ca-ab-curriculum-olafla-7-hs-fla9-84268ac4-1940-437a-ac81-9bac5cc13ccf",
+      "sourceLocator": "OLAFLA_7_HS > FLA9 > Production orale > Résultat d'apprentissage général > Résultat d'apprentissage spécifique",
+      "sourceOutcomeId": "84268ac4-1940-437a-ac81-9bac5cc13ccf",
+      "moduleType": "outcome",
+      "moduleLabel": "Interaction: gérer sa production orale",
+      "moduleSequence": 40.05
+    }
+  ],
+  "aliases": []
+}

@@ -1,0 +1,42 @@
+<%- include('partials/head') %>
+<main class="lessondesign-ai__shell ldai-page ldai-page--narrow">
+	<section class="lessondesign-ai__panel is-active ldai-auth-card">
+		<div class="lessondesign-ai__panel-header">
+			<p class="lessondesign-ai__eyebrow">Teacher Account</p>
+			<h3>Create your account</h3>
+			<p>Your draft in this browser stays put. After signing up, redeem your school's access key to unlock saving, previewing, and exporting.</p>
+		</div>
+		<% if (error) { %><p class="ldai-alert ldai-alert--error" role="alert"><%= error %></p><% } %>
+		<% if (!registrationEnabled) { %>
+			<p class="ldai-alert">New account sign-up is closed. Contact dHL or your school administrator for an account.</p>
+		<% } else { %>
+		<form method="post" action="/register" class="ldai-form-stack">
+			<input type="hidden" name="_csrf" value="<%= csrfToken %>">
+			<label class="lessondesign-ai__field">
+				<span>Name</span>
+				<input type="text" name="name" value="<%= values.name || '' %>" autocomplete="name" maxlength="120">
+			</label>
+			<label class="lessondesign-ai__field">
+				<span>Email</span>
+				<input type="email" name="email" value="<%= values.email || '' %>" autocomplete="email" required>
+			</label>
+			<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
+				<label class="lessondesign-ai__field">
+					<span>Password</span>
+					<input type="password" name="password" autocomplete="new-password" minlength="8" required>
+				</label>
+				<label class="lessondesign-ai__field">
+					<span>Confirm Password</span>
+					<input type="password" name="password_confirm" autocomplete="new-password" minlength="8" required>
+				</label>
+			</div>
+			<p class="lessondesign-ai__field-help">At least 8 characters.</p>
+			<div class="lessondesign-ai__actions">
+				<button class="lessondesign-ai__button lessondesign-ai__button--primary" type="submit">Create Account</button>
+				<a class="lessondesign-ai__button" href="/login">I already have an account</a>
+			</div>
+		</form>
+		<% } %>
+	</section>
+</main>
+<%- include('partials/foot') %>
