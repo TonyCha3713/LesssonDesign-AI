@@ -2105,6 +2105,31 @@
       },
       "standardCount": 64,
       "aliasCount": 0
-    }
+    },
+    {
+  "id": "ca-on-en-core-mathematics-g7",
+  "label": "Ontario Mathematics Grade 7 curriculum pieces",
+  "path": "data/curriculum-shards/ca-on-en-core-mathematics-g7.json",
+  "filters": {
+    "country": "CA",
+    "jurisdictionIds": [
+      "ca-on"
+    ],
+    "programIds": [
+      "en-core"
+    ],
+    "frameworkIds": [
+      "ca-on-curriculum"
+    ],
+    "subjectIds": [
+      "mathematics"
+    ],
+    "gradeLevels": [
+      "7"
+    ]
+  },
+ "standardCount": 11,
+  "aliasCount": 0
+}
   ]
 }
