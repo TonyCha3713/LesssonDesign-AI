@@ -2570,55 +2570,91 @@
 		return strings.aiRequestFailed || 'AI Assist ran into a problem. Please try again in a moment.';
 	}
 
-	function populateSelects(root, state) {
-		var trackSelect = root.querySelector('[data-bind="curriculum.track"]');
-		var gradeSelect = root.querySelector('[data-bind="curriculum.grade"]');
-		var current = (state && state.curriculum) || {};
-		normalizeCurriculumSelectorDefaults(current);
+function populateSelects(root, state) {
+    var trackSelect = root.querySelector('[data-bind="curriculum.track"]');
+    var gradeSelect = root.querySelector('[data-bind="curriculum.grade"]');
+    var provinceSelect = root.querySelector('[data-bind="curriculum.jurisdiction"]');
+    var current = (state && state.curriculum) || {};
 
-		if (trackSelect) {
-			var tracks = getAlbertaSubjectTracks();
-			if (current.track && !isAlbertaSubjectTrack(getCurriculumTrackById(current.track))) {
-				clearCurriculumTrackSelection(current);
-			}
-			setSelectOptions(trackSelect, tracks, 'Choose A Subject', getAlbertaSubjectTrackLabel);
-			trackSelect.value = tracks.some(function (track) {
-				return track.id === current.track;
-			}) ? current.track : '';
-		}
+    normalizeCurriculumSelectorDefaults(current);
 
-		if (gradeSelect) {
-			setSelectOptions(
-				gradeSelect,
-				(curriculumSourcesData.gradeLevels || curriculumData.grades || []).filter(function (item) {
-					return ALBERTA_GRADE_IDS.indexOf(item.id) > -1;
-				}),
-				'Choose A Grade'
-			);
-		}
-	}
+    if (provinceSelect) {
+        provinceSelect.value = current.jurisdiction;
+    }
 
-	function normalizeCurriculumSelectorDefaults(curriculum) {
-		var selectedTrackIds;
-		if (!curriculum) {
-			return;
-		}
-		curriculum.country = ALBERTA_COUNTRY_ID;
-		curriculum.jurisdiction = ALBERTA_JURISDICTION_ID;
-		curriculum.framework = ALBERTA_FRAMEWORK_ID;
-		curriculum.program = ALBERTA_PROGRAM_ID;
-		if (curriculum.grade && ALBERTA_GRADE_IDS.indexOf(curriculum.grade) === -1) {
-			curriculum.grade = '';
-		}
-		selectedTrackIds = getCurriculumTrackIds(curriculum);
-		curriculum.tracks = selectedTrackIds;
-		curriculum.track = isAlbertaSubjectTrack(getCurriculumTrackById(curriculum.track)) ? curriculum.track : (selectedTrackIds[0] || '');
-		if (!selectedTrackIds.length) {
-			clearCurriculumTrackSelection(curriculum);
-		} else {
-			applyCurriculumTrackToState(curriculum);
-		}
-	}
+    if (trackSelect) {
+        var tracks = (curriculumSourcesData.curriculumTracks || []).filter(function (track) {
+            return track.country === 'CA' &&
+                track.jurisdictionId === current.jurisdiction;
+        });
+
+        setSelectOptions(
+            trackSelect,
+            tracks,
+            'Choose A Subject',
+            getAlbertaSubjectTrackLabel
+        );
+
+        trackSelect.value = tracks.some(function (track) {
+            return track.id === current.track;
+        }) ? current.track : '';
+    }
+
+    if (gradeSelect) {
+        var grades = curriculumSourcesData.gradeLevels || curriculumData.grades || [];
+
+        if (current.jurisdiction === 'ca-ab') {
+            grades = grades.filter(function (item) {
+                return ALBERTA_GRADE_IDS.indexOf(item.id) > -1;
+            });
+        }
+
+        setSelectOptions(gradeSelect, grades, 'Choose A Grade');
+        gradeSelect.value = current.grade || '';
+    }
+}
+
+function normalizeCurriculumSelectorDefaults(curriculum) {
+    var selectedTrackIds;
+
+    if (!curriculum) {
+        return;
+    }
+
+    // Preserve the selected province.
+    curriculum.country = 'CA';
+    curriculum.jurisdiction =
+        curriculum.jurisdiction === 'ca-on' ? 'ca-on' : 'ca-ab';
+
+    curriculum.framework =
+        curriculum.jurisdiction === 'ca-on'
+            ? 'ca-on-curriculum'
+            : 'ca-ab-curriculum';
+
+    curriculum.program = 'en-core';
+
+    // Alberta supports Grades 7–9 in this application.
+    // Ontario can use Kindergarten through Grade 12.
+    if (
+        curriculum.jurisdiction === 'ca-ab' &&
+        curriculum.grade &&
+        ALBERTA_GRADE_IDS.indexOf(curriculum.grade) === -1
+    ) {
+        curriculum.grade = '';
+    }
+
+    // Keep only tracks belonging to the selected province.
+    selectedTrackIds = getCurriculumTrackIds(curriculum);
+
+    curriculum.tracks = selectedTrackIds;
+    curriculum.track = selectedTrackIds[0] || '';
+
+    if (!selectedTrackIds.length) {
+        clearCurriculumTrackSelection(curriculum);
+    } else {
+        applyCurriculumTrackToState(curriculum);
+    }
+}
 
 	function isAlbertaSubjectTrack(track) {
 		return !!track &&
@@ -2668,9 +2704,12 @@
 			ids = ids.concat(curriculum.tracks);
 		}
 
-		return uniqueArray(ids).filter(function (id) {
-			return isAlbertaSubjectTrack(getCurriculumTrackById(id));
-		});
+	return uniqueArray(ids).filter(function (id) {
+    var track = getCurriculumTrackById(id);
+    return track &&
+        track.country === 'CA' &&
+        track.jurisdictionId === (curriculum.jurisdiction || 'ca-ab');
+});
 	}
 
 	function getCurriculumTracks(curriculum) {
@@ -2680,9 +2719,12 @@
 	}
 
 	function setCurriculumTrackIds(curriculum, ids) {
-		curriculum.tracks = uniqueArray(ids || []).filter(function (id) {
-			return isAlbertaSubjectTrack(getCurriculumTrackById(id));
-		});
+	curriculum.tracks = uniqueArray(ids || []).filter(function (id) {
+    var track = getCurriculumTrackById(id);
+    return track &&
+        track.country === 'CA' &&
+        track.jurisdictionId === (curriculum.jurisdiction || 'ca-ab');
+});
 		curriculum.track = curriculum.tracks[0] || '';
 		if (curriculum.track) {
 			applyCurriculumTrackToState(curriculum);
@@ -2734,15 +2776,23 @@
 	}
 
 	function clearCurriculumTrackSelection(curriculum) {
-		curriculum.track = '';
-		curriculum.tracks = [];
-		curriculum.country = ALBERTA_COUNTRY_ID;
-		curriculum.jurisdiction = ALBERTA_JURISDICTION_ID;
-		curriculum.framework = ALBERTA_FRAMEWORK_ID;
-		curriculum.program = ALBERTA_PROGRAM_ID;
-		curriculum.subjectArea = '';
-		curriculum.subject = '';
-	}
+    curriculum.track = '';
+    curriculum.tracks = [];
+    curriculum.country = 'CA';
+
+    // Keep the selected province.
+    curriculum.jurisdiction =
+        curriculum.jurisdiction === 'ca-on' ? 'ca-on' : 'ca-ab';
+
+    curriculum.framework =
+        curriculum.jurisdiction === 'ca-on'
+            ? 'ca-on-curriculum'
+            : 'ca-ab-curriculum';
+
+    curriculum.program = 'en-core';
+    curriculum.subjectArea = '';
+    curriculum.subject = '';
+}
 
 	function applyCurriculumTrackToState(curriculum) {
 		var trackIds;
@@ -2759,18 +2809,19 @@
 		}
 
 		track = getCurriculumTrackById(curriculum.track);
-		if (
-			!track ||
-			!isAlbertaSubjectTrack(track)
-		) {
-			clearCurriculumTrackSelection(curriculum);
-			return false;
-		}
+	if (
+    !track ||
+    track.country !== 'CA' ||
+    track.jurisdictionId !== curriculum.jurisdiction
+) {
+    clearCurriculumTrackSelection(curriculum);
+    return false;
+}
 
-		curriculum.country = ALBERTA_COUNTRY_ID;
-		curriculum.jurisdiction = ALBERTA_JURISDICTION_ID;
-		curriculum.framework = ALBERTA_FRAMEWORK_ID;
-		curriculum.program = ALBERTA_PROGRAM_ID;
+		curriculum.country = track.country;
+curriculum.jurisdiction = track.jurisdictionId;
+curriculum.framework = track.frameworkId;
+curriculum.program = track.programId;
 		curriculum.subjectArea = track.subjectAreaId || '';
 		curriculum.subject = track.subject || '';
 		return true;
@@ -2807,16 +2858,30 @@
 					return;
 				}
 				updateBoundField(field, state);
-				if (bindPath === 'curriculum.track') {
-					applyCurriculumTrackToState(state.curriculum);
-				}
-				if (['curriculum.track', 'curriculum.grade'].indexOf(bindPath) > -1) {
-					if (bindPath !== 'curriculum.track') {
-						state.selectedStandards = [];
-					}
-					populateSelects(root, state);
-					applyStateToForm(root, state);
-				}
+				if (bindPath === 'curriculum.jurisdiction') {
+    state.curriculum.track = '';
+    state.curriculum.tracks = [];
+    state.curriculum.grade = '';
+    state.selectedStandards = [];
+    clearCurriculumTrackSelection(state.curriculum);
+}
+
+if (bindPath === 'curriculum.track') {
+    state.curriculum.tracks = state.curriculum.track
+        ? [state.curriculum.track]
+        : [];
+    state.selectedStandards = [];
+    applyCurriculumTrackToState(state.curriculum);
+}
+
+if ([
+    'curriculum.jurisdiction',
+    'curriculum.track',
+    'curriculum.grade'
+].indexOf(bindPath) > -1) {
+    populateSelects(root, state);
+    applyStateToForm(root, state);
+}
 				onStateChange(bindPath);
 			};
 			if (field.tagName === 'SELECT' || field.type === 'radio') {
@@ -3073,8 +3138,13 @@
 		output.curriculum.country = output.curriculum.country || ALBERTA_COUNTRY_ID;
 		output.curriculum.track = output.curriculum.track || '';
 		output.curriculum.tracks = getCurriculumTrackIds(output.curriculum);
-		output.curriculum.jurisdiction = ALBERTA_JURISDICTION_ID;
-		output.curriculum.framework = ALBERTA_FRAMEWORK_ID;
+		output.curriculum.jurisdiction =
+    output.curriculum.jurisdiction === 'ca-on' ? 'ca-on' : 'ca-ab';
+
+output.curriculum.framework =
+    output.curriculum.jurisdiction === 'ca-on'
+        ? 'ca-on-curriculum'
+        : 'ca-ab-curriculum';
 		output.curriculum.program = output.curriculum.program || ALBERTA_PROGRAM_ID;
 		output.curriculum.subjectArea = output.curriculum.subjectArea || '';
 		output.curriculum.subject = output.curriculum.subject || '';
@@ -3671,7 +3741,7 @@
 				renderMultiline('Summative Assessment', state.foundation.summativeAssessment)
 			]),
 			renderPreviewSection('Curriculum', [
-				renderKeyValue('Jurisdiction', 'Alberta'),
+			renderKeyValue('Jurisdiction', state.curriculum.jurisdiction === 'ca-on' ? 'Ontario' : 'Alberta'),
 				renderKeyValue('Subjects', trackLabel),
 				renderKeyValue('Grade', gradeLabel),
 				renderMultiline('Curriculum Pieces', selectedCurriculumPieces.map(function (item) {
@@ -3722,7 +3792,7 @@
 			'',
 			'Curriculum',
 			'----------',
-			'Jurisdiction: Alberta',
+			'Jurisdiction: ' + (state.curriculum.jurisdiction === 'ca-on' ? 'Ontario' : 'Alberta'),
 			'Subjects: ' + fallback(trackLabel),
 			'Grade: ' + fallback(gradeLabel),
 			formatTextBlock('Curriculum Pieces', selectedCurriculumPieces.map(function (item) {
@@ -3759,7 +3829,7 @@
 		writer.addCover(
 			fallback(state.foundation.title),
 			[
-				['Jurisdiction', 'Alberta'],
+				['Jurisdiction', state.curriculum.jurisdiction === 'ca-on' ? 'Ontario' : 'Alberta'],
 				['Subjects', fallback(trackLabel)],
 				['Grade', fallback(gradeLabel)]
 			]

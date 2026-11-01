@@ -128,7 +128,15 @@
 								<p>Choose your grade and subject, then select the curriculum pieces this lesson addresses.</p>
 							</div>
 							<div class="lessondesign-ai__grid lessondesign-ai__grid--two">
-								<label class="lessondesign-ai__field">
+							<label class="lessondesign-ai__field">
+    <span>Province</span>
+   <select name="ldai_curriculum_province"
+        data-bind="curriculum.jurisdiction"
+        autocomplete="off">
+        <option value="ca-ab">Alberta</option>
+        <option value="ca-on">Ontario</option>
+    </select>
+</label>								<label class="lessondesign-ai__field">
 									<span>Grade</span>
 									<select name="ldai_curriculum_grade" data-bind="curriculum.grade" autocomplete="off">
 										<option value="">Choose A Grade</option>
